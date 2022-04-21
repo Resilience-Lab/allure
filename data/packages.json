@@ -4,13 +4,13 @@
     "name" : "",
     "children" : [ {
       "name" : "Login and gor to Norman Doe profile",
-      "uid" : "634a92ead6c6e7e3",
+      "uid" : "e0c87300d3fe453d",
       "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
       "status" : "passed",
       "time" : {
-        "start" : 1650550663796,
-        "stop" : 1650550672419,
-        "duration" : 8623
+        "start" : 1650550828236,
+        "stop" : 1650550839257,
+        "duration" : 11021
       },
       "flaky" : false,
       "newFailed" : false,
@@ -20,64 +20,13 @@
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-100.0.4896.75" ]
     }, {
-      "name" : "Should create Superbill statement",
-      "uid" : "991c1dc61fd63be4",
+      "name" : "Should send invitation to CP",
+      "uid" : "c4dccbf2ddf209a1",
       "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
       "status" : "skipped",
       "time" : {
-        "start" : 1650550672420,
-        "stop" : 1650550672420,
-        "duration" : 0
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Should verify email from Resiliencelab without invitation",
-      "uid" : "26a0ac6e338be2b8",
-      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
-      "status" : "skipped",
-      "time" : {
-        "start" : 1650550672420,
-        "stop" : 1650550672420,
-        "duration" : 0
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Should verify email from Resiliencelab",
-      "uid" : "e00a1eec49dbec6a",
-      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
-      "status" : "skipped",
-      "time" : {
-        "start" : 1650550672420,
-        "stop" : 1650550672420,
-        "duration" : 0
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Should signUp to account",
-      "uid" : "688201af812f46f0",
-      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
-      "status" : "skipped",
-      "time" : {
-        "start" : 1650550672420,
-        "stop" : 1650550672420,
+        "start" : 1650550839257,
+        "stop" : 1650550839257,
         "duration" : 0
       },
       "flaky" : false,
@@ -89,80 +38,12 @@
       "parameters" : [ ]
     }, {
       "name" : "Delete email",
-      "uid" : "6653bee41f2961f",
+      "uid" : "b61d67b24908f24",
       "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
       "status" : "skipped",
       "time" : {
-        "start" : 1650550672420,
-        "stop" : 1650550672420,
-        "duration" : 0
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Should Login to Clients Portal",
-      "uid" : "8a0be78c5685e32f",
-      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
-      "status" : "skipped",
-      "time" : {
-        "start" : 1650550672420,
-        "stop" : 1650550672420,
-        "duration" : 0
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Should send invitation to CP",
-      "uid" : "5c965eda0a1387ac",
-      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
-      "status" : "skipped",
-      "time" : {
-        "start" : 1650550672420,
-        "stop" : 1650550672420,
-        "duration" : 0
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Should Login to Clients Portal without invitation",
-      "uid" : "2b9cc1b7ec5ccef8",
-      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
-      "status" : "skipped",
-      "time" : {
-        "start" : 1650550672420,
-        "stop" : 1650550672420,
-        "duration" : 0
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Should create Superbill statement without invitation",
-      "uid" : "325392ee0aa2a37e",
-      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
-      "status" : "skipped",
-      "time" : {
-        "start" : 1650550672420,
-        "stop" : 1650550672420,
+        "start" : 1650550839258,
+        "stop" : 1650550839258,
         "duration" : 0
       },
       "flaky" : false,
@@ -174,12 +55,131 @@
       "parameters" : [ ]
     }, {
       "name" : "Should signUp to account without invitation",
-      "uid" : "6b9d4a78cfab6a9b",
+      "uid" : "f80d7d47bb40060c",
       "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
       "status" : "skipped",
       "time" : {
-        "start" : 1650550672420,
-        "stop" : 1650550672420,
+        "start" : 1650550839258,
+        "stop" : 1650550839258,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Should signUp to account",
+      "uid" : "8394b98e5588717a",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1650550839258,
+        "stop" : 1650550839258,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Should verify email from Resiliencelab",
+      "uid" : "d1088a6aa5aedd1d",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1650550839258,
+        "stop" : 1650550839258,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Should Login to Clients Portal without invitation",
+      "uid" : "84e7d6beb8277363",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1650550839258,
+        "stop" : 1650550839258,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Should Login to Clients Portal",
+      "uid" : "4ed04f8b7ed81399",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1650550839258,
+        "stop" : 1650550839258,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Should create Superbill statement",
+      "uid" : "594c7176199db67b",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1650550839258,
+        "stop" : 1650550839258,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Should create Superbill statement without invitation",
+      "uid" : "d85ad3a34bcff967",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1650550839258,
+        "stop" : 1650550839258,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Should verify email from Resiliencelab without invitation",
+      "uid" : "c4e897f77eb320c4",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1650550839258,
+        "stop" : 1650550839258,
         "duration" : 0
       },
       "flaky" : false,
