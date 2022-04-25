@@ -1,18 +1,16 @@
 {
-  "uid" : "f6614780d2fed3d3",
-  "name" : "Delete email",
-  "fullName" : ".Delete email",
-  "historyId" : "d6a44083f5e3062740a3e6743bfb15d0",
+  "uid" : "d291eaab8fe3959f",
+  "name" : "should go to Ally Campbell profile",
+  "fullName" : ".should go to Ally Campbell profile",
+  "historyId" : "623d541d37b717fcef7d6f853ac0c212",
   "time" : {
-    "start" : 1650552343298,
-    "stop" : 1650552343298,
-    "duration" : 0
+    "start" : 1650880423450,
+    "stop" : 1650880424361,
+    "duration" : 911
   },
   "description" : "",
   "descriptionHtml" : "",
-  "status" : "skipped",
-  "statusMessage" : "Test ignored",
-  "statusTrace" : "undefined",
+  "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "newBroken" : false,
@@ -22,6 +20,15 @@
   "beforeStages" : [ ],
   "afterStages" : [ ],
   "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
     "name" : "suite",
     "value" : ""
   }, {
@@ -29,7 +36,7 @@
     "value" : ""
   }, {
     "name" : "testMethod",
-    "value" : "Delete email"
+    "value" : "should go to Ally Campbell profile"
   }, {
     "name" : "package",
     "value" : ""
@@ -37,7 +44,10 @@
     "name" : "resultFormat",
     "value" : "allure1"
   } ],
-  "parameters" : [ ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.75"
+  } ],
   "links" : [ ],
   "hidden" : false,
   "retry" : false,
@@ -47,6 +57,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "f6614780d2fed3d3.json",
-  "parameterValues" : [ ]
+  "source" : "d291eaab8fe3959f.json",
+  "parameterValues" : [ "chrome-100.0.4896.75" ]
 }
