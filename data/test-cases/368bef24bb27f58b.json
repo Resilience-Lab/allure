@@ -1,12 +1,12 @@
 {
-  "uid" : "db8d39c6560568ac",
-  "name" : "Should to clients page and check url",
-  "fullName" : ".Should to clients page and check url",
-  "historyId" : "8b1edcfebd1222b875829e88ac32599",
+  "uid" : "368bef24bb27f58b",
+  "name" : "Should go to clinicians page",
+  "fullName" : "Filter clinicians search.Should go to clinicians page",
+  "historyId" : "5eac6885301d356bd69c3689140e1686",
   "time" : {
-    "start" : 1650883492084,
-    "stop" : 1650883494795,
-    "duration" : 2711
+    "start" : 1650884542244,
+    "stop" : 1650884546387,
+    "duration" : 4143
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -15,7 +15,7 @@
   "newFailed" : false,
   "newBroken" : false,
   "newPassed" : false,
-  "retriesCount" : 1,
+  "retriesCount" : 0,
   "retriesStatusChange" : false,
   "beforeStages" : [ ],
   "afterStages" : [ ],
@@ -27,19 +27,19 @@
     "value" : "javascript"
   }, {
     "name" : "thread",
-    "value" : "0-3"
+    "value" : "0-2"
   }, {
     "name" : "suite",
-    "value" : ""
+    "value" : "Filter clinicians search"
   }, {
     "name" : "testClass",
-    "value" : ""
+    "value" : "Filter clinicians search"
   }, {
     "name" : "testMethod",
-    "value" : "Should to clients page and check url"
+    "value" : "Should go to clinicians page"
   }, {
     "name" : "package",
-    "value" : ""
+    "value" : "Filter clinicians search"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -53,18 +53,10 @@
   "retry" : false,
   "extra" : {
     "severity" : "normal",
-    "retries" : [ {
-      "uid" : "f58eac247f6e3762",
-      "status" : "passed",
-      "time" : {
-        "start" : 1650883435719,
-        "stop" : 1650883441675,
-        "duration" : 5956
-      }
-    } ],
+    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "db8d39c6560568ac.json",
+  "source" : "368bef24bb27f58b.json",
   "parameterValues" : [ "chrome-100.0.4896.75" ]
 }

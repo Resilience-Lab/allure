@@ -1,12 +1,12 @@
 {
-  "uid" : "a283abd43728b8fd",
-  "name" : "Should login to the preprod site",
-  "fullName" : "Report hint.Should login to the preprod site",
-  "historyId" : "34fc1fda5bece5955917244539af1177",
+  "uid" : "665008103515f3d9",
+  "name" : "Should search for results and check if filter is working",
+  "fullName" : "Filter clinicians search.Should search for results and check if filter is working",
+  "historyId" : "d7b91b486ff3c91cae34420bffdb469c",
   "time" : {
-    "start" : 1650883449179,
-    "stop" : 1650883452319,
-    "duration" : 3140
+    "start" : 1650884556756,
+    "stop" : 1650884558052,
+    "duration" : 1296
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -27,19 +27,19 @@
     "value" : "javascript"
   }, {
     "name" : "thread",
-    "value" : "0-1"
+    "value" : "0-2"
   }, {
     "name" : "suite",
-    "value" : "Report hint"
+    "value" : "Filter clinicians search"
   }, {
     "name" : "testClass",
-    "value" : "Report hint"
+    "value" : "Filter clinicians search"
   }, {
     "name" : "testMethod",
-    "value" : "Should login to the preprod site"
+    "value" : "Should search for results and check if filter is working"
   }, {
     "name" : "package",
-    "value" : "Report hint"
+    "value" : "Filter clinicians search"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -49,14 +49,12 @@
     "value" : "chrome-100.0.4896.75"
   } ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "a283abd43728b8fd.json",
+  "source" : "665008103515f3d9.json",
   "parameterValues" : [ "chrome-100.0.4896.75" ]
 }

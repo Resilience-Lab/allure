@@ -1,12 +1,12 @@
 {
-  "uid" : "ec7fef33d4465aaa",
-  "name" : "insurance Api log should contain 9fc440c4-5784-6d54-d4d1-6245e3d8d12b",
-  "fullName" : ".insurance Api log should contain 9fc440c4-5784-6d54-d4d1-6245e3d8d12b",
-  "historyId" : "7a982d7c0913642c05d09a009f474941",
+  "uid" : "dda00156d48ec4c",
+  "name" : "Should login to the preprod site",
+  "fullName" : ".Should login to the preprod site",
+  "historyId" : "fd2fb926e0c93931627f636ac086d844",
   "time" : {
-    "start" : 1650883446710,
-    "stop" : 1650883447948,
-    "duration" : 1238
+    "start" : 1650884562337,
+    "stop" : 1650884565626,
+    "duration" : 3289
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -15,7 +15,7 @@
   "newFailed" : false,
   "newBroken" : false,
   "newPassed" : false,
-  "retriesCount" : 0,
+  "retriesCount" : 1,
   "retriesStatusChange" : false,
   "beforeStages" : [ ],
   "afterStages" : [ ],
@@ -27,7 +27,7 @@
     "value" : "javascript"
   }, {
     "name" : "thread",
-    "value" : "0-0"
+    "value" : "0-3"
   }, {
     "name" : "suite",
     "value" : ""
@@ -36,7 +36,7 @@
     "value" : ""
   }, {
     "name" : "testMethod",
-    "value" : "insurance Api log should contain 9fc440c4-5784-6d54-d4d1-6245e3d8d12b"
+    "value" : "Should login to the preprod site"
   }, {
     "name" : "package",
     "value" : ""
@@ -53,10 +53,18 @@
   "retry" : false,
   "extra" : {
     "severity" : "normal",
-    "retries" : [ ],
+    "retries" : [ {
+      "uid" : "fbe6a522ef6a0e1c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650884501545,
+        "stop" : 1650884506451,
+        "duration" : 4906
+      }
+    } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "ec7fef33d4465aaa.json",
+  "source" : "dda00156d48ec4c.json",
   "parameterValues" : [ "chrome-100.0.4896.75" ]
 }

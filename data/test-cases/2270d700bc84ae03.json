@@ -1,12 +1,12 @@
 {
-  "uid" : "c1250bbca4c0dcc1",
-  "name" : "Should go to clinicians page",
-  "fullName" : "Filter clinicians search.Should go to clinicians page",
-  "historyId" : "5eac6885301d356bd69c3689140e1686",
+  "uid" : "2270d700bc84ae03",
+  "name" : "Should click filter and check if it's diplayed",
+  "fullName" : "Filter clinicians search.Should click filter and check if it's diplayed",
+  "historyId" : "9b561fbb901bdb600f2ed14157b669bf",
   "time" : {
-    "start" : 1650883469577,
-    "stop" : 1650883473671,
-    "duration" : 4094
+    "start" : 1650884558054,
+    "stop" : 1650884558164,
+    "duration" : 110
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -15,7 +15,7 @@
   "newFailed" : false,
   "newBroken" : false,
   "newPassed" : false,
-  "retriesCount" : 0,
+  "retriesCount" : 1,
   "retriesStatusChange" : false,
   "beforeStages" : [ ],
   "afterStages" : [ ],
@@ -36,7 +36,7 @@
     "value" : "Filter clinicians search"
   }, {
     "name" : "testMethod",
-    "value" : "Should go to clinicians page"
+    "value" : "Should click filter and check if it's diplayed"
   }, {
     "name" : "package",
     "value" : "Filter clinicians search"
@@ -53,10 +53,18 @@
   "retry" : false,
   "extra" : {
     "severity" : "normal",
-    "retries" : [ ],
+    "retries" : [ {
+      "uid" : "a3f4348184adb618",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650884546391,
+        "stop" : 1650884546584,
+        "duration" : 193
+      }
+    } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "c1250bbca4c0dcc1.json",
+  "source" : "2270d700bc84ae03.json",
   "parameterValues" : [ "chrome-100.0.4896.75" ]
 }

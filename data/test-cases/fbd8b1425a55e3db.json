@@ -1,12 +1,12 @@
 {
-  "uid" : "57499741a9a2d4bf",
-  "name" : "Should login to the preprod site",
-  "fullName" : ".Should login to the preprod site",
-  "historyId" : "fd2fb926e0c93931627f636ac086d844",
+  "uid" : "fbd8b1425a55e3db",
+  "name" : "Should to clients page and check url",
+  "fullName" : ".Should to clients page and check url",
+  "historyId" : "8b1edcfebd1222b875829e88ac32599",
   "time" : {
-    "start" : 1650883432079,
-    "stop" : 1650883435719,
-    "duration" : 3640
+    "start" : 1650884565627,
+    "stop" : 1650884568405,
+    "duration" : 2778
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -15,7 +15,7 @@
   "newFailed" : false,
   "newBroken" : false,
   "newPassed" : false,
-  "retriesCount" : 0,
+  "retriesCount" : 1,
   "retriesStatusChange" : false,
   "beforeStages" : [ ],
   "afterStages" : [ ],
@@ -27,7 +27,7 @@
     "value" : "javascript"
   }, {
     "name" : "thread",
-    "value" : "0-0"
+    "value" : "0-3"
   }, {
     "name" : "suite",
     "value" : ""
@@ -36,7 +36,7 @@
     "value" : ""
   }, {
     "name" : "testMethod",
-    "value" : "Should login to the preprod site"
+    "value" : "Should to clients page and check url"
   }, {
     "name" : "package",
     "value" : ""
@@ -49,12 +49,22 @@
     "value" : "chrome-100.0.4896.75"
   } ],
   "links" : [ ],
-  "hidden" : true,
-  "retry" : true,
+  "hidden" : false,
+  "retry" : false,
   "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "759321217b8df51c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650884506451,
+        "stop" : 1650884512526,
+        "duration" : 6075
+      }
+    } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "57499741a9a2d4bf.json",
+  "source" : "fbd8b1425a55e3db.json",
   "parameterValues" : [ "chrome-100.0.4896.75" ]
 }
