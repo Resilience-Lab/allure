@@ -1,0 +1,94 @@
+{
+  "uid" : "4a1c09d9b5801b10",
+  "name" : "Should login to the preprod site",
+  "fullName" : ".Should login to the preprod site",
+  "historyId" : "fd2fb926e0c93931627f636ac086d844",
+  "time" : {
+    "start" : 1650900322341,
+    "stop" : 1650900326407,
+    "duration" : 4066
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 4,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-7"
+  }, {
+    "name" : "suite",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : ""
+  }, {
+    "name" : "testMethod",
+    "value" : "Should login to the preprod site"
+  }, {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.75"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "31386be0e47b284e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650900299974,
+        "stop" : 1650900303647,
+        "duration" : 3673
+      }
+    }, {
+      "uid" : "27d7ad1290682e7b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650900222268,
+        "stop" : 1650900225550,
+        "duration" : 3282
+      }
+    }, {
+      "uid" : "3889b7598367f43",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650900206005,
+        "stop" : 1650900209306,
+        "duration" : 3301
+      }
+    }, {
+      "uid" : "92d51165d7a646e6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650900182252,
+        "stop" : 1650900185912,
+        "duration" : 3660
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4a1c09d9b5801b10.json",
+  "parameterValues" : [ "chrome-100.0.4896.75" ]
+}
