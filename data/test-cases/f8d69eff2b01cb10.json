@@ -1,12 +1,12 @@
 {
-  "uid" : "ddb61f6ed011fade",
-  "name" : "Should go to report edit page",
-  "fullName" : "Report hint.Should go to report edit page",
-  "historyId" : "27d1de25e8ada8747342d56ea0ac878d",
+  "uid" : "f8d69eff2b01cb10",
+  "name" : "Should login to the preprod site",
+  "fullName" : ".Should login to the preprod site",
+  "historyId" : "fd2fb926e0c93931627f636ac086d844",
   "time" : {
-    "start" : 1650880445159,
-    "stop" : 1650880446209,
-    "duration" : 1050
+    "start" : 1650883488941,
+    "stop" : 1650883492084,
+    "duration" : 3143
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -15,7 +15,7 @@
   "newFailed" : false,
   "newBroken" : false,
   "newPassed" : false,
-  "retriesCount" : 0,
+  "retriesCount" : 1,
   "retriesStatusChange" : false,
   "beforeStages" : [ ],
   "afterStages" : [ ],
@@ -27,19 +27,19 @@
     "value" : "javascript"
   }, {
     "name" : "thread",
-    "value" : "0-2"
+    "value" : "0-3"
   }, {
     "name" : "suite",
-    "value" : "Report hint"
+    "value" : ""
   }, {
     "name" : "testClass",
-    "value" : "Report hint"
+    "value" : ""
   }, {
     "name" : "testMethod",
-    "value" : "Should go to report edit page"
+    "value" : "Should login to the preprod site"
   }, {
     "name" : "package",
-    "value" : "Report hint"
+    "value" : ""
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -53,10 +53,18 @@
   "retry" : false,
   "extra" : {
     "severity" : "normal",
-    "retries" : [ ],
+    "retries" : [ {
+      "uid" : "57499741a9a2d4bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650883432079,
+        "stop" : 1650883435719,
+        "duration" : 3640
+      }
+    } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "ddb61f6ed011fade.json",
+  "source" : "f8d69eff2b01cb10.json",
   "parameterValues" : [ "chrome-100.0.4896.75" ]
 }

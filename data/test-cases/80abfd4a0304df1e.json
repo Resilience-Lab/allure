@@ -1,12 +1,12 @@
 {
-  "uid" : "d0a49cfd99df3241",
-  "name" : "Should login to the preprod site",
-  "fullName" : ".Should login to the preprod site",
-  "historyId" : "fd2fb926e0c93931627f636ac086d844",
+  "uid" : "80abfd4a0304df1e",
+  "name" : "Should click filter and check if it's diplayed",
+  "fullName" : "Filter clinicians search.Should click filter and check if it's diplayed",
+  "historyId" : "9b561fbb901bdb600f2ed14157b669bf",
   "time" : {
-    "start" : 1650880431219,
-    "stop" : 1650880434718,
-    "duration" : 3499
+    "start" : 1650883473673,
+    "stop" : 1650883473811,
+    "duration" : 138
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -15,7 +15,7 @@
   "newFailed" : false,
   "newBroken" : false,
   "newPassed" : false,
-  "retriesCount" : 1,
+  "retriesCount" : 0,
   "retriesStatusChange" : false,
   "beforeStages" : [ ],
   "afterStages" : [ ],
@@ -27,19 +27,19 @@
     "value" : "javascript"
   }, {
     "name" : "thread",
-    "value" : "0-1"
+    "value" : "0-2"
   }, {
     "name" : "suite",
-    "value" : ""
+    "value" : "Filter clinicians search"
   }, {
     "name" : "testClass",
-    "value" : ""
+    "value" : "Filter clinicians search"
   }, {
     "name" : "testMethod",
-    "value" : "Should login to the preprod site"
+    "value" : "Should click filter and check if it's diplayed"
   }, {
     "name" : "package",
-    "value" : ""
+    "value" : "Filter clinicians search"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -49,22 +49,12 @@
     "value" : "chrome-100.0.4896.75"
   } ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ {
-      "uid" : "234df6811e1a6588",
-      "status" : "passed",
-      "time" : {
-        "start" : 1650880413473,
-        "stop" : 1650880417786,
-        "duration" : 4313
-      }
-    } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "d0a49cfd99df3241.json",
+  "source" : "80abfd4a0304df1e.json",
   "parameterValues" : [ "chrome-100.0.4896.75" ]
 }
