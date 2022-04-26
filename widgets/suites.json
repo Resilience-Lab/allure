@@ -1,15 +1,15 @@
 {
-  "total" : 4,
+  "total" : 8,
   "items" : [ {
-    "uid" : "48d85075effc392b4b30cf2001bf14e6",
-    "name" : "",
+    "uid" : "849cdc21f23f71a6185f0fb0e6afa36f",
+    "name" : "Set clinician as inactive.",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 5,
-      "passed" : 24,
+      "skipped" : 0,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 29
+      "total" : 10
     }
   }, {
     "uid" : "e8f5b6e102586eb7ff7823f5deb1fae1",
@@ -34,8 +34,52 @@
       "total" : 7
     }
   }, {
-    "uid" : "4a54a5d34e8b56efe8650e56dc5b6924",
-    "name" : "Exchange documents",
+    "uid" : "26138d22ce54eb47137ea1d6b021a458",
+    "name" : "Superbill submission via Portal",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 4,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 10
+    }
+  }, {
+    "uid" : "10cf19883d1e851bb8dca333aa1ca212",
+    "name" : "Client's filters and columns",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "a07156eab1ba50554bf2ae85ef26caff",
+    "name" : "Multi State: Connect Nirvana API Key with correct PCorp",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "18f8cf6a9ce4bcabd27b410b9ffa9b88",
+    "name" : "Viewing a PDF superbill",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "16ee444335a7e21a8b33c7e76ba4c07c",
+    "name" : "Default text for document exchanges",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
