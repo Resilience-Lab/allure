@@ -1,0 +1,78 @@
+{
+  "uid" : "e7272466d9d11dcb",
+  "name" : "Should to clients page and check url",
+  "fullName" : ".Should to clients page and check url",
+  "historyId" : "8b1edcfebd1222b875829e88ac32599",
+  "time" : {
+    "start" : 1650970820205,
+    "stop" : 1650970825595,
+    "duration" : 5390
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-7"
+  }, {
+    "name" : "suite",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : ""
+  }, {
+    "name" : "testMethod",
+    "value" : "Should to clients page and check url"
+  }, {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.75"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9855154c4e65d99d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650970797904,
+        "stop" : 1650970801001,
+        "duration" : 3097
+      }
+    }, {
+      "uid" : "9e8c6df6f0bf01e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650970656819,
+        "stop" : 1650970659942,
+        "duration" : 3123
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e7272466d9d11dcb.json",
+  "parameterValues" : [ "chrome-100.0.4896.75" ]
+}
