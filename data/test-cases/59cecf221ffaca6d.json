@@ -1,12 +1,12 @@
 {
-  "uid" : "dfaae644ea7a2213",
-  "name" : "Should verify email from Resiliencelab",
-  "fullName" : "Superbill submission via Portal.Should verify email from Resiliencelab",
-  "historyId" : "4c85b3a8ddd9d06784a8357391a49cf",
+  "uid" : "59cecf221ffaca6d",
+  "name" : "Should try to download file",
+  "fullName" : "Default text for document exchanges.Should try to download file",
+  "historyId" : "f750c4960115df0e3f39deba3fb57763",
   "time" : {
-    "start" : 1651650732518,
-    "stop" : 1651650738726,
-    "duration" : 6208
+    "start" : 1651660044832,
+    "stop" : 1651660045439,
+    "duration" : 607
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -15,7 +15,7 @@
   "newFailed" : false,
   "newBroken" : false,
   "newPassed" : false,
-  "retriesCount" : 0,
+  "retriesCount" : 1,
   "retriesStatusChange" : false,
   "beforeStages" : [ ],
   "afterStages" : [ ],
@@ -27,19 +27,19 @@
     "value" : "javascript"
   }, {
     "name" : "thread",
-    "value" : "0-0"
+    "value" : "0-4"
   }, {
     "name" : "suite",
-    "value" : "Superbill submission via Portal"
+    "value" : "Default text for document exchanges"
   }, {
     "name" : "testClass",
-    "value" : "Superbill submission via Portal"
+    "value" : "Default text for document exchanges"
   }, {
     "name" : "testMethod",
-    "value" : "Should verify email from Resiliencelab"
+    "value" : "Should try to download file"
   }, {
     "name" : "package",
-    "value" : "Superbill submission via Portal"
+    "value" : "Default text for document exchanges"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -53,10 +53,18 @@
   "retry" : false,
   "extra" : {
     "severity" : "normal",
-    "retries" : [ ],
+    "retries" : [ {
+      "uid" : "fa0627e09c9b8730",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651660027254,
+        "stop" : 1651660027896,
+        "duration" : 642
+      }
+    } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "dfaae644ea7a2213.json",
+  "source" : "59cecf221ffaca6d.json",
   "parameterValues" : [ "chrome-100.0.4896.127" ]
 }

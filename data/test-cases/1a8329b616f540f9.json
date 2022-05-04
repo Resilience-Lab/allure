@@ -1,12 +1,12 @@
 {
-  "uid" : "db3169ff9aceb485",
-  "name" : "Should download file",
-  "fullName" : "Superbill submission via Portal.Should download file",
-  "historyId" : "e496a58ede9c703bba0c02a4e8cf9734",
+  "uid" : "1a8329b616f540f9",
+  "name" : "Should click filter and check if it's diplayed",
+  "fullName" : "Filter clinicians search.Should click filter and check if it's diplayed",
+  "historyId" : "a47ce129b68bb266345f7b2d9a98379a",
   "time" : {
-    "start" : 1651650741700,
-    "stop" : 1651650747613,
-    "duration" : 5913
+    "start" : 1651659960019,
+    "stop" : 1651659960148,
+    "duration" : 129
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -27,19 +27,19 @@
     "value" : "javascript"
   }, {
     "name" : "thread",
-    "value" : "0-0"
+    "value" : "0-1"
   }, {
     "name" : "suite",
-    "value" : "Superbill submission via Portal"
+    "value" : "Filter clinicians search"
   }, {
     "name" : "testClass",
-    "value" : "Superbill submission via Portal"
+    "value" : "Filter clinicians search"
   }, {
     "name" : "testMethod",
-    "value" : "Should download file"
+    "value" : "Should click filter and check if it's diplayed"
   }, {
     "name" : "package",
-    "value" : "Superbill submission via Portal"
+    "value" : "Filter clinicians search"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -49,14 +49,12 @@
     "value" : "chrome-100.0.4896.127"
   } ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "db3169ff9aceb485.json",
+  "source" : "1a8329b616f540f9.json",
   "parameterValues" : [ "chrome-100.0.4896.127" ]
 }
