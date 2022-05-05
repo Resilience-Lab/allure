@@ -1,0 +1,70 @@
+{
+  "uid" : "95fae15bb0f86b60",
+  "name" : "Should check \"test\" text matches",
+  "fullName" : "Default text for document exchanges.Should check \"test\" text matches",
+  "historyId" : "97c51d732d88c59beeead171e00646ae",
+  "time" : {
+    "start" : 1651751888421,
+    "stop" : 1651751888769,
+    "duration" : 348
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Default text for document exchanges"
+  }, {
+    "name" : "testClass",
+    "value" : "Default text for document exchanges"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should check \"test\" text matches"
+  }, {
+    "name" : "package",
+    "value" : "Default text for document exchanges"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ddc5b2fae266b326",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651751870359,
+        "stop" : 1651751870727,
+        "duration" : 368
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "95fae15bb0f86b60.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}
