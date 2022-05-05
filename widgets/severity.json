@@ -1,70 +1,670 @@
 [ {
-  "uid" : "a5e7199c6527fe9",
-  "name" : "Should go to report edit page",
+  "uid" : "615c88e29e2c97f0",
+  "name" : "Should check if options are selected",
   "time" : {
-    "start" : 1651763349945,
-    "stop" : 1651763351391,
-    "duration" : 1446
+    "start" : 1651763779373,
+    "stop" : 1651763779547,
+    "duration" : 174
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "15de5f2aa24ad946",
-  "name" : "Should add some hint, save, and check if hint sing is visible",
-  "time" : {
-    "start" : 1651763351391,
-    "stop" : 1651763357082,
-    "duration" : 5691
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "dff1634a07e891f4",
+  "uid" : "e2fcf136d3573a14",
   "name" : "Should go to certain report page",
   "time" : {
-    "start" : 1651763347056,
-    "stop" : 1651763349945,
-    "duration" : 2889
+    "start" : 1651763752093,
+    "stop" : 1651763757443,
+    "duration" : 5350
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "10db2bf7b9496e22",
+  "uid" : "27ca734e0752266a",
+  "name" : "Should open POD and click select",
+  "time" : {
+    "start" : 1651763739187,
+    "stop" : 1651763741316,
+    "duration" : 2129
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bc25376a01894a3a",
+  "name" : "Should create and download Superbill statement",
+  "time" : {
+    "start" : 1651763648741,
+    "stop" : 1651763649740,
+    "duration" : 999
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cb13f8ab424adc38",
+  "name" : "insurance Api log should contain 9fc440c4-5784-6d54-d4d1-6245e3d8d12b",
+  "time" : {
+    "start" : 1651763705002,
+    "stop" : 1651763706910,
+    "duration" : 1908
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8a9230e58c83775e",
+  "name" : "Should change clinican status to Inactive",
+  "time" : {
+    "start" : 1651763681318,
+    "stop" : 1651763683278,
+    "duration" : 1960
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8f370a80942cc64",
+  "name" : "Verify ResilienceLab in the Title",
+  "time" : {
+    "start" : 1651763649741,
+    "stop" : 1651763649742,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2a4bea8e48e8a831",
+  "name" : "Should search for results and check if filter is working",
+  "time" : {
+    "start" : 1651763778172,
+    "stop" : 1651763779373,
+    "duration" : 1201
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "19f1adc3f31c9da0",
+  "name" : "Should go to sessions tab",
+  "time" : {
+    "start" : 1651763678646,
+    "stop" : 1651763678835,
+    "duration" : 189
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "faa79015f068400b",
+  "name" : "Should go to some active client profile",
+  "time" : {
+    "start" : 1651763677077,
+    "stop" : 1651763678646,
+    "duration" : 1569
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5cc5df8212c3f123",
+  "name" : "Should click on \"View clients\"",
+  "time" : {
+    "start" : 1651763675067,
+    "stop" : 1651763677076,
+    "duration" : 2009
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e26636175541b9bb",
+  "name" : "Should filter clients",
+  "time" : {
+    "start" : 1651763716364,
+    "stop" : 1651763719668,
+    "duration" : 3304
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f8c74542356d3aba",
+  "name" : "Should to clients page and check url",
+  "time" : {
+    "start" : 1651763638761,
+    "stop" : 1651763646925,
+    "duration" : 8164
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "40a0005d6038c2da",
+  "name" : "Should go to clients page and check url",
+  "time" : {
+    "start" : 1651763576386,
+    "stop" : 1651763593717,
+    "duration" : 17331
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b4d7f387b4afb29e",
+  "name" : "Should verify email from Resiliencelab",
+  "time" : {
+    "start" : 1651763594725,
+    "stop" : 1651763603139,
+    "duration" : 8414
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a1255568089e1cff",
+  "name" : "Should choose licenses in advanced filter",
+  "time" : {
+    "start" : 1651763776872,
+    "stop" : 1651763778171,
+    "duration" : 1299
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5a8168474493a349",
+  "name" : "Should go to new user without invitation",
+  "time" : {
+    "start" : 1651763612811,
+    "stop" : 1651763616349,
+    "duration" : 3538
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1ab3c9b2ec8c5cfd",
+  "name" : "Should to clients page and check url",
+  "time" : {
+    "start" : 1651763781285,
+    "stop" : 1651763788754,
+    "duration" : 7469
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ef65443093219a7a",
+  "name" : "Should click 'View Requests' button in 'Pending Requests' ",
+  "time" : {
+    "start" : 1651763536370,
+    "stop" : 1651763536604,
+    "duration" : 234
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7945d16685360091",
+  "name" : "Should go back to client profile and check \"Account status:\" to be \"Account Created\" ",
+  "time" : {
+    "start" : 1651763562457,
+    "stop" : 1651763574389,
+    "duration" : 11932
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "950a92a484394343",
+  "name" : "Should go back to clinician",
+  "time" : {
+    "start" : 1651763678835,
+    "stop" : 1651763680260,
+    "duration" : 1425
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "919e21c0aa4d81e6",
+  "name" : "Should click filter and check if filter modal is visible",
+  "time" : {
+    "start" : 1651763788755,
+    "stop" : 1651763788928,
+    "duration" : 173
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f1a62d337b5049b9",
+  "name" : "Should go to PODs page and check url",
+  "time" : {
+    "start" : 1651763732856,
+    "stop" : 1651763739186,
+    "duration" : 6330
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bd6264687ec1b6a4",
   "name" : "Should clear hint input after test",
   "time" : {
-    "start" : 1651763357207,
-    "stop" : 1651763358007,
-    "duration" : 800
+    "start" : 1651763764712,
+    "stop" : 1651763765577,
+    "duration" : 865
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "3b8f38670dc1fce0",
+  "uid" : "6c0d89ac488fcf4a",
+  "name" : "edit insurance data",
+  "time" : {
+    "start" : 1651763699766,
+    "stop" : 1651763705002,
+    "duration" : 5236
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "83648ac742989148",
+  "name" : "Should send invitation to CP",
+  "time" : {
+    "start" : 1651763593717,
+    "stop" : 1651763594725,
+    "duration" : 1008
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "91b515460ff85dde",
+  "name" : "Should signUp to account",
+  "time" : {
+    "start" : 1651763603139,
+    "stop" : 1651763604872,
+    "duration" : 1733
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6ff2df1f0363001b",
+  "name" : "Should try to download file",
+  "time" : {
+    "start" : 1651763536991,
+    "stop" : 1651763537628,
+    "duration" : 637
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4ea2fe3df8213ce8",
+  "name" : "Should download file",
+  "time" : {
+    "start" : 1651763606732,
+    "stop" : 1651763612809,
+    "duration" : 6077
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c67153e6ec5f76e5",
+  "name" : "Should go to clients page and check url",
+  "time" : {
+    "start" : 1651763708765,
+    "stop" : 1651763716363,
+    "duration" : 7598
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1397645987a43a58",
+  "name" : "Should hover more button and check if dropdown menu is displayed",
+  "time" : {
+    "start" : 1651763745553,
+    "stop" : 1651763749390,
+    "duration" : 3837
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "27e34d293c163e9f",
+  "name" : "Should go to clients page and check url",
+  "time" : {
+    "start" : 1651763482394,
+    "stop" : 1651763499563,
+    "duration" : 17169
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "10103578a2982aac",
+  "name" : "Should go to clinicians page",
+  "time" : {
+    "start" : 1651763666944,
+    "stop" : 1651763673494,
+    "duration" : 6550
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7d198b5e005fc98",
+  "name" : "Should go to clinician edit page",
+  "time" : {
+    "start" : 1651763680261,
+    "stop" : 1651763681318,
+    "duration" : 1057
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "91d69a09fe5f1a7b",
+  "name" : "Should create Superbill statement",
+  "time" : {
+    "start" : 1651763604873,
+    "stop" : 1651763606732,
+    "duration" : 1859
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b6ed53efb6fced1f",
+  "name" : "Should click \"Upload File\" button and add file",
+  "time" : {
+    "start" : 1651763657302,
+    "stop" : 1651763658480,
+    "duration" : 1178
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4bdf5cc382a28bf3",
+  "name" : "Should go to clinicians page",
+  "time" : {
+    "start" : 1651763767273,
+    "stop" : 1651763774739,
+    "duration" : 7466
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c61300b61a4ae2c0",
   "name" : "Should go to reports page and check url",
   "time" : {
-    "start" : 1651763343214,
-    "stop" : 1651763347055,
-    "duration" : 3841
+    "start" : 1651763749390,
+    "stop" : 1651763752093,
+    "duration" : 2703
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "9509574b97fc3362",
-  "name" : "Should click hint and check if added hint is visible",
+  "uid" : "723a15047662587",
+  "name" : "Should add more than 10 clinicians (also who have supervisors)",
   "time" : {
-    "start" : 1651763357082,
-    "stop" : 1651763357206,
+    "start" : 1651763741316,
+    "stop" : 1651763743759,
+    "duration" : 2443
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d4737d50dd3b24d9",
+  "name" : "Should write document name and click \"Upload and Send Document\" button",
+  "time" : {
+    "start" : 1651763658481,
+    "stop" : 1651763659826,
+    "duration" : 1345
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1aed124a750baec",
+  "name" : "Should go to report edit page",
+  "time" : {
+    "start" : 1651763757443,
+    "stop" : 1651763758999,
+    "duration" : 1556
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d911261815284092",
+  "name" : "Should signUp to account",
+  "time" : {
+    "start" : 1651763516144,
+    "stop" : 1651763517750,
+    "duration" : 1606
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2a630629fcd06ec",
+  "name" : "Should choose licenses in quick filter",
+  "time" : {
+    "start" : 1651763774876,
+    "stop" : 1651763775557,
+    "duration" : 681
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "69e0634894e372ac",
+  "name" : "Should check \"test\" text matches",
+  "time" : {
+    "start" : 1651763536604,
+    "stop" : 1651763536990,
+    "duration" : 386
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "94937e2342b025f3",
+  "name" : "Should go to some active clinician profile",
+  "time" : {
+    "start" : 1651763673494,
+    "stop" : 1651763675067,
+    "duration" : 1573
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1c49dea68de149e5",
+  "name" : "Should go to \"Review and Complete\" for \"New Credit Card Form\"",
+  "time" : {
+    "start" : 1651763537684,
+    "stop" : 1651763548462,
+    "duration" : 10778
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a5ca629f7a316b7",
+  "name" : "Should to clients page and check url",
+  "time" : {
+    "start" : 1651763688300,
+    "stop" : 1651763698613,
+    "duration" : 10313
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e2cb8cc40105ac9",
+  "name" : "",
+  "time" : {
+    "start" : 1651763793771,
+    "stop" : 1651763793962,
+    "duration" : 191
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cb14578c32379556",
+  "name" : "Should open first client profile and uncheck insurance subject \"Cost-share Waiver\" check box",
+  "time" : {
+    "start" : 1651763719668,
+    "stop" : 1651763731198,
+    "duration" : 11530
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "ea719b889cfd7714",
+  "name" : "Should apply filter to clients and check if its work",
+  "time" : {
+    "start" : 1651763788928,
+    "stop" : 1651763793771,
+    "duration" : 4843
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3bfed0a49ed5137c",
+  "name" : "Should go back to pending requests",
+  "time" : {
+    "start" : 1651763537628,
+    "stop" : 1651763537683,
+    "duration" : 55
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "76b3320f4d1c3087",
+  "name" : "Should go to client with not created account",
+  "time" : {
+    "start" : 1651763499564,
+    "stop" : 1651763500321,
+    "duration" : 757
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ea275988e747d54b",
+  "name" : "Should create Superbill statement without invitation",
+  "time" : {
+    "start" : 1651763616349,
+    "stop" : 1651763617883,
+    "duration" : 1534
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fc0a4b5ddc5711ca",
+  "name" : "Should repeat steps 3-5 and check that there is not more sessions",
+  "time" : {
+    "start" : 1651763683278,
+    "stop" : 1651763686480,
+    "duration" : 3202
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f8a9734bc9987439",
+  "name" : "Should have list size of 10 clinicians",
+  "time" : {
+    "start" : 1651763743759,
+    "stop" : 1651763743812,
+    "duration" : 53
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a26ed253f559646f",
+  "name" : "should go to Ally Campbell profile",
+  "time" : {
+    "start" : 1651763698614,
+    "stop" : 1651763699766,
+    "duration" : 1152
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f018683597717096",
+  "name" : "Should open CP page and Log In",
+  "time" : {
+    "start" : 1651763651613,
+    "stop" : 1651763657301,
+    "duration" : 5688
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4a0c47ad5761fe76",
+  "name" : "Should download file without invitation",
+  "time" : {
+    "start" : 1651763625284,
+    "stop" : 1651763636957,
+    "duration" : 11673
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ead08794f2f7f150",
+  "name" : "Should select library document to share",
+  "time" : {
+    "start" : 1651763534356,
+    "stop" : 1651763535811,
+    "duration" : 1455
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "43dd7bb2dda59f1e",
+  "name" : "Should click filter and check if it's diplayed",
+  "time" : {
+    "start" : 1651763776747,
+    "stop" : 1651763776871,
     "duration" : 124
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "1f628bcc032a18a7",
-  "name" : "Should hover more button and check if dropdown menu is displayed",
+  "uid" : "8b13de7b7dbdce12",
+  "name" : "Should sign up to client portal without invitation",
   "time" : {
-    "start" : 1651763337171,
-    "stop" : 1651763343213,
-    "duration" : 6042
+    "start" : 1651763617884,
+    "stop" : 1651763625284,
+    "duration" : 7400
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e67fcdd7c6260566",
+  "name" : "Should add some hint, save, and check if hint sing is visible",
+  "time" : {
+    "start" : 1651763758999,
+    "stop" : 1651763764567,
+    "duration" : 5568
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "be0197a766726938",
+  "name" : "Should go to some active client profile",
+  "time" : {
+    "start" : 1651763646926,
+    "stop" : 1651763648740,
+    "duration" : 1814
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "353be0b751e4cfb",
+  "name" : "Should verify email from Resiliencelab",
+  "time" : {
+    "start" : 1651763535811,
+    "stop" : 1651763536370,
+    "duration" : 559
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "79934119b4ed4f1e",
+  "name" : "Should click hint and check if added hint is visible",
+  "time" : {
+    "start" : 1651763764567,
+    "stop" : 1651763764710,
+    "duration" : 143
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f70503487f13ff43",
+  "name" : "Should fill out credit card form and click \"Submit\" button",
+  "time" : {
+    "start" : 1651763548463,
+    "stop" : 1651763562457,
+    "duration" : 13994
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5a3ffffe65f69651",
+  "name" : "Should verify file upload",
+  "time" : {
+    "start" : 1651763659826,
+    "stop" : 1651763665081,
+    "duration" : 5255
   },
   "status" : "passed",
   "severity" : "normal"
