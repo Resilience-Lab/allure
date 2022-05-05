@@ -1,12 +1,12 @@
 {
-  "uid" : "80ba66867b1d082f",
-  "name" : "Should search for results and check if filter is working",
-  "fullName" : "C2254: Filter clinicians search.Should search for results and check if filter is working",
-  "historyId" : "238e5a767d36bb1c8bbb14c08aacfb16",
+  "uid" : "4092319e13b7715f",
+  "name" : "Should go to reports page and check url",
+  "fullName" : "C2253: Report hint.Should go to reports page and check url",
+  "historyId" : "26886863b347206bdd5a10529d3c606",
   "time" : {
-    "start" : 1651761737722,
-    "stop" : 1651761738699,
-    "duration" : 977
+    "start" : 1651762247364,
+    "stop" : 1651762250054,
+    "duration" : 2690
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -27,19 +27,19 @@
     "value" : "javascript"
   }, {
     "name" : "thread",
-    "value" : "0-9"
+    "value" : "0-0"
   }, {
     "name" : "suite",
-    "value" : "C2254: Filter clinicians search"
+    "value" : "C2253: Report hint"
   }, {
     "name" : "testClass",
-    "value" : "C2254: Filter clinicians search"
+    "value" : "C2253: Report hint"
   }, {
     "name" : "testMethod",
-    "value" : "Should search for results and check if filter is working"
+    "value" : "Should go to reports page and check url"
   }, {
     "name" : "package",
-    "value" : "C2254: Filter clinicians search"
+    "value" : "C2253: Report hint"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -49,12 +49,14 @@
     "value" : "chrome-101.0.4951.54"
   } ],
   "links" : [ ],
-  "hidden" : true,
-  "retry" : true,
+  "hidden" : false,
+  "retry" : false,
   "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "80ba66867b1d082f.json",
+  "source" : "4092319e13b7715f.json",
   "parameterValues" : [ "chrome-101.0.4951.54" ]
 }
