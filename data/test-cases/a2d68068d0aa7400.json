@@ -1,12 +1,12 @@
 {
-  "uid" : "fc23f4523b919ca1",
+  "uid" : "a2d68068d0aa7400",
   "name" : "Should open first client profile and uncheck insurance subject \"Cost-share Waiver\" check box",
   "fullName" : "C2263: Multi State: Connect Nirvana API Key with correct PCorp.Should open first client profile and uncheck insurance subject \"Cost-share Waiver\" check box",
   "historyId" : "2dfcbdc0fa20b2473c22164dbb7f2f6a",
   "time" : {
-    "start" : 1651755193314,
-    "stop" : 1651755202560,
-    "duration" : 9246
+    "start" : 1651758837378,
+    "stop" : 1651758847830,
+    "duration" : 10452
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -26,9 +26,9 @@
     "statusTrace" : "Error: expect(received).not.toBe(expected) // Object.is equality\n                \n                Expected: not \"  https://claims-api-sandbox.meetnirvana.com/api/v1/claims/status/ {\\\"message\\\":\\\"no Route matched with t... 02/24/2022 02:52am NewAdmin\"\n                    at ProfilePage.changeCostShareWaiverCBox (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:284:69)\n                    at async Context.<anonymous> (/home/runner/work/webautomation/webautomation/test/specs/Insurance/C2263_uncheck_cost_share_waiver.spec.ts:30:9)",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "526d45c4a891d3f5",
+      "uid" : "cf2c34e10b6acd59",
       "name" : "Screenshot",
-      "source" : "526d45c4a891d3f5.png",
+      "source" : "cf2c34e10b6acd59.png",
       "type" : "image/png",
       "size" : 146536
     } ],
@@ -47,7 +47,7 @@
     "value" : "javascript"
   }, {
     "name" : "thread",
-    "value" : "0-0"
+    "value" : "0-6"
   }, {
     "name" : "suite",
     "value" : "C2263: Multi State: Connect Nirvana API Key with correct PCorp"
@@ -81,6 +81,6 @@
     } ],
     "tags" : [ ]
   },
-  "source" : "fc23f4523b919ca1.json",
+  "source" : "a2d68068d0aa7400.json",
   "parameterValues" : [ "chrome-101.0.4951.54" ]
 }
