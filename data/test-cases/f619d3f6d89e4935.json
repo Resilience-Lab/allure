@@ -1,0 +1,86 @@
+{
+  "uid" : "f619d3f6d89e4935",
+  "name" : "Should open first client profile and uncheck insurance subject \"Cost-share Waiver\" check box",
+  "fullName" : "C2263: Multi State: Connect Nirvana API Key with correct PCorp.Should open first client profile and uncheck insurance subject \"Cost-share Waiver\" check box",
+  "historyId" : "2dfcbdc0fa20b2473c22164dbb7f2f6a",
+  "time" : {
+    "start" : 1651759934229,
+    "stop" : 1651759944864,
+    "duration" : 10635
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expect(received).not.toBe(expected) // Object.is equality\n                \n                Expected: not \"  https://claims-api-sandbox.meetnirvana.com/api/v1/claims/status/ {\\\"message\\\":\\\"no Route matched with t... 02/24/2022 02:52am NewAdmin\"",
+  "statusTrace" : "Error: expect(received).not.toBe(expected) // Object.is equality\n                \n                Expected: not \"  https://claims-api-sandbox.meetnirvana.com/api/v1/claims/status/ {\\\"message\\\":\\\"no Route matched with t... 02/24/2022 02:52am NewAdmin\"\n                    at ProfilePage.changeCostShareWaiverCBox (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:284:69)\n                    at async Context.<anonymous> (/home/runner/work/webautomation/webautomation/test/specs/Insurance/C2263_uncheck_cost_share_waiver.spec.ts:30:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expect(received).not.toBe(expected) // Object.is equality\n                \n                Expected: not \"  https://claims-api-sandbox.meetnirvana.com/api/v1/claims/status/ {\\\"message\\\":\\\"no Route matched with t... 02/24/2022 02:52am NewAdmin\"",
+    "statusTrace" : "Error: expect(received).not.toBe(expected) // Object.is equality\n                \n                Expected: not \"  https://claims-api-sandbox.meetnirvana.com/api/v1/claims/status/ {\\\"message\\\":\\\"no Route matched with t... 02/24/2022 02:52am NewAdmin\"\n                    at ProfilePage.changeCostShareWaiverCBox (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:284:69)\n                    at async Context.<anonymous> (/home/runner/work/webautomation/webautomation/test/specs/Insurance/C2263_uncheck_cost_share_waiver.spec.ts:30:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "60a8aad4ce88a4c9",
+      "name" : "Screenshot",
+      "source" : "60a8aad4ce88a4c9.png",
+      "type" : "image/png",
+      "size" : 146536
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "C2263: Multi State: Connect Nirvana API Key with correct PCorp"
+  }, {
+    "name" : "testClass",
+    "value" : "C2263: Multi State: Connect Nirvana API Key with correct PCorp"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should open first client profile and uncheck insurance subject \"Cost-share Waiver\" check box"
+  }, {
+    "name" : "package",
+    "value" : "C2263: Multi State: Connect Nirvana API Key with correct PCorp"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "f619d3f6d89e4935.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}
