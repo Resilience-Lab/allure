@@ -1,18 +1,19 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
       "name" : "expect(received).not.toBe(expected) // Object.is equality\n                \n                Expected: not \"  https://claims-api-sandbox.meetnirvana.com/api/v1/claims/status/ {\\\"message\\\":\\\"no Route matched with t... 02/24/2022 02:52am NewAdmin\"",
       "children" : [ {
         "name" : "Should open first client profile and uncheck insurance subject \"Cost-share Waiver\" check box",
-        "uid" : "f619d3f6d89e4935",
+        "uid" : "c98583b267e02a9e",
         "parentUid" : "6a992e4e66ebf790d53af3e8db752a11",
         "status" : "failed",
         "time" : {
-          "start" : 1651759934229,
-          "stop" : 1651759944864,
-          "duration" : 10635
+          "start" : 1651760712400,
+          "stop" : 1651760721541,
+          "duration" : 9141
         },
         "flaky" : false,
         "newFailed" : false,
@@ -25,6 +26,5 @@
       "uid" : "6a992e4e66ebf790d53af3e8db752a11"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  } ],
-  "name" : "categories"
+  } ]
 }
