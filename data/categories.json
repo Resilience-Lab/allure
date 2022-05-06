@@ -1,18 +1,18 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "children" : [ {
-    "name" : "Product defects",
+    "name" : "Test defects",
     "children" : [ {
-      "name" : "expect(received).not.toBe(expected) // Object.is equality\n                \n                Expected: not \"  https://claims-api-sandbox.meetnirvana.com/api/v1/claims/status/ {\\\"message\\\":\\\"no Route matched with t... 02/24/2022 02:52am NewAdmin\"",
+      "name" : "Timeout of 60000ms exceeded. The execution in the test \"C2259: Viewing a PDF superbill \"before all\" hook for \"Should to clients page and check url\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/home/runner/work/webautomation/webautomation/test/specs/Clients/C2259_viewing_pdf_superbill.spec.ts)",
       "children" : [ {
-        "name" : "Should open first client profile and uncheck insurance subject \"Cost-share Waiver\" check box",
-        "uid" : "37e5e57bb7addb5f",
-        "parentUid" : "6a992e4e66ebf790d53af3e8db752a11",
-        "status" : "failed",
+        "name" : "\"before all\" hook for C2259: Viewing a PDF superbill",
+        "uid" : "ff72ea828a101b5b",
+        "parentUid" : "b29c5e45b10ef1dac8e9174cebf33fb3",
+        "status" : "broken",
         "time" : {
-          "start" : 1651781357055,
-          "stop" : 1651781367952,
-          "duration" : 10897
+          "start" : 1651829636436,
+          "stop" : 1651829696474,
+          "duration" : 60038
         },
         "flaky" : false,
         "newFailed" : false,
@@ -22,9 +22,30 @@
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-101.0.4951.54" ]
       } ],
-      "uid" : "6a992e4e66ebf790d53af3e8db752a11"
+      "uid" : "b29c5e45b10ef1dac8e9174cebf33fb3"
+    }, {
+      "name" : "Timeout of 60000ms exceeded. The execution in the test \"C2260: Multi State: Connect Nirvana API Key with correct PCorp \"before all\" hook for \"Should to clients page and check url\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/home/runner/work/webautomation/webautomation/test/specs/Clients/Insurance/C2260_connect_nirvana_API_key_with_correct_PCorp.spec.ts)",
+      "children" : [ {
+        "name" : "\"before all\" hook for C2260: Multi State: Connect Nirvana API Key with correct PCorp",
+        "uid" : "bf9f2b963aee7274",
+        "parentUid" : "83596ad593e37cc0f9e385aaa43319ce",
+        "status" : "broken",
+        "time" : {
+          "start" : 1651829950687,
+          "stop" : 1651830010720,
+          "duration" : 60033
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-101.0.4951.54" ]
+      } ],
+      "uid" : "83596ad593e37cc0f9e385aaa43319ce"
     } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ],
   "name" : "categories"
 }

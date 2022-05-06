@@ -1,0 +1,68 @@
+{
+  "uid" : "bf9f2b963aee7274",
+  "name" : "\"before all\" hook for C2260: Multi State: Connect Nirvana API Key with correct PCorp",
+  "fullName" : "C2260: Multi State: Connect Nirvana API Key with correct PCorp.\"before all\" hook for C2260: Multi State: Connect Nirvana API Key with correct PCorp",
+  "historyId" : "a38d4c7622224d1e1e6e6499574dc0af",
+  "time" : {
+    "start" : 1651829950687,
+    "stop" : 1651830010720,
+    "duration" : 60033
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Timeout of 60000ms exceeded. The execution in the test \"C2260: Multi State: Connect Nirvana API Key with correct PCorp \"before all\" hook for \"Should to clients page and check url\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/home/runner/work/webautomation/webautomation/test/specs/Clients/Insurance/C2260_connect_nirvana_API_key_with_correct_PCorp.spec.ts)",
+  "statusTrace" : "Error: Timeout of 60000ms exceeded. The execution in the test \"C2260: Multi State: Connect Nirvana API Key with correct PCorp \"before all\" hook for \"Should to clients page and check url\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/home/runner/work/webautomation/webautomation/test/specs/Clients/Insurance/C2260_connect_nirvana_API_key_with_correct_PCorp.spec.ts)\n                    at createTimeoutError (/home/runner/work/webautomation/webautomation/node_modules/mocha/lib/errors.js:498:15)\n                    at Hook.Runnable._timeoutError (/home/runner/work/webautomation/webautomation/node_modules/mocha/lib/runnable.js:431:10)\n                    at Timeout.<anonymous> (/home/runner/work/webautomation/webautomation/node_modules/mocha/lib/runnable.js:246:24)\n                    at listOnTimeout (internal/timers.js:557:17)\n                    at processTimers (internal/timers.js:500:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-4"
+  }, {
+    "name" : "suite",
+    "value" : "C2260: Multi State: Connect Nirvana API Key with correct PCorp"
+  }, {
+    "name" : "testClass",
+    "value" : "C2260: Multi State: Connect Nirvana API Key with correct PCorp"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook for C2260: Multi State: Connect Nirvana API Key with correct PCorp"
+  }, {
+    "name" : "package",
+    "value" : "C2260: Multi State: Connect Nirvana API Key with correct PCorp"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "bf9f2b963aee7274.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}
