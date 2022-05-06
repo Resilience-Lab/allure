@@ -1,19 +1,30 @@
 {
-  "total" : 5,
+  "total" : 8,
   "items" : [ {
-    "uid" : "aa1cbaab3539ba0c52ef3563e8ad4f12",
-    "name" : "C2259: Viewing a PDF superbill",
+    "uid" : "97289d80cb8c4b9b6992898679931753",
+    "name" : "C2263: Multi State: Connect Nirvana API Key with correct PCorp",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "4fdd22980b2fbeaabcb98f54388d1e85",
+    "name" : "C2256: Set clinician as inactive.",
     "statistic" : {
       "failed" : 0,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 1
+      "total" : 9
     }
   }, {
-    "uid" : "61fe74c464ec55804d35589b94e214cc",
-    "name" : "C2260: Multi State: Connect Nirvana API Key with correct PCorp",
+    "uid" : "7cde2751937f591e849ca7184632d091",
+    "name" : "C2262: PC POD Clinicians",
     "statistic" : {
       "failed" : 0,
       "broken" : 1,
@@ -45,8 +56,30 @@
       "total" : 10
     }
   }, {
+    "uid" : "aa1cbaab3539ba0c52ef3563e8ad4f12",
+    "name" : "C2259: Viewing a PDF superbill",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
     "uid" : "e61216604e05de4a2256469c38f3c4ce",
     "name" : "C2261: Clients need to be able to upload documents via Portal",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "61fe74c464ec55804d35589b94e214cc",
+    "name" : "C2260: Multi State: Connect Nirvana API Key with correct PCorp",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
