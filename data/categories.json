@@ -1,19 +1,18 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "name" : "categories",
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
       "name" : "expect(received).not.toBe(expected) // Object.is equality\n                \n                Expected: not \"  https://claims-api-sandbox.meetnirvana.com/api/v1/coverage/estimate/ {\\\"coverage_status\\\":false,\\\"deductibl... 04/13/2022 05:14am yurii.nahorniuk@resiliencelab.us\"",
       "children" : [ {
         "name" : "Should open first client profile and uncheck insurance subject \"Cost-share Waiver\" check box",
-        "uid" : "7dd8f9cbb5c64b",
+        "uid" : "c6af1c2cfc6d8fa4",
         "parentUid" : "aca74a02e40d9cf1108146415de30b64",
         "status" : "failed",
         "time" : {
-          "start" : 1652170363160,
-          "stop" : 1652170374950,
-          "duration" : 11790
+          "start" : 1652173307566,
+          "stop" : 1652173320953,
+          "duration" : 13387
         },
         "flaky" : false,
         "newFailed" : false,
@@ -26,5 +25,6 @@
       "uid" : "aca74a02e40d9cf1108146415de30b64"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  } ]
+  } ],
+  "name" : "categories"
 }
