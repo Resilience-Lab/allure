@@ -3,16 +3,16 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "expect(received).not.toBe(expected) // Object.is equality\n                \n                Expected: not \"  https://claims-api-sandbox.meetnirvana.com/api/v1/coverage/estimate/ {\\\"coverage_status\\\":false,\\\"deductibl... 04/13/2022 05:14am yurii.nahorniuk@resiliencelab.us\"",
+      "name" : "expect(received).not.toBe(expected) // Object.is equality\n                \n                Expected: not \"  https://claims-api-sandbox.meetnirvana.com/api/v1/sessions/12092021/status {\\\"error\\\":\\\"Error happened.\\\"}... 02/26/2022 06:59am NewAdmin\"",
       "children" : [ {
         "name" : "Should open first client profile and uncheck insurance subject \"Cost-share Waiver\" check box",
-        "uid" : "c6af1c2cfc6d8fa4",
-        "parentUid" : "aca74a02e40d9cf1108146415de30b64",
+        "uid" : "685d0f542ed2dfa5",
+        "parentUid" : "1c75cf333b3eaa9abaee0901edbfa1ac",
         "status" : "failed",
         "time" : {
-          "start" : 1652173307566,
-          "stop" : 1652173320953,
-          "duration" : 13387
+          "start" : 1652259325208,
+          "stop" : 1652259344606,
+          "duration" : 19398
         },
         "flaky" : false,
         "newFailed" : false,
@@ -22,7 +22,7 @@
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-101.0.4951.54" ]
       } ],
-      "uid" : "aca74a02e40d9cf1108146415de30b64"
+      "uid" : "1c75cf333b3eaa9abaee0901edbfa1ac"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ],
