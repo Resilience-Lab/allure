@@ -1,18 +1,18 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "children" : [ {
-    "name" : "Product defects",
+    "name" : "Test defects",
     "children" : [ {
-      "name" : "expect(received).not.toBe(expected) // Object.is equality\n                \n                Expected: not \"  https://claims-api-sandbox.meetnirvana.com/api/v1/sessions/12092021/status {\\\"error\\\":\\\"Error happened.\\\"}... 02/26/2022 06:59am NewAdmin\"",
+      "name" : "element (\"#ins-enroll-btn\") still not clickable after 10000ms",
       "children" : [ {
-        "name" : "Should open first client profile and uncheck insurance subject \"Cost-share Waiver\" check box",
-        "uid" : "685d0f542ed2dfa5",
-        "parentUid" : "1c75cf333b3eaa9abaee0901edbfa1ac",
-        "status" : "failed",
+        "name" : "edit insurance data",
+        "uid" : "471cc35052a5f105",
+        "parentUid" : "d017521216135f0c750d7077d91e506d",
+        "status" : "broken",
         "time" : {
-          "start" : 1652259325208,
-          "stop" : 1652259344606,
-          "duration" : 19398
+          "start" : 1652260612749,
+          "stop" : 1652260624038,
+          "duration" : 11289
         },
         "flaky" : false,
         "newFailed" : false,
@@ -22,9 +22,30 @@
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-101.0.4951.54" ]
       } ],
-      "uid" : "1c75cf333b3eaa9abaee0901edbfa1ac"
+      "uid" : "d017521216135f0c750d7077d91e506d"
+    }, {
+      "name" : "element (\"//*[@id=\"pagecontent\"]/div[4]/ul/li[6]\") still not clickable after 10000ms",
+      "children" : [ {
+        "name" : "insurance Api log should contain 9fc440c4-5784-6d54-d4d1-6245e3d8d12b",
+        "uid" : "69028578f3d4f3ef",
+        "parentUid" : "6d458e70b56bb10c3811e8fa9efdeb41",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652260624039,
+          "stop" : 1652260634230,
+          "duration" : 10191
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-101.0.4951.54" ]
+      } ],
+      "uid" : "6d458e70b56bb10c3811e8fa9efdeb41"
     } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ],
   "name" : "categories"
 }
