@@ -3,16 +3,16 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "element (\"//a[contains(text(),\"CLIENT\")]\") still not clickable after 10000ms",
+      "name" : "element (\"input#clinician_id___0___acc_clinicians-input\") still not displayed after 10000ms",
       "children" : [ {
-        "name" : "Should go to client with not created account",
-        "uid" : "bab2300aed679e00",
-        "parentUid" : "a6c6681fe8a50109d27c320ef5bb0784",
+        "name" : "\"before all\" hook for C2257: Default text for document exchanges",
+        "uid" : "c7af104f3cd82416",
+        "parentUid" : "9eec0943f13683f4163f8f692b09fc50",
         "status" : "broken",
         "time" : {
-          "start" : 1652367499755,
-          "stop" : 1652367510074,
-          "duration" : 10319
+          "start" : 1652369807470,
+          "stop" : 1652369822652,
+          "duration" : 15182
         },
         "flaky" : false,
         "newFailed" : false,
@@ -21,15 +21,40 @@
         "retriesCount" : 0,
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-101.0.4951.54" ]
-      }, {
-        "name" : "\"after all\" hook for C2257: Default text for document exchanges",
-        "uid" : "6f5ff32ed8ea06b7",
+      } ],
+      "uid" : "9eec0943f13683f4163f8f692b09fc50"
+    }, {
+      "name" : "element (\"input#first_name\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "\"before all\" hook for C2258: Superbill submission via Portal",
+        "uid" : "b357362e2ac7463f",
+        "parentUid" : "cf8bbab400725ab7e7128a75f25417d7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652369832201,
+          "stop" : 1652369847368,
+          "duration" : 15167
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-101.0.4951.54" ]
+      } ],
+      "uid" : "cf8bbab400725ab7e7128a75f25417d7"
+    }, {
+      "name" : "element (\"//a[contains(text(),\"CLIENT\")]\") still not clickable after 10000ms",
+      "children" : [ {
+        "name" : "\"after all\" hook for C2258: Superbill submission via Portal",
+        "uid" : "3048291c97078af7",
         "parentUid" : "a6c6681fe8a50109d27c320ef5bb0784",
         "status" : "broken",
         "time" : {
-          "start" : 1652367677029,
-          "stop" : 1652367687246,
-          "duration" : 10217
+          "start" : 1652369847369,
+          "stop" : 1652369857472,
+          "duration" : 10103
         },
         "flaky" : false,
         "newFailed" : false,
@@ -41,163 +66,16 @@
       } ],
       "uid" : "a6c6681fe8a50109d27c320ef5bb0784"
     }, {
-      "name" : "element (\"[name=\"email\"]\") still not displayed after 10000ms",
-      "children" : [ {
-        "name" : "Should signUp to account",
-        "uid" : "f12064bd6686d99c",
-        "parentUid" : "8935adfc785f2362ad7a235160db9149",
-        "status" : "broken",
-        "time" : {
-          "start" : 1652367543133,
-          "stop" : 1652367553363,
-          "duration" : 10230
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-101.0.4951.54" ]
-      } ],
-      "uid" : "8935adfc785f2362ad7a235160db9149"
-    }, {
-      "name" : "element (\"#tab7\") still not clickable after 10000ms",
-      "children" : [ {
-        "name" : "Should select library document to share",
-        "uid" : "826d2d6ab8e156a2",
-        "parentUid" : "a08c9acc129b2dcbdd6e0e8c7ef9a928",
-        "status" : "broken",
-        "time" : {
-          "start" : 1652367609770,
-          "stop" : 1652367619967,
-          "duration" : 10197
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-101.0.4951.54" ]
-      } ],
-      "uid" : "a08c9acc129b2dcbdd6e0e8c7ef9a928"
-    }, {
-      "name" : "element (\"(//td[@class='col-xs-4'])[1]\") still not clickable after 10000ms",
-      "children" : [ {
-        "name" : "Should verify email from Resiliencelab",
-        "uid" : "3497acd9936a6fe4",
-        "parentUid" : "69715e28b6c12c26c59d319c868e506e",
-        "status" : "broken",
-        "time" : {
-          "start" : 1652367619968,
-          "stop" : 1652367630617,
-          "duration" : 10649
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-101.0.4951.54" ]
-      } ],
-      "uid" : "69715e28b6c12c26c59d319c868e506e"
-    }, {
-      "name" : "element (\"(//p[contains(text(),\"test\")]//..//..//button)[2]\") still not clickable after 10000ms",
-      "children" : [ {
-        "name" : "Should check \"test\" text matches",
-        "uid" : "468605aeb6dde01f",
-        "parentUid" : "fa3a9e0a7ffd9b4257ba6042b6ad8b88",
-        "status" : "broken",
-        "time" : {
-          "start" : 1652367630884,
-          "stop" : 1652367641136,
-          "duration" : 10252
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-101.0.4951.54" ]
-      } ],
-      "uid" : "fa3a9e0a7ffd9b4257ba6042b6ad8b88"
-    }, {
-      "name" : "element (\"//button[@type=\"submit\"][text()=\"Download Document\"]\") still not clickable after 10000ms",
-      "children" : [ {
-        "name" : "Should try to download file",
-        "uid" : "92554172f89c80be",
-        "parentUid" : "94af67793d6e15c0c6e60c1114a3687e",
-        "status" : "broken",
-        "time" : {
-          "start" : 1652367641136,
-          "stop" : 1652367651399,
-          "duration" : 10263
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-101.0.4951.54" ]
-      } ],
-      "uid" : "94af67793d6e15c0c6e60c1114a3687e"
-    }, {
-      "name" : "element (\"(//p[contains(text(),\"New Credit Card Form\")]//..//..//button)[1]\") still not clickable after 10000ms",
-      "children" : [ {
-        "name" : "Should go to \"Review and Complete\" for \"New Credit Card Form\"",
-        "uid" : "ab31252009bae71b",
-        "parentUid" : "5464dd2776ae6ac43532abeaf9130f7c",
-        "status" : "broken",
-        "time" : {
-          "start" : 1652367651557,
-          "stop" : 1652367661781,
-          "duration" : 10224
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-101.0.4951.54" ]
-      } ],
-      "uid" : "5464dd2776ae6ac43532abeaf9130f7c"
-    }, {
-      "name" : "element (\"input#cardNumber\") still not displayed after 10000ms",
-      "children" : [ {
-        "name" : "Should fill out credit card form and click \"Submit\" button",
-        "uid" : "89b5d634c894804d",
-        "parentUid" : "8ec0bc81feb38c39055c0ec55e523eb2",
-        "status" : "broken",
-        "time" : {
-          "start" : 1652367661781,
-          "stop" : 1652367677029,
-          "duration" : 15248
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-101.0.4951.54" ]
-      } ],
-      "uid" : "8ec0bc81feb38c39055c0ec55e523eb2"
-    }, {
       "name" : "element (\"(//td[@field='first_name']//a)[1]\") still not clickable after 10000ms",
       "children" : [ {
         "name" : "Should go to some active client profile",
-        "uid" : "aba8bf132a7fe4bf",
+        "uid" : "1d3e4adae67d071a",
         "parentUid" : "0689e64072d948e7d4bc31768ffd8188",
         "status" : "broken",
         "time" : {
-          "start" : 1652367759162,
-          "stop" : 1652367769464,
-          "duration" : 10302
+          "start" : 1652369867788,
+          "stop" : 1652369878047,
+          "duration" : 10259
         },
         "flaky" : false,
         "newFailed" : false,
@@ -212,13 +90,13 @@
       "name" : "Can't call scrollIntoView on element with selector \"li#tab-actions\" because element wasn't found",
       "children" : [ {
         "name" : "Should create and download Superbill statement",
-        "uid" : "1488ec96ad4e90a6",
+        "uid" : "16f8211885fd52a1",
         "parentUid" : "682099e78b7ea901bbb0ed1751270ef6",
         "status" : "broken",
         "time" : {
-          "start" : 1652367769465,
-          "stop" : 1652367779710,
-          "duration" : 10245
+          "start" : 1652369878047,
+          "stop" : 1652369888258,
+          "duration" : 10211
         },
         "flaky" : false,
         "newFailed" : false,
@@ -233,13 +111,13 @@
       "name" : "element (\"#description pre\") still not displayed after 10000ms",
       "children" : [ {
         "name" : "insurance Api log should contain 9fc440c4-5784-6d54-d4d1-6245e3d8d12b",
-        "uid" : "ff01b49e0c9e5743",
+        "uid" : "d6fb45fce737b623",
         "parentUid" : "18d2b8d9c8fd2a1ae531e9f7b6d13448",
         "status" : "broken",
         "time" : {
-          "start" : 1652367869121,
-          "stop" : 1652367893338,
-          "duration" : 24217
+          "start" : 1652369971341,
+          "stop" : 1652369993930,
+          "duration" : 22589
         },
         "flaky" : false,
         "newFailed" : false,
@@ -252,31 +130,6 @@
       "uid" : "18d2b8d9c8fd2a1ae531e9f7b6d13448"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
-  }, {
-    "name" : "Product defects",
-    "children" : [ {
-      "name" : "Malformed type for \"handle\" parameter of command switchToWindow\n                Expected: string\n                Actual: undefined\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-window\n                ",
-      "children" : [ {
-        "name" : "Should click 'View Requests' button in 'Pending Requests' ",
-        "uid" : "93bc585483af15f6",
-        "parentUid" : "77b6ad08a8eb107a082221f2c635e05d",
-        "status" : "failed",
-        "time" : {
-          "start" : 1652367630617,
-          "stop" : 1652367630883,
-          "duration" : 266
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : true,
-        "parameters" : [ "chrome-101.0.4951.54" ]
-      } ],
-      "uid" : "77b6ad08a8eb107a082221f2c635e05d"
-    } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ],
   "name" : "categories"
 }

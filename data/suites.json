@@ -3,48 +3,14 @@
   "children" : [ {
     "name" : "C2257: Default text for document exchanges",
     "children" : [ {
-      "name" : "Should go to clients page and check url",
-      "uid" : "dfbb4c82035ab141",
-      "parentUid" : "81ae33d00cd469cb53c0f71f073c4980",
-      "status" : "passed",
-      "time" : {
-        "start" : 1652367494030,
-        "stop" : 1652367499754,
-        "duration" : 5724
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-101.0.4951.54" ]
-    }, {
-      "name" : "Should go to client with not created account",
-      "uid" : "bab2300aed679e00",
+      "name" : "\"before all\" hook for C2257: Default text for document exchanges",
+      "uid" : "c7af104f3cd82416",
       "parentUid" : "81ae33d00cd469cb53c0f71f073c4980",
       "status" : "broken",
       "time" : {
-        "start" : 1652367499755,
-        "stop" : 1652367510074,
-        "duration" : 10319
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-101.0.4951.54" ]
-    }, {
-      "name" : "Should signUp to account",
-      "uid" : "f12064bd6686d99c",
-      "parentUid" : "81ae33d00cd469cb53c0f71f073c4980",
-      "status" : "broken",
-      "time" : {
-        "start" : 1652367543133,
-        "stop" : 1652367553363,
-        "duration" : 10230
+        "start" : 1652369807470,
+        "stop" : 1652369822652,
+        "duration" : 15182
       },
       "flaky" : false,
       "newFailed" : false,
@@ -55,166 +21,13 @@
       "parameters" : [ "chrome-101.0.4951.54" ]
     }, {
       "name" : "Should go back to client profile and check \"Account status:\" to be \"Account Created\" ",
-      "uid" : "43f51b97cbf8ea32",
+      "uid" : "66406da14d651af2",
       "parentUid" : "81ae33d00cd469cb53c0f71f073c4980",
       "status" : "passed",
       "time" : {
-        "start" : 1652367609718,
-        "stop" : 1652367609770,
-        "duration" : 52
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-101.0.4951.54" ]
-    }, {
-      "name" : "Should select library document to share",
-      "uid" : "826d2d6ab8e156a2",
-      "parentUid" : "81ae33d00cd469cb53c0f71f073c4980",
-      "status" : "broken",
-      "time" : {
-        "start" : 1652367609770,
-        "stop" : 1652367619967,
-        "duration" : 10197
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 1,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-101.0.4951.54" ]
-    }, {
-      "name" : "Should verify email from Resiliencelab",
-      "uid" : "3497acd9936a6fe4",
-      "parentUid" : "81ae33d00cd469cb53c0f71f073c4980",
-      "status" : "broken",
-      "time" : {
-        "start" : 1652367619968,
-        "stop" : 1652367630617,
-        "duration" : 10649
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 1,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-101.0.4951.54" ]
-    }, {
-      "name" : "Should click 'View Requests' button in 'Pending Requests' ",
-      "uid" : "93bc585483af15f6",
-      "parentUid" : "81ae33d00cd469cb53c0f71f073c4980",
-      "status" : "failed",
-      "time" : {
-        "start" : 1652367630617,
-        "stop" : 1652367630883,
-        "duration" : 266
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 1,
-      "retriesStatusChange" : true,
-      "parameters" : [ "chrome-101.0.4951.54" ]
-    }, {
-      "name" : "Should check \"test\" text matches",
-      "uid" : "468605aeb6dde01f",
-      "parentUid" : "81ae33d00cd469cb53c0f71f073c4980",
-      "status" : "broken",
-      "time" : {
-        "start" : 1652367630884,
-        "stop" : 1652367641136,
-        "duration" : 10252
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 1,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-101.0.4951.54" ]
-    }, {
-      "name" : "Should try to download file",
-      "uid" : "92554172f89c80be",
-      "parentUid" : "81ae33d00cd469cb53c0f71f073c4980",
-      "status" : "broken",
-      "time" : {
-        "start" : 1652367641136,
-        "stop" : 1652367651399,
-        "duration" : 10263
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 1,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-101.0.4951.54" ]
-    }, {
-      "name" : "Should go back to pending requests",
-      "uid" : "9030af8c801a9dd0",
-      "parentUid" : "81ae33d00cd469cb53c0f71f073c4980",
-      "status" : "passed",
-      "time" : {
-        "start" : 1652367651399,
-        "stop" : 1652367651556,
-        "duration" : 157
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 1,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-101.0.4951.54" ]
-    }, {
-      "name" : "Should go to \"Review and Complete\" for \"New Credit Card Form\"",
-      "uid" : "ab31252009bae71b",
-      "parentUid" : "81ae33d00cd469cb53c0f71f073c4980",
-      "status" : "broken",
-      "time" : {
-        "start" : 1652367651557,
-        "stop" : 1652367661781,
-        "duration" : 10224
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 1,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-101.0.4951.54" ]
-    }, {
-      "name" : "Should fill out credit card form and click \"Submit\" button",
-      "uid" : "89b5d634c894804d",
-      "parentUid" : "81ae33d00cd469cb53c0f71f073c4980",
-      "status" : "broken",
-      "time" : {
-        "start" : 1652367661781,
-        "stop" : 1652367677029,
-        "duration" : 15248
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 1,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-101.0.4951.54" ]
-    }, {
-      "name" : "\"after all\" hook for C2257: Default text for document exchanges",
-      "uid" : "6f5ff32ed8ea06b7",
-      "parentUid" : "81ae33d00cd469cb53c0f71f073c4980",
-      "status" : "broken",
-      "time" : {
-        "start" : 1652367677029,
-        "stop" : 1652367687246,
-        "duration" : 10217
+        "start" : 1652369822654,
+        "stop" : 1652369830523,
+        "duration" : 7869
       },
       "flaky" : false,
       "newFailed" : false,
@@ -228,14 +41,14 @@
   }, {
     "name" : "C2258: Superbill submission via Portal",
     "children" : [ {
-      "name" : "Should go to clients page and check url",
-      "uid" : "3a75bb5a2f3fa2",
+      "name" : "\"before all\" hook for C2258: Superbill submission via Portal",
+      "uid" : "b357362e2ac7463f",
       "parentUid" : "64a81b910dc1e42f5d18a913a20274f8",
-      "status" : "passed",
+      "status" : "broken",
       "time" : {
-        "start" : 1652367689417,
-        "stop" : 1652367704567,
-        "duration" : 15150
+        "start" : 1652369832201,
+        "stop" : 1652369847368,
+        "duration" : 15167
       },
       "flaky" : false,
       "newFailed" : false,
@@ -245,150 +58,14 @@
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-101.0.4951.54" ]
     }, {
-      "name" : "Should send invitation to CP",
-      "uid" : "f3c19778ffb9cd2e",
+      "name" : "\"after all\" hook for C2258: Superbill submission via Portal",
+      "uid" : "3048291c97078af7",
       "parentUid" : "64a81b910dc1e42f5d18a913a20274f8",
-      "status" : "passed",
+      "status" : "broken",
       "time" : {
-        "start" : 1652367704568,
-        "stop" : 1652367705524,
-        "duration" : 956
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-101.0.4951.54" ]
-    }, {
-      "name" : "Should verify email from Resiliencelab",
-      "uid" : "d299f39f6232ece5",
-      "parentUid" : "64a81b910dc1e42f5d18a913a20274f8",
-      "status" : "passed",
-      "time" : {
-        "start" : 1652367705524,
-        "stop" : 1652367714258,
-        "duration" : 8734
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-101.0.4951.54" ]
-    }, {
-      "name" : "Should signUp to account",
-      "uid" : "22c9a4e639f2e09",
-      "parentUid" : "64a81b910dc1e42f5d18a913a20274f8",
-      "status" : "passed",
-      "time" : {
-        "start" : 1652367714258,
-        "stop" : 1652367715741,
-        "duration" : 1483
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-101.0.4951.54" ]
-    }, {
-      "name" : "Should create Superbill statement",
-      "uid" : "fd38cba7123af093",
-      "parentUid" : "64a81b910dc1e42f5d18a913a20274f8",
-      "status" : "passed",
-      "time" : {
-        "start" : 1652367715741,
-        "stop" : 1652367717306,
-        "duration" : 1565
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-101.0.4951.54" ]
-    }, {
-      "name" : "Should download file",
-      "uid" : "3a0bb85b3fdc038a",
-      "parentUid" : "64a81b910dc1e42f5d18a913a20274f8",
-      "status" : "passed",
-      "time" : {
-        "start" : 1652367717306,
-        "stop" : 1652367723348,
-        "duration" : 6042
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-101.0.4951.54" ]
-    }, {
-      "name" : "Should go to new user without invitation",
-      "uid" : "50877ac52e8f7fe4",
-      "parentUid" : "64a81b910dc1e42f5d18a913a20274f8",
-      "status" : "passed",
-      "time" : {
-        "start" : 1652367723349,
-        "stop" : 1652367726791,
-        "duration" : 3442
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-101.0.4951.54" ]
-    }, {
-      "name" : "Should create Superbill statement without invitation",
-      "uid" : "d85dd92424b434a4",
-      "parentUid" : "64a81b910dc1e42f5d18a913a20274f8",
-      "status" : "passed",
-      "time" : {
-        "start" : 1652367726791,
-        "stop" : 1652367728436,
-        "duration" : 1645
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-101.0.4951.54" ]
-    }, {
-      "name" : "Should sign up to client portal without invitation",
-      "uid" : "a331efc2f62c8e3c",
-      "parentUid" : "64a81b910dc1e42f5d18a913a20274f8",
-      "status" : "passed",
-      "time" : {
-        "start" : 1652367728437,
-        "stop" : 1652367735823,
-        "duration" : 7386
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-101.0.4951.54" ]
-    }, {
-      "name" : "Should download file without invitation",
-      "uid" : "8f55490f91cc22ef",
-      "parentUid" : "64a81b910dc1e42f5d18a913a20274f8",
-      "status" : "passed",
-      "time" : {
-        "start" : 1652367735823,
-        "stop" : 1652367746406,
-        "duration" : 10583
+        "start" : 1652369847369,
+        "stop" : 1652369857472,
+        "duration" : 10103
       },
       "flaky" : false,
       "newFailed" : false,
@@ -403,13 +80,13 @@
     "name" : "C2259: Viewing a PDF superbill",
     "children" : [ {
       "name" : "Should to clients page and check url",
-      "uid" : "b721598f5cb32db5",
+      "uid" : "12643d4e32af3a2c",
       "parentUid" : "aa1cbaab3539ba0c52ef3563e8ad4f12",
       "status" : "passed",
       "time" : {
-        "start" : 1652367748262,
-        "stop" : 1652367759161,
-        "duration" : 10899
+        "start" : 1652369858994,
+        "stop" : 1652369867787,
+        "duration" : 8793
       },
       "flaky" : false,
       "newFailed" : false,
@@ -420,13 +97,13 @@
       "parameters" : [ "chrome-101.0.4951.54" ]
     }, {
       "name" : "Should go to some active client profile",
-      "uid" : "aba8bf132a7fe4bf",
+      "uid" : "1d3e4adae67d071a",
       "parentUid" : "aa1cbaab3539ba0c52ef3563e8ad4f12",
       "status" : "broken",
       "time" : {
-        "start" : 1652367759162,
-        "stop" : 1652367769464,
-        "duration" : 10302
+        "start" : 1652369867788,
+        "stop" : 1652369878047,
+        "duration" : 10259
       },
       "flaky" : false,
       "newFailed" : false,
@@ -437,13 +114,13 @@
       "parameters" : [ "chrome-101.0.4951.54" ]
     }, {
       "name" : "Should create and download Superbill statement",
-      "uid" : "1488ec96ad4e90a6",
+      "uid" : "16f8211885fd52a1",
       "parentUid" : "aa1cbaab3539ba0c52ef3563e8ad4f12",
       "status" : "broken",
       "time" : {
-        "start" : 1652367769465,
-        "stop" : 1652367779710,
-        "duration" : 10245
+        "start" : 1652369878047,
+        "stop" : 1652369888258,
+        "duration" : 10211
       },
       "flaky" : false,
       "newFailed" : false,
@@ -458,13 +135,13 @@
     "name" : "C2261: Clients need to be able to upload documents via Portal",
     "children" : [ {
       "name" : "Should open CP page and Log In",
-      "uid" : "c151393d56f48271",
+      "uid" : "9dafc2ae4e76a47d",
       "parentUid" : "e61216604e05de4a2256469c38f3c4ce",
       "status" : "passed",
       "time" : {
-        "start" : 1652367781577,
-        "stop" : 1652367786139,
-        "duration" : 4562
+        "start" : 1652369889818,
+        "stop" : 1652369893942,
+        "duration" : 4124
       },
       "flaky" : false,
       "newFailed" : false,
@@ -475,13 +152,13 @@
       "parameters" : [ "chrome-101.0.4951.54" ]
     }, {
       "name" : "Should click \"Upload File\" button and add file",
-      "uid" : "3d28b9f4f77d6fdc",
+      "uid" : "fc606e1c0f582c63",
       "parentUid" : "e61216604e05de4a2256469c38f3c4ce",
       "status" : "passed",
       "time" : {
-        "start" : 1652367786140,
-        "stop" : 1652367787111,
-        "duration" : 971
+        "start" : 1652369893943,
+        "stop" : 1652369894893,
+        "duration" : 950
       },
       "flaky" : false,
       "newFailed" : false,
@@ -492,13 +169,13 @@
       "parameters" : [ "chrome-101.0.4951.54" ]
     }, {
       "name" : "Should write document name and click \"Upload and Send Document\" button",
-      "uid" : "214ff58b491490a3",
+      "uid" : "4c1a080ba09e490e",
       "parentUid" : "e61216604e05de4a2256469c38f3c4ce",
       "status" : "passed",
       "time" : {
-        "start" : 1652367787111,
-        "stop" : 1652367787918,
-        "duration" : 807
+        "start" : 1652369894894,
+        "stop" : 1652369895609,
+        "duration" : 715
       },
       "flaky" : false,
       "newFailed" : false,
@@ -509,13 +186,13 @@
       "parameters" : [ "chrome-101.0.4951.54" ]
     }, {
       "name" : "Should verify file upload",
-      "uid" : "45e8664bbc38ae06",
+      "uid" : "4410b2d3577e3eec",
       "parentUid" : "e61216604e05de4a2256469c38f3c4ce",
       "status" : "passed",
       "time" : {
-        "start" : 1652367787918,
-        "stop" : 1652367792399,
-        "duration" : 4481
+        "start" : 1652369895609,
+        "stop" : 1652369898975,
+        "duration" : 3366
       },
       "flaky" : false,
       "newFailed" : false,
@@ -530,13 +207,13 @@
     "name" : "C2265: Terminate client with multiclinician",
     "children" : [ {
       "name" : "Should go to clients page and check url",
-      "uid" : "e16436be3b622378",
+      "uid" : "cd9376ebb89127a6",
       "parentUid" : "4bfc9a47a5fa5a87c7b438556413a3c0",
       "status" : "passed",
       "time" : {
-        "start" : 1652367794281,
-        "stop" : 1652367807411,
-        "duration" : 13130
+        "start" : 1652369900498,
+        "stop" : 1652369913289,
+        "duration" : 12791
       },
       "flaky" : false,
       "newFailed" : false,
@@ -547,13 +224,13 @@
       "parameters" : [ "chrome-101.0.4951.54" ]
     }, {
       "name" : "Should open \"Ashley\" client profile change \"As assigned to:\" to \"Alison Abrams\"",
-      "uid" : "9da1d47a26272d97",
+      "uid" : "f0dbba3b52f21b17",
       "parentUid" : "4bfc9a47a5fa5a87c7b438556413a3c0",
       "status" : "passed",
       "time" : {
-        "start" : 1652367807412,
-        "stop" : 1652367813334,
-        "duration" : 5922
+        "start" : 1652369913290,
+        "stop" : 1652369918742,
+        "duration" : 5452
       },
       "flaky" : false,
       "newFailed" : false,
@@ -564,13 +241,13 @@
       "parameters" : [ "chrome-101.0.4951.54" ]
     }, {
       "name" : "Should terminate client assigned to \"Alison Abrams\" with reason \"test\"",
-      "uid" : "f667beaa9f730cdd",
+      "uid" : "475119a3f8a2fb66",
       "parentUid" : "4bfc9a47a5fa5a87c7b438556413a3c0",
       "status" : "passed",
       "time" : {
-        "start" : 1652367813334,
-        "stop" : 1652367827873,
-        "duration" : 14539
+        "start" : 1652369918742,
+        "stop" : 1652369932605,
+        "duration" : 13863
       },
       "flaky" : false,
       "newFailed" : false,
@@ -581,13 +258,13 @@
       "parameters" : [ "chrome-101.0.4951.54" ]
     }, {
       "name" : "Should switch \"As assigned to:\" to \"Pam Ryan\" and check that it is not terminated",
-      "uid" : "9851778dd9029ed1",
+      "uid" : "9d9322e49390bfdf",
       "parentUid" : "4bfc9a47a5fa5a87c7b438556413a3c0",
       "status" : "passed",
       "time" : {
-        "start" : 1652367827874,
-        "stop" : 1652367846165,
-        "duration" : 18291
+        "start" : 1652369932605,
+        "stop" : 1652369950958,
+        "duration" : 18353
       },
       "flaky" : false,
       "newFailed" : false,
@@ -602,13 +279,13 @@
     "name" : "C2260: Multi State: Connect Nirvana API Key with correct PCorp",
     "children" : [ {
       "name" : "Should to clients page and check url",
-      "uid" : "448471fb9ee08072",
+      "uid" : "d08c46d59f990108",
       "parentUid" : "61fe74c464ec55804d35589b94e214cc",
       "status" : "passed",
       "time" : {
-        "start" : 1652367848029,
-        "stop" : 1652367855434,
-        "duration" : 7405
+        "start" : 1652369952475,
+        "stop" : 1652369959340,
+        "duration" : 6865
       },
       "flaky" : false,
       "newFailed" : false,
@@ -619,13 +296,13 @@
       "parameters" : [ "chrome-101.0.4951.54" ]
     }, {
       "name" : "Should go to Ally Campbell profile",
-      "uid" : "b6caa475493d41f9",
+      "uid" : "2375b66c760f92f0",
       "parentUid" : "61fe74c464ec55804d35589b94e214cc",
       "status" : "passed",
       "time" : {
-        "start" : 1652367855435,
-        "stop" : 1652367856842,
-        "duration" : 1407
+        "start" : 1652369959341,
+        "stop" : 1652369960257,
+        "duration" : 916
       },
       "flaky" : false,
       "newFailed" : false,
@@ -636,13 +313,13 @@
       "parameters" : [ "chrome-101.0.4951.54" ]
     }, {
       "name" : "Edit Insurance data",
-      "uid" : "7dfc2250b107d3c",
+      "uid" : "e4b14498c6729922",
       "parentUid" : "61fe74c464ec55804d35589b94e214cc",
       "status" : "passed",
       "time" : {
-        "start" : 1652367856842,
-        "stop" : 1652367869121,
-        "duration" : 12279
+        "start" : 1652369960257,
+        "stop" : 1652369971340,
+        "duration" : 11083
       },
       "flaky" : false,
       "newFailed" : false,
@@ -653,13 +330,13 @@
       "parameters" : [ "chrome-101.0.4951.54" ]
     }, {
       "name" : "insurance Api log should contain 9fc440c4-5784-6d54-d4d1-6245e3d8d12b",
-      "uid" : "ff01b49e0c9e5743",
+      "uid" : "d6fb45fce737b623",
       "parentUid" : "61fe74c464ec55804d35589b94e214cc",
       "status" : "broken",
       "time" : {
-        "start" : 1652367869121,
-        "stop" : 1652367893338,
-        "duration" : 24217
+        "start" : 1652369971341,
+        "stop" : 1652369993930,
+        "duration" : 22589
       },
       "flaky" : false,
       "newFailed" : false,
@@ -674,13 +351,13 @@
     "name" : "C2263: Multi State: Connect Nirvana API Key with correct PCorp",
     "children" : [ {
       "name" : "Should go to clients page and check url",
-      "uid" : "e70641592c1a4304",
+      "uid" : "26596428b477dc70",
       "parentUid" : "97289d80cb8c4b9b6992898679931753",
       "status" : "passed",
       "time" : {
-        "start" : 1652367895170,
-        "stop" : 1652367902711,
-        "duration" : 7541
+        "start" : 1652369995439,
+        "stop" : 1652370002984,
+        "duration" : 7545
       },
       "flaky" : false,
       "newFailed" : false,
@@ -691,13 +368,13 @@
       "parameters" : [ "chrome-101.0.4951.54" ]
     }, {
       "name" : "Should filter clients",
-      "uid" : "21807f63a3709dc3",
+      "uid" : "ba1ddad5ae33af28",
       "parentUid" : "97289d80cb8c4b9b6992898679931753",
       "status" : "passed",
       "time" : {
-        "start" : 1652367902711,
-        "stop" : 1652367905322,
-        "duration" : 2611
+        "start" : 1652370002984,
+        "stop" : 1652370005517,
+        "duration" : 2533
       },
       "flaky" : false,
       "newFailed" : false,
@@ -708,13 +385,13 @@
       "parameters" : [ "chrome-101.0.4951.54" ]
     }, {
       "name" : "Should open first client profile and uncheck insurance subject \"Cost-share Waiver\" check box",
-      "uid" : "78696087668eda27",
+      "uid" : "bfcca40885aaf104",
       "parentUid" : "97289d80cb8c4b9b6992898679931753",
       "status" : "passed",
       "time" : {
-        "start" : 1652367905322,
-        "stop" : 1652367922070,
-        "duration" : 16748
+        "start" : 1652370005517,
+        "stop" : 1652370021224,
+        "duration" : 15707
       },
       "flaky" : false,
       "newFailed" : false,
@@ -729,13 +406,13 @@
     "name" : "C2264: Price should be 0 with active cost share waiver (CSW)",
     "children" : [ {
       "name" : "Should go to clients page and check url",
-      "uid" : "199cd6371028640f",
+      "uid" : "e8a5700da25180dc",
       "parentUid" : "e8aa6596bccc27d40beb307c5c90151c",
       "status" : "passed",
       "time" : {
-        "start" : 1652367923973,
-        "stop" : 1652367931891,
-        "duration" : 7918
+        "start" : 1652370022772,
+        "stop" : 1652370030136,
+        "duration" : 7364
       },
       "flaky" : false,
       "newFailed" : false,
@@ -746,13 +423,13 @@
       "parameters" : [ "chrome-101.0.4951.54" ]
     }, {
       "name" : "Should filter clients",
-      "uid" : "b9a00da5a21d8e6b",
+      "uid" : "e287d49eca06e35b",
       "parentUid" : "e8aa6596bccc27d40beb307c5c90151c",
       "status" : "passed",
       "time" : {
-        "start" : 1652367931891,
-        "stop" : 1652367938406,
-        "duration" : 6515
+        "start" : 1652370030136,
+        "stop" : 1652370035789,
+        "duration" : 5653
       },
       "flaky" : false,
       "newFailed" : false,
@@ -763,13 +440,13 @@
       "parameters" : [ "chrome-101.0.4951.54" ]
     }, {
       "name" : "Should go first client profile",
-      "uid" : "97f84533b30957f9",
+      "uid" : "65e4bdc29fb0526b",
       "parentUid" : "e8aa6596bccc27d40beb307c5c90151c",
       "status" : "passed",
       "time" : {
-        "start" : 1652367938406,
-        "stop" : 1652367939872,
-        "duration" : 1466
+        "start" : 1652370035789,
+        "stop" : 1652370036764,
+        "duration" : 975
       },
       "flaky" : false,
       "newFailed" : false,
@@ -780,13 +457,13 @@
       "parameters" : [ "chrome-101.0.4951.54" ]
     }, {
       "name" : "Should check cbox for cost-share Waiver and add end date",
-      "uid" : "baa9830784648435",
+      "uid" : "2ab60a5b6d80283",
       "parentUid" : "e8aa6596bccc27d40beb307c5c90151c",
       "status" : "passed",
       "time" : {
-        "start" : 1652367939872,
-        "stop" : 1652367944661,
-        "duration" : 4789
+        "start" : 1652370036764,
+        "stop" : 1652370040862,
+        "duration" : 4098
       },
       "flaky" : false,
       "newFailed" : false,
@@ -797,13 +474,13 @@
       "parameters" : [ "chrome-101.0.4951.54" ]
     }, {
       "name" : "Should go back to profile and check that 'Client agreed rate' = 0",
-      "uid" : "fd82963984a906e3",
+      "uid" : "ec26070b549b01cb",
       "parentUid" : "e8aa6596bccc27d40beb307c5c90151c",
       "status" : "passed",
       "time" : {
-        "start" : 1652367944661,
-        "stop" : 1652367951732,
-        "duration" : 7071
+        "start" : 1652370040862,
+        "stop" : 1652370046664,
+        "duration" : 5802
       },
       "flaky" : false,
       "newFailed" : false,
@@ -814,13 +491,13 @@
       "parameters" : [ "chrome-101.0.4951.54" ]
     }, {
       "name" : "Should verify that each CPT code have the same agreed rate value '0'",
-      "uid" : "c75030dd2e65142b",
+      "uid" : "1f55f62f84703971",
       "parentUid" : "e8aa6596bccc27d40beb307c5c90151c",
       "status" : "passed",
       "time" : {
-        "start" : 1652367951732,
-        "stop" : 1652367967011,
-        "duration" : 15279
+        "start" : 1652370046664,
+        "stop" : 1652370059522,
+        "duration" : 12858
       },
       "flaky" : false,
       "newFailed" : false,
@@ -835,13 +512,13 @@
     "name" : "C2256: Set clinician as inactive.",
     "children" : [ {
       "name" : "Should go to clinicians page",
-      "uid" : "9f6237444f1efdf7",
+      "uid" : "ced639796d2b925d",
       "parentUid" : "4fdd22980b2fbeaabcb98f54388d1e85",
       "status" : "passed",
       "time" : {
-        "start" : 1652367968956,
-        "stop" : 1652367975108,
-        "duration" : 6152
+        "start" : 1652370061095,
+        "stop" : 1652370067151,
+        "duration" : 6056
       },
       "flaky" : false,
       "newFailed" : false,
@@ -852,13 +529,13 @@
       "parameters" : [ "chrome-101.0.4951.54" ]
     }, {
       "name" : "Should go to some active clinician profile",
-      "uid" : "8be160becbdfcf72",
+      "uid" : "5b4310b72ca57b31",
       "parentUid" : "4fdd22980b2fbeaabcb98f54388d1e85",
       "status" : "passed",
       "time" : {
-        "start" : 1652367975109,
-        "stop" : 1652367976483,
-        "duration" : 1374
+        "start" : 1652370067151,
+        "stop" : 1652370068401,
+        "duration" : 1250
       },
       "flaky" : false,
       "newFailed" : false,
@@ -869,13 +546,13 @@
       "parameters" : [ "chrome-101.0.4951.54" ]
     }, {
       "name" : "Should click on \"View clients\"",
-      "uid" : "da04a90e33c40574",
+      "uid" : "c96cb5f2cee020f3",
       "parentUid" : "4fdd22980b2fbeaabcb98f54388d1e85",
       "status" : "passed",
       "time" : {
-        "start" : 1652367976483,
-        "stop" : 1652367978199,
-        "duration" : 1716
+        "start" : 1652370068401,
+        "stop" : 1652370070057,
+        "duration" : 1656
       },
       "flaky" : false,
       "newFailed" : false,
@@ -886,13 +563,13 @@
       "parameters" : [ "chrome-101.0.4951.54" ]
     }, {
       "name" : "Should go to some active client profile",
-      "uid" : "2d280389821d3370",
+      "uid" : "f554dc6cfdde2802",
       "parentUid" : "4fdd22980b2fbeaabcb98f54388d1e85",
       "status" : "passed",
       "time" : {
-        "start" : 1652367978199,
-        "stop" : 1652367979723,
-        "duration" : 1524
+        "start" : 1652370070057,
+        "stop" : 1652370071170,
+        "duration" : 1113
       },
       "flaky" : false,
       "newFailed" : false,
@@ -903,13 +580,13 @@
       "parameters" : [ "chrome-101.0.4951.54" ]
     }, {
       "name" : "Should go to sessions tab and create future session",
-      "uid" : "24c687885571c020",
+      "uid" : "32bb9318f4e29643",
       "parentUid" : "4fdd22980b2fbeaabcb98f54388d1e85",
       "status" : "passed",
       "time" : {
-        "start" : 1652367979723,
-        "stop" : 1652367984404,
-        "duration" : 4681
+        "start" : 1652370071171,
+        "stop" : 1652370076166,
+        "duration" : 4995
       },
       "flaky" : false,
       "newFailed" : false,
@@ -920,13 +597,13 @@
       "parameters" : [ "chrome-101.0.4951.54" ]
     }, {
       "name" : "Should go back to clinician",
-      "uid" : "9f721e2db2e1de6e",
+      "uid" : "54cce1351b7aa893",
       "parentUid" : "4fdd22980b2fbeaabcb98f54388d1e85",
       "status" : "passed",
       "time" : {
-        "start" : 1652367984405,
-        "stop" : 1652367986824,
-        "duration" : 2419
+        "start" : 1652370076167,
+        "stop" : 1652370078431,
+        "duration" : 2264
       },
       "flaky" : false,
       "newFailed" : false,
@@ -937,13 +614,13 @@
       "parameters" : [ "chrome-101.0.4951.54" ]
     }, {
       "name" : "Should go to clinician edit page",
-      "uid" : "10cffaa4718dc269",
+      "uid" : "38b0c4af1126b160",
       "parentUid" : "4fdd22980b2fbeaabcb98f54388d1e85",
       "status" : "passed",
       "time" : {
-        "start" : 1652367986824,
-        "stop" : 1652367987951,
-        "duration" : 1127
+        "start" : 1652370078431,
+        "stop" : 1652370079311,
+        "duration" : 880
       },
       "flaky" : false,
       "newFailed" : false,
@@ -954,13 +631,13 @@
       "parameters" : [ "chrome-101.0.4951.54" ]
     }, {
       "name" : "Should change clinican status to Inactive",
-      "uid" : "8a81e267a38c2f86",
+      "uid" : "5abd0c9bddf57f4b",
       "parentUid" : "4fdd22980b2fbeaabcb98f54388d1e85",
       "status" : "passed",
       "time" : {
-        "start" : 1652367987952,
-        "stop" : 1652367993264,
-        "duration" : 5312
+        "start" : 1652370079312,
+        "stop" : 1652370086908,
+        "duration" : 7596
       },
       "flaky" : false,
       "newFailed" : false,
@@ -971,13 +648,13 @@
       "parameters" : [ "chrome-101.0.4951.54" ]
     }, {
       "name" : "Should repeat steps 3-5 and check that there is not more sessions",
-      "uid" : "f11b1bc642000dfe",
+      "uid" : "ab9ae9e623307434",
       "parentUid" : "4fdd22980b2fbeaabcb98f54388d1e85",
       "status" : "passed",
       "time" : {
-        "start" : 1652367993265,
-        "stop" : 1652368003882,
-        "duration" : 10617
+        "start" : 1652370086908,
+        "stop" : 1652370096840,
+        "duration" : 9932
       },
       "flaky" : false,
       "newFailed" : false,
@@ -992,13 +669,13 @@
     "name" : "C2262: PC POD Clinicians",
     "children" : [ {
       "name" : "Should go to PODs page and check url",
-      "uid" : "eefe0538822e0609",
+      "uid" : "a49204fb09ee3672",
       "parentUid" : "7cde2751937f591e849ca7184632d091",
       "status" : "passed",
       "time" : {
-        "start" : 1652368005502,
-        "stop" : 1652368011194,
-        "duration" : 5692
+        "start" : 1652370098205,
+        "stop" : 1652370104261,
+        "duration" : 6056
       },
       "flaky" : false,
       "newFailed" : false,
@@ -1009,13 +686,13 @@
       "parameters" : [ "chrome-101.0.4951.54" ]
     }, {
       "name" : "Should open POD and click select",
-      "uid" : "940bdb52852f90a0",
+      "uid" : "ae5df7449530ee67",
       "parentUid" : "7cde2751937f591e849ca7184632d091",
       "status" : "passed",
       "time" : {
-        "start" : 1652368011194,
-        "stop" : 1652368013140,
-        "duration" : 1946
+        "start" : 1652370104262,
+        "stop" : 1652370105906,
+        "duration" : 1644
       },
       "flaky" : false,
       "newFailed" : false,
@@ -1026,13 +703,13 @@
       "parameters" : [ "chrome-101.0.4951.54" ]
     }, {
       "name" : "Should add more than 10 clinicians (also who have supervisors)",
-      "uid" : "44a8c16244d266fb",
+      "uid" : "b385d0817c24e71e",
       "parentUid" : "7cde2751937f591e849ca7184632d091",
       "status" : "passed",
       "time" : {
-        "start" : 1652368013141,
-        "stop" : 1652368015545,
-        "duration" : 2404
+        "start" : 1652370105906,
+        "stop" : 1652370107886,
+        "duration" : 1980
       },
       "flaky" : false,
       "newFailed" : false,
@@ -1043,13 +720,13 @@
       "parameters" : [ "chrome-101.0.4951.54" ]
     }, {
       "name" : "Should have list size of 10 clinicians",
-      "uid" : "3b508b6ecd9ed2a6",
+      "uid" : "48429a80689d5d6a",
       "parentUid" : "7cde2751937f591e849ca7184632d091",
       "status" : "passed",
       "time" : {
-        "start" : 1652368015545,
-        "stop" : 1652368015634,
-        "duration" : 89
+        "start" : 1652370107886,
+        "stop" : 1652370107935,
+        "duration" : 49
       },
       "flaky" : false,
       "newFailed" : false,
@@ -1064,13 +741,13 @@
     "name" : "C2253: Report hint",
     "children" : [ {
       "name" : "Should hover more button and check if dropdown menu is displayed",
-      "uid" : "1792c48c32072520",
+      "uid" : "e417fecea5e81d93",
       "parentUid" : "c8295443e51a55754789e764bcf91681",
       "status" : "passed",
       "time" : {
-        "start" : 1652368017333,
-        "stop" : 1652368020697,
-        "duration" : 3364
+        "start" : 1652370109329,
+        "stop" : 1652370112387,
+        "duration" : 3058
       },
       "flaky" : false,
       "newFailed" : false,
@@ -1081,13 +758,13 @@
       "parameters" : [ "chrome-101.0.4951.54" ]
     }, {
       "name" : "Should go to reports page and check url",
-      "uid" : "149e0888844e17c6",
+      "uid" : "275d33507374a553",
       "parentUid" : "c8295443e51a55754789e764bcf91681",
       "status" : "passed",
       "time" : {
-        "start" : 1652368020697,
-        "stop" : 1652368023340,
-        "duration" : 2643
+        "start" : 1652370112388,
+        "stop" : 1652370114907,
+        "duration" : 2519
       },
       "flaky" : false,
       "newFailed" : false,
@@ -1098,13 +775,13 @@
       "parameters" : [ "chrome-101.0.4951.54" ]
     }, {
       "name" : "Should go to certain report page",
-      "uid" : "6f9fc55074a07ef1",
+      "uid" : "67ed3d3d522039a7",
       "parentUid" : "c8295443e51a55754789e764bcf91681",
       "status" : "passed",
       "time" : {
-        "start" : 1652368023341,
-        "stop" : 1652368027919,
-        "duration" : 4578
+        "start" : 1652370114908,
+        "stop" : 1652370119351,
+        "duration" : 4443
       },
       "flaky" : false,
       "newFailed" : false,
@@ -1115,13 +792,13 @@
       "parameters" : [ "chrome-101.0.4951.54" ]
     }, {
       "name" : "Should go to report edit page",
-      "uid" : "e415d94708aae4e",
+      "uid" : "488c8473e41e76bf",
       "parentUid" : "c8295443e51a55754789e764bcf91681",
       "status" : "passed",
       "time" : {
-        "start" : 1652368027919,
-        "stop" : 1652368029109,
-        "duration" : 1190
+        "start" : 1652370119351,
+        "stop" : 1652370120435,
+        "duration" : 1084
       },
       "flaky" : false,
       "newFailed" : false,
@@ -1132,13 +809,13 @@
       "parameters" : [ "chrome-101.0.4951.54" ]
     }, {
       "name" : "Should add some hint, save, and check if hint sing is visible",
-      "uid" : "13c8ffc3af2bb4c5",
+      "uid" : "7f0e2b4628d0993f",
       "parentUid" : "c8295443e51a55754789e764bcf91681",
       "status" : "passed",
       "time" : {
-        "start" : 1652368029109,
-        "stop" : 1652368034650,
-        "duration" : 5541
+        "start" : 1652370120435,
+        "stop" : 1652370126489,
+        "duration" : 6054
       },
       "flaky" : false,
       "newFailed" : false,
@@ -1149,13 +826,13 @@
       "parameters" : [ "chrome-101.0.4951.54" ]
     }, {
       "name" : "Should click hint and check if added hint is visible",
-      "uid" : "420bcdd8574de775",
+      "uid" : "25260be3d0bfa121",
       "parentUid" : "c8295443e51a55754789e764bcf91681",
       "status" : "passed",
       "time" : {
-        "start" : 1652368034650,
-        "stop" : 1652368035701,
-        "duration" : 1051
+        "start" : 1652370126490,
+        "stop" : 1652370127312,
+        "duration" : 822
       },
       "flaky" : false,
       "newFailed" : false,
@@ -1170,13 +847,13 @@
     "name" : "C2254: Filter clinicians search",
     "children" : [ {
       "name" : "Should go to clinicians page",
-      "uid" : "caad5a5e0d508d50",
+      "uid" : "5272d64f7db3787",
       "parentUid" : "02f8c43aebd3f83f1c5cd7ef2a528217",
       "status" : "passed",
       "time" : {
-        "start" : 1652368037434,
-        "stop" : 1652368043342,
-        "duration" : 5908
+        "start" : 1652370128693,
+        "stop" : 1652370134274,
+        "duration" : 5581
       },
       "flaky" : false,
       "newFailed" : false,
@@ -1187,13 +864,13 @@
       "parameters" : [ "chrome-101.0.4951.54" ]
     }, {
       "name" : "Should choose licenses in quick filter",
-      "uid" : "ff7e3ac19dc3dbbf",
+      "uid" : "a78d1a04c2028184",
       "parentUid" : "02f8c43aebd3f83f1c5cd7ef2a528217",
       "status" : "passed",
       "time" : {
-        "start" : 1652368043494,
-        "stop" : 1652368044240,
-        "duration" : 746
+        "start" : 1652370134399,
+        "stop" : 1652370135081,
+        "duration" : 682
       },
       "flaky" : false,
       "newFailed" : false,
@@ -1204,13 +881,13 @@
       "parameters" : [ "chrome-101.0.4951.54" ]
     }, {
       "name" : "Should click filter and check if it's diplayed",
-      "uid" : "c3a67d105a504396",
+      "uid" : "3cf93a1c196499f8",
       "parentUid" : "02f8c43aebd3f83f1c5cd7ef2a528217",
       "status" : "passed",
       "time" : {
-        "start" : 1652368045784,
-        "stop" : 1652368045915,
-        "duration" : 131
+        "start" : 1652370136545,
+        "stop" : 1652370136638,
+        "duration" : 93
       },
       "flaky" : false,
       "newFailed" : false,
@@ -1221,13 +898,13 @@
       "parameters" : [ "chrome-101.0.4951.54" ]
     }, {
       "name" : "Should choose licenses in advanced filter",
-      "uid" : "d8b41f5f15e22b85",
+      "uid" : "dd24a6af6e6a7bd7",
       "parentUid" : "02f8c43aebd3f83f1c5cd7ef2a528217",
       "status" : "passed",
       "time" : {
-        "start" : 1652368045915,
-        "stop" : 1652368047296,
-        "duration" : 1381
+        "start" : 1652370136638,
+        "stop" : 1652370137920,
+        "duration" : 1282
       },
       "flaky" : false,
       "newFailed" : false,
@@ -1238,13 +915,13 @@
       "parameters" : [ "chrome-101.0.4951.54" ]
     }, {
       "name" : "Should search for results and check if filter is working",
-      "uid" : "69afff7f19249e39",
+      "uid" : "bfb49d39d3582b56",
       "parentUid" : "02f8c43aebd3f83f1c5cd7ef2a528217",
       "status" : "passed",
       "time" : {
-        "start" : 1652368047297,
-        "stop" : 1652368048293,
-        "duration" : 996
+        "start" : 1652370137920,
+        "stop" : 1652370138898,
+        "duration" : 978
       },
       "flaky" : false,
       "newFailed" : false,
@@ -1255,13 +932,13 @@
       "parameters" : [ "chrome-101.0.4951.54" ]
     }, {
       "name" : "Should check if options are selected",
-      "uid" : "81984a69ac710485",
+      "uid" : "a79048e9c10140ff",
       "parentUid" : "02f8c43aebd3f83f1c5cd7ef2a528217",
       "status" : "passed",
       "time" : {
-        "start" : 1652368048293,
-        "stop" : 1652368048479,
-        "duration" : 186
+        "start" : 1652370138898,
+        "stop" : 1652370139031,
+        "duration" : 133
       },
       "flaky" : false,
       "newFailed" : false,
@@ -1276,13 +953,13 @@
     "name" : "C2255: Client's filters and columns",
     "children" : [ {
       "name" : "Should to clients page and check url",
-      "uid" : "1c9d1f1f4b4417bc",
+      "uid" : "783cdf31f4505e8d",
       "parentUid" : "de45a05d7b2795953f6c75534701f828",
       "status" : "passed",
       "time" : {
-        "start" : 1652368050189,
-        "stop" : 1652368057070,
-        "duration" : 6881
+        "start" : 1652370140419,
+        "stop" : 1652370147137,
+        "duration" : 6718
       },
       "flaky" : false,
       "newFailed" : false,
@@ -1293,13 +970,13 @@
       "parameters" : [ "chrome-101.0.4951.54" ]
     }, {
       "name" : "Should click filter and check if filter modal is visible",
-      "uid" : "d60bd16728293b7d",
+      "uid" : "60063d397685fe7",
       "parentUid" : "de45a05d7b2795953f6c75534701f828",
       "status" : "passed",
       "time" : {
-        "start" : 1652368057071,
-        "stop" : 1652368057273,
-        "duration" : 202
+        "start" : 1652370147137,
+        "stop" : 1652370147298,
+        "duration" : 161
       },
       "flaky" : false,
       "newFailed" : false,
@@ -1310,13 +987,13 @@
       "parameters" : [ "chrome-101.0.4951.54" ]
     }, {
       "name" : "Should apply filter to clients and check if its work",
-      "uid" : "d903977052be83bc",
+      "uid" : "c65f9bb60117ab0e",
       "parentUid" : "de45a05d7b2795953f6c75534701f828",
       "status" : "passed",
       "time" : {
-        "start" : 1652368057274,
-        "stop" : 1652368061945,
-        "duration" : 4671
+        "start" : 1652370147299,
+        "stop" : 1652370151481,
+        "duration" : 4182
       },
       "flaky" : false,
       "newFailed" : false,
@@ -1327,13 +1004,13 @@
       "parameters" : [ "chrome-101.0.4951.54" ]
     }, {
       "name" : "Should display columns filter modal window",
-      "uid" : "e6d7dc951913513b",
+      "uid" : "36d4b00c504bb7b9",
       "parentUid" : "de45a05d7b2795953f6c75534701f828",
       "status" : "passed",
       "time" : {
-        "start" : 1652368061950,
-        "stop" : 1652368062138,
-        "duration" : 188
+        "start" : 1652370151481,
+        "stop" : 1652370151644,
+        "duration" : 163
       },
       "flaky" : false,
       "newFailed" : false,
@@ -1344,13 +1021,13 @@
       "parameters" : [ "chrome-101.0.4951.54" ]
     }, {
       "name" : "Should display chosen options in clients list columns names",
-      "uid" : "a2bb90a6922d18f5",
+      "uid" : "4a3ec2de6393034f",
       "parentUid" : "de45a05d7b2795953f6c75534701f828",
       "status" : "passed",
       "time" : {
-        "start" : 1652368062138,
-        "stop" : 1652368063075,
-        "duration" : 937
+        "start" : 1652370151644,
+        "stop" : 1652370152488,
+        "duration" : 844
       },
       "flaky" : false,
       "newFailed" : false,
