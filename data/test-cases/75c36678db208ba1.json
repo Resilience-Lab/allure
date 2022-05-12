@@ -1,0 +1,68 @@
+{
+  "uid" : "75c36678db208ba1",
+  "name" : "\"before all\" hook for C2258: Superbill submission via Portal",
+  "fullName" : "C2258: Superbill submission via Portal.\"before all\" hook for C2258: Superbill submission via Portal",
+  "historyId" : "b2387ba9102b10efea57609f5077ad43",
+  "time" : {
+    "start" : 1652362964414,
+    "stop" : 1652362980223,
+    "duration" : 15809
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"//ul[@role='listbox']//li[1]\") still not clickable after 10000ms",
+  "statusTrace" : "Error: element (\"//ul[@role='listbox']//li[1]\") still not clickable after 10000ms\n                    at async createClientPage.waitElementForClickable (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:79:9)\n                    at async createClientPage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:133:9)\n                    at async createClientPage.clickClinicianListFirstItem (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/createClient.page.ts:43:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "C2258: Superbill submission via Portal"
+  }, {
+    "name" : "testClass",
+    "value" : "C2258: Superbill submission via Portal"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook for C2258: Superbill submission via Portal"
+  }, {
+    "name" : "package",
+    "value" : "C2258: Superbill submission via Portal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "75c36678db208ba1.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

@@ -3,16 +3,33 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "element (\"#ins-enroll-btn\") still not clickable after 10000ms",
+      "name" : "element (\"//ul[@role='listbox']//li[1]\") still not clickable after 10000ms",
       "children" : [ {
-        "name" : "edit insurance data",
-        "uid" : "471cc35052a5f105",
-        "parentUid" : "d017521216135f0c750d7077d91e506d",
+        "name" : "\"before all\" hook for C2257: Default text for document exchanges",
+        "uid" : "b56d863e98917643",
+        "parentUid" : "13c9d7cf6254ff52792727035e5a1a43",
         "status" : "broken",
         "time" : {
-          "start" : 1652260612749,
-          "stop" : 1652260624038,
-          "duration" : 11289
+          "start" : 1652362935812,
+          "stop" : 1652362952387,
+          "duration" : 16575
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-101.0.4951.54" ]
+      }, {
+        "name" : "\"before all\" hook for C2258: Superbill submission via Portal",
+        "uid" : "75c36678db208ba1",
+        "parentUid" : "13c9d7cf6254ff52792727035e5a1a43",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652362964414,
+          "stop" : 1652362980223,
+          "duration" : 15809
         },
         "flaky" : false,
         "newFailed" : false,
@@ -22,18 +39,77 @@
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-101.0.4951.54" ]
       } ],
-      "uid" : "d017521216135f0c750d7077d91e506d"
+      "uid" : "13c9d7cf6254ff52792727035e5a1a43"
     }, {
-      "name" : "element (\"//*[@id=\"pagecontent\"]/div[4]/ul/li[6]\") still not clickable after 10000ms",
+      "name" : "element (\"//a[contains(text(),\"CLIENT\")]\") still not clickable after 10000ms",
+      "children" : [ {
+        "name" : "\"after all\" hook for C2257: Default text for document exchanges",
+        "uid" : "7bdd822aedd3993e",
+        "parentUid" : "a6c6681fe8a50109d27c320ef5bb0784",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652362952387,
+          "stop" : 1652362962545,
+          "duration" : 10158
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-101.0.4951.54" ]
+      }, {
+        "name" : "\"after all\" hook for C2258: Superbill submission via Portal",
+        "uid" : "ae567f2e9606e052",
+        "parentUid" : "a6c6681fe8a50109d27c320ef5bb0784",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652362980223,
+          "stop" : 1652362990349,
+          "duration" : 10126
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-101.0.4951.54" ]
+      } ],
+      "uid" : "a6c6681fe8a50109d27c320ef5bb0784"
+    }, {
+      "name" : "Parameter for \"url\" command needs to be type of string",
+      "children" : [ {
+        "name" : "\"before all\" hook for C2261: Clients need to be able to upload documents via Portal",
+        "uid" : "46f2d6f7e1f94a52",
+        "parentUid" : "6ab152e4f0d5f0578886512683edcc38",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652363003790,
+          "stop" : 1652363003821,
+          "duration" : 31
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-101.0.4951.54" ]
+      } ],
+      "uid" : "6ab152e4f0d5f0578886512683edcc38"
+    }, {
+      "name" : "element (\"#description pre\") still not displayed after 10000ms",
       "children" : [ {
         "name" : "insurance Api log should contain 9fc440c4-5784-6d54-d4d1-6245e3d8d12b",
-        "uid" : "69028578f3d4f3ef",
-        "parentUid" : "6d458e70b56bb10c3811e8fa9efdeb41",
+        "uid" : "536f90acaab16ea0",
+        "parentUid" : "18d2b8d9c8fd2a1ae531e9f7b6d13448",
         "status" : "broken",
         "time" : {
-          "start" : 1652260624039,
-          "stop" : 1652260634230,
-          "duration" : 10191
+          "start" : 1652363074922,
+          "stop" : 1652363097523,
+          "duration" : 22601
         },
         "flaky" : false,
         "newFailed" : false,
@@ -43,7 +119,7 @@
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-101.0.4951.54" ]
       } ],
-      "uid" : "6d458e70b56bb10c3811e8fa9efdeb41"
+      "uid" : "18d2b8d9c8fd2a1ae531e9f7b6d13448"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ],

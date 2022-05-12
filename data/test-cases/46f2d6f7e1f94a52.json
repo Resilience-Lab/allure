@@ -1,0 +1,68 @@
+{
+  "uid" : "46f2d6f7e1f94a52",
+  "name" : "\"before all\" hook for C2261: Clients need to be able to upload documents via Portal",
+  "fullName" : "C2261: Clients need to be able to upload documents via Portal.\"before all\" hook for C2261: Clients need to be able to upload documents via Portal",
+  "historyId" : "268e8b39b4015cbed459de8ed1fa774",
+  "time" : {
+    "start" : 1652363003790,
+    "stop" : 1652363003821,
+    "duration" : 31
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Parameter for \"url\" command needs to be type of string",
+  "statusTrace" : "Error: Parameter for \"url\" command needs to be type of string\n                    at async Context.<anonymous> (/home/runner/work/webautomation/webautomation/test/specs/Clients/C2261_upload_doc_via_portal.spec.ts:14:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "C2261: Clients need to be able to upload documents via Portal"
+  }, {
+    "name" : "testClass",
+    "value" : "C2261: Clients need to be able to upload documents via Portal"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook for C2261: Clients need to be able to upload documents via Portal"
+  }, {
+    "name" : "package",
+    "value" : "C2261: Clients need to be able to upload documents via Portal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "46f2d6f7e1f94a52.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}
