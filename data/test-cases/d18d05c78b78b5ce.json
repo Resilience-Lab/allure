@@ -1,0 +1,68 @@
+{
+  "uid" : "d18d05c78b78b5ce",
+  "name" : "\"before all\" hook for C2257: Default text for document exchanges",
+  "fullName" : "C2257: Default text for document exchanges.\"before all\" hook for C2257: Default text for document exchanges",
+  "historyId" : "ad62bc516c0d9cf30c454c1ace2cd627",
+  "time" : {
+    "start" : 1652365282137,
+    "stop" : 1652365300205,
+    "duration" : 18068
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"//ul[@role='listbox']//li[1]\") still not clickable after 10000ms",
+  "statusTrace" : "Error: element (\"//ul[@role='listbox']//li[1]\") still not clickable after 10000ms\n                    at async createClientPage.waitElementForClickable (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:79:9)\n                    at async createClientPage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:133:9)\n                    at async createClientPage.clickClinicianListFirstItem (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/createClient.page.ts:43:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "testClass",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook for C2257: Default text for document exchanges"
+  }, {
+    "name" : "package",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "d18d05c78b78b5ce.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

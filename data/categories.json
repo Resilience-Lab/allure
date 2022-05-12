@@ -6,13 +6,13 @@
       "name" : "element (\"//ul[@role='listbox']//li[1]\") still not clickable after 10000ms",
       "children" : [ {
         "name" : "\"before all\" hook for C2257: Default text for document exchanges",
-        "uid" : "b56d863e98917643",
+        "uid" : "d18d05c78b78b5ce",
         "parentUid" : "13c9d7cf6254ff52792727035e5a1a43",
         "status" : "broken",
         "time" : {
-          "start" : 1652362935812,
-          "stop" : 1652362952387,
-          "duration" : 16575
+          "start" : 1652365282137,
+          "stop" : 1652365300205,
+          "duration" : 18068
         },
         "flaky" : false,
         "newFailed" : false,
@@ -23,13 +23,13 @@
         "parameters" : [ "chrome-101.0.4951.54" ]
       }, {
         "name" : "\"before all\" hook for C2258: Superbill submission via Portal",
-        "uid" : "75c36678db208ba1",
+        "uid" : "b52032f35315bd68",
         "parentUid" : "13c9d7cf6254ff52792727035e5a1a43",
         "status" : "broken",
         "time" : {
-          "start" : 1652362964414,
-          "stop" : 1652362980223,
-          "duration" : 15809
+          "start" : 1652365312519,
+          "stop" : 1652365328698,
+          "duration" : 16179
         },
         "flaky" : false,
         "newFailed" : false,
@@ -44,13 +44,13 @@
       "name" : "element (\"//a[contains(text(),\"CLIENT\")]\") still not clickable after 10000ms",
       "children" : [ {
         "name" : "\"after all\" hook for C2257: Default text for document exchanges",
-        "uid" : "7bdd822aedd3993e",
+        "uid" : "2803e69ddb61759d",
         "parentUid" : "a6c6681fe8a50109d27c320ef5bb0784",
         "status" : "broken",
         "time" : {
-          "start" : 1652362952387,
-          "stop" : 1652362962545,
-          "duration" : 10158
+          "start" : 1652365300206,
+          "stop" : 1652365310345,
+          "duration" : 10139
         },
         "flaky" : false,
         "newFailed" : false,
@@ -61,13 +61,13 @@
         "parameters" : [ "chrome-101.0.4951.54" ]
       }, {
         "name" : "\"after all\" hook for C2258: Superbill submission via Portal",
-        "uid" : "ae567f2e9606e052",
+        "uid" : "fab94bcee7c1c203",
         "parentUid" : "a6c6681fe8a50109d27c320ef5bb0784",
         "status" : "broken",
         "time" : {
-          "start" : 1652362980223,
-          "stop" : 1652362990349,
-          "duration" : 10126
+          "start" : 1652365328699,
+          "stop" : 1652365338845,
+          "duration" : 10146
         },
         "flaky" : false,
         "newFailed" : false,
@@ -79,16 +79,58 @@
       } ],
       "uid" : "a6c6681fe8a50109d27c320ef5bb0784"
     }, {
+      "name" : "element (\"(//td[@field='first_name']//a)[1]\") still not clickable after 10000ms",
+      "children" : [ {
+        "name" : "Should go to some active client profile",
+        "uid" : "ca435c8d80124116",
+        "parentUid" : "0689e64072d948e7d4bc31768ffd8188",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652365349980,
+          "stop" : 1652365360265,
+          "duration" : 10285
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-101.0.4951.54" ]
+      } ],
+      "uid" : "0689e64072d948e7d4bc31768ffd8188"
+    }, {
+      "name" : "Can't call scrollIntoView on element with selector \"li#tab-actions\" because element wasn't found",
+      "children" : [ {
+        "name" : "Should create and download Superbill statement",
+        "uid" : "2bfc26a35866adef",
+        "parentUid" : "682099e78b7ea901bbb0ed1751270ef6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652365360265,
+          "stop" : 1652365370523,
+          "duration" : 10258
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-101.0.4951.54" ]
+      } ],
+      "uid" : "682099e78b7ea901bbb0ed1751270ef6"
+    }, {
       "name" : "Parameter for \"url\" command needs to be type of string",
       "children" : [ {
         "name" : "\"before all\" hook for C2261: Clients need to be able to upload documents via Portal",
-        "uid" : "46f2d6f7e1f94a52",
+        "uid" : "901f6bf629ebe0e9",
         "parentUid" : "6ab152e4f0d5f0578886512683edcc38",
         "status" : "broken",
         "time" : {
-          "start" : 1652363003790,
-          "stop" : 1652363003821,
-          "duration" : 31
+          "start" : 1652365372519,
+          "stop" : 1652365372527,
+          "duration" : 8
         },
         "flaky" : false,
         "newFailed" : false,
@@ -103,13 +145,13 @@
       "name" : "element (\"#description pre\") still not displayed after 10000ms",
       "children" : [ {
         "name" : "insurance Api log should contain 9fc440c4-5784-6d54-d4d1-6245e3d8d12b",
-        "uid" : "536f90acaab16ea0",
+        "uid" : "e0a973bc2974f7e5",
         "parentUid" : "18d2b8d9c8fd2a1ae531e9f7b6d13448",
         "status" : "broken",
         "time" : {
-          "start" : 1652363074922,
-          "stop" : 1652363097523,
-          "duration" : 22601
+          "start" : 1652365458154,
+          "stop" : 1652365481453,
+          "duration" : 23299
         },
         "flaky" : false,
         "newFailed" : false,

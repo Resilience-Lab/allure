@@ -1,0 +1,86 @@
+{
+  "uid" : "e0a973bc2974f7e5",
+  "name" : "insurance Api log should contain 9fc440c4-5784-6d54-d4d1-6245e3d8d12b",
+  "fullName" : "C2260: Multi State: Connect Nirvana API Key with correct PCorp.insurance Api log should contain 9fc440c4-5784-6d54-d4d1-6245e3d8d12b",
+  "historyId" : "bceae2504dcf946ac642f4e7876a2656",
+  "time" : {
+    "start" : 1652365458154,
+    "stop" : 1652365481453,
+    "duration" : 23299
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"#description pre\") still not displayed after 10000ms",
+  "statusTrace" : "Error: element (\"#description pre\") still not displayed after 10000ms\n                    at async ProfilePage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:71:9)\n                    at async ProfilePage.getElementText (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:187:9)\n                    at async ProfilePage.getInsuranceCasesLogDescrText (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:296:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"#description pre\") still not displayed after 10000ms",
+    "statusTrace" : "Error: element (\"#description pre\") still not displayed after 10000ms\n                    at async ProfilePage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:71:9)\n                    at async ProfilePage.getElementText (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:187:9)\n                    at async ProfilePage.getInsuranceCasesLogDescrText (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:296:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3eb33c15d1e8f815",
+      "name" : "Screenshot",
+      "source" : "3eb33c15d1e8f815.png",
+      "type" : "image/png",
+      "size" : 142840
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-5"
+  }, {
+    "name" : "suite",
+    "value" : "C2260: Multi State: Connect Nirvana API Key with correct PCorp"
+  }, {
+    "name" : "testClass",
+    "value" : "C2260: Multi State: Connect Nirvana API Key with correct PCorp"
+  }, {
+    "name" : "testMethod",
+    "value" : "insurance Api log should contain 9fc440c4-5784-6d54-d4d1-6245e3d8d12b"
+  }, {
+    "name" : "package",
+    "value" : "C2260: Multi State: Connect Nirvana API Key with correct PCorp"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "e0a973bc2974f7e5.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}
