@@ -3,33 +3,16 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "element (\"//ul[@role='listbox']//li[1]\") still not clickable after 10000ms",
+      "name" : "element (\"//ul[@role='listbox']//li[@role='option']\") still not clickable after 10000ms",
       "children" : [ {
         "name" : "\"before all\" hook for C2257: Default text for document exchanges",
-        "uid" : "d18d05c78b78b5ce",
-        "parentUid" : "13c9d7cf6254ff52792727035e5a1a43",
+        "uid" : "628088c37a380c3",
+        "parentUid" : "5504af4746b806388898c7a2afddac1d",
         "status" : "broken",
         "time" : {
-          "start" : 1652365282137,
-          "stop" : 1652365300205,
-          "duration" : 18068
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-101.0.4951.54" ]
-      }, {
-        "name" : "\"before all\" hook for C2258: Superbill submission via Portal",
-        "uid" : "b52032f35315bd68",
-        "parentUid" : "13c9d7cf6254ff52792727035e5a1a43",
-        "status" : "broken",
-        "time" : {
-          "start" : 1652365312519,
-          "stop" : 1652365328698,
-          "duration" : 16179
+          "start" : 1652367107706,
+          "stop" : 1652367124769,
+          "duration" : 17063
         },
         "flaky" : false,
         "newFailed" : false,
@@ -39,35 +22,18 @@
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-101.0.4951.54" ]
       } ],
-      "uid" : "13c9d7cf6254ff52792727035e5a1a43"
+      "uid" : "5504af4746b806388898c7a2afddac1d"
     }, {
       "name" : "element (\"//a[contains(text(),\"CLIENT\")]\") still not clickable after 10000ms",
       "children" : [ {
         "name" : "\"after all\" hook for C2257: Default text for document exchanges",
-        "uid" : "2803e69ddb61759d",
+        "uid" : "5307cdd4c84f667a",
         "parentUid" : "a6c6681fe8a50109d27c320ef5bb0784",
         "status" : "broken",
         "time" : {
-          "start" : 1652365300206,
-          "stop" : 1652365310345,
-          "duration" : 10139
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-101.0.4951.54" ]
-      }, {
-        "name" : "\"after all\" hook for C2258: Superbill submission via Portal",
-        "uid" : "fab94bcee7c1c203",
-        "parentUid" : "a6c6681fe8a50109d27c320ef5bb0784",
-        "status" : "broken",
-        "time" : {
-          "start" : 1652365328699,
-          "stop" : 1652365338845,
-          "duration" : 10146
+          "start" : 1652367124773,
+          "stop" : 1652367134911,
+          "duration" : 10138
         },
         "flaky" : false,
         "newFailed" : false,
@@ -78,90 +44,6 @@
         "parameters" : [ "chrome-101.0.4951.54" ]
       } ],
       "uid" : "a6c6681fe8a50109d27c320ef5bb0784"
-    }, {
-      "name" : "element (\"(//td[@field='first_name']//a)[1]\") still not clickable after 10000ms",
-      "children" : [ {
-        "name" : "Should go to some active client profile",
-        "uid" : "ca435c8d80124116",
-        "parentUid" : "0689e64072d948e7d4bc31768ffd8188",
-        "status" : "broken",
-        "time" : {
-          "start" : 1652365349980,
-          "stop" : 1652365360265,
-          "duration" : 10285
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-101.0.4951.54" ]
-      } ],
-      "uid" : "0689e64072d948e7d4bc31768ffd8188"
-    }, {
-      "name" : "Can't call scrollIntoView on element with selector \"li#tab-actions\" because element wasn't found",
-      "children" : [ {
-        "name" : "Should create and download Superbill statement",
-        "uid" : "2bfc26a35866adef",
-        "parentUid" : "682099e78b7ea901bbb0ed1751270ef6",
-        "status" : "broken",
-        "time" : {
-          "start" : 1652365360265,
-          "stop" : 1652365370523,
-          "duration" : 10258
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-101.0.4951.54" ]
-      } ],
-      "uid" : "682099e78b7ea901bbb0ed1751270ef6"
-    }, {
-      "name" : "Parameter for \"url\" command needs to be type of string",
-      "children" : [ {
-        "name" : "\"before all\" hook for C2261: Clients need to be able to upload documents via Portal",
-        "uid" : "901f6bf629ebe0e9",
-        "parentUid" : "6ab152e4f0d5f0578886512683edcc38",
-        "status" : "broken",
-        "time" : {
-          "start" : 1652365372519,
-          "stop" : 1652365372527,
-          "duration" : 8
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-101.0.4951.54" ]
-      } ],
-      "uid" : "6ab152e4f0d5f0578886512683edcc38"
-    }, {
-      "name" : "element (\"#description pre\") still not displayed after 10000ms",
-      "children" : [ {
-        "name" : "insurance Api log should contain 9fc440c4-5784-6d54-d4d1-6245e3d8d12b",
-        "uid" : "e0a973bc2974f7e5",
-        "parentUid" : "18d2b8d9c8fd2a1ae531e9f7b6d13448",
-        "status" : "broken",
-        "time" : {
-          "start" : 1652365458154,
-          "stop" : 1652365481453,
-          "duration" : 23299
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-101.0.4951.54" ]
-      } ],
-      "uid" : "18d2b8d9c8fd2a1ae531e9f7b6d13448"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ],

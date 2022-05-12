@@ -1,18 +1,18 @@
 {
-  "uid" : "2803e69ddb61759d",
-  "name" : "\"after all\" hook for C2257: Default text for document exchanges",
-  "fullName" : "C2257: Default text for document exchanges.\"after all\" hook for C2257: Default text for document exchanges",
-  "historyId" : "6b58d440831c3d3b8974fbb6cb2fe3c5",
+  "uid" : "628088c37a380c3",
+  "name" : "\"before all\" hook for C2257: Default text for document exchanges",
+  "fullName" : "C2257: Default text for document exchanges.\"before all\" hook for C2257: Default text for document exchanges",
+  "historyId" : "ad62bc516c0d9cf30c454c1ace2cd627",
   "time" : {
-    "start" : 1652365300206,
-    "stop" : 1652365310345,
-    "duration" : 10139
+    "start" : 1652367107706,
+    "stop" : 1652367124769,
+    "duration" : 17063
   },
   "description" : "",
   "descriptionHtml" : "",
   "status" : "broken",
-  "statusMessage" : "element (\"//a[contains(text(),\"CLIENT\")]\") still not clickable after 10000ms",
-  "statusTrace" : "Error: element (\"//a[contains(text(),\"CLIENT\")]\") still not clickable after 10000ms\n                    at async ClientsPage.waitElementForClickable (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:79:9)\n                    at async ClientsPage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:133:9)\n                    at async ClientsPage.clickTESTCLIENTProfile (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/clients.page.ts:70:9)",
+  "statusMessage" : "element (\"//ul[@role='listbox']//li[@role='option']\") still not clickable after 10000ms",
+  "statusTrace" : "Error: element (\"//ul[@role='listbox']//li[@role='option']\") still not clickable after 10000ms\n                    at async createClientPage.waitElementForClickable (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:79:9)\n                    at async createClientPage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:133:9)\n                    at async createClientPage.clickClinicianListFirstItem (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/createClient.page.ts:43:9)",
   "flaky" : false,
   "newFailed" : false,
   "newBroken" : false,
@@ -38,7 +38,7 @@
     "value" : "C2257: Default text for document exchanges"
   }, {
     "name" : "testMethod",
-    "value" : "\"after all\" hook for C2257: Default text for document exchanges"
+    "value" : "\"before all\" hook for C2257: Default text for document exchanges"
   }, {
     "name" : "package",
     "value" : "C2257: Default text for document exchanges"
@@ -63,6 +63,6 @@
     } ],
     "tags" : [ ]
   },
-  "source" : "2803e69ddb61759d.json",
+  "source" : "628088c37a380c3.json",
   "parameterValues" : [ "chrome-101.0.4951.54" ]
 }
