@@ -1,0 +1,86 @@
+{
+  "uid" : "1488ec96ad4e90a6",
+  "name" : "Should create and download Superbill statement",
+  "fullName" : "C2259: Viewing a PDF superbill.Should create and download Superbill statement",
+  "historyId" : "80bf2d4599084bc1bf1cbba1b749ee46",
+  "time" : {
+    "start" : 1652367769465,
+    "stop" : 1652367779710,
+    "duration" : 10245
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Can't call scrollIntoView on element with selector \"li#tab-actions\" because element wasn't found",
+  "statusTrace" : "Error: Can't call scrollIntoView on element with selector \"li#tab-actions\" because element wasn't found\n                    at async ProfilePage.scrollElementIntoViewTop (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:261:9)\n                    at async ProfilePage.clickActionsTabBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:111:9)\n                    at async ProfilePage.sendOrDownloadSuperbill (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:410:9)\n                    at async Context.<anonymous> (/home/runner/work/webautomation/webautomation/test/specs/Clients/C2259_viewing_pdf_superbill.spec.ts:24:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Can't call scrollIntoView on element with selector \"li#tab-actions\" because element wasn't found",
+    "statusTrace" : "Error: Can't call scrollIntoView on element with selector \"li#tab-actions\" because element wasn't found\n                    at async ProfilePage.scrollElementIntoViewTop (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:261:9)\n                    at async ProfilePage.clickActionsTabBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:111:9)\n                    at async ProfilePage.sendOrDownloadSuperbill (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:410:9)\n                    at async Context.<anonymous> (/home/runner/work/webautomation/webautomation/test/specs/Clients/C2259_viewing_pdf_superbill.spec.ts:24:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "452a1f0f799e2e00",
+      "name" : "Screenshot",
+      "source" : "452a1f0f799e2e00.png",
+      "type" : "image/png",
+      "size" : 162345
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "C2259: Viewing a PDF superbill"
+  }, {
+    "name" : "testClass",
+    "value" : "C2259: Viewing a PDF superbill"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should create and download Superbill statement"
+  }, {
+    "name" : "package",
+    "value" : "C2259: Viewing a PDF superbill"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "1488ec96ad4e90a6.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

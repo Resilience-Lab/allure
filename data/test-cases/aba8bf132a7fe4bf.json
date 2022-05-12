@@ -1,0 +1,86 @@
+{
+  "uid" : "aba8bf132a7fe4bf",
+  "name" : "Should go to some active client profile",
+  "fullName" : "C2259: Viewing a PDF superbill.Should go to some active client profile",
+  "historyId" : "307564b630d73b87a4b8efb701c1a78f",
+  "time" : {
+    "start" : 1652367759162,
+    "stop" : 1652367769464,
+    "duration" : 10302
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"(//td[@field='first_name']//a)[1]\") still not clickable after 10000ms",
+  "statusTrace" : "Error: element (\"(//td[@field='first_name']//a)[1]\") still not clickable after 10000ms\n                    at async ClientsPage.waitForElementClickableByIndex (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:83:9)\n                    at async ClientsPage.clickByIndex (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:138:9)\n                    at async ClientsPage.clickByIndexClientProfile (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/clients.page.ts:82:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"(//td[@field='first_name']//a)[1]\") still not clickable after 10000ms",
+    "statusTrace" : "Error: element (\"(//td[@field='first_name']//a)[1]\") still not clickable after 10000ms\n                    at async ClientsPage.waitForElementClickableByIndex (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:83:9)\n                    at async ClientsPage.clickByIndex (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:138:9)\n                    at async ClientsPage.clickByIndexClientProfile (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/clients.page.ts:82:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7dee165447d08bf0",
+      "name" : "Screenshot",
+      "source" : "7dee165447d08bf0.png",
+      "type" : "image/png",
+      "size" : 162345
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "C2259: Viewing a PDF superbill"
+  }, {
+    "name" : "testClass",
+    "value" : "C2259: Viewing a PDF superbill"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should go to some active client profile"
+  }, {
+    "name" : "package",
+    "value" : "C2259: Viewing a PDF superbill"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "aba8bf132a7fe4bf.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}
