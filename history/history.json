@@ -1,5 +1,5 @@
 {
-  "ad62bc516c0d9cf30c454c1ace2cd627" : {
+  "f1c6d39a60524e46a61e54aa1ac9f32e" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 1,
@@ -9,13 +9,91 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "628088c37a380c3",
+      "uid" : "930b35a5b83fc6b9",
       "status" : "broken",
-      "statusDetails" : "element (\"//ul[@role='listbox']//li[@role='option']\") still not clickable after 10000ms",
+      "statusDetails" : "element (\"(//p[contains(text(),\"New Credit Card Form\")]//..//..//button)[1]\") still not clickable after 10000ms",
       "time" : {
-        "start" : 1652367107706,
-        "stop" : 1652367124769,
-        "duration" : 17063
+        "start" : 1652367233677,
+        "stop" : 1652367243882,
+        "duration" : 10205
+      }
+    } ]
+  },
+  "720057d85d2158be79e02ab01d0f46c1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "35a608905db72e3e",
+      "status" : "broken",
+      "statusDetails" : "element (\"//a[contains(text(),\"CLIENT\")]\") still not clickable after 10000ms",
+      "time" : {
+        "start" : 1652367083306,
+        "stop" : 1652367093500,
+        "duration" : 10194
+      }
+    } ]
+  },
+  "8e43ef20abacf0de8404f09179a97d4a" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ec8ab4352d84b984",
+      "status" : "failed",
+      "statusDetails" : "Malformed type for \"handle\" parameter of command switchToWindow\n                Expected: string\n                Actual: undefined\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-window\n                ",
+      "time" : {
+        "start" : 1652367212965,
+        "stop" : 1652367213168,
+        "duration" : 203
+      }
+    } ]
+  },
+  "d86e771890be375c6138863479b3b552" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "eb9f8b4155b3cdd3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652367233562,
+        "stop" : 1652367233677,
+        "duration" : 115
+      }
+    } ]
+  },
+  "e4d8ad165294ef99ba2fdfd4939cca14" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c258ed38e080ef1c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652367083198,
+        "stop" : 1652367083305,
+        "duration" : 107
       }
     } ]
   },
@@ -29,13 +107,172 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5307cdd4c84f667a",
+      "uid" : "3022f7d0f83567e6",
       "status" : "broken",
       "statusDetails" : "element (\"//a[contains(text(),\"CLIENT\")]\") still not clickable after 10000ms",
       "time" : {
-        "start" : 1652367124773,
-        "stop" : 1652367134911,
-        "duration" : 10138
+        "start" : 1652367259082,
+        "stop" : 1652367269247,
+        "duration" : 10165
+      }
+    } ]
+  },
+  "ad42dad4c50fa02aa78e5f625bd7819b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "23d160750d0e6b31",
+      "status" : "broken",
+      "statusDetails" : "element (\"//ul[@role='listbox']//li[@role='option']\") still not clickable after 10000ms",
+      "time" : {
+        "start" : 1652367067575,
+        "stop" : 1652367083197,
+        "duration" : 15622
+      }
+    } ]
+  },
+  "102b892514f8270ff8493c7a2f2c4d6a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "23f0b763bea09f2",
+      "status" : "broken",
+      "statusDetails" : "element (\"(//p[contains(text(),\"test\")]//..//..//button)[2]\") still not clickable after 10000ms",
+      "time" : {
+        "start" : 1652367213169,
+        "stop" : 1652367223365,
+        "duration" : 10196
+      }
+    } ]
+  },
+  "a5f1765d8be48a0544116028be65511b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "af354ba36c85271b",
+      "status" : "broken",
+      "statusDetails" : "element (\"//button[@type=\"submit\"][text()=\"Download Document\"]\") still not clickable after 10000ms",
+      "time" : {
+        "start" : 1652367223365,
+        "stop" : 1652367233562,
+        "duration" : 10197
+      }
+    } ]
+  },
+  "2b9b7077bd544160c4ad5b12ea525f4f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "23311d258defa0b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652367192283,
+        "stop" : 1652367192324,
+        "duration" : 41
+      }
+    } ]
+  },
+  "39707aaf6d93f41db508a213467930ab" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4b404050168f9a86",
+      "status" : "broken",
+      "statusDetails" : "element (\"#tab7\") still not clickable after 10000ms",
+      "time" : {
+        "start" : 1652367192324,
+        "stop" : 1652367202491,
+        "duration" : 10167
+      }
+    } ]
+  },
+  "4d1e77338e8c5ee0a688c0c53542a195" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "924d86a1dc0115a4",
+      "status" : "broken",
+      "statusDetails" : "element (\"[name=\"email\"]\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1652367125996,
+        "stop" : 1652367136174,
+        "duration" : 10178
+      }
+    } ]
+  },
+  "f713df536326cf57ae05d754836c9b4f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "10b61549763e6716",
+      "status" : "broken",
+      "statusDetails" : "element (\"(//td[@class='col-xs-4'])[1]\") still not clickable after 10000ms",
+      "time" : {
+        "start" : 1652367202491,
+        "stop" : 1652367212965,
+        "duration" : 10474
+      }
+    } ]
+  },
+  "5bbc0a372e62841b6639546490b220a9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7ff55cb0e1849edb",
+      "status" : "broken",
+      "statusDetails" : "element (\"input#cardNumber\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1652367243882,
+        "stop" : 1652367259082,
+        "duration" : 15200
       }
     } ]
   }

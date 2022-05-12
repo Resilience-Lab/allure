@@ -1,0 +1,95 @@
+{
+  "uid" : "4b404050168f9a86",
+  "name" : "Should select library document to share",
+  "fullName" : "C2257: Default text for document exchanges.Should select library document to share",
+  "historyId" : "39707aaf6d93f41db508a213467930ab",
+  "time" : {
+    "start" : 1652367192324,
+    "stop" : 1652367202491,
+    "duration" : 10167
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"#tab7\") still not clickable after 10000ms",
+  "statusTrace" : "Error: element (\"#tab7\") still not clickable after 10000ms\n                    at async ProfilePage.waitElementForClickable (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:79:9)\n                    at async ProfilePage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:133:9)\n                    at async ProfilePage.clickPortalTabBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:153:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"#tab7\") still not clickable after 10000ms",
+    "statusTrace" : "Error: element (\"#tab7\") still not clickable after 10000ms\n                    at async ProfilePage.waitElementForClickable (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:79:9)\n                    at async ProfilePage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:133:9)\n                    at async ProfilePage.clickPortalTabBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:153:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2326f55ac55d29a0",
+      "name" : "Screenshot",
+      "source" : "2326f55ac55d29a0.png",
+      "type" : "image/png",
+      "size" : 87226
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "testClass",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should select library document to share"
+  }, {
+    "name" : "package",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2c8d5d49acce9b8f",
+      "status" : "broken",
+      "statusDetails" : "element (\"#tab7\") still not clickable after 10000ms",
+      "time" : {
+        "start" : 1652367093501,
+        "stop" : 1652367103680,
+        "duration" : 10179
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "4b404050168f9a86.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}
