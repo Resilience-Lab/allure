@@ -1,5 +1,30 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "element (\"div[field=\"termination_reason\"]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "Should terminate client assigned to \"Danashia Mclaughlin\" with reason \"test\"",
+        "uid" : "9de3f51372e83514",
+        "parentUid" : "26cdf0d21e40f2057d0caac358de9c41",
+        "status" : "broken",
+        "time" : {
+          "start" : 1655298904613,
+          "stop" : 1655298915233,
+          "duration" : 10620
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.61" ]
+      } ],
+      "uid" : "26cdf0d21e40f2057d0caac358de9c41"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
   "name" : "categories"
 }
