@@ -3,16 +3,16 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "element (\"button#terminate-btn\") still not clickable after 60000ms",
+      "name" : "waitUntil condition timed out after 30000ms",
       "children" : [ {
         "name" : "Should terminate client assigned to \"Danashia Mclaughlin\" with reason \"test\"",
-        "uid" : "7bb61e8d66bd7c22",
-        "parentUid" : "b4edd070ffc23b4494d968cc272ffcef",
+        "uid" : "9d0b3bd8867c366e",
+        "parentUid" : "c69744ccc335217116395bbe55b44fe9",
         "status" : "broken",
         "time" : {
-          "start" : 1655284099421,
-          "stop" : 1655284159789,
-          "duration" : 60368
+          "start" : 1655285153283,
+          "stop" : 1655285183978,
+          "duration" : 30695
         },
         "flaky" : false,
         "newFailed" : false,
@@ -22,7 +22,7 @@
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-102.0.5005.61" ]
       } ],
-      "uid" : "b4edd070ffc23b4494d968cc272ffcef"
+      "uid" : "c69744ccc335217116395bbe55b44fe9"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ],
