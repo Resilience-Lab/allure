@@ -6,13 +6,13 @@
       "name" : "Can't call scrollIntoView on element with selector \"li#tab-actions\" because element wasn't found",
       "children" : [ {
         "name" : "\"after all\" hook for C2267: Price should be 0 with active cost share waiver (CSW)",
-        "uid" : "8b23d1999acfec09",
+        "uid" : "a8df22124d4e578a",
         "parentUid" : "682099e78b7ea901bbb0ed1751270ef6",
         "status" : "broken",
         "time" : {
-          "start" : 1655299735878,
-          "stop" : 1655299747124,
-          "duration" : 11246
+          "start" : 1655301400187,
+          "stop" : 1655301411413,
+          "duration" : 11226
         },
         "flaky" : false,
         "newFailed" : false,
@@ -20,20 +20,20 @@
         "newBroken" : false,
         "retriesCount" : 0,
         "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.61" ]
+        "parameters" : [ "chrome-102.0.5005.115" ]
       } ],
       "uid" : "682099e78b7ea901bbb0ed1751270ef6"
     }, {
       "name" : "element (\"//div[@class=\"noty_body\" and contains(text(),'Enrollment In Process')]\") still not displayed after 10000ms",
       "children" : [ {
         "name" : "After select HIPPS should show some informational message",
-        "uid" : "abe8053b96c0454a",
+        "uid" : "1ad07f9d36e7ba39",
         "parentUid" : "8217f4f4cbc88f7c8216eefe13d4a18b",
         "status" : "broken",
         "time" : {
-          "start" : 1655299801908,
-          "stop" : 1655299844385,
-          "duration" : 42477
+          "start" : 1655301466750,
+          "stop" : 1655301501286,
+          "duration" : 34536
         },
         "flaky" : false,
         "newFailed" : false,
@@ -41,7 +41,7 @@
         "newBroken" : false,
         "retriesCount" : 0,
         "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.61" ]
+        "parameters" : [ "chrome-102.0.5005.115" ]
       } ],
       "uid" : "8217f4f4cbc88f7c8216eefe13d4a18b"
     } ],
