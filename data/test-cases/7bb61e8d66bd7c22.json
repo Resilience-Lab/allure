@@ -1,0 +1,86 @@
+{
+  "uid" : "7bb61e8d66bd7c22",
+  "name" : "Should terminate client assigned to \"Danashia Mclaughlin\" with reason \"test\"",
+  "fullName" : "C2265: Terminate client with multiclinician.Should terminate client assigned to \"Danashia Mclaughlin\" with reason \"test\"",
+  "historyId" : "f21992845bd42da18e76e8833b7198e",
+  "time" : {
+    "start" : 1655284099421,
+    "stop" : 1655284159789,
+    "duration" : 60368
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"button#terminate-btn\") still not clickable after 60000ms",
+  "statusTrace" : "Error: element (\"button#terminate-btn\") still not clickable after 60000ms\n                    at async ProfilePage.waitElementForClickable (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:79:9)\n                    at async ProfilePage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:133:9)\n                    at async ProfilePage.clickTerminateClientBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:256:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"button#terminate-btn\") still not clickable after 60000ms",
+    "statusTrace" : "Error: element (\"button#terminate-btn\") still not clickable after 60000ms\n                    at async ProfilePage.waitElementForClickable (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:79:9)\n                    at async ProfilePage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:133:9)\n                    at async ProfilePage.clickTerminateClientBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:256:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3e265d4af7eb8885",
+      "name" : "Screenshot",
+      "source" : "3e265d4af7eb8885.png",
+      "type" : "image/png",
+      "size" : 68372
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-4"
+  }, {
+    "name" : "suite",
+    "value" : "C2265: Terminate client with multiclinician"
+  }, {
+    "name" : "testClass",
+    "value" : "C2265: Terminate client with multiclinician"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should terminate client assigned to \"Danashia Mclaughlin\" with reason \"test\""
+  }, {
+    "name" : "package",
+    "value" : "C2265: Terminate client with multiclinician"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.61"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "7bb61e8d66bd7c22.json",
+  "parameterValues" : [ "chrome-102.0.5005.61" ]
+}

@@ -1,5 +1,30 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "element (\"button#terminate-btn\") still not clickable after 60000ms",
+      "children" : [ {
+        "name" : "Should terminate client assigned to \"Danashia Mclaughlin\" with reason \"test\"",
+        "uid" : "7bb61e8d66bd7c22",
+        "parentUid" : "b4edd070ffc23b4494d968cc272ffcef",
+        "status" : "broken",
+        "time" : {
+          "start" : 1655284099421,
+          "stop" : 1655284159789,
+          "duration" : 60368
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.61" ]
+      } ],
+      "uid" : "b4edd070ffc23b4494d968cc272ffcef"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
   "name" : "categories"
 }
