@@ -6,13 +6,13 @@
       "name" : "Can't call scrollIntoView on element with selector \"li#tab-actions\" because element wasn't found",
       "children" : [ {
         "name" : "\"after all\" hook for C2267: Price should be 0 with active cost share waiver (CSW)",
-        "uid" : "2c0a88e227027251",
+        "uid" : "86c9620f143225c4",
         "parentUid" : "682099e78b7ea901bbb0ed1751270ef6",
         "status" : "broken",
         "time" : {
-          "start" : 1655368384040,
-          "stop" : 1655368395578,
-          "duration" : 11538
+          "start" : 1655370625715,
+          "stop" : 1655370637040,
+          "duration" : 11325
         },
         "flaky" : false,
         "newFailed" : false,
@@ -23,6 +23,69 @@
         "parameters" : [ "chrome-102.0.5005.115" ]
       } ],
       "uid" : "682099e78b7ea901bbb0ed1751270ef6"
+    }, {
+      "name" : "Can't call scrollIntoView on element with selector \"#insurance_status_advanced\" because element wasn't found",
+      "children" : [ {
+        "name" : "Should go to filter and from 'Insurance Status' select 'Enrollment Completed', from 'In-Network' select 'Yes'",
+        "uid" : "4aed9666be3d6e13",
+        "parentUid" : "dc84c102d583c2474c84364cbe9ce178",
+        "status" : "broken",
+        "time" : {
+          "start" : 1655370719198,
+          "stop" : 1655370729567,
+          "duration" : 10369
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.115" ]
+      } ],
+      "uid" : "dc84c102d583c2474c84364cbe9ce178"
+    }, {
+      "name" : "element (\"(//td[@field='first_name']//a)[1]\") still not clickable after 10000ms",
+      "children" : [ {
+        "name" : "Should open client profile and create session",
+        "uid" : "b02a5bebdce926b5",
+        "parentUid" : "0689e64072d948e7d4bc31768ffd8188",
+        "status" : "broken",
+        "time" : {
+          "start" : 1655370729568,
+          "stop" : 1655370739789,
+          "duration" : 10221
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.115" ]
+      } ],
+      "uid" : "0689e64072d948e7d4bc31768ffd8188"
+    }, {
+      "name" : "element (\"[onclick*=\"changeTabsSubpanels('4')\"]\") still not clickable after 60000ms",
+      "children" : [ {
+        "name" : "Should create session with similar to time of first session and check alert",
+        "uid" : "49373d61a7b03281",
+        "parentUid" : "068dacf1f61ffef3bd758eea0ce7f0e1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1655370739789,
+          "stop" : 1655370799992,
+          "duration" : 60203
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.115" ]
+      } ],
+      "uid" : "068dacf1f61ffef3bd758eea0ce7f0e1"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ],
