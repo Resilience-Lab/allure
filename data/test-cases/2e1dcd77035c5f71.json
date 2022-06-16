@@ -1,0 +1,68 @@
+{
+  "uid" : "2e1dcd77035c5f71",
+  "name" : "\"after all\" hook for C2267: Price should be 0 with active cost share waiver (CSW)",
+  "fullName" : "C2267: Price should be 0 with active cost share waiver (CSW).\"after all\" hook for C2267: Price should be 0 with active cost share waiver (CSW)",
+  "historyId" : "62254d8d9aaef9025c3a93d9d9f291d",
+  "time" : {
+    "start" : 1655410660837,
+    "stop" : 1655410672133,
+    "duration" : 11296
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Can't call scrollIntoView on element with selector \"li#tab-actions\" because element wasn't found",
+  "statusTrace" : "Error: Can't call scrollIntoView on element with selector \"li#tab-actions\" because element wasn't found\n                    at async ProfilePage.scrollElementIntoViewTop (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:261:9)\n                    at async ProfilePage.clickActionsTabBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:217:9)\n                    at async ProfilePage.deleteProfile (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:567:9)\n                    at async Context.<anonymous> (/home/runner/work/webautomation/webautomation/test/specs/Clients/Insurance/C2267_Standard_billing_rate_message_for_INN_partner_payer.spec.ts:64:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-11"
+  }, {
+    "name" : "suite",
+    "value" : "C2267: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "testClass",
+    "value" : "C2267: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"after all\" hook for C2267: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "package",
+    "value" : "C2267: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "2e1dcd77035c5f71.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}
