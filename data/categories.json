@@ -3,37 +3,16 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "element (\"div[field=\"termination_reason\"]\") still not displayed after 10000ms",
-      "children" : [ {
-        "name" : "Should terminate client assigned to \"Danashia Mclaughlin\" with reason \"test\"",
-        "uid" : "d0755b75c42c7ba3",
-        "parentUid" : "26cdf0d21e40f2057d0caac358de9c41",
-        "status" : "broken",
-        "time" : {
-          "start" : 1655323136077,
-          "stop" : 1655323147430,
-          "duration" : 11353
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.61" ]
-      } ],
-      "uid" : "26cdf0d21e40f2057d0caac358de9c41"
-    }, {
       "name" : "Can't call scrollIntoView on element with selector \"li#tab-actions\" because element wasn't found",
       "children" : [ {
         "name" : "\"after all\" hook for C2267: Price should be 0 with active cost share waiver (CSW)",
-        "uid" : "88be840ab5a6dac4",
+        "uid" : "2c0a88e227027251",
         "parentUid" : "682099e78b7ea901bbb0ed1751270ef6",
         "status" : "broken",
         "time" : {
-          "start" : 1655323420628,
-          "stop" : 1655323432328,
-          "duration" : 11700
+          "start" : 1655368384040,
+          "stop" : 1655368395578,
+          "duration" : 11538
         },
         "flaky" : false,
         "newFailed" : false,
@@ -41,7 +20,7 @@
         "newBroken" : false,
         "retriesCount" : 0,
         "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.61" ]
+        "parameters" : [ "chrome-102.0.5005.115" ]
       } ],
       "uid" : "682099e78b7ea901bbb0ed1751270ef6"
     } ],
