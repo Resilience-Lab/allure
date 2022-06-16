@@ -1,18 +1,19 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "Can't call scrollIntoView on element with selector \"li#tab-actions\" because element wasn't found",
+      "name" : "element (\"li#tab-actions\") still not clickable after 60000ms",
       "children" : [ {
         "name" : "\"after all\" hook for C2267: Price should be 0 with active cost share waiver (CSW)",
-        "uid" : "d7b03a4176b41bab",
-        "parentUid" : "682099e78b7ea901bbb0ed1751270ef6",
+        "uid" : "dfce31757122383a",
+        "parentUid" : "fcfcdbf0a0936f544b25410a8a174e4c",
         "status" : "broken",
         "time" : {
-          "start" : 1655413796826,
-          "stop" : 1655413808372,
-          "duration" : 11546
+          "start" : 1655415866187,
+          "stop" : 1655415927424,
+          "duration" : 61237
         },
         "flaky" : false,
         "newFailed" : false,
@@ -22,9 +23,8 @@
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-102.0.5005.115" ]
       } ],
-      "uid" : "682099e78b7ea901bbb0ed1751270ef6"
+      "uid" : "fcfcdbf0a0936f544b25410a8a174e4c"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
-  } ],
-  "name" : "categories"
+  } ]
 }
