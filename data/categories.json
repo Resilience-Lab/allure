@@ -6,13 +6,13 @@
       "name" : "element (\"li#tab-actions\") still not clickable after 60000ms",
       "children" : [ {
         "name" : "\"after all\" hook for C2267: Price should be 0 with active cost share waiver (CSW)",
-        "uid" : "769786a8b7a02c32",
+        "uid" : "ebec274f951259ca",
         "parentUid" : "fcfcdbf0a0936f544b25410a8a174e4c",
         "status" : "broken",
         "time" : {
-          "start" : 1655457663846,
-          "stop" : 1655457725286,
-          "duration" : 61440
+          "start" : 1655459108255,
+          "stop" : 1655459169642,
+          "duration" : 61387
         },
         "flaky" : false,
         "newFailed" : false,
@@ -27,13 +27,13 @@
       "name" : "element (\"input#signed_hipaa_npp\") still not displayed after 60000ms",
       "children" : [ {
         "name" : "After select HIPPS should show some informational message",
-        "uid" : "d259eb457d671168",
+        "uid" : "90e3877a01a57364",
         "parentUid" : "e32b7d88d83110774bc62f894d7cf2fb",
         "status" : "broken",
         "time" : {
-          "start" : 1655457788491,
-          "stop" : 1655457863589,
-          "duration" : 75098
+          "start" : 1655459237050,
+          "stop" : 1655459313496,
+          "duration" : 76446
         },
         "flaky" : false,
         "newFailed" : false,
@@ -52,13 +52,13 @@
       "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"Please confirm patient/guardian has signed HIPAA NPP\"\n                Received: \"Enrollment In Process, you will be notified on result\"",
       "children" : [ {
         "name" : "Should click the 'Enrole Insurance' button",
-        "uid" : "612d526796f078ba",
+        "uid" : "c257eb981126aa80",
         "parentUid" : "c8c830d15bdf5519b6501a7ef8de764c",
         "status" : "failed",
         "time" : {
-          "start" : 1655457781020,
-          "stop" : 1655457788490,
-          "duration" : 7470
+          "start" : 1655459229617,
+          "stop" : 1655459237046,
+          "duration" : 7429
         },
         "flaky" : false,
         "newFailed" : false,
