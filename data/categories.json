@@ -3,16 +3,16 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "element (\"li#tab-actions\") still not clickable after 60000ms",
+      "name" : "element (\"//a[text()='ACTIONS']\") still not clickable after 60000ms",
       "children" : [ {
         "name" : "\"after all\" hook for C2267: Price should be 0 with active cost share waiver (CSW)",
-        "uid" : "c14e1aa14093e6f6",
-        "parentUid" : "fcfcdbf0a0936f544b25410a8a174e4c",
+        "uid" : "e1bea0ef26f24a0a",
+        "parentUid" : "d6d361d654484b1060b1458e198477d7",
         "status" : "broken",
         "time" : {
-          "start" : 1655460483004,
-          "stop" : 1655460544327,
-          "duration" : 61323
+          "start" : 1655464827173,
+          "stop" : 1655464888711,
+          "duration" : 61538
         },
         "flaky" : false,
         "newFailed" : false,
@@ -22,18 +22,18 @@
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-102.0.5005.115" ]
       } ],
-      "uid" : "fcfcdbf0a0936f544b25410a8a174e4c"
+      "uid" : "d6d361d654484b1060b1458e198477d7"
     }, {
-      "name" : "element (\"input#signed_hipaa_npp\") still not displayed after 60000ms",
+      "name" : "waitUntil condition timed out after 60000ms",
       "children" : [ {
-        "name" : "After select HIPPS should show some informational message",
-        "uid" : "914a914bcca9c509",
-        "parentUid" : "e32b7d88d83110774bc62f894d7cf2fb",
+        "name" : "Should open client profile and create session",
+        "uid" : "20fca85968a97698",
+        "parentUid" : "b3b6f42b74aaa196de6c97ba048700b3",
         "status" : "broken",
         "time" : {
-          "start" : 1655460604289,
-          "stop" : 1655460678502,
-          "duration" : 74213
+          "start" : 1655464980100,
+          "stop" : 1655465042316,
+          "duration" : 62216
         },
         "flaky" : false,
         "newFailed" : false,
@@ -43,34 +43,30 @@
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-102.0.5005.115" ]
       } ],
-      "uid" : "e32b7d88d83110774bc62f894d7cf2fb"
+      "uid" : "b3b6f42b74aaa196de6c97ba048700b3"
+    }, {
+      "name" : "element (\"[onclick*=\"changeTabsSubpanels('4')\"]\") still not clickable after 60000ms",
+      "children" : [ {
+        "name" : "Should create session with similar to time of first session and check alert",
+        "uid" : "cbb9296513975699",
+        "parentUid" : "068dacf1f61ffef3bd758eea0ce7f0e1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1655465042318,
+          "stop" : 1655465102561,
+          "duration" : 60243
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.115" ]
+      } ],
+      "uid" : "068dacf1f61ffef3bd758eea0ce7f0e1"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
-  }, {
-    "name" : "Product defects",
-    "children" : [ {
-      "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"Please confirm patient/guardian has signed HIPAA NPP\"\n                Received: \"Enrollment In Process, you will be notified on result\"",
-      "children" : [ {
-        "name" : "Should click the 'Enrole Insurance' button",
-        "uid" : "85896800b8a56585",
-        "parentUid" : "c8c830d15bdf5519b6501a7ef8de764c",
-        "status" : "failed",
-        "time" : {
-          "start" : 1655460597002,
-          "stop" : 1655460604289,
-          "duration" : 7287
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.115" ]
-      } ],
-      "uid" : "c8c830d15bdf5519b6501a7ef8de764c"
-    } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ],
   "name" : "categories"
 }
