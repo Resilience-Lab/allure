@@ -1,0 +1,68 @@
+{
+  "uid" : "c14e1aa14093e6f6",
+  "name" : "\"after all\" hook for C2267: Price should be 0 with active cost share waiver (CSW)",
+  "fullName" : "C2267: Price should be 0 with active cost share waiver (CSW).\"after all\" hook for C2267: Price should be 0 with active cost share waiver (CSW)",
+  "historyId" : "62254d8d9aaef9025c3a93d9d9f291d",
+  "time" : {
+    "start" : 1655460483004,
+    "stop" : 1655460544327,
+    "duration" : 61323
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"li#tab-actions\") still not clickable after 60000ms",
+  "statusTrace" : "Error: element (\"li#tab-actions\") still not clickable after 60000ms\n                    at async ProfilePage.waitElementForClickable (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:79:9)\n                    at async ProfilePage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:133:9)\n                    at async ProfilePage.clickActionsTabBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:217:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-11"
+  }, {
+    "name" : "suite",
+    "value" : "C2267: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "testClass",
+    "value" : "C2267: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"after all\" hook for C2267: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "package",
+    "value" : "C2267: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "c14e1aa14093e6f6.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}
