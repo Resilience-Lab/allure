@@ -6,13 +6,13 @@
       "name" : "element (\"//a[text()='ACTIONS']\") still not clickable after 60000ms",
       "children" : [ {
         "name" : "\"after all\" hook for C2267: Price should be 0 with active cost share waiver (CSW)",
-        "uid" : "5ea0ff889f8b6d2b",
+        "uid" : "74ecd0bb1546a52",
         "parentUid" : "d6d361d654484b1060b1458e198477d7",
         "status" : "broken",
         "time" : {
-          "start" : 1655470012235,
-          "stop" : 1655470073736,
-          "duration" : 61501
+          "start" : 1655481638099,
+          "stop" : 1655481700077,
+          "duration" : 61978
         },
         "flaky" : false,
         "newFailed" : false,
@@ -23,48 +23,6 @@
         "parameters" : [ "chrome-102.0.5005.115" ]
       } ],
       "uid" : "d6d361d654484b1060b1458e198477d7"
-    }, {
-      "name" : "waitUntil condition timed out after 60000ms",
-      "children" : [ {
-        "name" : "Should open client profile and create session",
-        "uid" : "d021701f8d198a28",
-        "parentUid" : "b3b6f42b74aaa196de6c97ba048700b3",
-        "status" : "broken",
-        "time" : {
-          "start" : 1655470162430,
-          "stop" : 1655470224590,
-          "duration" : 62160
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.115" ]
-      } ],
-      "uid" : "b3b6f42b74aaa196de6c97ba048700b3"
-    }, {
-      "name" : "element (\"[onclick*=\"changeTabsSubpanels('4')\"]\") still not clickable after 60000ms",
-      "children" : [ {
-        "name" : "Should create session with similar to time of first session and check alert",
-        "uid" : "4cae62b8d5e62b78",
-        "parentUid" : "068dacf1f61ffef3bd758eea0ce7f0e1",
-        "status" : "broken",
-        "time" : {
-          "start" : 1655470224591,
-          "stop" : 1655470284816,
-          "duration" : 60225
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.115" ]
-      } ],
-      "uid" : "068dacf1f61ffef3bd758eea0ce7f0e1"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ],
