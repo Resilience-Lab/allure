@@ -1,0 +1,86 @@
+{
+  "uid" : "d021701f8d198a28",
+  "name" : "Should open client profile and create session",
+  "fullName" : "C2272: Don't allow to create more than 1 session per day for INN enrolled client.Should open client profile and create session",
+  "historyId" : "c996d44d1b57d108b8c60de9a43def65",
+  "time" : {
+    "start" : 1655470162430,
+    "stop" : 1655470224590,
+    "duration" : 62160
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "waitUntil condition timed out after 60000ms",
+  "statusTrace" : "Error: waitUntil condition timed out after 60000ms\n                    at async ProfilePage.waitUntilDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:99:9)\n                    at async ProfilePage.continueBtnWaitUntilDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:150:9)\n                    at async createSession (/home/runner/work/webautomation/webautomation/test/specs/Clients/Session creating test cases/С2272_For_INN_enrolled_сlient.spec.ts:20:12)\n                    at async Context.<anonymous> (/home/runner/work/webautomation/webautomation/test/specs/Clients/Session creating test cases/С2272_For_INN_enrolled_сlient.spec.ts:50:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "waitUntil condition timed out after 60000ms",
+    "statusTrace" : "Error: waitUntil condition timed out after 60000ms\n                    at async ProfilePage.waitUntilDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:99:9)\n                    at async ProfilePage.continueBtnWaitUntilDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:150:9)\n                    at async createSession (/home/runner/work/webautomation/webautomation/test/specs/Clients/Session creating test cases/С2272_For_INN_enrolled_сlient.spec.ts:20:12)\n                    at async Context.<anonymous> (/home/runner/work/webautomation/webautomation/test/specs/Clients/Session creating test cases/С2272_For_INN_enrolled_сlient.spec.ts:50:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "84ee0f776970941e",
+      "name" : "Screenshot",
+      "source" : "84ee0f776970941e.png",
+      "type" : "image/png",
+      "size" : 181862
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-13"
+  }, {
+    "name" : "suite",
+    "value" : "C2272: Don't allow to create more than 1 session per day for INN enrolled client"
+  }, {
+    "name" : "testClass",
+    "value" : "C2272: Don't allow to create more than 1 session per day for INN enrolled client"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should open client profile and create session"
+  }, {
+    "name" : "package",
+    "value" : "C2272: Don't allow to create more than 1 session per day for INN enrolled client"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "d021701f8d198a28.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}
