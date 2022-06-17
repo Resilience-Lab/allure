@@ -1,19 +1,18 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "name" : "categories",
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
       "name" : "element (\"li#tab-actions\") still not clickable after 60000ms",
       "children" : [ {
         "name" : "\"after all\" hook for C2267: Price should be 0 with active cost share waiver (CSW)",
-        "uid" : "2e3260cb6daba4d6",
+        "uid" : "769786a8b7a02c32",
         "parentUid" : "fcfcdbf0a0936f544b25410a8a174e4c",
         "status" : "broken",
         "time" : {
-          "start" : 1655417427449,
-          "stop" : 1655417488829,
-          "duration" : 61380
+          "start" : 1655457663846,
+          "stop" : 1655457725286,
+          "duration" : 61440
         },
         "flaky" : false,
         "newFailed" : false,
@@ -24,7 +23,54 @@
         "parameters" : [ "chrome-102.0.5005.115" ]
       } ],
       "uid" : "fcfcdbf0a0936f544b25410a8a174e4c"
+    }, {
+      "name" : "element (\"input#signed_hipaa_npp\") still not displayed after 60000ms",
+      "children" : [ {
+        "name" : "After select HIPPS should show some informational message",
+        "uid" : "d259eb457d671168",
+        "parentUid" : "e32b7d88d83110774bc62f894d7cf2fb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1655457788491,
+          "stop" : 1655457863589,
+          "duration" : 75098
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.115" ]
+      } ],
+      "uid" : "e32b7d88d83110774bc62f894d7cf2fb"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
-  } ]
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"Please confirm patient/guardian has signed HIPAA NPP\"\n                Received: \"Enrollment In Process, you will be notified on result\"",
+      "children" : [ {
+        "name" : "Should click the 'Enrole Insurance' button",
+        "uid" : "612d526796f078ba",
+        "parentUid" : "c8c830d15bdf5519b6501a7ef8de764c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1655457781020,
+          "stop" : 1655457788490,
+          "duration" : 7470
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.115" ]
+      } ],
+      "uid" : "c8c830d15bdf5519b6501a7ef8de764c"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
 }
