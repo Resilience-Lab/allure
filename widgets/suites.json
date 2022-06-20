@@ -1,39 +1,6 @@
 {
   "total" : 23,
   "items" : [ {
-    "uid" : "c8295443e51a55754789e764bcf91681",
-    "name" : "C2253: Report hint",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 4,
-      "skipped" : 0,
-      "passed" : 2,
-      "unknown" : 0,
-      "total" : 6
-    }
-  }, {
-    "uid" : "61fe74c464ec55804d35589b94e214cc",
-    "name" : "C2260: Multi State: Connect Nirvana API Key with correct PCorp",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 2,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 2
-    }
-  }, {
-    "uid" : "e8aa6596bccc27d40beb307c5c90151c",
-    "name" : "C2264: Price should be 0 with active cost share waiver (CSW)",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 5,
-      "unknown" : 0,
-      "total" : 6
-    }
-  }, {
     "uid" : "6661e9a2fa08a7eeb33ed54acd800a13",
     "name" : "C2267: Price should be 0 with active cost share waiver (CSW)",
     "statistic" : {
@@ -56,15 +23,26 @@
       "total" : 4
     }
   }, {
+    "uid" : "7d5c56b3be107ddba107ac06ae160f94",
+    "name" : "C2281: Verify Progress Note mandatory fields",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
     "uid" : "8868d80d4eb9ad7b6f602d459e2b748c",
     "name" : "C2282: Verify Progress Note disabled fields",
     "statistic" : {
       "failed" : 0,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     }
   }, {
     "uid" : "81ae33d00cd469cb53c0f71f073c4980",
@@ -98,6 +76,28 @@
       "passed" : 9,
       "unknown" : 0,
       "total" : 9
+    }
+  }, {
+    "uid" : "e8aa6596bccc27d40beb307c5c90151c",
+    "name" : "C2264: Price should be 0 with active cost share waiver (CSW)",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
+    "uid" : "c8295443e51a55754789e764bcf91681",
+    "name" : "C2253: Report hint",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 6
     }
   }, {
     "uid" : "02f8c43aebd3f83f1c5cd7ef2a528217",
