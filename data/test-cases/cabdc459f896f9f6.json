@@ -1,0 +1,70 @@
+{
+  "uid" : "cabdc459f896f9f6",
+  "name" : "Should try to download file",
+  "fullName" : "C2257: Default text for document exchanges.Should try to download file",
+  "historyId" : "c170d85f900482380493651050a642b4",
+  "time" : {
+    "start" : 1655715787255,
+    "stop" : 1655715787863,
+    "duration" : 608
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "testClass",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should try to download file"
+  }, {
+    "name" : "package",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2ec43dddb4616890",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655715773920,
+        "stop" : 1655715774562,
+        "duration" : 642
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cabdc459f896f9f6.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}
