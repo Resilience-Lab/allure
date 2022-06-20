@@ -1,18 +1,18 @@
 {
-  "uid" : "49ed637c8569d69f",
+  "uid" : "71f59a9b8d22ad4d",
   "name" : "\"after all\" hook for C2267: Price should be 0 with active cost share waiver (CSW)",
   "fullName" : "C2267: Price should be 0 with active cost share waiver (CSW).\"after all\" hook for C2267: Price should be 0 with active cost share waiver (CSW)",
   "historyId" : "62254d8d9aaef9025c3a93d9d9f291d",
   "time" : {
-    "start" : 1655731546380,
-    "stop" : 1655731607643,
-    "duration" : 61263
+    "start" : 1655731810944,
+    "stop" : 1655731822179,
+    "duration" : 11235
   },
   "description" : "",
   "descriptionHtml" : "",
   "status" : "broken",
-  "statusMessage" : "element (\"#tab-actions a\") still not clickable after 60000ms",
-  "statusTrace" : "Error: element (\"#tab-actions a\") still not clickable after 60000ms\n                    at async ProfilePage.waitElementForClickable (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:79:9)\n                    at async ProfilePage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:133:9)\n                    at async ProfilePage.clickActionsTabBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:250:9)",
+  "statusMessage" : "Can't call click on element with selector \"#tab-actions a\" because element wasn't found",
+  "statusTrace" : "Error: Can't call click on element with selector \"#tab-actions a\" because element wasn't found\n                    at async ProfilePage.deleteProfile (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:601:13)\n                    at async Context.<anonymous> (/home/runner/work/webautomation/webautomation/test/specs/Clients/Insurance/C2267_Standard_billing_rate_message_for_INN_partner_payer.spec.ts:64:9)",
   "flaky" : false,
   "newFailed" : false,
   "newBroken" : false,
@@ -63,6 +63,6 @@
     } ],
     "tags" : [ ]
   },
-  "source" : "49ed637c8569d69f.json",
+  "source" : "71f59a9b8d22ad4d.json",
   "parameterValues" : [ "chrome-102.0.5005.115" ]
 }
