@@ -3,16 +3,33 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "Can't call elementClick on element with selector \"#bigbutton\" because element wasn't found",
+      "name" : "element (\"#toolbar a[href=\"index.php?module=Accounts&action=index&parentTab=All\"]\") still not clickable after 60000ms",
       "children" : [ {
-        "name" : "\"before all\" hook for C2264: Price should be 0 with active cost share waiver (CSW)",
-        "uid" : "b44cea5b07a9d333",
-        "parentUid" : "7471a27122cef0062453852883425b48",
+        "name" : "\"after all\" hook for C2281: Verify Progress Note mandatory fields",
+        "uid" : "c522cb6434bd76d1",
+        "parentUid" : "0acabedc06ce53573737c0dc3509110b",
         "status" : "broken",
         "time" : {
-          "start" : 1655738330988,
-          "stop" : 1655738376308,
-          "duration" : 45320
+          "start" : 1655739434095,
+          "stop" : 1655739495886,
+          "duration" : 61791
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.115" ]
+      }, {
+        "name" : "\"after all\" hook for C2282: Verify Progress Note disabled fields",
+        "uid" : "bd80608bea15d704",
+        "parentUid" : "0acabedc06ce53573737c0dc3509110b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1655739559136,
+          "stop" : 1655739620973,
+          "duration" : 61837
         },
         "flaky" : false,
         "newFailed" : false,
@@ -22,7 +39,7 @@
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-102.0.5005.115" ]
       } ],
-      "uid" : "7471a27122cef0062453852883425b48"
+      "uid" : "0acabedc06ce53573737c0dc3509110b"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ],
