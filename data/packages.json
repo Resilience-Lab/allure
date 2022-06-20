@@ -4,13 +4,13 @@
     "name" : "C2263: Multi State: Connect Nirvana API Key with correct PCorp",
     "children" : [ {
       "name" : "Should go to clients page and check url",
-      "uid" : "25dbf1a04ad9f632",
+      "uid" : "c30803323571ed3a",
       "parentUid" : "982d7f52c1e8b98ada4530215d1f6868",
       "status" : "passed",
       "time" : {
-        "start" : 1655744860820,
-        "stop" : 1655744873188,
-        "duration" : 12368
+        "start" : 1655745379660,
+        "stop" : 1655745391897,
+        "duration" : 12237
       },
       "flaky" : false,
       "newFailed" : false,
@@ -21,13 +21,13 @@
       "parameters" : [ "chrome-102.0.5005.115" ]
     }, {
       "name" : "Should filter clients",
-      "uid" : "311cb7fed4cd2d22",
+      "uid" : "89cffa64b31b8069",
       "parentUid" : "982d7f52c1e8b98ada4530215d1f6868",
       "status" : "passed",
       "time" : {
-        "start" : 1655744873189,
-        "stop" : 1655744879295,
-        "duration" : 6106
+        "start" : 1655745391898,
+        "stop" : 1655745397822,
+        "duration" : 5924
       },
       "flaky" : false,
       "newFailed" : false,
@@ -38,13 +38,13 @@
       "parameters" : [ "chrome-102.0.5005.115" ]
     }, {
       "name" : "Should open first client profile and uncheck insurance subject \"Cost-share Waiver\" check box",
-      "uid" : "87d794c683e1310e",
+      "uid" : "866ba60490acdfea",
       "parentUid" : "982d7f52c1e8b98ada4530215d1f6868",
       "status" : "passed",
       "time" : {
-        "start" : 1655744879295,
-        "stop" : 1655744899499,
-        "duration" : 20204
+        "start" : 1655745397822,
+        "stop" : 1655745415815,
+        "duration" : 17993
       },
       "flaky" : false,
       "newFailed" : false,
@@ -59,13 +59,13 @@
     "name" : "C2264: Price should be 0 with active cost share waiver (CSW)",
     "children" : [ {
       "name" : "Should go to clients page and check url",
-      "uid" : "2b5179ea574ceeb4",
+      "uid" : "5e394a506f4daecb",
       "parentUid" : "6d6a0c0a2cddc8386432824536b0732a",
       "status" : "passed",
       "time" : {
-        "start" : 1655744901265,
-        "stop" : 1655744912918,
-        "duration" : 11653
+        "start" : 1655745417658,
+        "stop" : 1655745427914,
+        "duration" : 10256
       },
       "flaky" : false,
       "newFailed" : false,
@@ -76,13 +76,13 @@
       "parameters" : [ "chrome-102.0.5005.115" ]
     }, {
       "name" : "Should filter clients",
-      "uid" : "2871d8b62c4a09e2",
+      "uid" : "84e25eb0a7eb6eb2",
       "parentUid" : "6d6a0c0a2cddc8386432824536b0732a",
       "status" : "passed",
       "time" : {
-        "start" : 1655744912919,
-        "stop" : 1655744919234,
-        "duration" : 6315
+        "start" : 1655745427915,
+        "stop" : 1655745435050,
+        "duration" : 7135
       },
       "flaky" : false,
       "newFailed" : false,
@@ -93,13 +93,13 @@
       "parameters" : [ "chrome-102.0.5005.115" ]
     }, {
       "name" : "Should go first client profile",
-      "uid" : "3e8477b56481d4a8",
+      "uid" : "9b5171f7adf0a257",
       "parentUid" : "6d6a0c0a2cddc8386432824536b0732a",
       "status" : "passed",
       "time" : {
-        "start" : 1655744919234,
-        "stop" : 1655744920527,
-        "duration" : 1293
+        "start" : 1655745435050,
+        "stop" : 1655745436302,
+        "duration" : 1252
       },
       "flaky" : false,
       "newFailed" : false,
@@ -110,13 +110,13 @@
       "parameters" : [ "chrome-102.0.5005.115" ]
     }, {
       "name" : "Should check cbox for cost-share Waiver and add end date",
-      "uid" : "caa2e81844fae7c",
+      "uid" : "8ac69adc5a119673",
       "parentUid" : "6d6a0c0a2cddc8386432824536b0732a",
       "status" : "passed",
       "time" : {
-        "start" : 1655744920527,
-        "stop" : 1655744925123,
-        "duration" : 4596
+        "start" : 1655745436302,
+        "stop" : 1655745441067,
+        "duration" : 4765
       },
       "flaky" : false,
       "newFailed" : false,
@@ -127,13 +127,13 @@
       "parameters" : [ "chrome-102.0.5005.115" ]
     }, {
       "name" : "Should go back to profile and check that 'Client agreed rate' = 0",
-      "uid" : "633e63c4a0aa2a32",
+      "uid" : "15a95f78614e467",
       "parentUid" : "6d6a0c0a2cddc8386432824536b0732a",
       "status" : "passed",
       "time" : {
-        "start" : 1655744925124,
-        "stop" : 1655744931375,
-        "duration" : 6251
+        "start" : 1655745441067,
+        "stop" : 1655745446949,
+        "duration" : 5882
       },
       "flaky" : false,
       "newFailed" : false,
@@ -144,13 +144,13 @@
       "parameters" : [ "chrome-102.0.5005.115" ]
     }, {
       "name" : "Should verify that each CPT code have the same agreed rate value '0'",
-      "uid" : "93939cff638ad3c4",
+      "uid" : "d448d2209437b174",
       "parentUid" : "6d6a0c0a2cddc8386432824536b0732a",
       "status" : "passed",
       "time" : {
-        "start" : 1655744931375,
-        "stop" : 1655744946696,
-        "duration" : 15321
+        "start" : 1655745446949,
+        "stop" : 1655745463820,
+        "duration" : 16871
       },
       "flaky" : false,
       "newFailed" : false,
