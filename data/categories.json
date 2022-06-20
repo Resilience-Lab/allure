@@ -3,75 +3,16 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "element (\"select#rl_multi_clinicians_dropdown\") still not clickable after 60000ms",
-      "children" : [ {
-        "name" : "\"after all\" hook for C2265: Terminate client with multiclinician",
-        "uid" : "bae209d26136f6ec",
-        "parentUid" : "b9ca2c9bc8adc21ff333120fd3acf161",
-        "status" : "broken",
-        "time" : {
-          "start" : 1655723871335,
-          "stop" : 1655723991561,
-          "duration" : 120226
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.115" ]
-      } ],
-      "uid" : "b9ca2c9bc8adc21ff333120fd3acf161"
-    }, {
-      "name" : "element (\"#toolbar a[href=\"index.php?module=Accounts&action=index&parentTab=All\"]\") still not clickable after 60000ms",
-      "children" : [ {
-        "name" : "\"after all\" hook for C2281: Verify Progress Note mandatory fields",
-        "uid" : "8e964be8e21b7a02",
-        "parentUid" : "0acabedc06ce53573737c0dc3509110b",
-        "status" : "broken",
-        "time" : {
-          "start" : 1655724098886,
-          "stop" : 1655724160731,
-          "duration" : 61845
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.115" ]
-      }, {
-        "name" : "\"after all\" hook for C2282: Verify Progress Note disabled fields",
-        "uid" : "a8ba907f235366b4",
-        "parentUid" : "0acabedc06ce53573737c0dc3509110b",
-        "status" : "broken",
-        "time" : {
-          "start" : 1655724215092,
-          "stop" : 1655724276847,
-          "duration" : 61755
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.115" ]
-      } ],
-      "uid" : "0acabedc06ce53573737c0dc3509110b"
-    }, {
-      "name" : "element (\"//a[text()='ACTIONS']\") still not clickable after 60000ms",
+      "name" : "element (\"#tab-actions a\") still not clickable after 60000ms",
       "children" : [ {
         "name" : "\"after all\" hook for C2267: Price should be 0 with active cost share waiver (CSW)",
-        "uid" : "47b0e1a1561fd9a6",
-        "parentUid" : "d6d361d654484b1060b1458e198477d7",
+        "uid" : "77eaa3f2e53a0063",
+        "parentUid" : "a119318436e07d4d9a555b908042e1e9",
         "status" : "broken",
         "time" : {
-          "start" : 1655724549340,
-          "stop" : 1655724612654,
-          "duration" : 63314
+          "start" : 1655731083211,
+          "stop" : 1655731144623,
+          "duration" : 61412
         },
         "flaky" : false,
         "newFailed" : false,
@@ -81,7 +22,7 @@
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-102.0.5005.115" ]
       } ],
-      "uid" : "d6d361d654484b1060b1458e198477d7"
+      "uid" : "a119318436e07d4d9a555b908042e1e9"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ],
