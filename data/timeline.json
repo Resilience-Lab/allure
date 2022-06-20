@@ -1,71 +1,16 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "0-0",
-    "children" : [ {
-      "name" : "Should go to clients page and check url",
-      "uid" : "561ec55a92c535b",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655744624436,
-        "stop" : 1655744639379,
-        "duration" : 14943
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Should filter clients",
-      "uid" : "c888917536c9f235",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655744639380,
-        "stop" : 1655744646405,
-        "duration" : 7025
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Should open first client profile and uncheck insurance subject \"Cost-share Waiver\" check box",
-      "uid" : "9125f2470e33cd5f",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655744646405,
-        "stop" : 1655744665928,
-        "duration" : 19523
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    } ],
-    "uid" : "516fe00eea05ad99e936fa729b55eff4"
-  }, {
     "name" : "0-1",
     "children" : [ {
-      "name" : "Should go first client profile",
-      "uid" : "157aaf4572bc199d",
+      "name" : "Should go back to profile and check that 'Client agreed rate' = 0",
+      "uid" : "633e63c4a0aa2a32",
       "parentUid" : "27fa874cadc1574e37a07abb440963bd",
       "status" : "passed",
       "time" : {
-        "start" : 1655744687657,
-        "stop" : 1655744688917,
-        "duration" : 1260
+        "start" : 1655744925124,
+        "stop" : 1655744931375,
+        "duration" : 6251
       },
       "flaky" : false,
       "newFailed" : false,
@@ -76,30 +21,13 @@
       "parameters" : [ "chrome-102.0.5005.115" ]
     }, {
       "name" : "Should go to clients page and check url",
-      "uid" : "3222626beaf740b3",
+      "uid" : "2b5179ea574ceeb4",
       "parentUid" : "27fa874cadc1574e37a07abb440963bd",
       "status" : "passed",
       "time" : {
-        "start" : 1655744667753,
-        "stop" : 1655744680182,
-        "duration" : 12429
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Should verify that each CPT code have the same agreed rate value '0'",
-      "uid" : "eb75ee9eba0473dd",
-      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
-      "status" : "passed",
-      "time" : {
-        "start" : 1655744700642,
-        "stop" : 1655744716330,
-        "duration" : 15688
+        "start" : 1655744901265,
+        "stop" : 1655744912918,
+        "duration" : 11653
       },
       "flaky" : false,
       "newFailed" : false,
@@ -110,13 +38,30 @@
       "parameters" : [ "chrome-102.0.5005.115" ]
     }, {
       "name" : "Should check cbox for cost-share Waiver and add end date",
-      "uid" : "c12b97f12f7deef8",
+      "uid" : "caa2e81844fae7c",
       "parentUid" : "27fa874cadc1574e37a07abb440963bd",
       "status" : "passed",
       "time" : {
-        "start" : 1655744688917,
-        "stop" : 1655744694265,
-        "duration" : 5348
+        "start" : 1655744920527,
+        "stop" : 1655744925123,
+        "duration" : 4596
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Should verify that each CPT code have the same agreed rate value '0'",
+      "uid" : "93939cff638ad3c4",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655744931375,
+        "stop" : 1655744946696,
+        "duration" : 15321
       },
       "flaky" : false,
       "newFailed" : false,
@@ -127,13 +72,13 @@
       "parameters" : [ "chrome-102.0.5005.115" ]
     }, {
       "name" : "Should filter clients",
-      "uid" : "13871f66dfccdf97",
+      "uid" : "2871d8b62c4a09e2",
       "parentUid" : "27fa874cadc1574e37a07abb440963bd",
       "status" : "passed",
       "time" : {
-        "start" : 1655744680182,
-        "stop" : 1655744687656,
-        "duration" : 7474
+        "start" : 1655744912919,
+        "stop" : 1655744919234,
+        "duration" : 6315
       },
       "flaky" : false,
       "newFailed" : false,
@@ -143,14 +88,14 @@
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-102.0.5005.115" ]
     }, {
-      "name" : "Should go back to profile and check that 'Client agreed rate' = 0",
-      "uid" : "44830ea189eeff14",
+      "name" : "Should go first client profile",
+      "uid" : "3e8477b56481d4a8",
       "parentUid" : "27fa874cadc1574e37a07abb440963bd",
       "status" : "passed",
       "time" : {
-        "start" : 1655744694266,
-        "stop" : 1655744700642,
-        "duration" : 6376
+        "start" : 1655744919234,
+        "stop" : 1655744920527,
+        "duration" : 1293
       },
       "flaky" : false,
       "newFailed" : false,
@@ -161,6 +106,61 @@
       "parameters" : [ "chrome-102.0.5005.115" ]
     } ],
     "uid" : "27fa874cadc1574e37a07abb440963bd"
+  }, {
+    "name" : "0-0",
+    "children" : [ {
+      "name" : "Should open first client profile and uncheck insurance subject \"Cost-share Waiver\" check box",
+      "uid" : "87d794c683e1310e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655744879295,
+        "stop" : 1655744899499,
+        "duration" : 20204
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Should go to clients page and check url",
+      "uid" : "25dbf1a04ad9f632",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655744860820,
+        "stop" : 1655744873188,
+        "duration" : 12368
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Should filter clients",
+      "uid" : "311cb7fed4cd2d22",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655744873189,
+        "stop" : 1655744879295,
+        "duration" : 6106
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    } ],
+    "uid" : "516fe00eea05ad99e936fa729b55eff4"
   } ],
   "name" : "timeline"
 }
