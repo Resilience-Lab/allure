@@ -1,0 +1,86 @@
+{
+  "uid" : "adfca7d37a1d540c",
+  "name" : "\"after all\" hook for C2253: Report hint",
+  "fullName" : "C2253: Report hint.\"after all\" hook for C2253: Report hint",
+  "historyId" : "d033eb796f9b3c066bd47c22d13d32d5",
+  "time" : {
+    "start" : 1655723221680,
+    "stop" : 1655723341925,
+    "duration" : 120245
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"li#tab-actions [href=\"#\"]\") still not clickable after 60000ms",
+  "statusTrace" : "Error: element (\"li#tab-actions [href=\"#\"]\") still not clickable after 60000ms\n                    at async ReportPage.waitElementForClickable (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:79:9)\n                    at async ReportPage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:133:9)\n                    at async ReportPage.clickActionsBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/report.page.ts:25:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"li#tab-actions [href=\"#\"]\") still not clickable after 60000ms",
+    "statusTrace" : "Error: element (\"li#tab-actions [href=\"#\"]\") still not clickable after 60000ms\n                    at async ReportPage.waitElementForClickable (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:79:9)\n                    at async ReportPage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:133:9)\n                    at async ReportPage.clickActionsBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/report.page.ts:25:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7429bd42b288038d",
+      "name" : "Screenshot",
+      "source" : "7429bd42b288038d.png",
+      "type" : "image/png",
+      "size" : 161769
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-19"
+  }, {
+    "name" : "suite",
+    "value" : "C2253: Report hint"
+  }, {
+    "name" : "testClass",
+    "value" : "C2253: Report hint"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"after all\" hook for C2253: Report hint"
+  }, {
+    "name" : "package",
+    "value" : "C2253: Report hint"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "adfca7d37a1d540c.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}

@@ -1,19 +1,18 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "name" : "categories",
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "element (\"select#rl_multi_clinicians_dropdown\") still not clickable after 60000ms",
+      "name" : "element (\"button#terminate-btn\") still not clickable after 60000ms",
       "children" : [ {
-        "name" : "\"after all\" hook for C2265: Terminate client with multiclinician",
-        "uid" : "c0aca228b9702536",
-        "parentUid" : "b9ca2c9bc8adc21ff333120fd3acf161",
+        "name" : "Should terminate client assigned to \"Danashia Mclaughlin\" with reason \"test\"",
+        "uid" : "447296e0fb04f136",
+        "parentUid" : "b4edd070ffc23b4494d968cc272ffcef",
         "status" : "broken",
         "time" : {
-          "start" : 1655717658608,
-          "stop" : 1655717778854,
-          "duration" : 120246
+          "start" : 1655721799102,
+          "stop" : 1655721859480,
+          "duration" : 60378
         },
         "flaky" : false,
         "newFailed" : false,
@@ -23,18 +22,18 @@
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-102.0.5005.115" ]
       } ],
-      "uid" : "b9ca2c9bc8adc21ff333120fd3acf161"
+      "uid" : "b4edd070ffc23b4494d968cc272ffcef"
     }, {
-      "name" : "timeout: Timed out receiving message from renderer: 20.000\n                  (Session info: headless chrome=102.0.5005.115)",
+      "name" : "element (\"((//tr[@class='oddListRowS1'])[1]//td//a)[1]\") still not clickable after 60000ms",
       "children" : [ {
-        "name" : "Should go back to profile and check that 'Client agreed rate' = 0",
-        "uid" : "200e8f3f6e22b9f8",
-        "parentUid" : "d2ed0a7d5deb0cf3f342f70348193fd9",
+        "name" : "\"before all\" hook for C2282: Verify Progress Note disabled fields",
+        "uid" : "ce76780b0f494b4e",
+        "parentUid" : "72d1cd80f484beaecb36b992d2ea5574",
         "status" : "broken",
         "time" : {
-          "start" : 1655718159682,
-          "stop" : 1655718240046,
-          "duration" : 80364
+          "start" : 1655722058389,
+          "stop" : 1655722178493,
+          "duration" : 120104
         },
         "flaky" : false,
         "newFailed" : false,
@@ -44,14 +43,73 @@
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-102.0.5005.115" ]
       }, {
+        "name" : "\"before all\" hook for C2260: Multi State: Connect Nirvana API Key with correct PCorp",
+        "uid" : "8dd208e7c62ba447",
+        "parentUid" : "72d1cd80f484beaecb36b992d2ea5574",
+        "status" : "broken",
+        "time" : {
+          "start" : 1655722195347,
+          "stop" : 1655722317131,
+          "duration" : 121784
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.115" ]
+      } ],
+      "uid" : "72d1cd80f484beaecb36b992d2ea5574"
+    }, {
+      "name" : "element (\"(//li[@class=\"sugar_action_button desktopOnly\"])[1]\") still not displayed after 60000ms",
+      "children" : [ {
+        "name" : "\"after all\" hook for C2260: Multi State: Connect Nirvana API Key with correct PCorp",
+        "uid" : "9e2f3f67fc5c7e54",
+        "parentUid" : "40dcc12578836b944fc825608a5ed0f2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1655722317134,
+          "stop" : 1655722386672,
+          "duration" : 69538
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.115" ]
+      } ],
+      "uid" : "40dcc12578836b944fc825608a5ed0f2"
+    }, {
+      "name" : "timeout: Timed out receiving message from renderer: 20.000\n                  (Session info: headless chrome=102.0.5005.115)",
+      "children" : [ {
         "name" : "\"after all\" hook for C2264: Price should be 0 with active cost share waiver (CSW)",
-        "uid" : "1634f143f38a988c",
+        "uid" : "65371e6c21c7bd79",
         "parentUid" : "d2ed0a7d5deb0cf3f342f70348193fd9",
         "status" : "broken",
         "time" : {
-          "start" : 1655718240046,
-          "stop" : 1655718410162,
-          "duration" : 170116
+          "start" : 1655722466621,
+          "stop" : 1655722566106,
+          "duration" : 99485
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.115" ]
+      }, {
+        "name" : "Should go to certain report page",
+        "uid" : "31f0eaf6ed04bc69",
+        "parentUid" : "d2ed0a7d5deb0cf3f342f70348193fd9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1655723020774,
+          "stop" : 1655723101209,
+          "duration" : 80435
         },
         "flaky" : false,
         "newFailed" : false,
@@ -62,7 +120,88 @@
         "parameters" : [ "chrome-102.0.5005.115" ]
       } ],
       "uid" : "d2ed0a7d5deb0cf3f342f70348193fd9"
+    }, {
+      "name" : "element (\"//a[text()='ACTIONS']\") still not clickable after 60000ms",
+      "children" : [ {
+        "name" : "\"after all\" hook for C2267: Price should be 0 with active cost share waiver (CSW)",
+        "uid" : "603a2b229943ba6f",
+        "parentUid" : "d6d361d654484b1060b1458e198477d7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1655722682510,
+          "stop" : 1655722746007,
+          "duration" : 63497
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.115" ]
+      } ],
+      "uid" : "d6d361d654484b1060b1458e198477d7"
+    }, {
+      "name" : "element (\"li#tab-actions [href=\"#\"]\") still not clickable after 60000ms",
+      "children" : [ {
+        "name" : "Should go to report edit page",
+        "uid" : "f8eb099be50fd604",
+        "parentUid" : "5e50168c281be9c9e9e7b87d0ec1e513",
+        "status" : "broken",
+        "time" : {
+          "start" : 1655723101210,
+          "stop" : 1655723161459,
+          "duration" : 60249
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.115" ]
+      }, {
+        "name" : "\"after all\" hook for C2253: Report hint",
+        "uid" : "adfca7d37a1d540c",
+        "parentUid" : "5e50168c281be9c9e9e7b87d0ec1e513",
+        "status" : "broken",
+        "time" : {
+          "start" : 1655723221680,
+          "stop" : 1655723341925,
+          "duration" : 120245
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.115" ]
+      } ],
+      "uid" : "5e50168c281be9c9e9e7b87d0ec1e513"
+    }, {
+      "name" : "element (\"#hint_text\") still not displayed after 60000ms",
+      "children" : [ {
+        "name" : "Should add some hint, save, and check if hint sing is visible",
+        "uid" : "cff34490fd235cf7",
+        "parentUid" : "f095d10e600778dc05de4131907768cb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1655723161460,
+          "stop" : 1655723221679,
+          "duration" : 60219
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.115" ]
+      } ],
+      "uid" : "f095d10e600778dc05de4131907768cb"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
-  } ]
+  } ],
+  "name" : "categories"
 }

@@ -1,0 +1,86 @@
+{
+  "uid" : "31f0eaf6ed04bc69",
+  "name" : "Should go to certain report page",
+  "fullName" : "C2253: Report hint.Should go to certain report page",
+  "historyId" : "51b4fd38913c2dd2b1c686112da624f8",
+  "time" : {
+    "start" : 1655723020774,
+    "stop" : 1655723101209,
+    "duration" : 80435
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "timeout: Timed out receiving message from renderer: 20.000\n                  (Session info: headless chrome=102.0.5005.115)",
+  "statusTrace" : "timeout: timeout: Timed out receiving message from renderer: 20.000\n                  (Session info: headless chrome=102.0.5005.115)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "timeout: Timed out receiving message from renderer: 20.000\n                  (Session info: headless chrome=102.0.5005.115)",
+    "statusTrace" : "timeout: timeout: Timed out receiving message from renderer: 20.000\n                  (Session info: headless chrome=102.0.5005.115)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "538420f68209177e",
+      "name" : "Screenshot",
+      "source" : "538420f68209177e.png",
+      "type" : "image/png",
+      "size" : 161274
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-19"
+  }, {
+    "name" : "suite",
+    "value" : "C2253: Report hint"
+  }, {
+    "name" : "testClass",
+    "value" : "C2253: Report hint"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should go to certain report page"
+  }, {
+    "name" : "package",
+    "value" : "C2253: Report hint"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "31f0eaf6ed04bc69.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}

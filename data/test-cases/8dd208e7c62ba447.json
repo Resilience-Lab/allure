@@ -1,0 +1,68 @@
+{
+  "uid" : "8dd208e7c62ba447",
+  "name" : "\"before all\" hook for C2260: Multi State: Connect Nirvana API Key with correct PCorp",
+  "fullName" : "C2260: Multi State: Connect Nirvana API Key with correct PCorp.\"before all\" hook for C2260: Multi State: Connect Nirvana API Key with correct PCorp",
+  "historyId" : "1a904edb01739c796d27f70412b86b6d",
+  "time" : {
+    "start" : 1655722195347,
+    "stop" : 1655722317131,
+    "duration" : 121784
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"((//tr[@class='oddListRowS1'])[1]//td//a)[1]\") still not clickable after 60000ms",
+  "statusTrace" : "Error: element (\"((//tr[@class='oddListRowS1'])[1]//td//a)[1]\") still not clickable after 60000ms\n                    at async createClientPage.waitElementForClickable (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:79:9)\n                    at async createClientPage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:133:9)\n                    at async createClientPage.createClient (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/createClient.page.ts:206:13)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-9"
+  }, {
+    "name" : "suite",
+    "value" : "C2260: Multi State: Connect Nirvana API Key with correct PCorp"
+  }, {
+    "name" : "testClass",
+    "value" : "C2260: Multi State: Connect Nirvana API Key with correct PCorp"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook for C2260: Multi State: Connect Nirvana API Key with correct PCorp"
+  }, {
+    "name" : "package",
+    "value" : "C2260: Multi State: Connect Nirvana API Key with correct PCorp"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "8dd208e7c62ba447.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}
