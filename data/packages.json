@@ -4,13 +4,13 @@
     "name" : "C2281: Verify Progress Note mandatory fields",
     "children" : [ {
       "name" : "Should go to clients page and check url",
-      "uid" : "7fb7845720181166",
+      "uid" : "936a936f062307e7",
       "parentUid" : "87f05170fbfa0b25810cbbf689a8c559",
       "status" : "passed",
       "time" : {
-        "start" : 1655734957467,
-        "stop" : 1655735010637,
-        "duration" : 53170
+        "start" : 1655735136955,
+        "stop" : 1655735193309,
+        "duration" : 56354
       },
       "flaky" : false,
       "newFailed" : false,
@@ -21,13 +21,13 @@
       "parameters" : [ "chrome-102.0.5005.115" ]
     }, {
       "name" : "Should go to client`s profile",
-      "uid" : "3bf4107922cde097",
+      "uid" : "f0e5f49eaffa18f3",
       "parentUid" : "87f05170fbfa0b25810cbbf689a8c559",
       "status" : "passed",
       "time" : {
-        "start" : 1655735010637,
-        "stop" : 1655735011523,
-        "duration" : 886
+        "start" : 1655735193309,
+        "stop" : 1655735194197,
+        "duration" : 888
       },
       "flaky" : false,
       "newFailed" : false,
@@ -38,13 +38,13 @@
       "parameters" : [ "chrome-102.0.5005.115" ]
     }, {
       "name" : "Should open window with creating 'Progress Note' document and check fields",
-      "uid" : "48f7fddd28f2eb4f",
+      "uid" : "fb0a351ea1088535",
       "parentUid" : "87f05170fbfa0b25810cbbf689a8c559",
       "status" : "passed",
       "time" : {
-        "start" : 1655735011524,
-        "stop" : 1655735024582,
-        "duration" : 13058
+        "start" : 1655735194197,
+        "stop" : 1655735208524,
+        "duration" : 14327
       },
       "flaky" : false,
       "newFailed" : false,
@@ -55,6 +55,61 @@
       "parameters" : [ "chrome-102.0.5005.115" ]
     } ],
     "uid" : "87f05170fbfa0b25810cbbf689a8c559"
+  }, {
+    "name" : "C2282: Verify Progress Note disabled fields",
+    "children" : [ {
+      "name" : "Should go to clients page and check url",
+      "uid" : "8cbfebe6b55f8b84",
+      "parentUid" : "d080a77ca8a9e8e8c8ba18ad4c0ed009",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655735210376,
+        "stop" : 1655735259442,
+        "duration" : 49066
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Should go to client`s profile",
+      "uid" : "eecca74242c2f6d0",
+      "parentUid" : "d080a77ca8a9e8e8c8ba18ad4c0ed009",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655735259443,
+        "stop" : 1655735260303,
+        "duration" : 860
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Should open window with creating 'Progress Note' document and check fields",
+      "uid" : "e5c6a333f77f013f",
+      "parentUid" : "d080a77ca8a9e8e8c8ba18ad4c0ed009",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655735260304,
+        "stop" : 1655735272861,
+        "duration" : 12557
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-102.0.5005.115" ]
+    } ],
+    "uid" : "d080a77ca8a9e8e8c8ba18ad4c0ed009"
   } ],
   "name" : "packages"
 }

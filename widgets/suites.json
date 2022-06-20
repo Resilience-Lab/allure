@@ -1,8 +1,19 @@
 {
-  "total" : 1,
+  "total" : 2,
   "items" : [ {
     "uid" : "7d5c56b3be107ddba107ac06ae160f94",
     "name" : "C2281: Verify Progress Note mandatory fields",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "8868d80d4eb9ad7b6f602d459e2b748c",
+    "name" : "C2282: Verify Progress Note disabled fields",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
