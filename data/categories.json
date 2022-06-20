@@ -1,47 +1,5 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ {
-    "name" : "Test defects",
-    "children" : [ {
-      "name" : "element (\"#toolbar a[href=\"index.php?module=Accounts&action=index&parentTab=All\"]\") still not clickable after 60000ms",
-      "children" : [ {
-        "name" : "\"after all\" hook for C2281: Verify Progress Note mandatory fields",
-        "uid" : "a54bfe9845a31b49",
-        "parentUid" : "0acabedc06ce53573737c0dc3509110b",
-        "status" : "broken",
-        "time" : {
-          "start" : 1655733083005,
-          "stop" : 1655733145041,
-          "duration" : 62036
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.115" ]
-      }, {
-        "name" : "\"after all\" hook for C2282: Verify Progress Note disabled fields",
-        "uid" : "6a6399e341991036",
-        "parentUid" : "0acabedc06ce53573737c0dc3509110b",
-        "status" : "broken",
-        "time" : {
-          "start" : 1655733202365,
-          "stop" : 1655733264401,
-          "duration" : 62036
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.115" ]
-      } ],
-      "uid" : "0acabedc06ce53573737c0dc3509110b"
-    } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
-  } ],
+  "children" : [ ],
   "name" : "categories"
 }
