@@ -1,0 +1,86 @@
+{
+  "uid" : "200e8f3f6e22b9f8",
+  "name" : "Should go back to profile and check that 'Client agreed rate' = 0",
+  "fullName" : "C2264: Price should be 0 with active cost share waiver (CSW).Should go back to profile and check that 'Client agreed rate' = 0",
+  "historyId" : "14e0f38220b6404225fd4570b95bedba",
+  "time" : {
+    "start" : 1655718159682,
+    "stop" : 1655718240046,
+    "duration" : 80364
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "timeout: Timed out receiving message from renderer: 20.000\n                  (Session info: headless chrome=102.0.5005.115)",
+  "statusTrace" : "timeout: timeout: Timed out receiving message from renderer: 20.000\n                  (Session info: headless chrome=102.0.5005.115)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "timeout: Timed out receiving message from renderer: 20.000\n                  (Session info: headless chrome=102.0.5005.115)",
+    "statusTrace" : "timeout: timeout: Timed out receiving message from renderer: 20.000\n                  (Session info: headless chrome=102.0.5005.115)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9846b606ab247196",
+      "name" : "Screenshot",
+      "source" : "9846b606ab247196.png",
+      "type" : "image/png",
+      "size" : 177740
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-9"
+  }, {
+    "name" : "suite",
+    "value" : "C2264: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "testClass",
+    "value" : "C2264: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should go back to profile and check that 'Client agreed rate' = 0"
+  }, {
+    "name" : "package",
+    "value" : "C2264: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "200e8f3f6e22b9f8.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}
