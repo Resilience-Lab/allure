@@ -1,90 +1,650 @@
 [ {
-  "uid" : "89cffa64b31b8069",
-  "name" : "Should filter clients",
+  "uid" : "a38ec3348b9b9658",
+  "name" : "Should open client without email",
   "time" : {
-    "start" : 1655745391898,
-    "stop" : 1655745397822,
-    "duration" : 5924
+    "start" : 1655746231078,
+    "stop" : 1655746232263,
+    "duration" : 1185
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "84e25eb0a7eb6eb2",
-  "name" : "Should filter clients",
+  "uid" : "1c5ae93d185b6564",
+  "name" : "Should open window with creating 'Progress Note' document and check fields",
   "time" : {
-    "start" : 1655745427915,
-    "stop" : 1655745435050,
-    "duration" : 7135
+    "start" : 1655746321681,
+    "stop" : 1655746339727,
+    "duration" : 18046
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "8ac69adc5a119673",
+  "uid" : "36ab7d3f642805d6",
+  "name" : "Should go to \"Review and Complete\" for \"New Credit Card Form\"",
+  "time" : {
+    "start" : 1655746040229,
+    "stop" : 1655746040703,
+    "duration" : 474
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dd657ec7d648c4fa",
+  "name" : "Should go to clients page and check url",
+  "time" : {
+    "start" : 1655746235335,
+    "stop" : 1655746245508,
+    "duration" : 10173
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "376a0565ca2c5b91",
+  "name" : "Should click 'View Requests' button in 'Pending Requests' ",
+  "time" : {
+    "start" : 1655746038909,
+    "stop" : 1655746039125,
+    "duration" : 216
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b65c57ca891485f4",
+  "name" : "Should download file",
+  "time" : {
+    "start" : 1655746101658,
+    "stop" : 1655746107643,
+    "duration" : 5985
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f549b728f8aa21d9",
+  "name" : "Should terminate client assigned to \"Danashia Mclaughlin\" with reason \"test\"",
+  "time" : {
+    "start" : 1655746179679,
+    "stop" : 1655746199637,
+    "duration" : 19958
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e3bfd21c9adc45fa",
+  "name" : "Should go to clients page and check url",
+  "time" : {
+    "start" : 1655746341741,
+    "stop" : 1655746392841,
+    "duration" : 51100
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9137aadac23dd10f",
+  "name" : "Should open filter, choose stage - 'Inactive' and show 'DOB' column",
+  "time" : {
+    "start" : 1655746245509,
+    "stop" : 1655746258468,
+    "duration" : 12959
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ac93ac22bfa9b6a5",
+  "name" : "Should filter clients",
+  "time" : {
+    "start" : 1655746640032,
+    "stop" : 1655746647133,
+    "duration" : 7101
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c9e8c7925897c19",
+  "name" : "Should to clients page and check url",
+  "time" : {
+    "start" : 1655746132975,
+    "stop" : 1655746145473,
+    "duration" : 12498
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "46af43a2424a2668",
+  "name" : "Should relogin then check filter and column",
+  "time" : {
+    "start" : 1655746258468,
+    "stop" : 1655746266557,
+    "duration" : 8089
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cf24126b3bd8fb1c",
   "name" : "Should check cbox for cost-share Waiver and add end date",
   "time" : {
-    "start" : 1655745436302,
-    "stop" : 1655745441067,
-    "duration" : 4765
+    "start" : 1655746689246,
+    "stop" : 1655746694664,
+    "duration" : 5418
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "9b5171f7adf0a257",
-  "name" : "Should go first client profile",
+  "uid" : "6119c2e6d68f38d5",
+  "name" : "Should go to client with not created account",
   "time" : {
-    "start" : 1655745435050,
-    "stop" : 1655745436302,
-    "duration" : 1252
+    "start" : 1655746007653,
+    "stop" : 1655746008393,
+    "duration" : 740
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "15a95f78614e467",
-  "name" : "Should go back to profile and check that 'Client agreed rate' = 0",
+  "uid" : "3f93f784b17dda36",
+  "name" : "\"Insurance API Log\" column should be sorted by default by \"Date Created\"",
   "time" : {
-    "start" : 1655745441067,
-    "stop" : 1655745446949,
-    "duration" : 5882
+    "start" : 1655746731193,
+    "stop" : 1655746791546,
+    "duration" : 60353
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "5e394a506f4daecb",
-  "name" : "Should go to clients page and check url",
-  "time" : {
-    "start" : 1655745417658,
-    "stop" : 1655745427914,
-    "duration" : 10256
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c30803323571ed3a",
-  "name" : "Should go to clients page and check url",
-  "time" : {
-    "start" : 1655745379660,
-    "stop" : 1655745391897,
-    "duration" : 12237
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "866ba60490acdfea",
+  "uid" : "706435c0a275f40a",
   "name" : "Should open first client profile and uncheck insurance subject \"Cost-share Waiver\" check box",
   "time" : {
-    "start" : 1655745397822,
-    "stop" : 1655745415815,
-    "duration" : 17993
+    "start" : 1655746647133,
+    "stop" : 1655746667448,
+    "duration" : 20315
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "d448d2209437b174",
+  "uid" : "ce63f0830291e6a0",
+  "name" : "Should fill out credit card form and click \"Submit\" button",
+  "time" : {
+    "start" : 1655746040705,
+    "stop" : 1655746049136,
+    "duration" : 8431
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cd28fda35aae1c7a",
+  "name" : "Should click \"Upload File\" button and add file",
+  "time" : {
+    "start" : 1655746154242,
+    "stop" : 1655746155187,
+    "duration" : 945
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ab9d41531bde0f04",
+  "name" : "\"after all\" hook for C2260: Multi State: Connect Nirvana API Key with correct PCorp",
+  "time" : {
+    "start" : 1655746491818,
+    "stop" : 1655746628358,
+    "duration" : 136540
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f330dac0d1fa15de",
+  "name" : "Should go back to client profile and check \"Account status:\" to be \"Account Created\" ",
+  "time" : {
+    "start" : 1655746049136,
+    "stop" : 1655746059298,
+    "duration" : 10162
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "95e1e4609742b2f5",
+  "name" : "Should create Superbill statement without invitation",
+  "time" : {
+    "start" : 1655746111143,
+    "stop" : 1655746112632,
+    "duration" : 1489
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "edd847ae8667beaa",
+  "name" : "Should go to client with INN and selected Payer",
+  "time" : {
+    "start" : 1655746832058,
+    "stop" : 1655746832852,
+    "duration" : 794
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d0da5e2f3efaa9c7",
+  "name" : "Should verify file upload",
+  "time" : {
+    "start" : 1655746155964,
+    "stop" : 1655746160238,
+    "duration" : 4274
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "90472f9a621709dc",
+  "name" : "Should go first client profile",
+  "time" : {
+    "start" : 1655746687385,
+    "stop" : 1655746689246,
+    "duration" : 1861
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c6521c4d336d120c",
+  "name" : "The message 'For INN partners, prices are preset by CPT code' should not be visible and price should be editable.",
+  "time" : {
+    "start" : 1655746836175,
+    "stop" : 1655746846933,
+    "duration" : 10758
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bbf2b197d673aa28",
+  "name" : "Should go to Insurance Case and scroll down to 'Insurance API Log'",
+  "time" : {
+    "start" : 1655746730106,
+    "stop" : 1655746731193,
+    "duration" : 1087
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1c08e96b9139540d",
+  "name" : "Should open \"Sarah\" client profile change \"As assigned to:\" to \"Danashia Mclaughlin\"",
+  "time" : {
+    "start" : 1655746171088,
+    "stop" : 1655746179679,
+    "duration" : 8591
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "23051fe079ff9c1b",
+  "name" : "Should try to download file",
+  "time" : {
+    "start" : 1655746039572,
+    "stop" : 1655746040188,
+    "duration" : 616
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5a4fbb136a5ff22",
+  "name" : "Should verify email from Resiliencelab",
+  "time" : {
+    "start" : 1655746038420,
+    "stop" : 1655746038908,
+    "duration" : 488
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4e9513164dbe6352",
+  "name" : "Should go to clients page and check url",
+  "time" : {
+    "start" : 1655746793674,
+    "stop" : 1655746832057,
+    "duration" : 38383
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6aa20d9241eeee0b",
+  "name" : "Should verify email from Resiliencelab",
+  "time" : {
+    "start" : 1655746089637,
+    "stop" : 1655746098684,
+    "duration" : 9047
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aef1de415e0638c3",
+  "name" : "\"before all\" hook for C2260: Multi State: Connect Nirvana API Key with correct PCorp",
+  "time" : {
+    "start" : 1655746408812,
+    "stop" : 1655746491817,
+    "duration" : 83005
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "7175907fc13229d",
+  "name" : "Should signUp to account",
+  "time" : {
+    "start" : 1655746023893,
+    "stop" : 1655746025401,
+    "duration" : 1508
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c67ca3f816472b07",
+  "name" : "Should go to client`s profile",
+  "time" : {
+    "start" : 1655746392842,
+    "stop" : 1655746393739,
+    "duration" : 897
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "be2005ac8cb60f7b",
+  "name" : "Should open window with creating 'Progress Note' document and check fields",
+  "time" : {
+    "start" : 1655746393739,
+    "stop" : 1655746406814,
+    "duration" : 13075
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d40e125be718f986",
+  "name" : "Should open client's profile",
+  "time" : {
+    "start" : 1655746726562,
+    "stop" : 1655746730106,
+    "duration" : 3544
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c292d3c0fa08d50",
+  "name" : "Should create Superbill statement",
+  "time" : {
+    "start" : 1655746100132,
+    "stop" : 1655746101658,
+    "duration" : 1526
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "684fc54c0e720dc7",
+  "name" : "Should go to client`s profile",
+  "time" : {
+    "start" : 1655746320740,
+    "stop" : 1655746321681,
+    "duration" : 941
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8bcb812d9193f394",
+  "name" : "Should go to clients page and check url",
+  "time" : {
+    "start" : 1655746268520,
+    "stop" : 1655746320739,
+    "duration" : 52219
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8ecb74999dfd7b1",
+  "name" : "Should select library document to share",
+  "time" : {
+    "start" : 1655746037013,
+    "stop" : 1655746038420,
+    "duration" : 1407
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "27fed2302691baa1",
+  "name" : "Should create and download Superbill statement",
+  "time" : {
+    "start" : 1655746146802,
+    "stop" : 1655746147711,
+    "duration" : 909
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cb4d134c8c1dd3b0",
+  "name" : "Should change payer without INN",
+  "time" : {
+    "start" : 1655746834004,
+    "stop" : 1655746836174,
+    "duration" : 2170
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "81b0eb3e93189fda",
+  "name" : "Should go to clients page and check url",
+  "time" : {
+    "start" : 1655746630232,
+    "stop" : 1655746640031,
+    "duration" : 9799
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d4cb4df856e2b31",
+  "name" : "Should filter clients",
+  "time" : {
+    "start" : 1655746678712,
+    "stop" : 1655746687385,
+    "duration" : 8673
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "82b1639f8fb90b2d",
+  "name" : "Should see a pop-up about some missing (required) client's information",
+  "time" : {
+    "start" : 1655746232263,
+    "stop" : 1655746233556,
+    "duration" : 1293
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9284197a62b57592",
+  "name" : "Should write document name and click \"Upload and Send Document\" button",
+  "time" : {
+    "start" : 1655746155187,
+    "stop" : 1655746155964,
+    "duration" : 777
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6cd9e3f392d2ca7f",
+  "name" : "Should go to some active client profile",
+  "time" : {
+    "start" : 1655746145474,
+    "stop" : 1655746146802,
+    "duration" : 1328
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "799f5696211df078",
+  "name" : "Should go to clients page and check url",
+  "time" : {
+    "start" : 1655746061436,
+    "stop" : 1655746088717,
+    "duration" : 27281
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1e0186836a7dae82",
+  "name" : "Should go back to pending requests",
+  "time" : {
+    "start" : 1655746040188,
+    "stop" : 1655746040229,
+    "duration" : 41
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e33e087ef8355b31",
+  "name" : "Should sign up to client portal without invitation",
+  "time" : {
+    "start" : 1655746112632,
+    "stop" : 1655746119706,
+    "duration" : 7074
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "14543f4504bcc5fc",
+  "name" : "Should go to clients page and check url",
+  "time" : {
+    "start" : 1655746669353,
+    "stop" : 1655746678712,
+    "duration" : 9359
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "62fce58027fb6bb1",
+  "name" : "Should go to new user without invitation",
+  "time" : {
+    "start" : 1655746107644,
+    "stop" : 1655746111142,
+    "duration" : 3498
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "db0f0e8b08e0360e",
+  "name" : "Should check \"test\" text matches",
+  "time" : {
+    "start" : 1655746039125,
+    "stop" : 1655746039571,
+    "duration" : 446
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f6c42d208012f46",
+  "name" : "Should signUp to account",
+  "time" : {
+    "start" : 1655746098685,
+    "stop" : 1655746100132,
+    "duration" : 1447
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2e5ac438f04433e7",
+  "name" : "Should download file without invitation",
+  "time" : {
+    "start" : 1655746119707,
+    "stop" : 1655746130987,
+    "duration" : 11280
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a19fc3ef933605ec",
+  "name" : "Should see this message 'For INN partners, prices are preset by CPT code' and price should not be editable.",
+  "time" : {
+    "start" : 1655746832852,
+    "stop" : 1655746834004,
+    "duration" : 1152
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d8935e31094f76f4",
+  "name" : "Should send invitation to CP",
+  "time" : {
+    "start" : 1655746088718,
+    "stop" : 1655746089637,
+    "duration" : 919
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d7dfaceaa2368dee",
+  "name" : "Should go to clients page and check url",
+  "time" : {
+    "start" : 1655745988034,
+    "stop" : 1655746007652,
+    "duration" : 19618
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7d8589c2baff7893",
+  "name" : "Should go to clients page and check url",
+  "time" : {
+    "start" : 1655746162207,
+    "stop" : 1655746171088,
+    "duration" : 8881
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8edd350ca820653b",
   "name" : "Should verify that each CPT code have the same agreed rate value '0'",
   "time" : {
-    "start" : 1655745446949,
-    "stop" : 1655745463820,
-    "duration" : 16871
+    "start" : 1655746701521,
+    "stop" : 1655746718249,
+    "duration" : 16728
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8779e1b0af35572d",
+  "name" : "Should go back to profile and check that 'Client agreed rate' = 0",
+  "time" : {
+    "start" : 1655746694664,
+    "stop" : 1655746701519,
+    "duration" : 6855
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4ca407f3371fbdc1",
+  "name" : "Should go to clients page and check url",
+  "time" : {
+    "start" : 1655746720205,
+    "stop" : 1655746726562,
+    "duration" : 6357
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7cb5ec5211b2a252",
+  "name" : "Should switch \"As assigned to:\" to \"Samuel Steinbock\" and check that it is not terminated",
+  "time" : {
+    "start" : 1655746199638,
+    "stop" : 1655746216974,
+    "duration" : 17336
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cb3100b16352b174",
+  "name" : "Should go to clients page and check url",
+  "time" : {
+    "start" : 1655746218979,
+    "stop" : 1655746231077,
+    "duration" : 12098
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "be59b0f89eaf40e0",
+  "name" : "Should open CP page and Log In",
+  "time" : {
+    "start" : 1655746149681,
+    "stop" : 1655746154241,
+    "duration" : 4560
   },
   "status" : "passed",
   "severity" : "normal"

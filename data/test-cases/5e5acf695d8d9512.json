@@ -1,12 +1,12 @@
 {
-  "uid" : "8ac69adc5a119673",
-  "name" : "Should check cbox for cost-share Waiver and add end date",
-  "fullName" : "C2264: Price should be 0 with active cost share waiver (CSW).Should check cbox for cost-share Waiver and add end date",
-  "historyId" : "130349ae9ea479bd9f9ffa44ffcedf7a",
+  "uid" : "5e5acf695d8d9512",
+  "name" : "Should select library document to share",
+  "fullName" : "C2257: Default text for document exchanges.Should select library document to share",
+  "historyId" : "dfc32986727284c91e58ad058043eec4",
   "time" : {
-    "start" : 1655745436302,
-    "stop" : 1655745441067,
-    "duration" : 4765
+    "start" : 1655746008393,
+    "stop" : 1655746009668,
+    "duration" : 1275
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -27,19 +27,19 @@
     "value" : "javascript"
   }, {
     "name" : "thread",
-    "value" : "0-1"
+    "value" : "0-0"
   }, {
     "name" : "suite",
-    "value" : "C2264: Price should be 0 with active cost share waiver (CSW)"
+    "value" : "C2257: Default text for document exchanges"
   }, {
     "name" : "testClass",
-    "value" : "C2264: Price should be 0 with active cost share waiver (CSW)"
+    "value" : "C2257: Default text for document exchanges"
   }, {
     "name" : "testMethod",
-    "value" : "Should check cbox for cost-share Waiver and add end date"
+    "value" : "Should select library document to share"
   }, {
     "name" : "package",
-    "value" : "C2264: Price should be 0 with active cost share waiver (CSW)"
+    "value" : "C2257: Default text for document exchanges"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -49,14 +49,12 @@
     "value" : "chrome-102.0.5005.115"
   } ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "8ac69adc5a119673.json",
+  "source" : "5e5acf695d8d9512.json",
   "parameterValues" : [ "chrome-102.0.5005.115" ]
 }
