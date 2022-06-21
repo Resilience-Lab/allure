@@ -1,106 +1,18 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "children" : [ {
-    "name" : "Product defects",
-    "children" : [ {
-      "name" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Requests | Resilence Lab\"\n                Received: \"Request | Resilence Lab\"",
-      "children" : [ {
-        "name" : "Should click 'View Requests' button in 'Pending Requests' ",
-        "uid" : "bab7f888ea2b0092",
-        "parentUid" : "9863c44cb483ca8d04957d41cb036c08",
-        "status" : "failed",
-        "time" : {
-          "start" : 1655796570921,
-          "stop" : 1655796571176,
-          "duration" : 255
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : true,
-        "parameters" : [ "chrome-102.0.5005.115" ]
-      } ],
-      "uid" : "9863c44cb483ca8d04957d41cb036c08"
-    } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  }, {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "element (\"(//p[contains(text(),\"test\")]//..//..//button)[2]\") still not clickable after 10000ms",
+      "name" : "element (\"//tr[@Class=\"oddListRowS1\"]//b\") still not clickable after 60000ms",
       "children" : [ {
-        "name" : "Should check \"test\" text matches",
-        "uid" : "b978d35aa93f51fc",
-        "parentUid" : "fa3a9e0a7ffd9b4257ba6042b6ad8b88",
+        "name" : "Should open POD and click select",
+        "uid" : "9fe0b2df52edf54c",
+        "parentUid" : "c6d5de9dc01e5ffb7ab46966420da77f",
         "status" : "broken",
         "time" : {
-          "start" : 1655796571176,
-          "stop" : 1655796581386,
-          "duration" : 10210
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : true,
-        "parameters" : [ "chrome-102.0.5005.115" ]
-      } ],
-      "uid" : "fa3a9e0a7ffd9b4257ba6042b6ad8b88"
-    }, {
-      "name" : "element (\"//button[@type=\"submit\"][text()=\"Download Document\"]\") still not clickable after 60000ms",
-      "children" : [ {
-        "name" : "Should try to download file",
-        "uid" : "1a028534b9a05157",
-        "parentUid" : "48dc96a40b177b324f312975dc10a2cd",
-        "status" : "broken",
-        "time" : {
-          "start" : 1655796581387,
-          "stop" : 1655796641600,
-          "duration" : 60213
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : true,
-        "parameters" : [ "chrome-102.0.5005.115" ]
-      } ],
-      "uid" : "48dc96a40b177b324f312975dc10a2cd"
-    }, {
-      "name" : "element (\"//button[text()='Close']\") still not clickable after 60000ms",
-      "children" : [ {
-        "name" : "Should fill out credit card form and click \"Submit\" button",
-        "uid" : "3ae4cf8dc394996b",
-        "parentUid" : "1b5d95a487110932ae0eaa90990f74b4",
-        "status" : "broken",
-        "time" : {
-          "start" : 1655796642472,
-          "stop" : 1655796708925,
-          "duration" : 66453
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.115" ]
-      } ],
-      "uid" : "1b5d95a487110932ae0eaa90990f74b4"
-    }, {
-      "name" : "element (\"//a[text()='Sign in']\") still not clickable after 60000ms",
-      "children" : [ {
-        "name" : "Should verify email from Resiliencelab",
-        "uid" : "cb93b169e20336df",
-        "parentUid" : "b93d1a0c45ca4a3df865f518e1d2d5ce",
-        "status" : "broken",
-        "time" : {
-          "start" : 1655796752469,
-          "stop" : 1655796848618,
-          "duration" : 96149
+          "start" : 1655821037502,
+          "stop" : 1655821099598,
+          "duration" : 62096
         },
         "flaky" : false,
         "newFailed" : false,
@@ -110,18 +22,18 @@
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-102.0.5005.115" ]
       } ],
-      "uid" : "b93d1a0c45ca4a3df865f518e1d2d5ce"
+      "uid" : "c6d5de9dc01e5ffb7ab46966420da77f"
     }, {
-      "name" : "element (\"[name=\"email\"]\") still not displayed after 60000ms",
+      "name" : "Can't call scrollIntoView on element with selector \"(//td[1]/input[@type='checkbox'])[1]\" because element wasn't found",
       "children" : [ {
-        "name" : "Should signUp to account",
-        "uid" : "b284708824a1cb2c",
-        "parentUid" : "a6ec8fee4d6ecc89c0ac894aec3efe04",
+        "name" : "Should add more than 10 clinicians (also who have supervisors)",
+        "uid" : "4ca72d175b72d7ed",
+        "parentUid" : "358538d7bb0d70ba89012fa84e732678",
         "status" : "broken",
         "time" : {
-          "start" : 1655796848619,
-          "stop" : 1655796908841,
-          "duration" : 60222
+          "start" : 1655821099600,
+          "stop" : 1655821109756,
+          "duration" : 10156
         },
         "flaky" : false,
         "newFailed" : false,
@@ -131,93 +43,34 @@
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-102.0.5005.115" ]
       } ],
-      "uid" : "a6ec8fee4d6ecc89c0ac894aec3efe04"
-    }, {
-      "name" : "No window found with title, url or name matching \"Home | Resilence Lab\"",
-      "children" : [ {
-        "name" : "Should download file",
-        "uid" : "79b6238a8a238d17",
-        "parentUid" : "b1456b046bd4f719d75736c54a932442",
-        "status" : "broken",
-        "time" : {
-          "start" : 1655796910426,
-          "stop" : 1655796910727,
-          "duration" : 301
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.115" ]
-      } ],
-      "uid" : "b1456b046bd4f719d75736c54a932442"
-    }, {
-      "name" : "element (\"a[href=\"https://dev.client.resiliencelab.us/logout\"]\") still not clickable after 60000ms",
-      "children" : [ {
-        "name" : "Should sign up to client portal without invitation",
-        "uid" : "f71ec45c28e35c1c",
-        "parentUid" : "8be9fd79e58e55475e00e5ef30208ea1",
-        "status" : "broken",
-        "time" : {
-          "start" : 1655796917472,
-          "stop" : 1655796983697,
-          "duration" : 66225
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.115" ]
-      } ],
-      "uid" : "8be9fd79e58e55475e00e5ef30208ea1"
-    }, {
-      "name" : "element (\"//button[text() = 'View Requests']\") still not clickable after 60000ms",
-      "children" : [ {
-        "name" : "Should download file without invitation",
-        "uid" : "5153979d554f7c3a",
-        "parentUid" : "7ea638bb22aa0af9e6f8824a16a643cf",
-        "status" : "broken",
-        "time" : {
-          "start" : 1655796983697,
-          "stop" : 1655797055034,
-          "duration" : 71337
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.115" ]
-      } ],
-      "uid" : "7ea638bb22aa0af9e6f8824a16a643cf"
-    }, {
-      "name" : "element (\"[class*=\"noty_bar noty_type__warning\"] [class=\"btn btn-success\"]\") still not clickable after 60000ms",
-      "children" : [ {
-        "name" : "\"before all\" hook for C2267: Price should be 0 with active cost share waiver (CSW)",
-        "uid" : "3a99b68ffd5b2e5c",
-        "parentUid" : "aec396c99afd373f9cb4810bbf306842",
-        "status" : "broken",
-        "time" : {
-          "start" : 1655797613007,
-          "stop" : 1655797693330,
-          "duration" : 80323
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.115" ]
-      } ],
-      "uid" : "aec396c99afd373f9cb4810bbf306842"
+      "uid" : "358538d7bb0d70ba89012fa84e732678"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: 10\n                Received: 0",
+      "children" : [ {
+        "name" : "Should have list size of 10 clinicians",
+        "uid" : "275f3c74110b7bee",
+        "parentUid" : "e662345e6e6a4b3a805e41ee1f61de5d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1655821109756,
+          "stop" : 1655821109936,
+          "duration" : 180
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.115" ]
+      } ],
+      "uid" : "e662345e6e6a4b3a805e41ee1f61de5d"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ],
   "name" : "categories"
 }

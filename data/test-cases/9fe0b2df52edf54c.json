@@ -1,0 +1,86 @@
+{
+  "uid" : "9fe0b2df52edf54c",
+  "name" : "Should open POD and click select",
+  "fullName" : "C2262: PC POD Clinicians.Should open POD and click select",
+  "historyId" : "1f56131a274272d981262eb52534a323",
+  "time" : {
+    "start" : 1655821037502,
+    "stop" : 1655821099598,
+    "duration" : 62096
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"//tr[@Class=\"oddListRowS1\"]//b\") still not clickable after 60000ms",
+  "statusTrace" : "Error: element (\"//tr[@Class=\"oddListRowS1\"]//b\") still not clickable after 60000ms\n                    at async PodsPage.waitElementForClickable (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:79:9)\n                    at async PodsPage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:133:9)\n                    at async PodsPage.clickByFirstIndex (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/pods.page.ts:56:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"//tr[@Class=\"oddListRowS1\"]//b\") still not clickable after 60000ms",
+    "statusTrace" : "Error: element (\"//tr[@Class=\"oddListRowS1\"]//b\") still not clickable after 60000ms\n                    at async PodsPage.waitElementForClickable (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:79:9)\n                    at async PodsPage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:133:9)\n                    at async PodsPage.clickByFirstIndex (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/pods.page.ts:56:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c37bd4df3a31e33f",
+      "name" : "Screenshot",
+      "source" : "c37bd4df3a31e33f.png",
+      "type" : "image/png",
+      "size" : 43616
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-19"
+  }, {
+    "name" : "suite",
+    "value" : "C2262: PC POD Clinicians"
+  }, {
+    "name" : "testClass",
+    "value" : "C2262: PC POD Clinicians"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should open POD and click select"
+  }, {
+    "name" : "package",
+    "value" : "C2262: PC POD Clinicians"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "9fe0b2df52edf54c.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}

@@ -1,13 +1,24 @@
 {
-  "total" : 23,
+  "total" : 24,
   "items" : [ {
+    "uid" : "7cde2751937f591e849ca7184632d091",
+    "name" : "C2262: PC POD Clinicians",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
     "uid" : "81ae33d00cd469cb53c0f71f073c4980",
     "name" : "C2257: Default text for document exchanges",
     "statistic" : {
-      "failed" : 1,
-      "broken" : 3,
+      "failed" : 0,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 12,
       "unknown" : 0,
       "total" : 12
     }
@@ -16,22 +27,11 @@
     "name" : "C2258: Superbill submission via Portal",
     "statistic" : {
       "failed" : 0,
-      "broken" : 5,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 5,
+      "passed" : 10,
       "unknown" : 0,
       "total" : 10
-    }
-  }, {
-    "uid" : "6661e9a2fa08a7eeb33ed54acd800a13",
-    "name" : "C2267: Price should be 0 with active cost share waiver (CSW)",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 2
     }
   }, {
     "uid" : "4fdd22980b2fbeaabcb98f54388d1e85",
@@ -78,6 +78,17 @@
       "total" : 6
     }
   }, {
+    "uid" : "6661e9a2fa08a7eeb33ed54acd800a13",
+    "name" : "C2267: Price should be 0 with active cost share waiver (CSW)",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
     "uid" : "de45a05d7b2795953f6c75534701f828",
     "name" : "C2255: Client's filters and columns",
     "statistic" : {
@@ -91,17 +102,6 @@
   }, {
     "uid" : "e61216604e05de4a2256469c38f3c4ce",
     "name" : "C2261: Clients need to be able to upload documents via Portal",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 4,
-      "unknown" : 0,
-      "total" : 4
-    }
-  }, {
-    "uid" : "4bfc9a47a5fa5a87c7b438556413a3c0",
-    "name" : "C2265: Terminate client with multiclinician",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
