@@ -3,16 +3,58 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
+      "name" : "Can't call elementClick on element with selector \"#bigbutton\" because element wasn't found",
+      "children" : [ {
+        "name" : "\"before all\" hook for C2263: Multi State: Connect Nirvana API Key with correct PCorp",
+        "uid" : "1b40c747c550763b",
+        "parentUid" : "7471a27122cef0062453852883425b48",
+        "status" : "broken",
+        "time" : {
+          "start" : 1655842420712,
+          "stop" : 1655842467229,
+          "duration" : 46517
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.115" ]
+      } ],
+      "uid" : "7471a27122cef0062453852883425b48"
+    }, {
+      "name" : "element (\"#tab-actions\") still not clickable after 60000ms",
+      "children" : [ {
+        "name" : "\"after all\" hook for C2263: Multi State: Connect Nirvana API Key with correct PCorp",
+        "uid" : "a33d2d977372f89d",
+        "parentUid" : "5b9875ae1882c2c14849c77ff0b3bafb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1655842467229,
+          "stop" : 1655842527254,
+          "duration" : 60025
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.115" ]
+      } ],
+      "uid" : "5b9875ae1882c2c14849c77ff0b3bafb"
+    }, {
       "name" : "element (\"//tr[@Class=\"oddListRowS1\"]//b\") still not clickable after 60000ms",
       "children" : [ {
         "name" : "Should open POD and click select",
-        "uid" : "9fe0b2df52edf54c",
+        "uid" : "28fad8633ffac80e",
         "parentUid" : "c6d5de9dc01e5ffb7ab46966420da77f",
         "status" : "broken",
         "time" : {
-          "start" : 1655821037502,
-          "stop" : 1655821099598,
-          "duration" : 62096
+          "start" : 1655843231253,
+          "stop" : 1655843293668,
+          "duration" : 62415
         },
         "flaky" : false,
         "newFailed" : false,
@@ -27,13 +69,13 @@
       "name" : "Can't call scrollIntoView on element with selector \"(//td[1]/input[@type='checkbox'])[1]\" because element wasn't found",
       "children" : [ {
         "name" : "Should add more than 10 clinicians (also who have supervisors)",
-        "uid" : "4ca72d175b72d7ed",
+        "uid" : "a5b1b6c8a21d1e4e",
         "parentUid" : "358538d7bb0d70ba89012fa84e732678",
         "status" : "broken",
         "time" : {
-          "start" : 1655821099600,
-          "stop" : 1655821109756,
-          "duration" : 10156
+          "start" : 1655843293669,
+          "stop" : 1655843303884,
+          "duration" : 10215
         },
         "flaky" : false,
         "newFailed" : false,
@@ -52,13 +94,13 @@
       "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: 10\n                Received: 0",
       "children" : [ {
         "name" : "Should have list size of 10 clinicians",
-        "uid" : "275f3c74110b7bee",
+        "uid" : "6e8866c276aecc15",
         "parentUid" : "e662345e6e6a4b3a805e41ee1f61de5d",
         "status" : "failed",
         "time" : {
-          "start" : 1655821109756,
-          "stop" : 1655821109936,
-          "duration" : 180
+          "start" : 1655843303884,
+          "stop" : 1655843304104,
+          "duration" : 220
         },
         "flaky" : false,
         "newFailed" : false,

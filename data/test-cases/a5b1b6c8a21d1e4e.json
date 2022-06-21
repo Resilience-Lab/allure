@@ -1,0 +1,86 @@
+{
+  "uid" : "a5b1b6c8a21d1e4e",
+  "name" : "Should add more than 10 clinicians (also who have supervisors)",
+  "fullName" : "C2262: PC POD Clinicians.Should add more than 10 clinicians (also who have supervisors)",
+  "historyId" : "77e65725dc36b7b2b74168b27f449ad8",
+  "time" : {
+    "start" : 1655843293669,
+    "stop" : 1655843303884,
+    "duration" : 10215
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Can't call scrollIntoView on element with selector \"(//td[1]/input[@type='checkbox'])[1]\" because element wasn't found",
+  "statusTrace" : "Error: Can't call scrollIntoView on element with selector \"(//td[1]/input[@type='checkbox'])[1]\" because element wasn't found\n                    at async PodsPage.scrollElementByIndexIntoViewTop (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:269:9)\n                    at async PodsPage.clickByIndexCliniciansFilterCBox (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/pods.page.ts:24:9)\n                    at async PodsPage.clickSomeAmountOfCliniansFilterCBox (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/pods.page.ts:38:13)\n                    at async Context.<anonymous> (/home/runner/work/webautomation/webautomation/test/specs/POD/C2262_PC_POD_Clinicians.spec.ts:26:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Can't call scrollIntoView on element with selector \"(//td[1]/input[@type='checkbox'])[1]\" because element wasn't found",
+    "statusTrace" : "Error: Can't call scrollIntoView on element with selector \"(//td[1]/input[@type='checkbox'])[1]\" because element wasn't found\n                    at async PodsPage.scrollElementByIndexIntoViewTop (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:269:9)\n                    at async PodsPage.clickByIndexCliniciansFilterCBox (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/pods.page.ts:24:9)\n                    at async PodsPage.clickSomeAmountOfCliniansFilterCBox (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/pods.page.ts:38:13)\n                    at async Context.<anonymous> (/home/runner/work/webautomation/webautomation/test/specs/POD/C2262_PC_POD_Clinicians.spec.ts:26:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4fa8d657b86ee3b3",
+      "name" : "Screenshot",
+      "source" : "4fa8d657b86ee3b3.png",
+      "type" : "image/png",
+      "size" : 43616
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-19"
+  }, {
+    "name" : "suite",
+    "value" : "C2262: PC POD Clinicians"
+  }, {
+    "name" : "testClass",
+    "value" : "C2262: PC POD Clinicians"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should add more than 10 clinicians (also who have supervisors)"
+  }, {
+    "name" : "package",
+    "value" : "C2262: PC POD Clinicians"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "a5b1b6c8a21d1e4e.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}
