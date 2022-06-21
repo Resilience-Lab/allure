@@ -1,0 +1,68 @@
+{
+  "uid" : "3a99b68ffd5b2e5c",
+  "name" : "\"before all\" hook for C2267: Price should be 0 with active cost share waiver (CSW)",
+  "fullName" : "C2267: Price should be 0 with active cost share waiver (CSW).\"before all\" hook for C2267: Price should be 0 with active cost share waiver (CSW)",
+  "historyId" : "35f1bf20628e22f571b488759ed92608",
+  "time" : {
+    "start" : 1655797613007,
+    "stop" : 1655797693330,
+    "duration" : 80323
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"[class*=\"noty_bar noty_type__warning\"] [class=\"btn btn-success\"]\") still not clickable after 60000ms",
+  "statusTrace" : "Error: element (\"[class*=\"noty_bar noty_type__warning\"] [class=\"btn btn-success\"]\") still not clickable after 60000ms\n                    at async createClientPage.waitElementForClickable (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:79:9)\n                    at async createClientPage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:133:9)\n                    at async createClientPage.clickPopupYesBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/createClient.page.ts:48:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-13"
+  }, {
+    "name" : "suite",
+    "value" : "C2267: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "testClass",
+    "value" : "C2267: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook for C2267: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "package",
+    "value" : "C2267: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "3a99b68ffd5b2e5c.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}

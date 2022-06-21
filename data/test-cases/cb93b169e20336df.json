@@ -1,0 +1,86 @@
+{
+  "uid" : "cb93b169e20336df",
+  "name" : "Should verify email from Resiliencelab",
+  "fullName" : "C2258: Superbill submission via Portal.Should verify email from Resiliencelab",
+  "historyId" : "218783b2c8a8f3abd8b3b879d2c57a2c",
+  "time" : {
+    "start" : 1655796752469,
+    "stop" : 1655796848618,
+    "duration" : 96149
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"//a[text()='Sign in']\") still not clickable after 60000ms",
+  "statusTrace" : "Error: element (\"//a[text()='Sign in']\") still not clickable after 60000ms\n                    at async EmailPage.waitElementForClickable (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:79:9)\n                    at async EmailPage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:133:9)\n                    at async EmailPage.goToMailBox (/home/runner/work/webautomation/webautomation/test/pageobjects/email.page.ts:75:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"//a[text()='Sign in']\") still not clickable after 60000ms",
+    "statusTrace" : "Error: element (\"//a[text()='Sign in']\") still not clickable after 60000ms\n                    at async EmailPage.waitElementForClickable (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:79:9)\n                    at async EmailPage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:133:9)\n                    at async EmailPage.goToMailBox (/home/runner/work/webautomation/webautomation/test/pageobjects/email.page.ts:75:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "201b27b1a76d5652",
+      "name" : "Screenshot",
+      "source" : "201b27b1a76d5652.png",
+      "type" : "image/png",
+      "size" : 60420
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "C2258: Superbill submission via Portal"
+  }, {
+    "name" : "testClass",
+    "value" : "C2258: Superbill submission via Portal"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should verify email from Resiliencelab"
+  }, {
+    "name" : "package",
+    "value" : "C2258: Superbill submission via Portal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "cb93b169e20336df.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}
