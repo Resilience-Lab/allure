@@ -5,31 +5,14 @@
     "children" : [ {
       "name" : "Can't call elementClick on element with selector \"#bigbutton\" because element wasn't found",
       "children" : [ {
-        "name" : "\"before all\" hook for C2282: Verify Progress Note disabled fields",
-        "uid" : "def2c8073378378d",
-        "parentUid" : "7471a27122cef0062453852883425b48",
-        "status" : "broken",
-        "time" : {
-          "start" : 1655915458662,
-          "stop" : 1655915501264,
-          "duration" : 42602
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.115" ]
-      }, {
         "name" : "\"before all\" hook for C2264: Price should be 0 with active cost share waiver (CSW)",
-        "uid" : "1b47451e913a149b",
+        "uid" : "f57470a63d5db6d",
         "parentUid" : "7471a27122cef0062453852883425b48",
         "status" : "broken",
         "time" : {
-          "start" : 1655915947539,
-          "stop" : 1655915992852,
-          "duration" : 45313
+          "start" : 1655919143022,
+          "stop" : 1655919192221,
+          "duration" : 49199
         },
         "flaky" : false,
         "newFailed" : false,
@@ -41,37 +24,16 @@
       } ],
       "uid" : "7471a27122cef0062453852883425b48"
     }, {
-      "name" : "element (\"//a[contains(text(),\"CLIENT\")]\") still not clickable after 60000ms",
-      "children" : [ {
-        "name" : "\"after all\" hook for C2282: Verify Progress Note disabled fields",
-        "uid" : "8efb5a1914d4029f",
-        "parentUid" : "c13c1c6c99b1f48e315c95e3a5c9ac18",
-        "status" : "broken",
-        "time" : {
-          "start" : 1655915501264,
-          "stop" : 1655915597259,
-          "duration" : 95995
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.115" ]
-      } ],
-      "uid" : "c13c1c6c99b1f48e315c95e3a5c9ac18"
-    }, {
       "name" : "element (\"(//div[@id='list_subpanel_cases']//tr[contains(@class,'ListRowS1')]//td[3])[1]\") still not clickable after 10000ms",
       "children" : [ {
         "name" : "\"after all\" hook for C2264: Price should be 0 with active cost share waiver (CSW)",
-        "uid" : "f293a98819347be4",
+        "uid" : "820d723b8636442a",
         "parentUid" : "7c3997dd749397c64eb5b37733942ad2",
         "status" : "broken",
         "time" : {
-          "start" : 1655915992852,
-          "stop" : 1655916029307,
-          "duration" : 36455
+          "start" : 1655919192221,
+          "stop" : 1655919242993,
+          "duration" : 50772
         },
         "flaky" : false,
         "newFailed" : false,
