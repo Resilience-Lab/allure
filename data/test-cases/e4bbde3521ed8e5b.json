@@ -1,0 +1,86 @@
+{
+  "uid" : "e4bbde3521ed8e5b",
+  "name" : "Should have list size of 10 clinicians",
+  "fullName" : "C2262: PC POD Clinicians.Should have list size of 10 clinicians",
+  "historyId" : "1b3462d0ac62923bce64d3fec33768c",
+  "time" : {
+    "start" : 1655883954360,
+    "stop" : 1655883954594,
+    "duration" : 234
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: 10\n                Received: 0",
+  "statusTrace" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                Expected: 10\n                Received: 0\n                    at Context.<anonymous> (/home/runner/work/webautomation/webautomation/test/specs/POD/C2262_PC_POD_Clinicians.spec.ts:34:56)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: 10\n                Received: 0",
+    "statusTrace" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                Expected: 10\n                Received: 0\n                    at Context.<anonymous> (/home/runner/work/webautomation/webautomation/test/specs/POD/C2262_PC_POD_Clinicians.spec.ts:34:56)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "99739f3456d152f5",
+      "name" : "Screenshot",
+      "source" : "99739f3456d152f5.png",
+      "type" : "image/png",
+      "size" : 43616
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-19"
+  }, {
+    "name" : "suite",
+    "value" : "C2262: PC POD Clinicians"
+  }, {
+    "name" : "testClass",
+    "value" : "C2262: PC POD Clinicians"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should have list size of 10 clinicians"
+  }, {
+    "name" : "package",
+    "value" : "C2262: PC POD Clinicians"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "e4bbde3521ed8e5b.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}

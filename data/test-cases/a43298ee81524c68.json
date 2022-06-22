@@ -1,0 +1,86 @@
+{
+  "uid" : "a43298ee81524c68",
+  "name" : "Should verify that each CPT code have the same agreed rate value '0'",
+  "fullName" : "C2264: Price should be 0 with active cost share waiver (CSW).Should verify that each CPT code have the same agreed rate value '0'",
+  "historyId" : "120e4ea594bae62e140a48f1ccbcd5fa",
+  "time" : {
+    "start" : 1655883331732,
+    "stop" : 1655883403792,
+    "duration" : 72060
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Can't call scrollIntoView on element with selector \"#customUtils___getMeetingsForClientsQuery_create_button\" because element wasn't found",
+  "statusTrace" : "Error: Can't call scrollIntoView on element with selector \"#customUtils___getMeetingsForClientsQuery_create_button\" because element wasn't found\n                    at async ProfilePage.scrollElementIntoViewTop (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:261:9)\n                    at async ProfilePage.clickSessionsCreateBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:476:9)\n                    at async Context.<anonymous> (/home/runner/work/webautomation/webautomation/test/specs/Clients/Insurance/C2264_price_should_be_0_with_active_cost_share_waiver_(CSW).spec.ts:43:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Can't call scrollIntoView on element with selector \"#customUtils___getMeetingsForClientsQuery_create_button\" because element wasn't found",
+    "statusTrace" : "Error: Can't call scrollIntoView on element with selector \"#customUtils___getMeetingsForClientsQuery_create_button\" because element wasn't found\n                    at async ProfilePage.scrollElementIntoViewTop (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:261:9)\n                    at async ProfilePage.clickSessionsCreateBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:476:9)\n                    at async Context.<anonymous> (/home/runner/work/webautomation/webautomation/test/specs/Clients/Insurance/C2264_price_should_be_0_with_active_cost_share_waiver_(CSW).spec.ts:43:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9ecd319a25bf1bcf",
+      "name" : "Screenshot",
+      "source" : "9ecd319a25bf1bcf.png",
+      "type" : "image/png",
+      "size" : 282939
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-11"
+  }, {
+    "name" : "suite",
+    "value" : "C2264: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "testClass",
+    "value" : "C2264: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should verify that each CPT code have the same agreed rate value '0'"
+  }, {
+    "name" : "package",
+    "value" : "C2264: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "a43298ee81524c68.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}

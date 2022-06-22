@@ -1,0 +1,68 @@
+{
+  "uid" : "5cc4c21df36bb297",
+  "name" : "\"before all\" hook for C2282: Verify Progress Note disabled fields",
+  "fullName" : "C2282: Verify Progress Note disabled fields.\"before all\" hook for C2282: Verify Progress Note disabled fields",
+  "historyId" : "d37f6f0665d5c580f4bfb13ec5838ccc",
+  "time" : {
+    "start" : 1655882749591,
+    "stop" : 1655882794890,
+    "duration" : 45299
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Can't call elementClick on element with selector \"#bigbutton\" because element wasn't found",
+  "statusTrace" : "Error: Can't call elementClick on element with selector \"#bigbutton\" because element wasn't found\n                    at async LoginPage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:134:9)\n                    at async LoginPage.clickSubmitBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/login.page.ts:17:9)\n                    at async LoginPage.login (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/login.page.ts:23:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-8"
+  }, {
+    "name" : "suite",
+    "value" : "C2282: Verify Progress Note disabled fields"
+  }, {
+    "name" : "testClass",
+    "value" : "C2282: Verify Progress Note disabled fields"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook for C2282: Verify Progress Note disabled fields"
+  }, {
+    "name" : "package",
+    "value" : "C2282: Verify Progress Note disabled fields"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "5cc4c21df36bb297.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}
