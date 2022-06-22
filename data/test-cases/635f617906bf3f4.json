@@ -1,0 +1,95 @@
+{
+  "uid" : "635f617906bf3f4",
+  "name" : "\"after all\" hook for C2264: Price should be 0 with active cost share waiver (CSW)",
+  "fullName" : "C2264: Price should be 0 with active cost share waiver (CSW).\"after all\" hook for C2264: Price should be 0 with active cost share waiver (CSW)",
+  "historyId" : "57834c5936cb3b04b6ad181d559a3913",
+  "time" : {
+    "start" : 1655914524746,
+    "stop" : 1655914575578,
+    "duration" : 50832
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"(//div[@id='list_subpanel_cases']//tr[contains(@class,'ListRowS1')]//td[3])[1]\") still not clickable after 10000ms",
+  "statusTrace" : "Error: element (\"(//div[@id='list_subpanel_cases']//tr[contains(@class,'ListRowS1')]//td[3])[1]\") still not clickable after 10000ms\n                    at async ProfilePage.waitForElementClickableByIndex (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:84:9)\n                    at async ProfilePage.clickByIndex (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:139:9)\n                    at async ProfilePage.clickByIndexInsuranceCase (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:495:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "C2264: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "testClass",
+    "value" : "C2264: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"after all\" hook for C2264: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "package",
+    "value" : "C2264: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "96ec0b1e5033aaf2",
+      "status" : "broken",
+      "statusDetails" : "element (\"(//div[@id='list_subpanel_cases']//tr[contains(@class,'ListRowS1')]//td[3])[1]\") still not clickable after 10000ms",
+      "time" : {
+        "start" : 1655914268686,
+        "stop" : 1655914305453,
+        "duration" : 36767
+      }
+    }, {
+      "uid" : "d54a28f316c1d762",
+      "status" : "broken",
+      "statusDetails" : "Can't call elementClick on element with selector \"(//td[@field='first_name']//a)[1]\" because element wasn't found",
+      "time" : {
+        "start" : 1655914132938,
+        "stop" : 1655914220885,
+        "duration" : 87947
+      }
+    }, {
+      "uid" : "1244384ba0466856",
+      "status" : "broken",
+      "statusDetails" : "element (\"(//div[@id='list_subpanel_cases']//tr[contains(@class,'ListRowS1')]//td[3])[1]\") still not clickable after 10000ms",
+      "time" : {
+        "start" : 1655913593514,
+        "stop" : 1655913648709,
+        "duration" : 55195
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "635f617906bf3f4.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}

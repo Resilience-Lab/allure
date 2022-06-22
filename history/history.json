@@ -9,12 +9,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4c45c7f8bef5b108",
+      "uid" : "2b18a32150ce7773",
       "status" : "passed",
       "time" : {
-        "start" : 1655912684948,
-        "stop" : 1655912689165,
-        "duration" : 4217
+        "start" : 1655914672127,
+        "stop" : 1655914674141,
+        "duration" : 2014
+      }
+    } ]
+  },
+  "4c9d1d42c24d032626fd54cabd7564f3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a5a53f7c8fd290df",
+      "status" : "broken",
+      "statusDetails" : "Can't call elementClick on element with selector \"#bigbutton\" because element wasn't found",
+      "time" : {
+        "start" : 1655914476847,
+        "stop" : 1655914524742,
+        "duration" : 47895
       }
     } ]
   },
@@ -28,12 +48,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "45a032f5f6d5419a",
+      "uid" : "cf01895f514dc64d",
       "status" : "passed",
       "time" : {
-        "start" : 1655912740646,
-        "stop" : 1655912805264,
-        "duration" : 64618
+        "start" : 1655914702795,
+        "stop" : 1655914803015,
+        "duration" : 100220
+      }
+    } ]
+  },
+  "57834c5936cb3b04b6ad181d559a3913" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "635f617906bf3f4",
+      "status" : "broken",
+      "statusDetails" : "element (\"(//div[@id='list_subpanel_cases']//tr[contains(@class,'ListRowS1')]//td[3])[1]\") still not clickable after 10000ms",
+      "time" : {
+        "start" : 1655914524746,
+        "stop" : 1655914575578,
+        "duration" : 50832
       }
     } ]
   },
@@ -47,12 +87,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2a39a58ae1949776",
+      "uid" : "4ad02d1bea24e14f",
       "status" : "passed",
       "time" : {
-        "start" : 1655912705781,
-        "stop" : 1655912740646,
-        "duration" : 34865
+        "start" : 1655914681003,
+        "stop" : 1655914702795,
+        "duration" : 21792
       }
     } ]
   },
@@ -66,12 +106,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9c84a267c3ec83ed",
+      "uid" : "b810fb2d27487167",
       "status" : "passed",
       "time" : {
-        "start" : 1655912660311,
-        "stop" : 1655912684947,
-        "duration" : 24636
+        "start" : 1655914647071,
+        "stop" : 1655914672126,
+        "duration" : 25055
       }
     } ]
   },
@@ -85,12 +125,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "287bf83f68b2c558",
+      "uid" : "3dcc14acc07d581",
       "status" : "passed",
       "time" : {
-        "start" : 1655912636129,
-        "stop" : 1655912660307,
-        "duration" : 24178
+        "start" : 1655914577428,
+        "stop" : 1655914647067,
+        "duration" : 69639
       }
     } ]
   },
@@ -104,12 +144,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9ecbd213d8beed1b",
+      "uid" : "589bb5e723ed5a63",
       "status" : "passed",
       "time" : {
-        "start" : 1655912689165,
-        "stop" : 1655912705780,
-        "duration" : 16615
+        "start" : 1655914674141,
+        "stop" : 1655914681003,
+        "duration" : 6862
       }
     } ]
   }

@@ -1,0 +1,76 @@
+{
+  "uid" : "d7ff2e53c66ea4ab",
+  "name" : "Should verify that each CPT code have the same agreed rate value '0'",
+  "fullName" : "C2264: Price should be 0 with active cost share waiver (CSW).Should verify that each CPT code have the same agreed rate value '0'",
+  "historyId" : "120e4ea594bae62e140a48f1ccbcd5fa",
+  "time" : {
+    "start" : 1655913470715,
+    "stop" : 1655913544260,
+    "duration" : 73545
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a6d261040af08f9",
+      "name" : "Screenshot",
+      "source" : "a6d261040af08f9.png",
+      "type" : "image/png",
+      "size" : 247258
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "C2264: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "testClass",
+    "value" : "C2264: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should verify that each CPT code have the same agreed rate value '0'"
+  }, {
+    "name" : "package",
+    "value" : "C2264: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d7ff2e53c66ea4ab.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}
