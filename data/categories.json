@@ -1,18 +1,19 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
       "name" : "Can't call elementClick on element with selector \"#bigbutton\" because element wasn't found",
       "children" : [ {
-        "name" : "\"before all\" hook for C2282: Verify Progress Note disabled fields",
-        "uid" : "5cc4c21df36bb297",
+        "name" : "\"before all\" hook for C2263: Multi State: Connect Nirvana API Key with correct PCorp",
+        "uid" : "3d2764a458f826a8",
         "parentUid" : "7471a27122cef0062453852883425b48",
         "status" : "broken",
         "time" : {
-          "start" : 1655882749591,
-          "stop" : 1655882794890,
-          "duration" : 45299
+          "start" : 1655892036925,
+          "stop" : 1655892080137,
+          "duration" : 43212
         },
         "flaky" : false,
         "newFailed" : false,
@@ -24,16 +25,16 @@
       } ],
       "uid" : "7471a27122cef0062453852883425b48"
     }, {
-      "name" : "element (\"//a[contains(text(),\"CLIENT\")]\") still not clickable after 60000ms",
+      "name" : "element (\"#tab-actions\") still not clickable after 60000ms",
       "children" : [ {
-        "name" : "\"after all\" hook for C2282: Verify Progress Note disabled fields",
-        "uid" : "fdf469536bfe14b6",
-        "parentUid" : "c13c1c6c99b1f48e315c95e3a5c9ac18",
+        "name" : "\"after all\" hook for C2263: Multi State: Connect Nirvana API Key with correct PCorp",
+        "uid" : "63df72a57e5c7c03",
+        "parentUid" : "5b9875ae1882c2c14849c77ff0b3bafb",
         "status" : "broken",
         "time" : {
-          "start" : 1655882794891,
-          "stop" : 1655882881961,
-          "duration" : 87070
+          "start" : 1655892080137,
+          "stop" : 1655892140165,
+          "duration" : 60028
         },
         "flaky" : false,
         "newFailed" : false,
@@ -43,139 +44,8 @@
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-102.0.5005.115" ]
       } ],
-      "uid" : "c13c1c6c99b1f48e315c95e3a5c9ac18"
-    }, {
-      "name" : "Can't call elementClick on element with selector \"(//input[@id=\"SAVE\"])[1]\" because element wasn't found",
-      "children" : [ {
-        "name" : "Should open first client profile and uncheck insurance subject \"Cost-share Waiver\" check box",
-        "uid" : "45862b8724dc4643",
-        "parentUid" : "ba396889deed2e95cace74b4fa076eb9",
-        "status" : "broken",
-        "time" : {
-          "start" : 1655883125791,
-          "stop" : 1655883206162,
-          "duration" : 80371
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.115" ]
-      } ],
-      "uid" : "ba396889deed2e95cace74b4fa076eb9"
-    }, {
-      "name" : "stale element reference: element is not attached to the page document\n                  (Session info: headless chrome=102.0.5005.115)",
-      "children" : [ {
-        "name" : "Should go back to profile and check that 'Client agreed rate' = 0",
-        "uid" : "64c766ddf22df6a5",
-        "parentUid" : "fe8a71348e04e9a95b8d4fa5ef715609",
-        "status" : "broken",
-        "time" : {
-          "start" : 1655883270452,
-          "stop" : 1655883331732,
-          "duration" : 61280
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.115" ]
-      } ],
-      "uid" : "fe8a71348e04e9a95b8d4fa5ef715609"
-    }, {
-      "name" : "Can't call scrollIntoView on element with selector \"#customUtils___getMeetingsForClientsQuery_create_button\" because element wasn't found",
-      "children" : [ {
-        "name" : "Should verify that each CPT code have the same agreed rate value '0'",
-        "uid" : "a43298ee81524c68",
-        "parentUid" : "69c6ca8acb7745b0fb8ca7ed89c11618",
-        "status" : "broken",
-        "time" : {
-          "start" : 1655883331732,
-          "stop" : 1655883403792,
-          "duration" : 72060
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.115" ]
-      } ],
-      "uid" : "69c6ca8acb7745b0fb8ca7ed89c11618"
-    }, {
-      "name" : "element (\"//tr[@Class=\"oddListRowS1\"]//b\") still not clickable after 60000ms",
-      "children" : [ {
-        "name" : "Should open POD and click select",
-        "uid" : "c4985a01d62b531f",
-        "parentUid" : "c6d5de9dc01e5ffb7ab46966420da77f",
-        "status" : "broken",
-        "time" : {
-          "start" : 1655883881679,
-          "stop" : 1655883944121,
-          "duration" : 62442
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.115" ]
-      } ],
-      "uid" : "c6d5de9dc01e5ffb7ab46966420da77f"
-    }, {
-      "name" : "Can't call scrollIntoView on element with selector \"(//td[1]/input[@type='checkbox'])[1]\" because element wasn't found",
-      "children" : [ {
-        "name" : "Should add more than 10 clinicians (also who have supervisors)",
-        "uid" : "79cd9d449683d9ee",
-        "parentUid" : "358538d7bb0d70ba89012fa84e732678",
-        "status" : "broken",
-        "time" : {
-          "start" : 1655883944122,
-          "stop" : 1655883954360,
-          "duration" : 10238
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.115" ]
-      } ],
-      "uid" : "358538d7bb0d70ba89012fa84e732678"
+      "uid" : "5b9875ae1882c2c14849c77ff0b3bafb"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
-  }, {
-    "name" : "Product defects",
-    "children" : [ {
-      "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: 10\n                Received: 0",
-      "children" : [ {
-        "name" : "Should have list size of 10 clinicians",
-        "uid" : "e4bbde3521ed8e5b",
-        "parentUid" : "e662345e6e6a4b3a805e41ee1f61de5d",
-        "status" : "failed",
-        "time" : {
-          "start" : 1655883954360,
-          "stop" : 1655883954594,
-          "duration" : 234
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.115" ]
-      } ],
-      "uid" : "e662345e6e6a4b3a805e41ee1f61de5d"
-    } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  } ],
-  "name" : "categories"
+  } ]
 }

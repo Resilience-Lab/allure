@@ -1,0 +1,68 @@
+{
+  "uid" : "3d2764a458f826a8",
+  "name" : "\"before all\" hook for C2263: Multi State: Connect Nirvana API Key with correct PCorp",
+  "fullName" : "C2263: Multi State: Connect Nirvana API Key with correct PCorp.\"before all\" hook for C2263: Multi State: Connect Nirvana API Key with correct PCorp",
+  "historyId" : "cf40611a17f84eab9ae5b54382ce065b",
+  "time" : {
+    "start" : 1655892036925,
+    "stop" : 1655892080137,
+    "duration" : 43212
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Can't call elementClick on element with selector \"#bigbutton\" because element wasn't found",
+  "statusTrace" : "Error: Can't call elementClick on element with selector \"#bigbutton\" because element wasn't found\n                    at async LoginPage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:134:9)\n                    at async LoginPage.clickSubmitBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/login.page.ts:17:9)\n                    at async LoginPage.login (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/login.page.ts:23:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-10"
+  }, {
+    "name" : "suite",
+    "value" : "C2263: Multi State: Connect Nirvana API Key with correct PCorp"
+  }, {
+    "name" : "testClass",
+    "value" : "C2263: Multi State: Connect Nirvana API Key with correct PCorp"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook for C2263: Multi State: Connect Nirvana API Key with correct PCorp"
+  }, {
+    "name" : "package",
+    "value" : "C2263: Multi State: Connect Nirvana API Key with correct PCorp"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "3d2764a458f826a8.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}
