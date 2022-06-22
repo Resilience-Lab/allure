@@ -1,71 +1,61 @@
 [ {
-  "uid" : "2ba163709f5ae530",
-  "name" : "Should check cbox for cost-share Waiver and add end date",
-  "time" : {
-    "start" : 1655912080721,
-    "stop" : 1655912087464,
-    "duration" : 6743
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "450af026d89a03ea",
-  "name" : "Should verify that each CPT code have the same agreed rate value '0'",
-  "time" : {
-    "start" : 1655911343404,
-    "stop" : 1655911366317,
-    "duration" : 22913
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "31549c318c0a3169",
+  "uid" : "9c84a267c3ec83ed",
   "name" : "Should filter clients",
   "time" : {
-    "start" : 1655912071287,
-    "stop" : 1655912078984,
-    "duration" : 7697
+    "start" : 1655912660311,
+    "stop" : 1655912684947,
+    "duration" : 24636
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "f92c7d29c9c62824",
-  "name" : "Should go first client profile",
+  "uid" : "9ecbd213d8beed1b",
+  "name" : "Should check cbox for cost-share Waiver and add end date",
   "time" : {
-    "start" : 1655912078984,
-    "stop" : 1655912080721,
-    "duration" : 1737
+    "start" : 1655912689165,
+    "stop" : 1655912705780,
+    "duration" : 16615
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "fd1513a48185f7f9",
-  "name" : "Should go to clients page and check url",
-  "time" : {
-    "start" : 1655912019642,
-    "stop" : 1655912071286,
-    "duration" : 51644
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "97cdfcc9e042945c",
+  "uid" : "2a39a58ae1949776",
   "name" : "Should go back to profile and check that 'Client agreed rate' = 0",
   "time" : {
-    "start" : 1655912087464,
-    "stop" : 1655912094346,
-    "duration" : 6882
+    "start" : 1655912705781,
+    "stop" : 1655912740646,
+    "duration" : 34865
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "fe45fbba2d5e2c37",
-  "name" : "\"after all\" hook for C2264: Price should be 0 with active cost share waiver (CSW)",
+  "uid" : "287bf83f68b2c558",
+  "name" : "Should go to clients page and check url",
   "time" : {
-    "start" : 1655912094347,
-    "stop" : 1655912155095,
-    "duration" : 60748
+    "start" : 1655912636129,
+    "stop" : 1655912660307,
+    "duration" : 24178
   },
-  "status" : "broken",
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4c45c7f8bef5b108",
+  "name" : "Should go first client profile",
+  "time" : {
+    "start" : 1655912684948,
+    "stop" : 1655912689165,
+    "duration" : 4217
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "45a032f5f6d5419a",
+  "name" : "Should verify that each CPT code have the same agreed rate value '0'",
+  "time" : {
+    "start" : 1655912740646,
+    "stop" : 1655912805264,
+    "duration" : 64618
+  },
+  "status" : "passed",
   "severity" : "normal"
 } ]
