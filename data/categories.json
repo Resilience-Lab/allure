@@ -1,19 +1,18 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "name" : "categories",
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "Can't call elementClick on element with selector \"#bigbutton\" because element wasn't found",
+      "name" : "no such alert\n                  (Session info: headless chrome=102.0.5005.115)",
       "children" : [ {
-        "name" : "\"before all\" hook for C2263: Multi State: Connect Nirvana API Key with correct PCorp",
-        "uid" : "3d2764a458f826a8",
-        "parentUid" : "7471a27122cef0062453852883425b48",
+        "name" : "\"after all\" hook for C2264: Price should be 0 with active cost share waiver (CSW)",
+        "uid" : "7819f7bad7c58d2b",
+        "parentUid" : "eb746d021acc3081a6874e3aabb9fb41",
         "status" : "broken",
         "time" : {
-          "start" : 1655892036925,
-          "stop" : 1655892080137,
-          "duration" : 43212
+          "start" : 1655901377483,
+          "stop" : 1655901378842,
+          "duration" : 1359
         },
         "flaky" : false,
         "newFailed" : false,
@@ -23,29 +22,9 @@
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-102.0.5005.115" ]
       } ],
-      "uid" : "7471a27122cef0062453852883425b48"
-    }, {
-      "name" : "element (\"#tab-actions\") still not clickable after 60000ms",
-      "children" : [ {
-        "name" : "\"after all\" hook for C2263: Multi State: Connect Nirvana API Key with correct PCorp",
-        "uid" : "63df72a57e5c7c03",
-        "parentUid" : "5b9875ae1882c2c14849c77ff0b3bafb",
-        "status" : "broken",
-        "time" : {
-          "start" : 1655892080137,
-          "stop" : 1655892140165,
-          "duration" : 60028
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.115" ]
-      } ],
-      "uid" : "5b9875ae1882c2c14849c77ff0b3bafb"
+      "uid" : "eb746d021acc3081a6874e3aabb9fb41"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
-  } ]
+  } ],
+  "name" : "categories"
 }

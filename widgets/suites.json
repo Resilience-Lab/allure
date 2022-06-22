@@ -1,15 +1,15 @@
 {
   "total" : 24,
   "items" : [ {
-    "uid" : "97289d80cb8c4b9b6992898679931753",
-    "name" : "C2263: Multi State: Connect Nirvana API Key with correct PCorp",
+    "uid" : "e8aa6596bccc27d40beb307c5c90151c",
+    "name" : "C2264: Price should be 0 with active cost share waiver (CSW)",
     "statistic" : {
       "failed" : 0,
-      "broken" : 2,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 2
+      "total" : 6
     }
   }, {
     "uid" : "81ae33d00cd469cb53c0f71f073c4980",
@@ -43,17 +43,6 @@
       "passed" : 9,
       "unknown" : 0,
       "total" : 9
-    }
-  }, {
-    "uid" : "e8aa6596bccc27d40beb307c5c90151c",
-    "name" : "C2264: Price should be 0 with active cost share waiver (CSW)",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 6,
-      "unknown" : 0,
-      "total" : 6
     }
   }, {
     "uid" : "c8295443e51a55754789e764bcf91681",
@@ -102,6 +91,17 @@
   }, {
     "uid" : "e61216604e05de4a2256469c38f3c4ce",
     "name" : "C2261: Clients need to be able to upload documents via Portal",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "4bfc9a47a5fa5a87c7b438556413a3c0",
+    "name" : "C2265: Terminate client with multiclinician",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
