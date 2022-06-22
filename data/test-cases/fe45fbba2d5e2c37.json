@@ -1,0 +1,131 @@
+{
+  "uid" : "fe45fbba2d5e2c37",
+  "name" : "\"after all\" hook for C2264: Price should be 0 with active cost share waiver (CSW)",
+  "fullName" : "C2264: Price should be 0 with active cost share waiver (CSW).\"after all\" hook for C2264: Price should be 0 with active cost share waiver (CSW)",
+  "historyId" : "57834c5936cb3b04b6ad181d559a3913",
+  "time" : {
+    "start" : 1655912094347,
+    "stop" : 1655912155095,
+    "duration" : 60748
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "waitUntil condition timed out after 60000ms",
+  "statusTrace" : "Error: waitUntil condition timed out after 60000ms\n                    at async ProfilePage.waitAlertUntilDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:12:9)\n                    at async Context.<anonymous> (/home/runner/work/webautomation/webautomation/test/specs/Clients/Insurance/C2264_price_should_be_0_with_active_cost_share_waiver_(CSW).spec.ts:59:13)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 5,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "waitUntil condition timed out after 60000ms",
+    "statusTrace" : "Error: waitUntil condition timed out after 60000ms\n                    at async ProfilePage.waitAlertUntilDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:12:9)\n                    at async Context.<anonymous> (/home/runner/work/webautomation/webautomation/test/specs/Clients/Insurance/C2264_price_should_be_0_with_active_cost_share_waiver_(CSW).spec.ts:59:13)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "951e99319fb85c10",
+      "name" : "Screenshot",
+      "source" : "951e99319fb85c10.png",
+      "type" : "image/png",
+      "size" : 237887
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "C2264: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "testClass",
+    "value" : "C2264: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"after all\" hook for C2264: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "package",
+    "value" : "C2264: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "cbc5950234e61f91",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 60000ms",
+      "time" : {
+        "start" : 1655911956705,
+        "stop" : 1655912017839,
+        "duration" : 61134
+      }
+    }, {
+      "uid" : "a635026aff28507d",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 60000ms",
+      "time" : {
+        "start" : 1655911821655,
+        "stop" : 1655911882865,
+        "duration" : 61210
+      }
+    }, {
+      "uid" : "4d7e980c006261ca",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 60000ms",
+      "time" : {
+        "start" : 1655911687898,
+        "stop" : 1655911749140,
+        "duration" : 61242
+      }
+    }, {
+      "uid" : "1c98e51a99aebd15",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 60000ms",
+      "time" : {
+        "start" : 1655911558020,
+        "stop" : 1655911619170,
+        "duration" : 61150
+      }
+    }, {
+      "uid" : "9309405d53576f1b",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 60000ms",
+      "time" : {
+        "start" : 1655911430107,
+        "stop" : 1655911491259,
+        "duration" : 61152
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "fe45fbba2d5e2c37.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}
