@@ -1,0 +1,86 @@
+{
+  "uid" : "cde18a13ab70f671",
+  "name" : "Should click 'View Requests' button in 'Pending Requests' ",
+  "fullName" : "C2257: Default text for document exchanges.Should click 'View Requests' button in 'Pending Requests' ",
+  "historyId" : "6027460d14059e85a76fe942496f4c05",
+  "time" : {
+    "start" : 1655907297550,
+    "stop" : 1655907297919,
+    "duration" : 369
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d6ffd0b8f143d291",
+      "name" : "Screenshot",
+      "source" : "d6ffd0b8f143d291.png",
+      "type" : "image/png",
+      "size" : 54698
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "testClass",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should click 'View Requests' button in 'Pending Requests' "
+  }, {
+    "name" : "package",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "42ceb6fff15fbdd4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655907283571,
+        "stop" : 1655907284036,
+        "duration" : 465
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cde18a13ab70f671.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}

@@ -1,0 +1,113 @@
+{
+  "uid" : "f03e068e55a2b110",
+  "name" : "\"after all\" hook for C2264: Price should be 0 with active cost share waiver (CSW)",
+  "fullName" : "C2264: Price should be 0 with active cost share waiver (CSW).\"after all\" hook for C2264: Price should be 0 with active cost share waiver (CSW)",
+  "historyId" : "57834c5936cb3b04b6ad181d559a3913",
+  "time" : {
+    "start" : 1655908865664,
+    "stop" : 1655908926331,
+    "duration" : 60667
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "waitUntil condition timed out after 60000ms",
+  "statusTrace" : "Error: waitUntil condition timed out after 60000ms\n                    at async ProfilePage.waitAlertUntilDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:12:9)\n                    at async Context.<anonymous> (/home/runner/work/webautomation/webautomation/test/specs/Clients/Insurance/C2264_price_should_be_0_with_active_cost_share_waiver_(CSW).spec.ts:59:13)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "waitUntil condition timed out after 60000ms",
+    "statusTrace" : "Error: waitUntil condition timed out after 60000ms\n                    at async ProfilePage.waitAlertUntilDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:12:9)\n                    at async Context.<anonymous> (/home/runner/work/webautomation/webautomation/test/specs/Clients/Insurance/C2264_price_should_be_0_with_active_cost_share_waiver_(CSW).spec.ts:59:13)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "71c7d0bc2c57aca6",
+      "name" : "Screenshot",
+      "source" : "71c7d0bc2c57aca6.png",
+      "type" : "image/png",
+      "size" : 239808
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-11"
+  }, {
+    "name" : "suite",
+    "value" : "C2264: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "testClass",
+    "value" : "C2264: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"after all\" hook for C2264: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "package",
+    "value" : "C2264: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "131008acdd69b5af",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 60000ms",
+      "time" : {
+        "start" : 1655908739568,
+        "stop" : 1655908800279,
+        "duration" : 60711
+      }
+    }, {
+      "uid" : "6870ffe8cd84e5c1",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 60000ms",
+      "time" : {
+        "start" : 1655908614051,
+        "stop" : 1655908674699,
+        "duration" : 60648
+      }
+    }, {
+      "uid" : "53061701d2c7e81",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 60000ms",
+      "time" : {
+        "start" : 1655908488751,
+        "stop" : 1655908549456,
+        "duration" : 60705
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "f03e068e55a2b110.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}
