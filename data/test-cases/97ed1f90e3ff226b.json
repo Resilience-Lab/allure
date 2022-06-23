@@ -1,0 +1,86 @@
+{
+  "uid" : "97ed1f90e3ff226b",
+  "name" : "Should go to clients page and check url",
+  "fullName" : "C2269: Add Filters and Columns.Should go to clients page and check url",
+  "historyId" : "7d483f78e6cc8e99cdb12d9f3f3386be",
+  "time" : {
+    "start" : 1656009357555,
+    "stop" : 1656009374342,
+    "duration" : 16787
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "98ee606a716fd233",
+      "name" : "Screenshot",
+      "source" : "98ee606a716fd233.png",
+      "type" : "image/png",
+      "size" : 222887
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "C2269: Add Filters and Columns"
+  }, {
+    "name" : "testClass",
+    "value" : "C2269: Add Filters and Columns"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should go to clients page and check url"
+  }, {
+    "name" : "package",
+    "value" : "C2269: Add Filters and Columns"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3bddd239d6ba4a46",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656009135105,
+        "stop" : 1656009201854,
+        "duration" : 66749
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "97ed1f90e3ff226b.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}

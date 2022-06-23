@@ -1,0 +1,78 @@
+{
+  "uid" : "f9137cb92f264e5c",
+  "name" : "Should terminate client assigned to \"Danashia Mclaughlin\" with reason \"test\"",
+  "fullName" : "C2265: Terminate client with multiclinician.Should terminate client assigned to \"Danashia Mclaughlin\" with reason \"test\"",
+  "historyId" : "4b4f7badad8d9bf601c085dbabdeee36",
+  "time" : {
+    "start" : 1656009071508,
+    "stop" : 1656009094952,
+    "duration" : 23444
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c28c2325cbac8d95",
+      "name" : "Screenshot",
+      "source" : "c28c2325cbac8d95.png",
+      "type" : "image/png",
+      "size" : 68413
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-4"
+  }, {
+    "name" : "suite",
+    "value" : "C2265: Terminate client with multiclinician"
+  }, {
+    "name" : "testClass",
+    "value" : "C2265: Terminate client with multiclinician"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should terminate client assigned to \"Danashia Mclaughlin\" with reason \"test\""
+  }, {
+    "name" : "package",
+    "value" : "C2265: Terminate client with multiclinician"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f9137cb92f264e5c.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}

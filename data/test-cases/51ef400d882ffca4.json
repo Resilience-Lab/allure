@@ -1,0 +1,86 @@
+{
+  "uid" : "51ef400d882ffca4",
+  "name" : "\"after all\" hook for C2269: Add Filters and Columns",
+  "fullName" : "C2269: Add Filters and Columns.\"after all\" hook for C2269: Add Filters and Columns",
+  "historyId" : "d329ccbe307401ca4abbc4844511d1be",
+  "time" : {
+    "start" : 1656009251358,
+    "stop" : 1656009355623,
+    "duration" : 104265
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"[class*=\"Button_top\"] [title=\"Column Chooser\"]\") still not clickable after 60000ms",
+  "statusTrace" : "Error: element (\"[class*=\"Button_top\"] [title=\"Column Chooser\"]\") still not clickable after 60000ms\n                    at async ClientsPage.waitElementForClickable (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:80:9)\n                    at async ClientsPage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:134:9)\n                    at async ClientsPage.clickTopColumnsBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/clients.page.ts:75:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"[class*=\"Button_top\"] [title=\"Column Chooser\"]\") still not clickable after 60000ms",
+    "statusTrace" : "Error: element (\"[class*=\"Button_top\"] [title=\"Column Chooser\"]\") still not clickable after 60000ms\n                    at async ClientsPage.waitElementForClickable (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:80:9)\n                    at async ClientsPage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:134:9)\n                    at async ClientsPage.clickTopColumnsBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/clients.page.ts:75:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9ac2131a108be0c1",
+      "name" : "Screenshot",
+      "source" : "9ac2131a108be0c1.png",
+      "type" : "image/png",
+      "size" : 31821
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "C2269: Add Filters and Columns"
+  }, {
+    "name" : "testClass",
+    "value" : "C2269: Add Filters and Columns"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"after all\" hook for C2269: Add Filters and Columns"
+  }, {
+    "name" : "package",
+    "value" : "C2269: Add Filters and Columns"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "51ef400d882ffca4.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}
