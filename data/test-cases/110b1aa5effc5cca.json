@@ -1,0 +1,86 @@
+{
+  "uid" : "110b1aa5effc5cca",
+  "name" : "Should to clients page and check url",
+  "fullName" : "C2260: Multi State: Connect Nirvana API Key with correct PCorp.Should to clients page and check url",
+  "historyId" : "b79c0c01660c631843efb0b0febd6808",
+  "time" : {
+    "start" : 1656006551451,
+    "stop" : 1656006611649,
+    "duration" : 60198
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ffa090fe96f8140a",
+      "name" : "Screenshot",
+      "source" : "ffa090fe96f8140a.png",
+      "type" : "image/png",
+      "size" : 208848
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-10"
+  }, {
+    "name" : "suite",
+    "value" : "C2260: Multi State: Connect Nirvana API Key with correct PCorp"
+  }, {
+    "name" : "testClass",
+    "value" : "C2260: Multi State: Connect Nirvana API Key with correct PCorp"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should to clients page and check url"
+  }, {
+    "name" : "package",
+    "value" : "C2260: Multi State: Connect Nirvana API Key with correct PCorp"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2f62f8211650fe0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656006379915,
+        "stop" : 1656006482814,
+        "duration" : 102899
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "110b1aa5effc5cca.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}

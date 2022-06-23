@@ -1,0 +1,78 @@
+{
+  "uid" : "242b6e6e6d4f11a3",
+  "name" : "Should see a pop-up about some missing (required) client's information",
+  "fullName" : "C2268: Missing Client Attributes Pop-up.Should see a pop-up about some missing (required) client's information",
+  "historyId" : "edf9ca068c9037512f4e68dc364f375a",
+  "time" : {
+    "start" : 1656005972710,
+    "stop" : 1656005974175,
+    "duration" : 1465
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "722c0151a396f4da",
+      "name" : "Screenshot",
+      "source" : "722c0151a396f4da.png",
+      "type" : "image/png",
+      "size" : 72268
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-5"
+  }, {
+    "name" : "suite",
+    "value" : "C2268: Missing Client Attributes Pop-up"
+  }, {
+    "name" : "testClass",
+    "value" : "C2268: Missing Client Attributes Pop-up"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should see a pop-up about some missing (required) client's information"
+  }, {
+    "name" : "package",
+    "value" : "C2268: Missing Client Attributes Pop-up"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "242b6e6e6d4f11a3.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}

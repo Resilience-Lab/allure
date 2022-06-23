@@ -1,0 +1,86 @@
+{
+  "uid" : "fe2a07c5c11c07ab",
+  "name" : "Should go back to pending requests",
+  "fullName" : "C2257: Default text for document exchanges.Should go back to pending requests",
+  "historyId" : "1fdf6937aa43e72a01774f272ece3e37",
+  "time" : {
+    "start" : 1656005766590,
+    "stop" : 1656005766841,
+    "duration" : 251
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "862d6af6dc74581c",
+      "name" : "Screenshot",
+      "source" : "862d6af6dc74581c.png",
+      "type" : "image/png",
+      "size" : 55020
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "testClass",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should go back to pending requests"
+  }, {
+    "name" : "package",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "98f753554180c49b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656005751492,
+        "stop" : 1656005751726,
+        "duration" : 234
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fe2a07c5c11c07ab.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}

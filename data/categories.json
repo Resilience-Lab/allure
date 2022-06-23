@@ -3,47 +3,85 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "Can't call elementClick on element with selector \"#bigbutton\" because element wasn't found",
+      "name" : "element not interactable\n                  (Session info: headless chrome=102.0.5005.115)",
       "children" : [ {
-        "name" : "\"before all\" hook for C2264: Price should be 0 with active cost share waiver (CSW)",
-        "uid" : "f57470a63d5db6d",
-        "parentUid" : "7471a27122cef0062453852883425b48",
+        "name" : "\"after all\" hook for C2260: Multi State: Connect Nirvana API Key with correct PCorp",
+        "uid" : "12b3b733d6543aa6",
+        "parentUid" : "c183f353967552072aecbe065a007efc",
         "status" : "broken",
         "time" : {
-          "start" : 1655919143022,
-          "stop" : 1655919192221,
-          "duration" : 49199
+          "start" : 1656006489442,
+          "stop" : 1656006549373,
+          "duration" : 59931
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
         "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.115" ]
+      }, {
+        "name" : "Should filter clients",
+        "uid" : "2fb08f4699652066",
+        "parentUid" : "c183f353967552072aecbe065a007efc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1656007054057,
+          "stop" : 1656007086212,
+          "duration" : 32155
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.115" ]
+      } ],
+      "uid" : "c183f353967552072aecbe065a007efc"
+    }, {
+      "name" : "stale element reference: element is not attached to the page document\n                  (Session info: headless chrome=102.0.5005.115)",
+      "children" : [ {
+        "name" : "\"after all\" hook for C2264: Price should be 0 with active cost share waiver (CSW)",
+        "uid" : "9c6a11459b240dd8",
+        "parentUid" : "fe8a71348e04e9a95b8d4fa5ef715609",
+        "status" : "broken",
+        "time" : {
+          "start" : 1656007145140,
+          "stop" : 1656007264451,
+          "duration" : 119311
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.115" ]
+      } ],
+      "uid" : "fe8a71348e04e9a95b8d4fa5ef715609"
+    }, {
+      "name" : "Can't call elementClick on element with selector \"#bigbutton\" because element wasn't found",
+      "children" : [ {
+        "name" : "\"before all\" hook for C2264: Price should be 0 with active cost share waiver (CSW)",
+        "uid" : "41e1b7672c1e7ad1",
+        "parentUid" : "7471a27122cef0062453852883425b48",
+        "status" : "broken",
+        "time" : {
+          "start" : 1656007266509,
+          "stop" : 1656007311483,
+          "duration" : 44974
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-102.0.5005.115" ]
       } ],
       "uid" : "7471a27122cef0062453852883425b48"
-    }, {
-      "name" : "element (\"(//div[@id='list_subpanel_cases']//tr[contains(@class,'ListRowS1')]//td[3])[1]\") still not clickable after 10000ms",
-      "children" : [ {
-        "name" : "\"after all\" hook for C2264: Price should be 0 with active cost share waiver (CSW)",
-        "uid" : "820d723b8636442a",
-        "parentUid" : "7c3997dd749397c64eb5b37733942ad2",
-        "status" : "broken",
-        "time" : {
-          "start" : 1655919192221,
-          "stop" : 1655919242993,
-          "duration" : 50772
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.115" ]
-      } ],
-      "uid" : "7c3997dd749397c64eb5b37733942ad2"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ],
