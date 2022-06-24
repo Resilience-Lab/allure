@@ -1,0 +1,78 @@
+{
+  "uid" : "710e0e92854badc0",
+  "name" : "Should open client profile and create session",
+  "fullName" : "C2272: Don't allow to create more than 1 session per day for INN enrolled client.Should open client profile and create session",
+  "historyId" : "c996d44d1b57d108b8c60de9a43def65",
+  "time" : {
+    "start" : 1656088487191,
+    "stop" : 1656088493279,
+    "duration" : 6088
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "37541c59244ca07e",
+      "name" : "Screenshot",
+      "source" : "37541c59244ca07e.png",
+      "type" : "image/png",
+      "size" : 179824
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-16"
+  }, {
+    "name" : "suite",
+    "value" : "C2272: Don't allow to create more than 1 session per day for INN enrolled client"
+  }, {
+    "name" : "testClass",
+    "value" : "C2272: Don't allow to create more than 1 session per day for INN enrolled client"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should open client profile and create session"
+  }, {
+    "name" : "package",
+    "value" : "C2272: Don't allow to create more than 1 session per day for INN enrolled client"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "710e0e92854badc0.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}

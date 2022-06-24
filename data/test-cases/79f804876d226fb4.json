@@ -1,0 +1,146 @@
+{
+  "uid" : "79f804876d226fb4",
+  "name" : "Should click 'View Requests' button in 'Pending Requests' ",
+  "fullName" : "C2257: Default text for document exchanges.Should click 'View Requests' button in 'Pending Requests' ",
+  "historyId" : "6027460d14059e85a76fe942496f4c05",
+  "time" : {
+    "start" : 1656087181948,
+    "stop" : 1656087182159,
+    "duration" : 211
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Request | Resilence Lab\"\n                Received: \"Requests | Resilence Lab\"",
+  "statusTrace" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Request | Resilence Lab\"\n                Received: \"Requests | Resilence Lab\"\n                    at Context.<anonymous> (/home/runner/work/webautomation/webautomation/test/specs/Clients/C2257_default_text_for_document_exchanges.spec.ts:107:42)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 7,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Request | Resilence Lab\"\n                Received: \"Requests | Resilence Lab\"",
+    "statusTrace" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Request | Resilence Lab\"\n                Received: \"Requests | Resilence Lab\"\n                    at Context.<anonymous> (/home/runner/work/webautomation/webautomation/test/specs/Clients/C2257_default_text_for_document_exchanges.spec.ts:107:42)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "af958d4ebe84b17e",
+      "name" : "Screenshot",
+      "source" : "af958d4ebe84b17e.png",
+      "type" : "image/png",
+      "size" : 53098
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "testClass",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should click 'View Requests' button in 'Pending Requests' "
+  }, {
+    "name" : "package",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "76d88ff20f418f6c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656087167381,
+        "stop" : 1656087167816,
+        "duration" : 435
+      }
+    }, {
+      "uid" : "1b35287f962cdb35",
+      "status" : "failed",
+      "statusDetails" : "Malformed type for \"handle\" parameter of command switchToWindow\n                Expected: string\n                Actual: undefined\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-window\n                ",
+      "time" : {
+        "start" : 1656086973389,
+        "stop" : 1656086973589,
+        "duration" : 200
+      }
+    }, {
+      "uid" : "c8be89420c87263f",
+      "status" : "broken",
+      "statusDetails" : "element (\"//button[text() = 'View Requests']\") still not clickable after 60000ms",
+      "time" : {
+        "start" : 1656086753466,
+        "stop" : 1656086813683,
+        "duration" : 60217
+      }
+    }, {
+      "uid" : "28fa64c69e27d5c1",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Request | Resilence Lab\"\n                Received: \"Requests | Resilence Lab\"",
+      "time" : {
+        "start" : 1656086548503,
+        "stop" : 1656086548714,
+        "duration" : 211
+      }
+    }, {
+      "uid" : "8cfc744b04365736",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656086533890,
+        "stop" : 1656086534305,
+        "duration" : 415
+      }
+    }, {
+      "uid" : "18ea06fe37707fab",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Request | Resilence Lab\"\n                Received: \"Requests | Resilence Lab\"",
+      "time" : {
+        "start" : 1656086395493,
+        "stop" : 1656086395690,
+        "duration" : 197
+      }
+    }, {
+      "uid" : "69ef659a7d1b5a45",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656086380927,
+        "stop" : 1656086381377,
+        "duration" : 450
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "79f804876d226fb4.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}

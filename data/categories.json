@@ -1,49 +1,95 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Request | Resilence Lab\"\n                Received: \"Requests | Resilence Lab\"",
+      "children" : [ {
+        "name" : "Should click 'View Requests' button in 'Pending Requests' ",
+        "uid" : "79f804876d226fb4",
+        "parentUid" : "8b9e507310ec8a51e58b71a411dfbe95",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656087181948,
+          "stop" : 1656087182159,
+          "duration" : 211
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 7,
+        "retriesStatusChange" : true,
+        "parameters" : [ "chrome-102.0.5005.115" ]
+      } ],
+      "uid" : "8b9e507310ec8a51e58b71a411dfbe95"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "element (\"[class*=\"Button_top\"] [title=\"Column Chooser\"]\") still not clickable after 60000ms",
+      "name" : "element (\"(//p[contains(text(),\"test\")]//..//..//button)[2]\") still not clickable after 10000ms",
       "children" : [ {
-        "name" : "\"after all\" hook for C2269: Add Filters and Columns",
-        "uid" : "51ef400d882ffca4",
-        "parentUid" : "d0131840c7cc83839128264da923cdfc",
+        "name" : "Should check \"test\" text matches",
+        "uid" : "1c1be1521459ebd8",
+        "parentUid" : "fa3a9e0a7ffd9b4257ba6042b6ad8b88",
         "status" : "broken",
         "time" : {
-          "start" : 1656009251358,
-          "stop" : 1656009355623,
-          "duration" : 104265
+          "start" : 1656087182160,
+          "stop" : 1656087192363,
+          "duration" : 10203
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
+        "retriesCount" : 7,
+        "retriesStatusChange" : true,
         "parameters" : [ "chrome-102.0.5005.115" ]
       } ],
-      "uid" : "d0131840c7cc83839128264da923cdfc"
+      "uid" : "fa3a9e0a7ffd9b4257ba6042b6ad8b88"
     }, {
-      "name" : "Can't call elementClick on element with selector \"#bigbutton\" because element wasn't found",
+      "name" : "element (\"//button[@type=\"submit\"][text()=\"Download Document\"]\") still not clickable after 60000ms",
       "children" : [ {
-        "name" : "\"before all\" hook for C2264: Price should be 0 with active cost share waiver (CSW)",
-        "uid" : "bcd238689d61df74",
-        "parentUid" : "7471a27122cef0062453852883425b48",
+        "name" : "Should try to download file",
+        "uid" : "c7fa858067b6e6d7",
+        "parentUid" : "48dc96a40b177b324f312975dc10a2cd",
         "status" : "broken",
         "time" : {
-          "start" : 1656009852068,
-          "stop" : 1656009897316,
-          "duration" : 45248
+          "start" : 1656087192363,
+          "stop" : 1656087252530,
+          "duration" : 60167
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
+        "retriesCount" : 7,
+        "retriesStatusChange" : true,
         "parameters" : [ "chrome-102.0.5005.115" ]
       } ],
-      "uid" : "7471a27122cef0062453852883425b48"
+      "uid" : "48dc96a40b177b324f312975dc10a2cd"
+    }, {
+      "name" : "element (\"(//p[contains(text(),\"New Credit Card Form\")]//..//..//button)[1]\") still not clickable after 10000ms",
+      "children" : [ {
+        "name" : "Should go to \"Review and Complete\" for \"New Credit Card Form\"",
+        "uid" : "e43acffdfc53593c",
+        "parentUid" : "5464dd2776ae6ac43532abeaf9130f7c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1656087252827,
+          "stop" : 1656087263013,
+          "duration" : 10186
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 7,
+        "retriesStatusChange" : true,
+        "parameters" : [ "chrome-102.0.5005.115" ]
+      } ],
+      "uid" : "5464dd2776ae6ac43532abeaf9130f7c"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ],

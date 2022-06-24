@@ -1,0 +1,78 @@
+{
+  "uid" : "57e561d62ca20c92",
+  "name" : "Should go to client with INN and selected Payer",
+  "fullName" : "C2267: Price should be 0 with active cost share waiver (CSW).Should go to client with INN and selected Payer",
+  "historyId" : "7fdf52e954a3d37f05aa680b1f134401",
+  "time" : {
+    "start" : 1656088368815,
+    "stop" : 1656088369710,
+    "duration" : 895
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c3d1de6969483788",
+      "name" : "Screenshot",
+      "source" : "c3d1de6969483788.png",
+      "type" : "image/png",
+      "size" : 102955
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-14"
+  }, {
+    "name" : "suite",
+    "value" : "C2267: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "testClass",
+    "value" : "C2267: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should go to client with INN and selected Payer"
+  }, {
+    "name" : "package",
+    "value" : "C2267: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "57e561d62ca20c92.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}

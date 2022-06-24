@@ -1,0 +1,80 @@
+{
+  "uid" : "3fb9030b298d831e",
+  "name" : "Should signUp to account",
+  "fullName" : "C2257: Default text for document exchanges.Should signUp to account",
+  "historyId" : "95779ff114d4773cc45a30f27ef8d6a",
+  "time" : {
+    "start" : 1656086693288,
+    "stop" : 1656086753466,
+    "duration" : 60178
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"[name=\"email\"]\") still not displayed after 60000ms",
+  "statusTrace" : "Error: element (\"[name=\"email\"]\") still not displayed after 60000ms\n                    at async CPSignUpPage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:72:9)\n                    at async CPSignUpPage.getElementValue (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:218:9)\n                    at async CPSignUpPage.signUp (/home/runner/work/webautomation/webautomation/test/pageobjects/CP/cpSignUp.page.ts:50:14)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"[name=\"email\"]\") still not displayed after 60000ms",
+    "statusTrace" : "Error: element (\"[name=\"email\"]\") still not displayed after 60000ms\n                    at async CPSignUpPage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:72:9)\n                    at async CPSignUpPage.getElementValue (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:218:9)\n                    at async CPSignUpPage.signUp (/home/runner/work/webautomation/webautomation/test/pageobjects/CP/cpSignUp.page.ts:50:14)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "24e5d44873d892c7",
+      "name" : "Screenshot",
+      "source" : "24e5d44873d892c7.png",
+      "type" : "image/png",
+      "size" : 79138
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "testClass",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should signUp to account"
+  }, {
+    "name" : "package",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3fb9030b298d831e.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}

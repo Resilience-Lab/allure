@@ -1,0 +1,80 @@
+{
+  "uid" : "114c95920a64831c",
+  "name" : "Should select some Payer and upload card",
+  "fullName" : "C2280: Verify Insurance Card Form.Should select some Payer and upload card",
+  "historyId" : "67e853ea374aa04c828b0910d9c79283",
+  "time" : {
+    "start" : 1656087724241,
+    "stop" : 1656087779724,
+    "duration" : 55483
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Can't call elementClick on element with selector \"//div[@class=\"card-body\"]//button[text()='Review and Complete']\" because element wasn't found",
+  "statusTrace" : "Error: Can't call elementClick on element with selector \"//div[@class=\"card-body\"]//button[text()='Review and Complete']\" because element wasn't found\n                    at async CPRequestsPage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:135:9)\n                    at async CPRequestsPage.clickReviewAndCompleteBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CP/cpRequests.page.ts:63:9)\n                    at async Context.<anonymous> (/home/runner/work/webautomation/webautomation/test/specs/Clients/C2280_Verify_Insurance_Card_Form.spec.ts:61:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Can't call elementClick on element with selector \"//div[@class=\"card-body\"]//button[text()='Review and Complete']\" because element wasn't found",
+    "statusTrace" : "Error: Can't call elementClick on element with selector \"//div[@class=\"card-body\"]//button[text()='Review and Complete']\" because element wasn't found\n                    at async CPRequestsPage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:135:9)\n                    at async CPRequestsPage.clickReviewAndCompleteBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CP/cpRequests.page.ts:63:9)\n                    at async Context.<anonymous> (/home/runner/work/webautomation/webautomation/test/specs/Clients/C2280_Verify_Insurance_Card_Form.spec.ts:61:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "745c347d3e7622fb",
+      "name" : "Screenshot",
+      "source" : "745c347d3e7622fb.png",
+      "type" : "image/png",
+      "size" : 61600
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-7"
+  }, {
+    "name" : "suite",
+    "value" : "C2280: Verify Insurance Card Form"
+  }, {
+    "name" : "testClass",
+    "value" : "C2280: Verify Insurance Card Form"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should select some Payer and upload card"
+  }, {
+    "name" : "package",
+    "value" : "C2280: Verify Insurance Card Form"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "114c95920a64831c.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}

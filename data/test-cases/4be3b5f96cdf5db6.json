@@ -1,0 +1,136 @@
+{
+  "uid" : "4be3b5f96cdf5db6",
+  "name" : "Should fill out credit card form and click \"Submit\" button",
+  "fullName" : "C2257: Default text for document exchanges.Should fill out credit card form and click \"Submit\" button",
+  "historyId" : "f32e3c497e32ea904955759accfdce27",
+  "time" : {
+    "start" : 1656087263013,
+    "stop" : 1656087272531,
+    "duration" : 9518
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 7,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2666966f4042684e",
+      "name" : "Screenshot",
+      "source" : "2666966f4042684e.png",
+      "type" : "image/png",
+      "size" : 54865
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "testClass",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should fill out credit card form and click \"Submit\" button"
+  }, {
+    "name" : "package",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "cd837266d03ae6c1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656087169981,
+        "stop" : 1656087178980,
+        "duration" : 8999
+      }
+    }, {
+      "uid" : "5b8067f31aa602d9",
+      "status" : "broken",
+      "statusDetails" : "element (\"input#cardNumber\") still not displayed after 60000ms",
+      "time" : {
+        "start" : 1656087054520,
+        "stop" : 1656087119704,
+        "duration" : 65184
+      }
+    }, {
+      "uid" : "2d7565b1100a274d",
+      "status" : "broken",
+      "statusDetails" : "element (\"input#cardNumber\") still not displayed after 60000ms",
+      "time" : {
+        "start" : 1656086894606,
+        "stop" : 1656086959825,
+        "duration" : 65219
+      }
+    }, {
+      "uid" : "b046901a3dd756b6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656086629554,
+        "stop" : 1656086638553,
+        "duration" : 8999
+      }
+    }, {
+      "uid" : "37c711cdede8a853",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656086536458,
+        "stop" : 1656086545440,
+        "duration" : 8982
+      }
+    }, {
+      "uid" : "f050a978f66393a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656086476528,
+        "stop" : 1656086486041,
+        "duration" : 9513
+      }
+    }, {
+      "uid" : "58e863c3ed6190c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656086383545,
+        "stop" : 1656086392527,
+        "duration" : 8982
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4be3b5f96cdf5db6.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}

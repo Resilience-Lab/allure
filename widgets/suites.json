@@ -1,35 +1,13 @@
 {
   "total" : 25,
   "items" : [ {
-    "uid" : "e8aa6596bccc27d40beb307c5c90151c",
-    "name" : "C2264: Price should be 0 with active cost share waiver (CSW)",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 6,
-      "unknown" : 0,
-      "total" : 7
-    }
-  }, {
-    "uid" : "8c912f9de8a560dd7f8d2de105ead666",
-    "name" : "C2269: Add Filters and Columns",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 3,
-      "unknown" : 0,
-      "total" : 4
-    }
-  }, {
     "uid" : "81ae33d00cd469cb53c0f71f073c4980",
     "name" : "C2257: Default text for document exchanges",
     "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
+      "failed" : 1,
+      "broken" : 3,
       "skipped" : 0,
-      "passed" : 12,
+      "passed" : 8,
       "unknown" : 0,
       "total" : 12
     }
@@ -65,6 +43,17 @@
       "passed" : 7,
       "unknown" : 0,
       "total" : 7
+    }
+  }, {
+    "uid" : "e8aa6596bccc27d40beb307c5c90151c",
+    "name" : "C2264: Price should be 0 with active cost share waiver (CSW)",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 6
     }
   }, {
     "uid" : "c8295443e51a55754789e764bcf91681",
@@ -109,6 +98,17 @@
       "passed" : 5,
       "unknown" : 0,
       "total" : 5
+    }
+  }, {
+    "uid" : "e61216604e05de4a2256469c38f3c4ce",
+    "name" : "C2261: Clients need to be able to upload documents via Portal",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
     }
   } ]
 }
