@@ -1,0 +1,140 @@
+{
+  "uid" : "aa4c90e36ce8b386",
+  "name" : "\"after all\" hook for C2283: Verify that 'Pronoun' it's required field",
+  "fullName" : "C2283: Verify that 'Pronoun' it's required field.\"after all\" hook for C2283: Verify that 'Pronoun' it's required field",
+  "historyId" : "b8edb0ab182fe8bf4a6edfecf065aba9",
+  "time" : {
+    "start" : 1656329067875,
+    "stop" : 1656329129159,
+    "duration" : 61284
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"#user_name\") still not displayed after 60000ms",
+  "statusTrace" : "Error: element (\"#user_name\") still not displayed after 60000ms\n                    at async LoginPage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async LoginPage.setValue (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:295:9)\n                    at async LoginPage.login (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/login.page.ts:21:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 6,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"#user_name\") still not displayed after 60000ms",
+    "statusTrace" : "Error: element (\"#user_name\") still not displayed after 60000ms\n                    at async LoginPage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async LoginPage.setValue (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:295:9)\n                    at async LoginPage.login (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/login.page.ts:21:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3dd2a46a99f84a5b",
+      "name" : "Screenshot",
+      "source" : "3dd2a46a99f84a5b.png",
+      "type" : "image/png",
+      "size" : 105663
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "C2283: Verify that 'Pronoun' it's required field"
+  }, {
+    "name" : "testClass",
+    "value" : "C2283: Verify that 'Pronoun' it's required field"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"after all\" hook for C2283: Verify that 'Pronoun' it's required field"
+  }, {
+    "name" : "package",
+    "value" : "C2283: Verify that 'Pronoun' it's required field"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9df21cc5ad736246",
+      "status" : "broken",
+      "statusDetails" : "element (\"#user_name\") still not displayed after 60000ms",
+      "time" : {
+        "start" : 1656328953652,
+        "stop" : 1656329014987,
+        "duration" : 61335
+      }
+    }, {
+      "uid" : "52149c28947b2634",
+      "status" : "broken",
+      "statusDetails" : "element (\"#user_name\") still not displayed after 60000ms",
+      "time" : {
+        "start" : 1656328838125,
+        "stop" : 1656328899450,
+        "duration" : 61325
+      }
+    }, {
+      "uid" : "b1f402bb8d29229d",
+      "status" : "broken",
+      "statusDetails" : "element (\"#user_name\") still not displayed after 60000ms",
+      "time" : {
+        "start" : 1656328723432,
+        "stop" : 1656328784695,
+        "duration" : 61263
+      }
+    }, {
+      "uid" : "72db8b82383f4913",
+      "status" : "broken",
+      "statusDetails" : "element (\"#user_name\") still not displayed after 60000ms",
+      "time" : {
+        "start" : 1656328572967,
+        "stop" : 1656328634386,
+        "duration" : 61419
+      }
+    }, {
+      "uid" : "86a7c67eab99de4b",
+      "status" : "broken",
+      "statusDetails" : "element (\"#user_name\") still not displayed after 60000ms",
+      "time" : {
+        "start" : 1656328457725,
+        "stop" : 1656328519090,
+        "duration" : 61365
+      }
+    }, {
+      "uid" : "6726bfe97e52886f",
+      "status" : "broken",
+      "statusDetails" : "element (\"#user_name\") still not displayed after 60000ms",
+      "time" : {
+        "start" : 1656328341529,
+        "stop" : 1656328402862,
+        "duration" : 61333
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "aa4c90e36ce8b386.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}
