@@ -1,12 +1,12 @@
 {
-  "uid" : "1b8aaed18193f0a2",
-  "name" : "Should go to clients page and check url",
-  "fullName" : "C2283: Verify that 'Pronoun' it's required field.Should go to clients page and check url",
-  "historyId" : "696a91e9e6a9255ece3d2151a1df6e0b",
+  "uid" : "5e022f87453899cc",
+  "name" : "Should click the 'Edit' button and in 'Pronoun' field select the 'white' option",
+  "fullName" : "C2283: Verify that 'Pronoun' it's required field.Should click the 'Edit' button and in 'Pronoun' field select the 'white' option",
+  "historyId" : "81401d6be085bf4b0b358aa60e07b7c8",
   "time" : {
-    "start" : 1656328901800,
-    "stop" : 1656328951093,
-    "duration" : 49293
+    "start" : 1656329254741,
+    "stop" : 1656329256090,
+    "duration" : 1349
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -22,11 +22,11 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "7b37dd9af16616ec",
+      "uid" : "958ea3928819b4aa",
       "name" : "Screenshot",
-      "source" : "7b37dd9af16616ec.png",
+      "source" : "958ea3928819b4aa.png",
       "type" : "image/png",
-      "size" : 212461
+      "size" : 102065
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -43,7 +43,7 @@
     "value" : "javascript"
   }, {
     "name" : "thread",
-    "value" : "0-1"
+    "value" : "0-0"
   }, {
     "name" : "suite",
     "value" : "C2283: Verify that 'Pronoun' it's required field"
@@ -52,7 +52,7 @@
     "value" : "C2283: Verify that 'Pronoun' it's required field"
   }, {
     "name" : "testMethod",
-    "value" : "Should go to clients page and check url"
+    "value" : "Should click the 'Edit' button and in 'Pronoun' field select the 'white' option"
   }, {
     "name" : "package",
     "value" : "C2283: Verify that 'Pronoun' it's required field"
@@ -65,12 +65,14 @@
     "value" : "chrome-102.0.5005.115"
   } ],
   "links" : [ ],
-  "hidden" : true,
-  "retry" : true,
+  "hidden" : false,
+  "retry" : false,
   "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "1b8aaed18193f0a2.json",
+  "source" : "5e022f87453899cc.json",
   "parameterValues" : [ "chrome-102.0.5005.115" ]
 }

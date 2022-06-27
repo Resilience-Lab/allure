@@ -3,48 +3,14 @@
   "children" : [ {
     "name" : "0-0",
     "children" : [ {
-      "name" : "Should go to client",
-      "uid" : "4c45a114fce6f6f9",
+      "name" : "Should go to clients page and check url",
+      "uid" : "7f1bd22eeec6fe2",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1656328720831,
-        "stop" : 1656328722035,
-        "duration" : 1204
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Should click the 'Edit' button and in 'Pronoun' field select the 'white' option",
-      "uid" : "d7a5a6cefe37769d",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1656328340031,
-        "stop" : 1656328341529,
-        "duration" : 1498
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "\"after all\" hook for C2283: Verify that 'Pronoun' it's required field",
-      "uid" : "86a7c67eab99de4b",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1656328457725,
-        "stop" : 1656328519090,
-        "duration" : 61365
+        "start" : 1656329202586,
+        "stop" : 1656329253603,
+        "duration" : 51017
       },
       "flaky" : false,
       "newFailed" : false,
@@ -55,13 +21,13 @@
       "parameters" : [ "chrome-102.0.5005.115" ]
     }, {
       "name" : "Should go to client",
-      "uid" : "c1aec222a40cf736",
+      "uid" : "18b0e9a210e24912",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1656328338835,
-        "stop" : 1656328340031,
-        "duration" : 1196
+        "start" : 1656329253604,
+        "stop" : 1656329254740,
+        "duration" : 1136
       },
       "flaky" : false,
       "newFailed" : false,
@@ -72,13 +38,13 @@
       "parameters" : [ "chrome-102.0.5005.115" ]
     }, {
       "name" : "\"after all\" hook for C2283: Verify that 'Pronoun' it's required field",
-      "uid" : "b1f402bb8d29229d",
+      "uid" : "514c7d608bd96147",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "broken",
       "time" : {
-        "start" : 1656328723432,
-        "stop" : 1656328784695,
-        "duration" : 61263
+        "start" : 1656329256090,
+        "stop" : 1656329496497,
+        "duration" : 240407
       },
       "flaky" : false,
       "newFailed" : false,
@@ -89,183 +55,13 @@
       "parameters" : [ "chrome-102.0.5005.115" ]
     }, {
       "name" : "Should click the 'Edit' button and in 'Pronoun' field select the 'white' option",
-      "uid" : "2927e5e69c9d7d4c",
+      "uid" : "5e022f87453899cc",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1656328571549,
-        "stop" : 1656328572967,
-        "duration" : 1418
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Should click the 'Edit' button and in 'Pronoun' field select the 'white' option",
-      "uid" : "20531a08e0929a56",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1656328456355,
-        "stop" : 1656328457725,
-        "duration" : 1370
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Should go to client",
-      "uid" : "aaebe01ba292e43a",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1656328455224,
-        "stop" : 1656328456354,
-        "duration" : 1130
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "\"after all\" hook for C2283: Verify that 'Pronoun' it's required field",
-      "uid" : "6726bfe97e52886f",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1656328341529,
-        "stop" : 1656328402862,
-        "duration" : 61333
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Should click the 'Edit' button and in 'Pronoun' field select the 'white' option",
-      "uid" : "c3790eb9e69e4a0a",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1656328722035,
-        "stop" : 1656328723432,
-        "duration" : 1397
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Should go to clients page and check url",
-      "uid" : "edaf4bf61548f4a6",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1656328521459,
-        "stop" : 1656328570403,
-        "duration" : 48944
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Should go to client",
-      "uid" : "93b2ad9d47dc115a",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1656328570404,
-        "stop" : 1656328571549,
-        "duration" : 1145
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Should go to clients page and check url",
-      "uid" : "72424a399bf848f4",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1656328405230,
-        "stop" : 1656328455222,
-        "duration" : 49992
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Should go to clients page and check url",
-      "uid" : "838d9b31839c3d95",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1656328636654,
-        "stop" : 1656328720830,
-        "duration" : 84176
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "\"after all\" hook for C2283: Verify that 'Pronoun' it's required field",
-      "uid" : "72db8b82383f4913",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1656328572967,
-        "stop" : 1656328634386,
-        "duration" : 61419
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Should go to clients page and check url",
-      "uid" : "c8c3654e9a7638ab",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1656328288036,
-        "stop" : 1656328338835,
-        "duration" : 50799
+        "start" : 1656329254741,
+        "stop" : 1656329256090,
+        "duration" : 1349
       },
       "flaky" : false,
       "newFailed" : false,
@@ -276,214 +72,6 @@
       "parameters" : [ "chrome-102.0.5005.115" ]
     } ],
     "uid" : "516fe00eea05ad99e936fa729b55eff4"
-  }, {
-    "name" : "0-1",
-    "children" : [ {
-      "name" : "Should click the 'Edit' button and in 'Pronoun' field select the 'white' option",
-      "uid" : "4814b51862ce927b",
-      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
-      "status" : "passed",
-      "time" : {
-        "start" : 1656328836702,
-        "stop" : 1656328838124,
-        "duration" : 1422
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "\"after all\" hook for C2283: Verify that 'Pronoun' it's required field",
-      "uid" : "aa4c90e36ce8b386",
-      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
-      "status" : "broken",
-      "time" : {
-        "start" : 1656329067875,
-        "stop" : 1656329129159,
-        "duration" : 61284
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 6,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "\"after all\" hook for C2283: Verify that 'Pronoun' it's required field",
-      "uid" : "9df21cc5ad736246",
-      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
-      "status" : "broken",
-      "time" : {
-        "start" : 1656328953652,
-        "stop" : 1656329014987,
-        "duration" : 61335
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Should go to client",
-      "uid" : "3493bb74218644d3",
-      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
-      "status" : "passed",
-      "time" : {
-        "start" : 1656328835587,
-        "stop" : 1656328836702,
-        "duration" : 1115
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Should go to client",
-      "uid" : "ddd3166c1fd884be",
-      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
-      "status" : "passed",
-      "time" : {
-        "start" : 1656329065367,
-        "stop" : 1656329066449,
-        "duration" : 1082
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 6,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Should click the 'Edit' button and in 'Pronoun' field select the 'white' option",
-      "uid" : "dc5d41a8012f8b64",
-      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
-      "status" : "passed",
-      "time" : {
-        "start" : 1656329066449,
-        "stop" : 1656329067875,
-        "duration" : 1426
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 6,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Should click the 'Edit' button and in 'Pronoun' field select the 'white' option",
-      "uid" : "703eded95b8025cf",
-      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
-      "status" : "passed",
-      "time" : {
-        "start" : 1656328952248,
-        "stop" : 1656328953652,
-        "duration" : 1404
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "\"after all\" hook for C2283: Verify that 'Pronoun' it's required field",
-      "uid" : "52149c28947b2634",
-      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
-      "status" : "broken",
-      "time" : {
-        "start" : 1656328838125,
-        "stop" : 1656328899450,
-        "duration" : 61325
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Should go to clients page and check url",
-      "uid" : "8477b86768030e1",
-      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
-      "status" : "passed",
-      "time" : {
-        "start" : 1656329017284,
-        "stop" : 1656329065366,
-        "duration" : 48082
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 6,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Should go to client",
-      "uid" : "dc54d2a4f9250fe7",
-      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
-      "status" : "passed",
-      "time" : {
-        "start" : 1656328951094,
-        "stop" : 1656328952248,
-        "duration" : 1154
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Should go to clients page and check url",
-      "uid" : "1b8aaed18193f0a2",
-      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
-      "status" : "passed",
-      "time" : {
-        "start" : 1656328901800,
-        "stop" : 1656328951093,
-        "duration" : 49293
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Should go to clients page and check url",
-      "uid" : "e01a27445166f524",
-      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
-      "status" : "passed",
-      "time" : {
-        "start" : 1656328786950,
-        "stop" : 1656328835586,
-        "duration" : 48636
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    } ],
-    "uid" : "27fa874cadc1574e37a07abb440963bd"
   } ],
   "name" : "timeline"
 }

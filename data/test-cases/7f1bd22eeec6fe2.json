@@ -1,12 +1,12 @@
 {
-  "uid" : "c1aec222a40cf736",
-  "name" : "Should go to client",
-  "fullName" : "C2283: Verify that 'Pronoun' it's required field.Should go to client",
-  "historyId" : "e4f1c8e9fbe85c20f8f21a0ade594ecd",
+  "uid" : "7f1bd22eeec6fe2",
+  "name" : "Should go to clients page and check url",
+  "fullName" : "C2283: Verify that 'Pronoun' it's required field.Should go to clients page and check url",
+  "historyId" : "696a91e9e6a9255ece3d2151a1df6e0b",
   "time" : {
-    "start" : 1656328338835,
-    "stop" : 1656328340031,
-    "duration" : 1196
+    "start" : 1656329202586,
+    "stop" : 1656329253603,
+    "duration" : 51017
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -22,11 +22,11 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "218ef90176949866",
+      "uid" : "f91b8e64d748c1b6",
       "name" : "Screenshot",
-      "source" : "218ef90176949866.png",
+      "source" : "f91b8e64d748c1b6.png",
       "type" : "image/png",
-      "size" : 99131
+      "size" : 218580
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -52,7 +52,7 @@
     "value" : "C2283: Verify that 'Pronoun' it's required field"
   }, {
     "name" : "testMethod",
-    "value" : "Should go to client"
+    "value" : "Should go to clients page and check url"
   }, {
     "name" : "package",
     "value" : "C2283: Verify that 'Pronoun' it's required field"
@@ -65,12 +65,14 @@
     "value" : "chrome-102.0.5005.115"
   } ],
   "links" : [ ],
-  "hidden" : true,
-  "retry" : true,
+  "hidden" : false,
+  "retry" : false,
   "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "c1aec222a40cf736.json",
+  "source" : "7f1bd22eeec6fe2.json",
   "parameterValues" : [ "chrome-102.0.5005.115" ]
 }

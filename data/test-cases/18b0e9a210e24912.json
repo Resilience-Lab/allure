@@ -1,12 +1,12 @@
 {
-  "uid" : "20531a08e0929a56",
-  "name" : "Should click the 'Edit' button and in 'Pronoun' field select the 'white' option",
-  "fullName" : "C2283: Verify that 'Pronoun' it's required field.Should click the 'Edit' button and in 'Pronoun' field select the 'white' option",
-  "historyId" : "81401d6be085bf4b0b358aa60e07b7c8",
+  "uid" : "18b0e9a210e24912",
+  "name" : "Should go to client",
+  "fullName" : "C2283: Verify that 'Pronoun' it's required field.Should go to client",
+  "historyId" : "e4f1c8e9fbe85c20f8f21a0ade594ecd",
   "time" : {
-    "start" : 1656328456355,
-    "stop" : 1656328457725,
-    "duration" : 1370
+    "start" : 1656329253604,
+    "stop" : 1656329254740,
+    "duration" : 1136
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -22,11 +22,11 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "5ce4a7fb8e90e316",
+      "uid" : "c7c72f11e8a7e29e",
       "name" : "Screenshot",
-      "source" : "5ce4a7fb8e90e316.png",
+      "source" : "c7c72f11e8a7e29e.png",
       "type" : "image/png",
-      "size" : 104662
+      "size" : 95351
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -52,7 +52,7 @@
     "value" : "C2283: Verify that 'Pronoun' it's required field"
   }, {
     "name" : "testMethod",
-    "value" : "Should click the 'Edit' button and in 'Pronoun' field select the 'white' option"
+    "value" : "Should go to client"
   }, {
     "name" : "package",
     "value" : "C2283: Verify that 'Pronoun' it's required field"
@@ -65,12 +65,14 @@
     "value" : "chrome-102.0.5005.115"
   } ],
   "links" : [ ],
-  "hidden" : true,
-  "retry" : true,
+  "hidden" : false,
+  "retry" : false,
   "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "20531a08e0929a56.json",
+  "source" : "18b0e9a210e24912.json",
   "parameterValues" : [ "chrome-102.0.5005.115" ]
 }

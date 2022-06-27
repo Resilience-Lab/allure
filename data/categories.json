@@ -3,26 +3,26 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "element (\"#user_name\") still not displayed after 60000ms",
+      "name" : "Timeout of 240000ms exceeded. The execution in the test \"C2283: Verify that 'Pronoun' it's required field \"after all\" hook for \"Should click the 'Save' button and check message that Pronoun field required\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/home/runner/work/webautomation/webautomation/test/specs/Clinicians/C2283_Verify_that_'Pronoun'_it's_required_field.spec.ts)",
       "children" : [ {
         "name" : "\"after all\" hook for C2283: Verify that 'Pronoun' it's required field",
-        "uid" : "aa4c90e36ce8b386",
-        "parentUid" : "1b85d9f0cbb816aacf7a00257d2c423f",
+        "uid" : "514c7d608bd96147",
+        "parentUid" : "de31a89ff6486abb0174e9de3f4022c0",
         "status" : "broken",
         "time" : {
-          "start" : 1656329067875,
-          "stop" : 1656329129159,
-          "duration" : 61284
+          "start" : 1656329256090,
+          "stop" : 1656329496497,
+          "duration" : 240407
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 6,
+        "retriesCount" : 0,
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-102.0.5005.115" ]
       } ],
-      "uid" : "1b85d9f0cbb816aacf7a00257d2c423f"
+      "uid" : "de31a89ff6486abb0174e9de3f4022c0"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ],
