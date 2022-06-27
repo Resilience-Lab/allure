@@ -1,0 +1,78 @@
+{
+  "uid" : "ec2f4836099d3358",
+  "name" : "Should go to clients page and check url",
+  "fullName" : "C2268: Missing Client Attributes Pop-up.Should go to clients page and check url",
+  "historyId" : "b49f8beb28f24c28bffa5b674d4b918",
+  "time" : {
+    "start" : 1656336151925,
+    "stop" : 1656336166630,
+    "duration" : 14705
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b071c942c7bd8b2d",
+      "name" : "Screenshot",
+      "source" : "b071c942c7bd8b2d.png",
+      "type" : "image/png",
+      "size" : 217508
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-5"
+  }, {
+    "name" : "suite",
+    "value" : "C2268: Missing Client Attributes Pop-up"
+  }, {
+    "name" : "testClass",
+    "value" : "C2268: Missing Client Attributes Pop-up"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should go to clients page and check url"
+  }, {
+    "name" : "package",
+    "value" : "C2268: Missing Client Attributes Pop-up"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ec2f4836099d3358.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}

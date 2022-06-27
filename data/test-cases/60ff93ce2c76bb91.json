@@ -1,0 +1,78 @@
+{
+  "uid" : "60ff93ce2c76bb91",
+  "name" : "Should filter clients",
+  "fullName" : "C2263: Multi State: Connect Nirvana API Key with correct PCorp.Should filter clients",
+  "historyId" : "c60220c19eb3a719853e0b84d1f3ae81",
+  "time" : {
+    "start" : 1656336549416,
+    "stop" : 1656336559934,
+    "duration" : 10518
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e0b06d19af97518c",
+      "name" : "Screenshot",
+      "source" : "e0b06d19af97518c.png",
+      "type" : "image/png",
+      "size" : 286351
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-11"
+  }, {
+    "name" : "suite",
+    "value" : "C2263: Multi State: Connect Nirvana API Key with correct PCorp"
+  }, {
+    "name" : "testClass",
+    "value" : "C2263: Multi State: Connect Nirvana API Key with correct PCorp"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should filter clients"
+  }, {
+    "name" : "package",
+    "value" : "C2263: Multi State: Connect Nirvana API Key with correct PCorp"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "60ff93ce2c76bb91.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}
