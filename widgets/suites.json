@@ -1,6 +1,39 @@
 {
   "total" : 26,
   "items" : [ {
+    "uid" : "b9ab15308c5c7012a1b61863129b5a8e",
+    "name" : "C2273: Verify if regular clinicians can add 'columns' in 'CLINICIANS' tab",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "3b0be6b7a92ffdd4d6bd65d8c8246966",
+    "name" : "C2283: Verify that 'Pronoun' it's required field",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "61fe74c464ec55804d35589b94e214cc",
+    "name" : "C2260: Multi State: Connect Nirvana API Key with correct PCorp",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
     "uid" : "81ae33d00cd469cb53c0f71f073c4980",
     "name" : "C2257: Default text for document exchanges",
     "statistic" : {
@@ -76,39 +109,6 @@
       "passed" : 6,
       "unknown" : 0,
       "total" : 6
-    }
-  }, {
-    "uid" : "6661e9a2fa08a7eeb33ed54acd800a13",
-    "name" : "C2267: Price should be 0 with active cost share waiver (CSW)",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 5,
-      "unknown" : 0,
-      "total" : 5
-    }
-  }, {
-    "uid" : "de45a05d7b2795953f6c75534701f828",
-    "name" : "C2255: Client's filters and columns",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 5,
-      "unknown" : 0,
-      "total" : 5
-    }
-  }, {
-    "uid" : "e61216604e05de4a2256469c38f3c4ce",
-    "name" : "C2261: Clients need to be able to upload documents via Portal",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 4,
-      "unknown" : 0,
-      "total" : 4
     }
   } ]
 }

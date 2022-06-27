@@ -1,0 +1,102 @@
+{
+  "uid" : "dc60a036964f3dac",
+  "name" : "Should go to clients page, copy email and check url",
+  "fullName" : "C2273: Verify if regular clinicians can add 'columns' in 'CLINICIANS' tab.Should go to clients page, copy email and check url",
+  "historyId" : "fbf1674ee379e34334981834d3e47b96",
+  "time" : {
+    "start" : 1656344276687,
+    "stop" : 1656344311856,
+    "duration" : 35169
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e172396452ba400c",
+      "name" : "Screenshot",
+      "source" : "e172396452ba400c.png",
+      "type" : "image/png",
+      "size" : 151704
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-18"
+  }, {
+    "name" : "suite",
+    "value" : "C2273: Verify if regular clinicians can add 'columns' in 'CLINICIANS' tab"
+  }, {
+    "name" : "testClass",
+    "value" : "C2273: Verify if regular clinicians can add 'columns' in 'CLINICIANS' tab"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should go to clients page, copy email and check url"
+  }, {
+    "name" : "package",
+    "value" : "C2273: Verify if regular clinicians can add 'columns' in 'CLINICIANS' tab"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9d2e4eecc43f6568",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656344042603,
+        "stop" : 1656344076649,
+        "duration" : 34046
+      }
+    }, {
+      "uid" : "e8587f349f3c9f41",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656343807695,
+        "stop" : 1656343843207,
+        "duration" : 35512
+      }
+    }, {
+      "uid" : "d43773b8cf4574aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656343569609,
+        "stop" : 1656343608168,
+        "duration" : 38559
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dc60a036964f3dac.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}

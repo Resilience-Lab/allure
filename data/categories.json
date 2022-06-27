@@ -1,5 +1,110 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "element not interactable\n                  (Session info: headless chrome=102.0.5005.115)",
+      "children" : [ {
+        "name" : "\"after all\" hook for C2260: Multi State: Connect Nirvana API Key with correct PCorp",
+        "uid" : "5b22757bdfc0dd07",
+        "parentUid" : "c183f353967552072aecbe065a007efc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1656342607679,
+          "stop" : 1656342671403,
+          "duration" : 63724
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.115" ]
+      }, {
+        "name" : "\"before all\" hook for C2283: Verify that 'Pronoun' it's required field",
+        "uid" : "595f4b18ffa491b7",
+        "parentUid" : "c183f353967552072aecbe065a007efc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1656344908735,
+          "stop" : 1656344922694,
+          "duration" : 13959
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.115" ]
+      } ],
+      "uid" : "c183f353967552072aecbe065a007efc"
+    }, {
+      "name" : "element (\".moduleTitle h2\") still not displayed after 60000ms",
+      "children" : [ {
+        "name" : "Should go to Create Client page",
+        "uid" : "1c82d4c7971dc022",
+        "parentUid" : "0762f52b30fcdf498faafa5c4262f1f0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1656344315009,
+          "stop" : 1656344376164,
+          "duration" : 61155
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.115" ]
+      } ],
+      "uid" : "0762f52b30fcdf498faafa5c4262f1f0"
+    }, {
+      "name" : "element (\"(//a[@id=\"duplicate-acc-link\"])[1]\") still not clickable after 60000ms",
+      "children" : [ {
+        "name" : "Should paste copied email and check pop-up message that 'Duplicate found'",
+        "uid" : "e011e65e4e1fb9e2",
+        "parentUid" : "7938b096c48690b909c1b3bd7a102cf7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1656344376165,
+          "stop" : 1656344511483,
+          "duration" : 135318
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.115" ]
+      } ],
+      "uid" : "7938b096c48690b909c1b3bd7a102cf7"
+    }, {
+      "name" : "element (\"//a[contains(text(),\"CLIENT\")]\") still not clickable after 60000ms",
+      "children" : [ {
+        "name" : "\"after all\" hook for C2283: Verify that 'Pronoun' it's required field",
+        "uid" : "5dffca4d37e303cd",
+        "parentUid" : "c13c1c6c99b1f48e315c95e3a5c9ac18",
+        "status" : "broken",
+        "time" : {
+          "start" : 1656344922694,
+          "stop" : 1656344989804,
+          "duration" : 67110
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.115" ]
+      } ],
+      "uid" : "c13c1c6c99b1f48e315c95e3a5c9ac18"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
   "name" : "categories"
 }

@@ -1,0 +1,80 @@
+{
+  "uid" : "a0b05f8c668a5a23",
+  "name" : "Should go to Create Client page",
+  "fullName" : "C2273: Verify if regular clinicians can add 'columns' in 'CLINICIANS' tab.Should go to Create Client page",
+  "historyId" : "33251e24e55f9daf883bc25e7c6bcd60",
+  "time" : {
+    "start" : 1656343846259,
+    "stop" : 1656343907400,
+    "duration" : 61141
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\".moduleTitle h2\") still not displayed after 60000ms",
+  "statusTrace" : "Error: element (\".moduleTitle h2\") still not displayed after 60000ms\n                    at async ProfilePage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async ProfilePage.getElementText (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:197:9)\n                    at async ProfilePage.getHeaderNameTitleText (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:557:16)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\".moduleTitle h2\") still not displayed after 60000ms",
+    "statusTrace" : "Error: element (\".moduleTitle h2\") still not displayed after 60000ms\n                    at async ProfilePage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async ProfilePage.getElementText (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:197:9)\n                    at async ProfilePage.getHeaderNameTitleText (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:557:16)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "50340d095b71f569",
+      "name" : "Screenshot",
+      "source" : "50340d095b71f569.png",
+      "type" : "image/png",
+      "size" : 26699
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-18"
+  }, {
+    "name" : "suite",
+    "value" : "C2273: Verify if regular clinicians can add 'columns' in 'CLINICIANS' tab"
+  }, {
+    "name" : "testClass",
+    "value" : "C2273: Verify if regular clinicians can add 'columns' in 'CLINICIANS' tab"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should go to Create Client page"
+  }, {
+    "name" : "package",
+    "value" : "C2273: Verify if regular clinicians can add 'columns' in 'CLINICIANS' tab"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a0b05f8c668a5a23.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}

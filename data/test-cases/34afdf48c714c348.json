@@ -1,0 +1,62 @@
+{
+  "uid" : "34afdf48c714c348",
+  "name" : "\"before all\" hook for C2283: Verify that 'Pronoun' it's required field",
+  "fullName" : "C2283: Verify that 'Pronoun' it's required field.\"before all\" hook for C2283: Verify that 'Pronoun' it's required field",
+  "historyId" : "371852f7f055151baa6081184bc75d5d",
+  "time" : {
+    "start" : 1656344539030,
+    "stop" : 1656344553129,
+    "duration" : 14099
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element not interactable\n                  (Session info: headless chrome=102.0.5005.115)",
+  "statusTrace" : "element not interactable: element not interactable\n                  (Session info: headless chrome=102.0.5005.115)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-20"
+  }, {
+    "name" : "suite",
+    "value" : "C2283: Verify that 'Pronoun' it's required field"
+  }, {
+    "name" : "testClass",
+    "value" : "C2283: Verify that 'Pronoun' it's required field"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook for C2283: Verify that 'Pronoun' it's required field"
+  }, {
+    "name" : "package",
+    "value" : "C2283: Verify that 'Pronoun' it's required field"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "34afdf48c714c348.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}
