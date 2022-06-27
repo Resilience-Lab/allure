@@ -1,0 +1,68 @@
+{
+  "uid" : "d62adcfe159ac2eb",
+  "name" : "\"before all\" hook for C2260: Multi State: Connect Nirvana API Key with correct PCorp",
+  "fullName" : "C2260: Multi State: Connect Nirvana API Key with correct PCorp.\"before all\" hook for C2260: Multi State: Connect Nirvana API Key with correct PCorp",
+  "historyId" : "1a904edb01739c796d27f70412b86b6d",
+  "time" : {
+    "start" : 1656346436803,
+    "stop" : 1656346527934,
+    "duration" : 91131
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Can't call elementClick on element with selector \"(//input[@id = \"SAVE\"])[2]\" because element wasn't found",
+  "statusTrace" : "Error: Can't call elementClick on element with selector \"(//input[@id = \"SAVE\"])[2]\" because element wasn't found\n                    at async createClientPage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:144:9)\n                    at async createClientPage.clickSaveBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/createClient.page.ts:83:9)\n                    at async createClientPage.createClient (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/createClient.page.ts:202:13)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-10"
+  }, {
+    "name" : "suite",
+    "value" : "C2260: Multi State: Connect Nirvana API Key with correct PCorp"
+  }, {
+    "name" : "testClass",
+    "value" : "C2260: Multi State: Connect Nirvana API Key with correct PCorp"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook for C2260: Multi State: Connect Nirvana API Key with correct PCorp"
+  }, {
+    "name" : "package",
+    "value" : "C2260: Multi State: Connect Nirvana API Key with correct PCorp"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "d62adcfe159ac2eb.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}

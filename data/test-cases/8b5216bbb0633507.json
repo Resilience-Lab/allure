@@ -1,0 +1,119 @@
+{
+  "uid" : "8b5216bbb0633507",
+  "name" : "Should paste copied email and check pop-up message that 'Duplicate found'",
+  "fullName" : "C2273: Verify if regular clinicians can add 'columns' in 'CLINICIANS' tab.Should paste copied email and check pop-up message that 'Duplicate found'",
+  "historyId" : "1aba2189016fc08f4425b19286a9a594",
+  "time" : {
+    "start" : 1656348630370,
+    "stop" : 1656348767227,
+    "duration" : 136857
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"(//a[@id=\"duplicate-acc-link\"])[1]\") still not clickable after 60000ms",
+  "statusTrace" : "Error: element (\"(//a[@id=\"duplicate-acc-link\"])[1]\") still not clickable after 60000ms\n                    at async ProfilePage.waitElementForClickable (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:89:9)\n                    at async ProfilePage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:143:9)\n                    at async ProfilePage.clickDublicateProfileLink (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:151:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"(//a[@id=\"duplicate-acc-link\"])[1]\") still not clickable after 60000ms",
+    "statusTrace" : "Error: element (\"(//a[@id=\"duplicate-acc-link\"])[1]\") still not clickable after 60000ms\n                    at async ProfilePage.waitElementForClickable (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:89:9)\n                    at async ProfilePage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:143:9)\n                    at async ProfilePage.clickDublicateProfileLink (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:151:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d9c14fe3cbbe28c3",
+      "name" : "Screenshot",
+      "source" : "d9c14fe3cbbe28c3.png",
+      "type" : "image/png",
+      "size" : 26697
+    }, {
+      "uid" : "c02c866711e9967e",
+      "name" : "Screenshot",
+      "source" : "c02c866711e9967e.png",
+      "type" : "image/png",
+      "size" : 26697
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-18"
+  }, {
+    "name" : "suite",
+    "value" : "C2273: Verify if regular clinicians can add 'columns' in 'CLINICIANS' tab"
+  }, {
+    "name" : "testClass",
+    "value" : "C2273: Verify if regular clinicians can add 'columns' in 'CLINICIANS' tab"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should paste copied email and check pop-up message that 'Duplicate found'"
+  }, {
+    "name" : "package",
+    "value" : "C2273: Verify if regular clinicians can add 'columns' in 'CLINICIANS' tab"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "de5d0de17a96ecda",
+      "status" : "broken",
+      "statusDetails" : "element (\"(//a[@id=\"duplicate-acc-link\"])[1]\") still not clickable after 60000ms",
+      "time" : {
+        "start" : 1656348385951,
+        "stop" : 1656348522049,
+        "duration" : 136098
+      }
+    }, {
+      "uid" : "667c72a6d0cc2027",
+      "status" : "broken",
+      "statusDetails" : "element (\"(//a[@id=\"duplicate-acc-link\"])[1]\") still not clickable after 60000ms",
+      "time" : {
+        "start" : 1656348143361,
+        "stop" : 1656348277275,
+        "duration" : 133914
+      }
+    }, {
+      "uid" : "d61c7536dbe86009",
+      "status" : "broken",
+      "statusDetails" : "element (\"(//a[@id=\"duplicate-acc-link\"])[1]\") still not clickable after 60000ms",
+      "time" : {
+        "start" : 1656347899801,
+        "stop" : 1656348035749,
+        "duration" : 135948
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "8b5216bbb0633507.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}

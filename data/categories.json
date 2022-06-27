@@ -3,16 +3,16 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "element not interactable\n                  (Session info: headless chrome=102.0.5005.115)",
+      "name" : "Can't call elementClick on element with selector \"(//input[@id = \"SAVE\"])[2]\" because element wasn't found",
       "children" : [ {
-        "name" : "\"after all\" hook for C2260: Multi State: Connect Nirvana API Key with correct PCorp",
-        "uid" : "5b22757bdfc0dd07",
-        "parentUid" : "c183f353967552072aecbe065a007efc",
+        "name" : "\"before all\" hook for C2260: Multi State: Connect Nirvana API Key with correct PCorp",
+        "uid" : "d62adcfe159ac2eb",
+        "parentUid" : "4699f357241419799f06d0aeb4d69bac",
         "status" : "broken",
         "time" : {
-          "start" : 1656342607679,
-          "stop" : 1656342671403,
-          "duration" : 63724
+          "start" : 1656346436803,
+          "stop" : 1656346527934,
+          "duration" : 91131
         },
         "flaky" : false,
         "newFailed" : false,
@@ -21,36 +21,82 @@
         "retriesCount" : 0,
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-102.0.5005.115" ]
-      }, {
-        "name" : "\"before all\" hook for C2283: Verify that 'Pronoun' it's required field",
-        "uid" : "595f4b18ffa491b7",
-        "parentUid" : "c183f353967552072aecbe065a007efc",
+      } ],
+      "uid" : "4699f357241419799f06d0aeb4d69bac"
+    }, {
+      "name" : "element (\"(//li[@class=\"sugar_action_button desktopOnly\"])[1]\") still not displayed after 60000ms",
+      "children" : [ {
+        "name" : "\"after all\" hook for C2260: Multi State: Connect Nirvana API Key with correct PCorp",
+        "uid" : "9be9cacb3b34020b",
+        "parentUid" : "40dcc12578836b944fc825608a5ed0f2",
         "status" : "broken",
         "time" : {
-          "start" : 1656344908735,
-          "stop" : 1656344922694,
-          "duration" : 13959
+          "start" : 1656346527935,
+          "stop" : 1656346611909,
+          "duration" : 83974
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 3,
+        "retriesCount" : 0,
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-102.0.5005.115" ]
       } ],
-      "uid" : "c183f353967552072aecbe065a007efc"
+      "uid" : "40dcc12578836b944fc825608a5ed0f2"
+    }, {
+      "name" : "element (\"button#ins-verify-btn\") still not clickable after 60000ms",
+      "children" : [ {
+        "name" : "Edit Insurance data",
+        "uid" : "6572353fc5c9b1ab",
+        "parentUid" : "a524fec9845815511970a048530e7daf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1656347136741,
+          "stop" : 1656347198334,
+          "duration" : 61593
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.115" ]
+      } ],
+      "uid" : "a524fec9845815511970a048530e7daf"
+    }, {
+      "name" : "element (\"//a[@id='tab5'][contains(text(),'Insurance')]\") still not clickable after 60000ms",
+      "children" : [ {
+        "name" : "insurance Api log should contain 9fc440c4-5784-6d54-d4d1-6245e3d8d12b",
+        "uid" : "e6366cb005ab1163",
+        "parentUid" : "865b917ba2ef4de0b3d9e31caf1e88e1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1656347198335,
+          "stop" : 1656347283836,
+          "duration" : 85501
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.115" ]
+      } ],
+      "uid" : "865b917ba2ef4de0b3d9e31caf1e88e1"
     }, {
       "name" : "element (\".moduleTitle h2\") still not displayed after 60000ms",
       "children" : [ {
         "name" : "Should go to Create Client page",
-        "uid" : "1c82d4c7971dc022",
+        "uid" : "8932251b1cb6762c",
         "parentUid" : "0762f52b30fcdf498faafa5c4262f1f0",
         "status" : "broken",
         "time" : {
-          "start" : 1656344315009,
-          "stop" : 1656344376164,
-          "duration" : 61155
+          "start" : 1656348568549,
+          "stop" : 1656348630367,
+          "duration" : 61818
         },
         "flaky" : false,
         "newFailed" : false,
@@ -65,13 +111,13 @@
       "name" : "element (\"(//a[@id=\"duplicate-acc-link\"])[1]\") still not clickable after 60000ms",
       "children" : [ {
         "name" : "Should paste copied email and check pop-up message that 'Duplicate found'",
-        "uid" : "e011e65e4e1fb9e2",
+        "uid" : "8b5216bbb0633507",
         "parentUid" : "7938b096c48690b909c1b3bd7a102cf7",
         "status" : "broken",
         "time" : {
-          "start" : 1656344376165,
-          "stop" : 1656344511483,
-          "duration" : 135318
+          "start" : 1656348630370,
+          "stop" : 1656348767227,
+          "duration" : 136857
         },
         "flaky" : false,
         "newFailed" : false,
@@ -83,16 +129,37 @@
       } ],
       "uid" : "7938b096c48690b909c1b3bd7a102cf7"
     }, {
+      "name" : "element (\"#btn_insurer\") still not clickable after 60000ms",
+      "children" : [ {
+        "name" : "\"before all\" hook for C2283: Verify that 'Pronoun' it's required field",
+        "uid" : "bc05a4dc839b1195",
+        "parentUid" : "f48b98ae158f1d5e50c1c59cf6975e7b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1656349233482,
+          "stop" : 1656349310220,
+          "duration" : 76738
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.115" ]
+      } ],
+      "uid" : "f48b98ae158f1d5e50c1c59cf6975e7b"
+    }, {
       "name" : "element (\"//a[contains(text(),\"CLIENT\")]\") still not clickable after 60000ms",
       "children" : [ {
         "name" : "\"after all\" hook for C2283: Verify that 'Pronoun' it's required field",
-        "uid" : "5dffca4d37e303cd",
+        "uid" : "fbb23e9aed6d4219",
         "parentUid" : "c13c1c6c99b1f48e315c95e3a5c9ac18",
         "status" : "broken",
         "time" : {
-          "start" : 1656344922694,
-          "stop" : 1656344989804,
-          "duration" : 67110
+          "start" : 1656349310220,
+          "stop" : 1656349378969,
+          "duration" : 68749
         },
         "flaky" : false,
         "newFailed" : false,

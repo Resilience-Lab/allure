@@ -1,0 +1,78 @@
+{
+  "uid" : "54bba131feccc409",
+  "name" : "Should click the 'Enrole Insurance' button",
+  "fullName" : "C2270: Check HIPAA checkbox when enrolling .Should click the 'Enrole Insurance' button",
+  "historyId" : "f2ded0f6e16ebad836b028647c4ab959",
+  "time" : {
+    "start" : 1656347605526,
+    "stop" : 1656347630610,
+    "duration" : 25084
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b90c6b4c599a7380",
+      "name" : "Screenshot",
+      "source" : "b90c6b4c599a7380.png",
+      "type" : "image/png",
+      "size" : 132754
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-15"
+  }, {
+    "name" : "suite",
+    "value" : "C2270: Check HIPAA checkbox when enrolling "
+  }, {
+    "name" : "testClass",
+    "value" : "C2270: Check HIPAA checkbox when enrolling "
+  }, {
+    "name" : "testMethod",
+    "value" : "Should click the 'Enrole Insurance' button"
+  }, {
+    "name" : "package",
+    "value" : "C2270: Check HIPAA checkbox when enrolling "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "54bba131feccc409.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}

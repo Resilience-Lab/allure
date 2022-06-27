@@ -1,0 +1,104 @@
+{
+  "uid" : "6572353fc5c9b1ab",
+  "name" : "Edit Insurance data",
+  "fullName" : "C2260: Multi State: Connect Nirvana API Key with correct PCorp.Edit Insurance data",
+  "historyId" : "90e7d3ab2ced3231f543784107e3e4ee",
+  "time" : {
+    "start" : 1656347136741,
+    "stop" : 1656347198334,
+    "duration" : 61593
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"button#ins-verify-btn\") still not clickable after 60000ms",
+  "statusTrace" : "Error: element (\"button#ins-verify-btn\") still not clickable after 60000ms\n                    at async ProfilePage.waitElementForClickable (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:89:9)\n                    at async ProfilePage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:143:9)\n                    at async ProfilePage.clickVerifyInsuranceBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:471:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"button#ins-verify-btn\") still not clickable after 60000ms",
+    "statusTrace" : "Error: element (\"button#ins-verify-btn\") still not clickable after 60000ms\n                    at async ProfilePage.waitElementForClickable (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:89:9)\n                    at async ProfilePage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:143:9)\n                    at async ProfilePage.clickVerifyInsuranceBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:471:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "68422461c79792cd",
+      "name" : "Screenshot",
+      "source" : "68422461c79792cd.png",
+      "type" : "image/png",
+      "size" : 138841
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-10"
+  }, {
+    "name" : "suite",
+    "value" : "C2260: Multi State: Connect Nirvana API Key with correct PCorp"
+  }, {
+    "name" : "testClass",
+    "value" : "C2260: Multi State: Connect Nirvana API Key with correct PCorp"
+  }, {
+    "name" : "testMethod",
+    "value" : "Edit Insurance data"
+  }, {
+    "name" : "package",
+    "value" : "C2260: Multi State: Connect Nirvana API Key with correct PCorp"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d2a58df9390d8ff1",
+      "status" : "broken",
+      "statusDetails" : "element (\"button#ins-verify-btn\") still not clickable after 60000ms",
+      "time" : {
+        "start" : 1656346915441,
+        "stop" : 1656346977129,
+        "duration" : 61688
+      }
+    }, {
+      "uid" : "956655cd3d26359e",
+      "status" : "broken",
+      "statusDetails" : "element (\"button#ins-verify-btn\") still not clickable after 60000ms",
+      "time" : {
+        "start" : 1656346701759,
+        "stop" : 1656346763538,
+        "duration" : 61779
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "6572353fc5c9b1ab.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}
