@@ -1,0 +1,102 @@
+{
+  "uid" : "332eb213545ecf83",
+  "name" : "Should click the 'Edit' button and in 'Pronoun' field select the 'white' option",
+  "fullName" : "C2283: Verify that 'Pronoun' it's required field.Should click the 'Edit' button and in 'Pronoun' field select the 'white' option",
+  "historyId" : "81401d6be085bf4b0b358aa60e07b7c8",
+  "time" : {
+    "start" : 1656327155794,
+    "stop" : 1656327156928,
+    "duration" : 1134
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6b00006f0019beb0",
+      "name" : "Screenshot",
+      "source" : "6b00006f0019beb0.png",
+      "type" : "image/png",
+      "size" : 104461
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-20"
+  }, {
+    "name" : "suite",
+    "value" : "C2283: Verify that 'Pronoun' it's required field"
+  }, {
+    "name" : "testClass",
+    "value" : "C2283: Verify that 'Pronoun' it's required field"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should click the 'Edit' button and in 'Pronoun' field select the 'white' option"
+  }, {
+    "name" : "package",
+    "value" : "C2283: Verify that 'Pronoun' it's required field"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "255d4785ed2b959f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656326865121,
+        "stop" : 1656326866290,
+        "duration" : 1169
+      }
+    }, {
+      "uid" : "1e4670fa47a24901",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656326573599,
+        "stop" : 1656326574735,
+        "duration" : 1136
+      }
+    }, {
+      "uid" : "de8c3c2be8b83185",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656326283096,
+        "stop" : 1656326284298,
+        "duration" : 1202
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "332eb213545ecf83.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}
