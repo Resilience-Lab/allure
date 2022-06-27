@@ -1,0 +1,86 @@
+{
+  "uid" : "c4dd501dbf442b1e",
+  "name" : "Should try to download file",
+  "fullName" : "C2257: Default text for document exchanges.Should try to download file",
+  "historyId" : "c170d85f900482380493651050a642b4",
+  "time" : {
+    "start" : 1656355041210,
+    "stop" : 1656355042029,
+    "duration" : 819
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "db49cad97f41b4f4",
+      "name" : "Screenshot",
+      "source" : "db49cad97f41b4f4.png",
+      "type" : "image/png",
+      "size" : 61610
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "testClass",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should try to download file"
+  }, {
+    "name" : "package",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7d366ab456fc2f15",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656355026441,
+        "stop" : 1656355027250,
+        "duration" : 809
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c4dd501dbf442b1e.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}

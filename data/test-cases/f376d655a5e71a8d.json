@@ -1,0 +1,86 @@
+{
+  "uid" : "f376d655a5e71a8d",
+  "name" : "Should paste copied email and check pop-up message that 'Duplicate found'",
+  "fullName" : "C2273: Verify if regular clinicians can add 'columns' in 'CLINICIANS' tab.Should paste copied email and check pop-up message that 'Duplicate found'",
+  "historyId" : "1aba2189016fc08f4425b19286a9a594",
+  "time" : {
+    "start" : 1656356761269,
+    "stop" : 1656356898245,
+    "duration" : 136976
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"(//a[@id=\"duplicate-acc-link\"])[1]\") still not clickable after 60000ms",
+  "statusTrace" : "Error: element (\"(//a[@id=\"duplicate-acc-link\"])[1]\") still not clickable after 60000ms\n                    at async ProfilePage.waitElementForClickable (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:89:9)\n                    at async ProfilePage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:143:9)\n                    at async ProfilePage.clickDublicateProfileLink (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:151:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"(//a[@id=\"duplicate-acc-link\"])[1]\") still not clickable after 60000ms",
+    "statusTrace" : "Error: element (\"(//a[@id=\"duplicate-acc-link\"])[1]\") still not clickable after 60000ms\n                    at async ProfilePage.waitElementForClickable (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:89:9)\n                    at async ProfilePage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:143:9)\n                    at async ProfilePage.clickDublicateProfileLink (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:151:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "529148a1ef7809cb",
+      "name" : "Screenshot",
+      "source" : "529148a1ef7809cb.png",
+      "type" : "image/png",
+      "size" : 26697
+    }, {
+      "uid" : "65b66443ec1e6ea9",
+      "name" : "Screenshot",
+      "source" : "65b66443ec1e6ea9.png",
+      "type" : "image/png",
+      "size" : 26697
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-18"
+  }, {
+    "name" : "suite",
+    "value" : "C2273: Verify if regular clinicians can add 'columns' in 'CLINICIANS' tab"
+  }, {
+    "name" : "testClass",
+    "value" : "C2273: Verify if regular clinicians can add 'columns' in 'CLINICIANS' tab"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should paste copied email and check pop-up message that 'Duplicate found'"
+  }, {
+    "name" : "package",
+    "value" : "C2273: Verify if regular clinicians can add 'columns' in 'CLINICIANS' tab"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f376d655a5e71a8d.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}

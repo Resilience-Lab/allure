@@ -1,0 +1,78 @@
+{
+  "uid" : "c59738794c47327d",
+  "name" : "Should change payer without INN",
+  "fullName" : "C2267: Price should be 0 with active cost share waiver (CSW).Should change payer without INN",
+  "historyId" : "e4e1661bca7e2b8f4914486f6ec888b3",
+  "time" : {
+    "start" : 1656356182992,
+    "stop" : 1656356185213,
+    "duration" : 2221
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "bf6f8a3d6ea471b7",
+      "name" : "Screenshot",
+      "source" : "bf6f8a3d6ea471b7.png",
+      "type" : "image/png",
+      "size" : 102239
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-14"
+  }, {
+    "name" : "suite",
+    "value" : "C2267: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "testClass",
+    "value" : "C2267: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should change payer without INN"
+  }, {
+    "name" : "package",
+    "value" : "C2267: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c59738794c47327d.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}

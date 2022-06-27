@@ -1,0 +1,86 @@
+{
+  "uid" : "46d959af07f02f6e",
+  "name" : "Should search for results and check if filter is working",
+  "fullName" : "C2254: Filter clinicians search.Should search for results and check if filter is working",
+  "historyId" : "a9016ae228b5de3b4c98fe014adfee3e",
+  "time" : {
+    "start" : 1656357935744,
+    "stop" : 1656357936701,
+    "duration" : 957
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e2ec629890fe96f7",
+      "name" : "Screenshot",
+      "source" : "e2ec629890fe96f7.png",
+      "type" : "image/png",
+      "size" : 34866
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-24"
+  }, {
+    "name" : "suite",
+    "value" : "C2254: Filter clinicians search"
+  }, {
+    "name" : "testClass",
+    "value" : "C2254: Filter clinicians search"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should search for results and check if filter is working"
+  }, {
+    "name" : "package",
+    "value" : "C2254: Filter clinicians search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ca3dcf7e240537eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656357929619,
+        "stop" : 1656357933895,
+        "duration" : 4276
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "46d959af07f02f6e.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}

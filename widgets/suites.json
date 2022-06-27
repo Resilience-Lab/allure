@@ -1,17 +1,6 @@
 {
   "total" : 26,
   "items" : [ {
-    "uid" : "61fe74c464ec55804d35589b94e214cc",
-    "name" : "C2260: Multi State: Connect Nirvana API Key with correct PCorp",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 4,
-      "skipped" : 0,
-      "passed" : 2,
-      "unknown" : 0,
-      "total" : 6
-    }
-  }, {
     "uid" : "b9ab15308c5c7012a1b61863129b5a8e",
     "name" : "C2273: Verify if regular clinicians can add 'columns' in 'CLINICIANS' tab",
     "statistic" : {
@@ -109,6 +98,17 @@
       "passed" : 6,
       "unknown" : 0,
       "total" : 6
+    }
+  }, {
+    "uid" : "6661e9a2fa08a7eeb33ed54acd800a13",
+    "name" : "C2267: Price should be 0 with active cost share waiver (CSW)",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
     }
   } ]
 }

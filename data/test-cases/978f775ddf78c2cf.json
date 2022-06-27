@@ -1,0 +1,102 @@
+{
+  "uid" : "978f775ddf78c2cf",
+  "name" : "Should relogin to other clinician and check that logged as user",
+  "fullName" : "C2273: Verify if regular clinicians can add 'columns' in 'CLINICIANS' tab.Should relogin to other clinician and check that logged as user",
+  "historyId" : "5a857213b14a85d4e9b61a2e8256f750",
+  "time" : {
+    "start" : 1656357180794,
+    "stop" : 1656357184239,
+    "duration" : 3445
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4c7dffa97229a341",
+      "name" : "Screenshot",
+      "source" : "4c7dffa97229a341.png",
+      "type" : "image/png",
+      "size" : 10789
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-18"
+  }, {
+    "name" : "suite",
+    "value" : "C2273: Verify if regular clinicians can add 'columns' in 'CLINICIANS' tab"
+  }, {
+    "name" : "testClass",
+    "value" : "C2273: Verify if regular clinicians can add 'columns' in 'CLINICIANS' tab"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should relogin to other clinician and check that logged as user"
+  }, {
+    "name" : "package",
+    "value" : "C2273: Verify if regular clinicians can add 'columns' in 'CLINICIANS' tab"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "61ae9f90545af8d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656356940843,
+        "stop" : 1656356944365,
+        "duration" : 3522
+      }
+    }, {
+      "uid" : "b5f5cdb668d2c091",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656356696978,
+        "stop" : 1656356700115,
+        "duration" : 3137
+      }
+    }, {
+      "uid" : "89cac0b1b1a21aad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656356458759,
+        "stop" : 1656356462174,
+        "duration" : 3415
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "978f775ddf78c2cf.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}
