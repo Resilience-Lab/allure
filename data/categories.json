@@ -1,51 +1,5 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ {
-    "name" : "Test defects",
-    "children" : [ {
-      "name" : "element (\"//*[text()='ACTIONS']\") still not clickable after 60000ms",
-      "children" : [ {
-        "name" : "\"before all\" hook for C2282: Verify Progress Note disabled fields",
-        "uid" : "2017e43720821a85",
-        "parentUid" : "17d980228c3b4a9103f1ba1bb2024ad2",
-        "status" : "broken",
-        "time" : {
-          "start" : 1656338189989,
-          "stop" : 1656338313024,
-          "duration" : 123035
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.115" ]
-      } ],
-      "uid" : "17d980228c3b4a9103f1ba1bb2024ad2"
-    }, {
-      "name" : "element (\"//a[contains(text(),\"CLIENT\")]\") still not clickable after 60000ms",
-      "children" : [ {
-        "name" : "\"after all\" hook for C2282: Verify Progress Note disabled fields",
-        "uid" : "5c7e14dec64844be",
-        "parentUid" : "c13c1c6c99b1f48e315c95e3a5c9ac18",
-        "status" : "broken",
-        "time" : {
-          "start" : 1656338313024,
-          "stop" : 1656338379403,
-          "duration" : 66379
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-102.0.5005.115" ]
-      } ],
-      "uid" : "c13c1c6c99b1f48e315c95e3a5c9ac18"
-    } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
-  } ],
+  "children" : [ ],
   "name" : "categories"
 }
