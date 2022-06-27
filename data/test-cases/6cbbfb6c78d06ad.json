@@ -1,0 +1,145 @@
+{
+  "uid" : "6cbbfb6c78d06ad",
+  "name" : "Should try to download file",
+  "fullName" : "C2257: Default text for document exchanges.Should try to download file",
+  "historyId" : "c170d85f900482380493651050a642b4",
+  "time" : {
+    "start" : 1656330808825,
+    "stop" : 1656330868989,
+    "duration" : 60164
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"//button[@type=\"submit\"][text()=\"Download Document\"]\") still not clickable after 60000ms",
+  "statusTrace" : "Error: element (\"//button[@type=\"submit\"][text()=\"Download Document\"]\") still not clickable after 60000ms\n                    at runNextTicks (node:internal/process/task_queues:61:5)\n                    at processTimers (node:internal/timers:499:9)\n                    at async CPRequestsPage.waitElementForClickable (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:89:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 7,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"//button[@type=\"submit\"][text()=\"Download Document\"]\") still not clickable after 60000ms",
+    "statusTrace" : "Error: element (\"//button[@type=\"submit\"][text()=\"Download Document\"]\") still not clickable after 60000ms\n                    at runNextTicks (node:internal/process/task_queues:61:5)\n                    at processTimers (node:internal/timers:499:9)\n                    at async CPRequestsPage.waitElementForClickable (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:89:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "85d16a3c50c16cdc",
+      "name" : "Screenshot",
+      "source" : "85d16a3c50c16cdc.png",
+      "type" : "image/png",
+      "size" : 53063
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "testClass",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should try to download file"
+  }, {
+    "name" : "package",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f81e67027a0b1dcf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656330785140,
+        "stop" : 1656330785917,
+        "duration" : 777
+      }
+    }, {
+      "uid" : "745e45b61a952f6c",
+      "status" : "broken",
+      "statusDetails" : "element (\"//button[@type=\"submit\"][text()=\"Download Document\"]\") still not clickable after 60000ms",
+      "time" : {
+        "start" : 1656330653466,
+        "stop" : 1656330713630,
+        "duration" : 60164
+      }
+    }, {
+      "uid" : "9ce6728bfbe36c24",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656330629812,
+        "stop" : 1656330630586,
+        "duration" : 774
+      }
+    }, {
+      "uid" : "fc435f24006c49eb",
+      "status" : "broken",
+      "statusDetails" : "element (\"//button[@type=\"submit\"][text()=\"Download Document\"]\") still not clickable after 60000ms",
+      "time" : {
+        "start" : 1656330500854,
+        "stop" : 1656330561018,
+        "duration" : 60164
+      }
+    }, {
+      "uid" : "5d2f6952c97f1ee4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656330477186,
+        "stop" : 1656330477944,
+        "duration" : 758
+      }
+    }, {
+      "uid" : "2acfc88e53023c42",
+      "status" : "broken",
+      "statusDetails" : "element (\"//button[@type=\"submit\"][text()=\"Download Document\"]\") still not clickable after 60000ms",
+      "time" : {
+        "start" : 1656330348793,
+        "stop" : 1656330408958,
+        "duration" : 60165
+      }
+    }, {
+      "uid" : "c3b9fd7b632542c6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656330324559,
+        "stop" : 1656330325351,
+        "duration" : 792
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "6cbbfb6c78d06ad.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}
