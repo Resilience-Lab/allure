@@ -1,0 +1,80 @@
+{
+  "uid" : "604ed7b2114f480f",
+  "name" : "Should display columns filter modal window",
+  "fullName" : "C2255: Client's filters and columns.Should display columns filter modal window",
+  "historyId" : "a98f6e02d866dc284ea6e95cdcf965db",
+  "time" : {
+    "start" : 1656411407308,
+    "stop" : 1656411467490,
+    "duration" : 60182
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"[class*=\"Button_top\"] [title=\"Column Chooser\"]\") still not clickable after 60000ms",
+  "statusTrace" : "Error: element (\"[class*=\"Button_top\"] [title=\"Column Chooser\"]\") still not clickable after 60000ms\n                    at async ClientsPage.waitElementForClickable (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:89:9)\n                    at async ClientsPage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:143:9)\n                    at async ClientsPage.clickTopColumnsBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/clients.page.ts:75:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"[class*=\"Button_top\"] [title=\"Column Chooser\"]\") still not clickable after 60000ms",
+    "statusTrace" : "Error: element (\"[class*=\"Button_top\"] [title=\"Column Chooser\"]\") still not clickable after 60000ms\n                    at async ClientsPage.waitElementForClickable (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:89:9)\n                    at async ClientsPage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:143:9)\n                    at async ClientsPage.clickTopColumnsBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/clients.page.ts:75:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "402430aea4f80dfa",
+      "name" : "Screenshot",
+      "source" : "402430aea4f80dfa.png",
+      "type" : "image/png",
+      "size" : 85918
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-25"
+  }, {
+    "name" : "suite",
+    "value" : "C2255: Client's filters and columns"
+  }, {
+    "name" : "testClass",
+    "value" : "C2255: Client's filters and columns"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should display columns filter modal window"
+  }, {
+    "name" : "package",
+    "value" : "C2255: Client's filters and columns"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "604ed7b2114f480f.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}

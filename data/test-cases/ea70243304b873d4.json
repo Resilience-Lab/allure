@@ -1,0 +1,86 @@
+{
+  "uid" : "ea70243304b873d4",
+  "name" : "Should click filter and check if filter modal is visible",
+  "fullName" : "C2255: Client's filters and columns.Should click filter and check if filter modal is visible",
+  "historyId" : "9efecb9599c4aa857b4a6f129570716b",
+  "time" : {
+    "start" : 1656411540520,
+    "stop" : 1656411540869,
+    "duration" : 349
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "816e4d92779f77eb",
+      "name" : "Screenshot",
+      "source" : "816e4d92779f77eb.png",
+      "type" : "image/png",
+      "size" : 190373
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-25"
+  }, {
+    "name" : "suite",
+    "value" : "C2255: Client's filters and columns"
+  }, {
+    "name" : "testClass",
+    "value" : "C2255: Client's filters and columns"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should click filter and check if filter modal is visible"
+  }, {
+    "name" : "package",
+    "value" : "C2255: Client's filters and columns"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c7c73410e771a808",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656411406576,
+        "stop" : 1656411406919,
+        "duration" : 343
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ea70243304b873d4.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}

@@ -1,0 +1,80 @@
+{
+  "uid" : "e73b8bab5f4060c8",
+  "name" : "Should display chosen options in clients list columns names",
+  "fullName" : "C2255: Client's filters and columns.Should display chosen options in clients list columns names",
+  "historyId" : "d5bb1d74f45092493b5bc86fdf33ca04",
+  "time" : {
+    "start" : 1656411467490,
+    "stop" : 1656411527690,
+    "duration" : 60200
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"//div[@id='columnsFilterList']//li\") still not clickable after 60000ms",
+  "statusTrace" : "Error: element (\"//div[@id='columnsFilterList']//li\") still not clickable after 60000ms\n                    at async ClientsPage.waitElementForClickable (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:89:9)\n                    at async ClientsPage.dragAndDropByText (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:168:9)\n                    at async ClientsPage.dragAndDropByTextColumnsFilterOptionToDisplayedList (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/clients.page.ts:184:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"//div[@id='columnsFilterList']//li\") still not clickable after 60000ms",
+    "statusTrace" : "Error: element (\"//div[@id='columnsFilterList']//li\") still not clickable after 60000ms\n                    at async ClientsPage.waitElementForClickable (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:89:9)\n                    at async ClientsPage.dragAndDropByText (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:168:9)\n                    at async ClientsPage.dragAndDropByTextColumnsFilterOptionToDisplayedList (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/clients.page.ts:184:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2f3431a5b58e2977",
+      "name" : "Screenshot",
+      "source" : "2f3431a5b58e2977.png",
+      "type" : "image/png",
+      "size" : 85918
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-25"
+  }, {
+    "name" : "suite",
+    "value" : "C2255: Client's filters and columns"
+  }, {
+    "name" : "testClass",
+    "value" : "C2255: Client's filters and columns"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should display chosen options in clients list columns names"
+  }, {
+    "name" : "package",
+    "value" : "C2255: Client's filters and columns"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.115"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e73b8bab5f4060c8.json",
+  "parameterValues" : [ "chrome-102.0.5005.115" ]
+}
