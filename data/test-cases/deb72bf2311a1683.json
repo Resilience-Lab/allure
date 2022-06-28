@@ -1,0 +1,86 @@
+{
+  "uid" : "deb72bf2311a1683",
+  "name" : "Should select library document to share",
+  "fullName" : "C2257: Default text for document exchanges.Should select library document to share",
+  "historyId" : "17175c933c98b0aa7117b18d29dad957",
+  "time" : {
+    "start" : 1656427813016,
+    "stop" : 1656427814570,
+    "duration" : 1554
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "23443b84274ae603",
+      "name" : "Screenshot",
+      "source" : "23443b84274ae603.png",
+      "type" : "image/png",
+      "size" : 122761
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "testClass",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should select library document to share"
+  }, {
+    "name" : "package",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "13706d57e31e48b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656427781503,
+        "stop" : 1656427783061,
+        "duration" : 1558
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "deb72bf2311a1683.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}

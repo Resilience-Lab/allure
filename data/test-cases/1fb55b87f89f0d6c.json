@@ -1,0 +1,78 @@
+{
+  "uid" : "1fb55b87f89f0d6c",
+  "name" : "Should click the 'Filters' button and choose 'Stage' - 'Activity', 'Insurance status' - 'Verified'",
+  "fullName" : "C2270: Check HIPAA checkbox when enrolling .Should click the 'Filters' button and choose 'Stage' - 'Activity', 'Insurance status' - 'Verified'",
+  "historyId" : "941e99b2328553d2eda424fbbc4e0f29",
+  "time" : {
+    "start" : 1656429065746,
+    "stop" : 1656429068139,
+    "duration" : 2393
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "927eec15593c7cf2",
+      "name" : "Screenshot",
+      "source" : "927eec15593c7cf2.png",
+      "type" : "image/png",
+      "size" : 82781
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-15"
+  }, {
+    "name" : "suite",
+    "value" : "C2270: Check HIPAA checkbox when enrolling "
+  }, {
+    "name" : "testClass",
+    "value" : "C2270: Check HIPAA checkbox when enrolling "
+  }, {
+    "name" : "testMethod",
+    "value" : "Should click the 'Filters' button and choose 'Stage' - 'Activity', 'Insurance status' - 'Verified'"
+  }, {
+    "name" : "package",
+    "value" : "C2270: Check HIPAA checkbox when enrolling "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1fb55b87f89f0d6c.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}
