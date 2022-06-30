@@ -1,0 +1,78 @@
+{
+  "uid" : "298958e767193d47",
+  "name" : "Should open client without email",
+  "fullName" : "C2268: Missing Client Attributes Pop-up.Should open client without email",
+  "historyId" : "cb67d9861fc7767500f5829cc133d1f5",
+  "time" : {
+    "start" : 1656609547700,
+    "stop" : 1656609548810,
+    "duration" : 1110
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "514a6ba5a2d4169e",
+      "name" : "Screenshot",
+      "source" : "514a6ba5a2d4169e.png",
+      "type" : "image/png",
+      "size" : 79860
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-5"
+  }, {
+    "name" : "suite",
+    "value" : "C2268: Missing Client Attributes Pop-up"
+  }, {
+    "name" : "testClass",
+    "value" : "C2268: Missing Client Attributes Pop-up"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should open client without email"
+  }, {
+    "name" : "package",
+    "value" : "C2268: Missing Client Attributes Pop-up"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "298958e767193d47.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}
