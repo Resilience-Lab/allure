@@ -1,0 +1,94 @@
+{
+  "uid" : "c46ee179420006ed",
+  "name" : "Should open client profile and create session",
+  "fullName" : "C2272: Don't allow to create more than 1 session per day for INN enrolled client.Should open client profile and create session",
+  "historyId" : "23e431db095a49cadf2324367d9c61d2",
+  "time" : {
+    "start" : 1656680748583,
+    "stop" : 1656680760986,
+    "duration" : 12403
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "603bc6fe28a4464a",
+      "name" : "Screenshot",
+      "source" : "603bc6fe28a4464a.png",
+      "type" : "image/png",
+      "size" : 151105
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-17"
+  }, {
+    "name" : "suite",
+    "value" : "C2272: Don't allow to create more than 1 session per day for INN enrolled client"
+  }, {
+    "name" : "testClass",
+    "value" : "C2272: Don't allow to create more than 1 session per day for INN enrolled client"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should open client profile and create session"
+  }, {
+    "name" : "package",
+    "value" : "C2272: Don't allow to create more than 1 session per day for INN enrolled client"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "534ba759a9053734",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656680709657,
+        "stop" : 1656680721976,
+        "duration" : 12319
+      }
+    }, {
+      "uid" : "56568113873bfcf5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656680686736,
+        "stop" : 1656680690981,
+        "duration" : 4245
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c46ee179420006ed.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}
