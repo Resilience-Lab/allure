@@ -1,0 +1,68 @@
+{
+  "uid" : "7101e628169045d4",
+  "name" : "\"after all\" hook for C2257: Default text for document exchanges",
+  "fullName" : "C2257: Default text for document exchanges.\"after all\" hook for C2257: Default text for document exchanges",
+  "historyId" : "8d3e71b000090bb5e7b0b0225ee18672",
+  "time" : {
+    "start" : 1656934008466,
+    "stop" : 1656934068895,
+    "duration" : 60429
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"#toolbar a[href=\"index.php?module=Accounts&action=index&parentTab=All\"]\") still not clickable after 60000ms",
+  "statusTrace" : "Error: element (\"#toolbar a[href=\"index.php?module=Accounts&action=index&parentTab=All\"]\") still not clickable after 60000ms\n                    at async NavigationBar.waitElementForClickable (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:89:9)\n                    at async NavigationBar.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:143:9)\n                    at async NavigationBar.clickClientsBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/navigation.bar.ts:45:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "testClass",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"after all\" hook for C2257: Default text for document exchanges"
+  }, {
+    "name" : "package",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "7101e628169045d4.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}

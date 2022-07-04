@@ -1,1 +1,42 @@
-{ }
+{
+  "c56c92d662eb163bc323c9c579c0a1a2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f07ceca92fb2e551",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 240000ms exceeded. The execution in the test \"C2257: Default text for document exchanges \"before all\" hook for \"Should go to clients page and check url\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/home/runner/work/webautomation/webautomation/test/specs/Clients/C2257_default_text_for_document_exchanges.spec.ts)",
+      "time" : {
+        "start" : 1656933768459,
+        "stop" : 1656934008465,
+        "duration" : 240006
+      }
+    } ]
+  },
+  "8d3e71b000090bb5e7b0b0225ee18672" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7101e628169045d4",
+      "status" : "broken",
+      "statusDetails" : "element (\"#toolbar a[href=\"index.php?module=Accounts&action=index&parentTab=All\"]\") still not clickable after 60000ms",
+      "time" : {
+        "start" : 1656934008466,
+        "stop" : 1656934068895,
+        "duration" : 60429
+      }
+    } ]
+  }
+}
