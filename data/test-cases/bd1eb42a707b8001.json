@@ -1,0 +1,78 @@
+{
+  "uid" : "bd1eb42a707b8001",
+  "name" : "Should verify that each CPT code have the same agreed rate value '0'",
+  "fullName" : "C2264: Price should be 0 with active cost share waiver (CSW).Should verify that each CPT code have the same agreed rate value '0'",
+  "historyId" : "4100b21b3f12ee934da67d5756c7534f",
+  "time" : {
+    "start" : 1657033375340,
+    "stop" : 1657033402058,
+    "duration" : 26718
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "852e4cbe1c0ab9be",
+      "name" : "Screenshot",
+      "source" : "852e4cbe1c0ab9be.png",
+      "type" : "image/png",
+      "size" : 232538
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-12"
+  }, {
+    "name" : "suite",
+    "value" : "C2264: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "testClass",
+    "value" : "C2264: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should verify that each CPT code have the same agreed rate value '0'"
+  }, {
+    "name" : "package",
+    "value" : "C2264: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bd1eb42a707b8001.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}

@@ -1,5 +1,30 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Cannot read properties of null (reading 'includes')",
+      "children" : [ {
+        "name" : "Should open window with creating 'Progress Note' document and check fields",
+        "uid" : "826b51b4ce5b0e14",
+        "parentUid" : "2e8fe65687b9ecda98befb798c6ca8d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657032697350,
+          "stop" : 1657032728904,
+          "duration" : 31554
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.53" ]
+      } ],
+      "uid" : "2e8fe65687b9ecda98befb798c6ca8d8"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
   "name" : "categories"
 }

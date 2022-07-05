@@ -1,0 +1,78 @@
+{
+  "uid" : "60e600deb737878a",
+  "name" : "Should go to some active client profile",
+  "fullName" : "C2259: Viewing a PDF superbill.Should go to some active client profile",
+  "historyId" : "cb2ef9aeda8bfdf0b0aa26a271bb1c70",
+  "time" : {
+    "start" : 1657031826258,
+    "stop" : 1657031827575,
+    "duration" : 1317
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5960842a7c29179e",
+      "name" : "Screenshot",
+      "source" : "5960842a7c29179e.png",
+      "type" : "image/png",
+      "size" : 86173
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "C2259: Viewing a PDF superbill"
+  }, {
+    "name" : "testClass",
+    "value" : "C2259: Viewing a PDF superbill"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should go to some active client profile"
+  }, {
+    "name" : "package",
+    "value" : "C2259: Viewing a PDF superbill"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "60e600deb737878a.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}

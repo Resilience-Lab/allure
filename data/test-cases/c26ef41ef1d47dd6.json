@@ -1,0 +1,86 @@
+{
+  "uid" : "c26ef41ef1d47dd6",
+  "name" : "Should go back to client profile and check \"Account status:\" to be \"Account Created\" ",
+  "fullName" : "C2257: Default text for document exchanges.Should go back to client profile and check \"Account status:\" to be \"Account Created\" ",
+  "historyId" : "f146334520bf8a8288d1116d3d6ea293",
+  "time" : {
+    "start" : 1657031724212,
+    "stop" : 1657031735183,
+    "duration" : 10971
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3630a52e786b594c",
+      "name" : "Screenshot",
+      "source" : "3630a52e786b594c.png",
+      "type" : "image/png",
+      "size" : 88102
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "testClass",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should go back to client profile and check \"Account status:\" to be \"Account Created\" "
+  }, {
+    "name" : "package",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3dcfd0b8332d4597",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657031709245,
+        "stop" : 1657031710280,
+        "duration" : 1035
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c26ef41ef1d47dd6.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}
