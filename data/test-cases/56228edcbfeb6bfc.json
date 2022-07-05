@@ -1,0 +1,86 @@
+{
+  "uid" : "56228edcbfeb6bfc",
+  "name" : "Should verify email from Resiliencelab",
+  "fullName" : "C2257: Default text for document exchanges.Should verify email from Resiliencelab",
+  "historyId" : "3d4ae6d2c4ba46ae4c28e5dd24511e18",
+  "time" : {
+    "start" : 1657057206449,
+    "stop" : 1657057207057,
+    "duration" : 608
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6a35dc6009a23741",
+      "name" : "Screenshot",
+      "source" : "6a35dc6009a23741.png",
+      "type" : "image/png",
+      "size" : 132284
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "testClass",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should verify email from Resiliencelab"
+  }, {
+    "name" : "package",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4db3d39bea489129",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657057175937,
+        "stop" : 1657057190270,
+        "duration" : 14333
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "56228edcbfeb6bfc.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}

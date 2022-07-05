@@ -1,0 +1,110 @@
+{
+  "uid" : "7524176a5f89ed27",
+  "name" : "Should open client profile and create session",
+  "fullName" : "C2272: Don't allow to create more than 1 session per day for INN enrolled client.Should open client profile and create session",
+  "historyId" : "23e431db095a49cadf2324367d9c61d2",
+  "time" : {
+    "start" : 1657058741954,
+    "stop" : 1657058754393,
+    "duration" : 12439
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 4,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f2c7633d97ce512c",
+      "name" : "Screenshot",
+      "source" : "f2c7633d97ce512c.png",
+      "type" : "image/png",
+      "size" : 151150
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-19"
+  }, {
+    "name" : "suite",
+    "value" : "C2272: Don't allow to create more than 1 session per day for INN enrolled client"
+  }, {
+    "name" : "testClass",
+    "value" : "C2272: Don't allow to create more than 1 session per day for INN enrolled client"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should open client profile and create session"
+  }, {
+    "name" : "package",
+    "value" : "C2272: Don't allow to create more than 1 session per day for INN enrolled client"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "43d2c0a024331506",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657058701744,
+        "stop" : 1657058714597,
+        "duration" : 12853
+      }
+    }, {
+      "uid" : "2199bfade94553eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657058648074,
+        "stop" : 1657058655537,
+        "duration" : 7463
+      }
+    }, {
+      "uid" : "80e893c9655d53c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657058544562,
+        "stop" : 1657058547461,
+        "duration" : 2899
+      }
+    }, {
+      "uid" : "107fc719c9e42376",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657058459780,
+        "stop" : 1657058464210,
+        "duration" : 4430
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7524176a5f89ed27.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}
