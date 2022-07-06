@@ -1,0 +1,78 @@
+{
+  "uid" : "d136d6f172f46f28",
+  "name" : "Should repeat steps 3-4 and check that there is not more sessions",
+  "fullName" : "C2256: Set clinician as inactive..Should repeat steps 3-4 and check that there is not more sessions",
+  "historyId" : "cf5f8d3084dcbd2e280b6e520b482493",
+  "time" : {
+    "start" : 1657127934877,
+    "stop" : 1657127958178,
+    "duration" : 23301
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7fab5dd26df46d72",
+      "name" : "Screenshot",
+      "source" : "7fab5dd26df46d72.png",
+      "type" : "image/png",
+      "size" : 64024
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-21"
+  }, {
+    "name" : "suite",
+    "value" : "C2256: Set clinician as inactive."
+  }, {
+    "name" : "testClass",
+    "value" : "C2256: Set clinician as inactive."
+  }, {
+    "name" : "testMethod",
+    "value" : "Should repeat steps 3-4 and check that there is not more sessions"
+  }, {
+    "name" : "package",
+    "value" : "C2256: Set clinician as inactive."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d136d6f172f46f28.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}
