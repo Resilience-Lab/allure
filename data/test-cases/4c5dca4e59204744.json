@@ -1,0 +1,78 @@
+{
+  "uid" : "4c5dca4e59204744",
+  "name" : "Should open filter, choose stage - 'Inactive' and show 'DOB' column",
+  "fullName" : "C2269: Add Filters and Columns.Should open filter, choose stage - 'Inactive' and show 'DOB' column",
+  "historyId" : "9dbf206dcbe65c2f57507bfe2a59983b",
+  "time" : {
+    "start" : 1657114384915,
+    "stop" : 1657114397035,
+    "duration" : 12120
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "41b7f1a2967ec653",
+      "name" : "Screenshot",
+      "source" : "41b7f1a2967ec653.png",
+      "type" : "image/png",
+      "size" : 263799
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "C2269: Add Filters and Columns"
+  }, {
+    "name" : "testClass",
+    "value" : "C2269: Add Filters and Columns"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should open filter, choose stage - 'Inactive' and show 'DOB' column"
+  }, {
+    "name" : "package",
+    "value" : "C2269: Add Filters and Columns"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4c5dca4e59204744.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}
