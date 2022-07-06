@@ -1,0 +1,86 @@
+{
+  "uid" : "db0f4de5f1ea442c",
+  "name" : "Should go to client with INN and selected Payer",
+  "fullName" : "C2267: Price should be 0 with active cost share waiver (CSW).Should go to client with INN and selected Payer",
+  "historyId" : "dc2242810507895bf1de021d26a1989c",
+  "time" : {
+    "start" : 1657121198744,
+    "stop" : 1657121199655,
+    "duration" : 911
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "efc3e581b162b4d",
+      "name" : "Screenshot",
+      "source" : "efc3e581b162b4d.png",
+      "type" : "image/png",
+      "size" : 102573
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-14"
+  }, {
+    "name" : "suite",
+    "value" : "C2267: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "testClass",
+    "value" : "C2267: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should go to client with INN and selected Payer"
+  }, {
+    "name" : "package",
+    "value" : "C2267: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "dd13dae1807c27e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657121119462,
+        "stop" : 1657121120291,
+        "duration" : 829
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "db0f4de5f1ea442c.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}

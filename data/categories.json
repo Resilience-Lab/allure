@@ -1,47 +1,5 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ {
-    "name" : "Test defects",
-    "children" : [ {
-      "name" : "invalid session id",
-      "children" : [ {
-        "name" : "\"before all\" hook for C2273: Verify if regular clinicians can add 'columns' in 'CLINICIANS' tab",
-        "uid" : "b68d92c95ac13843",
-        "parentUid" : "c7ba5785b051c5327e48866a5e1e1a06",
-        "status" : "broken",
-        "time" : {
-          "start" : 1657119153174,
-          "stop" : 1657119212273,
-          "duration" : 59099
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-103.0.5060.53" ]
-      }, {
-        "name" : "\"after all\" hook for C2273: Verify if regular clinicians can add 'columns' in 'CLINICIANS' tab",
-        "uid" : "c7bfd876358f48ee",
-        "parentUid" : "c7ba5785b051c5327e48866a5e1e1a06",
-        "status" : "broken",
-        "time" : {
-          "start" : 1657119212274,
-          "stop" : 1657119212304,
-          "duration" : 30
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-103.0.5060.53" ]
-      } ],
-      "uid" : "c7ba5785b051c5327e48866a5e1e1a06"
-    } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
-  } ],
+  "children" : [ ],
   "name" : "categories"
 }
