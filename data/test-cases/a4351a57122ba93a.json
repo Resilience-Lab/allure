@@ -1,0 +1,113 @@
+{
+  "uid" : "a4351a57122ba93a",
+  "name" : "In \"Sessions\" tab all future sessions should be deleted",
+  "fullName" : "C2275: Allow to create more than 1 session per day for INN not enrolled client.In \"Sessions\" tab all future sessions should be deleted",
+  "historyId" : "68d262cc1dc6c756434ce9798b764f91",
+  "time" : {
+    "start" : 1657209300323,
+    "stop" : 1657209315682,
+    "duration" : 15359
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: false\n                Received: true",
+  "statusTrace" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                Expected: false\n                Received: true\n                    at Context.<anonymous> (/home/runner/work/webautomation/webautomation/test/specs/Clients/C2285_Verify_that_future_sesiions_will_be_deleted_after_sign_'Termination_note'.spec.ts:72:70)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: false\n                Received: true",
+    "statusTrace" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                Expected: false\n                Received: true\n                    at Context.<anonymous> (/home/runner/work/webautomation/webautomation/test/specs/Clients/C2285_Verify_that_future_sesiions_will_be_deleted_after_sign_'Termination_note'.spec.ts:72:70)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b894c6ab808e76a6",
+      "name" : "Screenshot",
+      "source" : "b894c6ab808e76a6.png",
+      "type" : "image/png",
+      "size" : 85226
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-10"
+  }, {
+    "name" : "suite",
+    "value" : "C2275: Allow to create more than 1 session per day for INN not enrolled client"
+  }, {
+    "name" : "testClass",
+    "value" : "C2275: Allow to create more than 1 session per day for INN not enrolled client"
+  }, {
+    "name" : "testMethod",
+    "value" : "In \"Sessions\" tab all future sessions should be deleted"
+  }, {
+    "name" : "package",
+    "value" : "C2275: Allow to create more than 1 session per day for INN not enrolled client"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "377a68b71f9a5b48",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: false\n                Received: true",
+      "time" : {
+        "start" : 1657209171293,
+        "stop" : 1657209187346,
+        "duration" : 16053
+      }
+    }, {
+      "uid" : "f6d87dbdb788477",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: false\n                Received: true",
+      "time" : {
+        "start" : 1657209043350,
+        "stop" : 1657209058604,
+        "duration" : 15254
+      }
+    }, {
+      "uid" : "b73746a69ddbe40a",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: false\n                Received: true",
+      "time" : {
+        "start" : 1657208915056,
+        "stop" : 1657208930156,
+        "duration" : 15100
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "a4351a57122ba93a.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}

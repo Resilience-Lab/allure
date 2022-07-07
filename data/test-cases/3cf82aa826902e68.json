@@ -1,0 +1,102 @@
+{
+  "uid" : "3cf82aa826902e68",
+  "name" : "In \"Status\" tab \"Stage\" should be \"Terminated\"",
+  "fullName" : "C2275: Allow to create more than 1 session per day for INN not enrolled client.In \"Status\" tab \"Stage\" should be \"Terminated\"",
+  "historyId" : "92bce1dbbec7513c230b9cadf9cf8a56",
+  "time" : {
+    "start" : 1657209238823,
+    "stop" : 1657209300323,
+    "duration" : 61500
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e5884171da97380e",
+      "name" : "Screenshot",
+      "source" : "e5884171da97380e.png",
+      "type" : "image/png",
+      "size" : 65760
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-10"
+  }, {
+    "name" : "suite",
+    "value" : "C2275: Allow to create more than 1 session per day for INN not enrolled client"
+  }, {
+    "name" : "testClass",
+    "value" : "C2275: Allow to create more than 1 session per day for INN not enrolled client"
+  }, {
+    "name" : "testMethod",
+    "value" : "In \"Status\" tab \"Stage\" should be \"Terminated\""
+  }, {
+    "name" : "package",
+    "value" : "C2275: Allow to create more than 1 session per day for INN not enrolled client"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3bac95e7e693546a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657209109842,
+        "stop" : 1657209171293,
+        "duration" : 61451
+      }
+    }, {
+      "uid" : "3455b7fa60e4ae23",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657208981945,
+        "stop" : 1657209043350,
+        "duration" : 61405
+      }
+    }, {
+      "uid" : "46305008270d6a3e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657208853732,
+        "stop" : 1657208915056,
+        "duration" : 61324
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3cf82aa826902e68.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}

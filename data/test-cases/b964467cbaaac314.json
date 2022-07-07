@@ -1,0 +1,86 @@
+{
+  "uid" : "b964467cbaaac314",
+  "name" : "Should go to \"Review and Complete\" for \"New Credit Card Form\"",
+  "fullName" : "C2257: Default text for document exchanges.Should go to \"Review and Complete\" for \"New Credit Card Form\"",
+  "historyId" : "fecf94cab6a659d853d9c8d7c0aeda7d",
+  "time" : {
+    "start" : 1657208160086,
+    "stop" : 1657208160682,
+    "duration" : 596
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e8977fcfdf5aaef",
+      "name" : "Screenshot",
+      "source" : "e8977fcfdf5aaef.png",
+      "type" : "image/png",
+      "size" : 62458
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "testClass",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should go to \"Review and Complete\" for \"New Credit Card Form\""
+  }, {
+    "name" : "package",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "251b9b0fb247a92f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657208138186,
+        "stop" : 1657208138765,
+        "duration" : 579
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b964467cbaaac314.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}

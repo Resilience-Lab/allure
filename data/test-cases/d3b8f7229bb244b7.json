@@ -1,0 +1,78 @@
+{
+  "uid" : "d3b8f7229bb244b7",
+  "name" : "Should relogin as clinician",
+  "fullName" : "C2276: Allow to create more than 1 session per day for OON not enrolled client.Should relogin as clinician",
+  "historyId" : "fb95d05ae3808c61079aa94f313e3366",
+  "time" : {
+    "start" : 1657210080021,
+    "stop" : 1657210170286,
+    "duration" : 90265
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "85383f876f038a1e",
+      "name" : "Screenshot",
+      "source" : "85383f876f038a1e.png",
+      "type" : "image/png",
+      "size" : 31454
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-19"
+  }, {
+    "name" : "suite",
+    "value" : "C2276: Allow to create more than 1 session per day for OON not enrolled client"
+  }, {
+    "name" : "testClass",
+    "value" : "C2276: Allow to create more than 1 session per day for OON not enrolled client"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should relogin as clinician"
+  }, {
+    "name" : "package",
+    "value" : "C2276: Allow to create more than 1 session per day for OON not enrolled client"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d3b8f7229bb244b7.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}

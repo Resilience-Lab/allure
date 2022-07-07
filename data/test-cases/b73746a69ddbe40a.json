@@ -1,0 +1,80 @@
+{
+  "uid" : "b73746a69ddbe40a",
+  "name" : "In \"Sessions\" tab all future sessions should be deleted",
+  "fullName" : "C2275: Allow to create more than 1 session per day for INN not enrolled client.In \"Sessions\" tab all future sessions should be deleted",
+  "historyId" : "68d262cc1dc6c756434ce9798b764f91",
+  "time" : {
+    "start" : 1657208915056,
+    "stop" : 1657208930156,
+    "duration" : 15100
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: false\n                Received: true",
+  "statusTrace" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                Expected: false\n                Received: true\n                    at Context.<anonymous> (/home/runner/work/webautomation/webautomation/test/specs/Clients/C2285_Verify_that_future_sesiions_will_be_deleted_after_sign_'Termination_note'.spec.ts:72:70)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: false\n                Received: true",
+    "statusTrace" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                Expected: false\n                Received: true\n                    at Context.<anonymous> (/home/runner/work/webautomation/webautomation/test/specs/Clients/C2285_Verify_that_future_sesiions_will_be_deleted_after_sign_'Termination_note'.spec.ts:72:70)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "54e63ca5880db587",
+      "name" : "Screenshot",
+      "source" : "54e63ca5880db587.png",
+      "type" : "image/png",
+      "size" : 85120
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-10"
+  }, {
+    "name" : "suite",
+    "value" : "C2275: Allow to create more than 1 session per day for INN not enrolled client"
+  }, {
+    "name" : "testClass",
+    "value" : "C2275: Allow to create more than 1 session per day for INN not enrolled client"
+  }, {
+    "name" : "testMethod",
+    "value" : "In \"Sessions\" tab all future sessions should be deleted"
+  }, {
+    "name" : "package",
+    "value" : "C2275: Allow to create more than 1 session per day for INN not enrolled client"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b73746a69ddbe40a.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}

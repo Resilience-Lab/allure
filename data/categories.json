@@ -1,5 +1,30 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: false\n                Received: true",
+      "children" : [ {
+        "name" : "In \"Sessions\" tab all future sessions should be deleted",
+        "uid" : "a4351a57122ba93a",
+        "parentUid" : "19a176217a26805f0d44bbfda36ce55c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1657209300323,
+          "stop" : 1657209315682,
+          "duration" : 15359
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.53" ]
+      } ],
+      "uid" : "19a176217a26805f0d44bbfda36ce55c"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
   "name" : "categories"
 }
