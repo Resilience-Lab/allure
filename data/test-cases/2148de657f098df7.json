@@ -1,0 +1,102 @@
+{
+  "uid" : "2148de657f098df7",
+  "name" : "Should go to filter and from  'Stage' select 'Active'",
+  "fullName" : "C2285: Verify that future sesiions will be deleted after sign 'Termination note'.Should go to filter and from  'Stage' select 'Active'",
+  "historyId" : "1e3d0899d9f90ef21c8db335bb551fa7",
+  "time" : {
+    "start" : 1657283762079,
+    "stop" : 1657283766377,
+    "duration" : 4298
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "aeb707afd73e70fb",
+      "name" : "Screenshot",
+      "source" : "aeb707afd73e70fb.png",
+      "type" : "image/png",
+      "size" : 87544
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-10"
+  }, {
+    "name" : "suite",
+    "value" : "C2285: Verify that future sesiions will be deleted after sign 'Termination note'"
+  }, {
+    "name" : "testClass",
+    "value" : "C2285: Verify that future sesiions will be deleted after sign 'Termination note'"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should go to filter and from  'Stage' select 'Active'"
+  }, {
+    "name" : "package",
+    "value" : "C2285: Verify that future sesiions will be deleted after sign 'Termination note'"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1418a9365278c13e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657283626896,
+        "stop" : 1657283630903,
+        "duration" : 4007
+      }
+    }, {
+      "uid" : "dd33d843546d899b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657283491022,
+        "stop" : 1657283494991,
+        "duration" : 3969
+      }
+    }, {
+      "uid" : "7e500c5bf0513a3b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657283354221,
+        "stop" : 1657283358296,
+        "duration" : 4075
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2148de657f098df7.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}

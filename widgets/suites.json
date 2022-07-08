@@ -1,26 +1,15 @@
 {
-  "total" : 30,
+  "total" : 31,
   "items" : [ {
-    "uid" : "9838e78a8139fa4fdf9952b22b4339e3",
-    "name" : "C2275: Allow to create more than 1 session per day for INN not enrolled client",
+    "uid" : "9d92227662f67dbe0a39b77de0acc5c2",
+    "name" : "C2285: Verify that future sesiions will be deleted after sign 'Termination note'",
     "statistic" : {
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
-      "unknown" : 0,
-      "total" : 9
-    }
-  }, {
-    "uid" : "10cf3220297253cf92506af29ec6dbf7",
-    "name" : "C2280: Verify Insurance Card Form",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 2,
-      "skipped" : 0,
       "passed" : 5,
       "unknown" : 0,
-      "total" : 7
+      "total" : 6
     }
   }, {
     "uid" : "81ae33d00cd469cb53c0f71f073c4980",
@@ -54,6 +43,17 @@
       "passed" : 9,
       "unknown" : 0,
       "total" : 9
+    }
+  }, {
+    "uid" : "10cf3220297253cf92506af29ec6dbf7",
+    "name" : "C2280: Verify Insurance Card Form",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 7
     }
   }, {
     "uid" : "e8aa6596bccc27d40beb307c5c90151c",
@@ -100,8 +100,8 @@
       "total" : 5
     }
   }, {
-    "uid" : "7252c200c3842484dfd9c64eb5df1966",
-    "name" : "C2276: Allow to create more than 1 session per day for OON not enrolled client",
+    "uid" : "f43b806b8bfb6d683dbbead68f4b237c",
+    "name" : "C2272: Don't allow to create more than 1 session per day for INN enrolled client",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

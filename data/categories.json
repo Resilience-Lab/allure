@@ -1,64 +1,18 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "children" : [ {
-    "name" : "Test defects",
-    "children" : [ {
-      "name" : "element (\"//button[text()='Close']\") still not displayed after 60000ms",
-      "children" : [ {
-        "name" : "Should select some Payer and upload card",
-        "uid" : "f6e4f4951bee1784",
-        "parentUid" : "baa2e0a538cf7048ad49885fef7b6e96",
-        "status" : "broken",
-        "time" : {
-          "start" : 1657275625558,
-          "stop" : 1657275689993,
-          "duration" : 64435
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 3,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-103.0.5060.53" ]
-      } ],
-      "uid" : "baa2e0a538cf7048ad49885fef7b6e96"
-    }, {
-      "name" : "element (\"#insurer_id\") still not displayed after 60000ms",
-      "children" : [ {
-        "name" : "The insurance tab should be with Insurance info",
-        "uid" : "a0c9ae7a0b1f90a3",
-        "parentUid" : "7eea607227a17f3c4c978df09fb32066",
-        "status" : "broken",
-        "time" : {
-          "start" : 1657275689996,
-          "stop" : 1657275762479,
-          "duration" : 72483
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 3,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-103.0.5060.53" ]
-      } ],
-      "uid" : "7eea607227a17f3c4c978df09fb32066"
-    } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
-  }, {
     "name" : "Product defects",
     "children" : [ {
       "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: false\n                Received: true",
       "children" : [ {
         "name" : "In \"Sessions\" tab all future sessions should be deleted",
-        "uid" : "9962f5f6e5cb3743",
+        "uid" : "db86216545b1e285",
         "parentUid" : "19a176217a26805f0d44bbfda36ce55c",
         "status" : "failed",
         "time" : {
-          "start" : 1657276475092,
-          "stop" : 1657276491563,
-          "duration" : 16471
+          "start" : 1657283841809,
+          "stop" : 1657283858714,
+          "duration" : 16905
         },
         "flaky" : false,
         "newFailed" : false,
