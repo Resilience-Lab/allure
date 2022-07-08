@@ -1,0 +1,102 @@
+{
+  "uid" : "79ee70136cc132f",
+  "name" : "Should create 'Termination note'",
+  "fullName" : "C2275: Allow to create more than 1 session per day for INN not enrolled client.Should create 'Termination note'",
+  "historyId" : "ef6f92d427a06b6a6bab7664c4ce5c68",
+  "time" : {
+    "start" : 1657271504859,
+    "stop" : 1657271509230,
+    "duration" : 4371
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "977bd1336738f77f",
+      "name" : "Screenshot",
+      "source" : "977bd1336738f77f.png",
+      "type" : "image/png",
+      "size" : 85674
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-10"
+  }, {
+    "name" : "suite",
+    "value" : "C2275: Allow to create more than 1 session per day for INN not enrolled client"
+  }, {
+    "name" : "testClass",
+    "value" : "C2275: Allow to create more than 1 session per day for INN not enrolled client"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should create 'Termination note'"
+  }, {
+    "name" : "package",
+    "value" : "C2275: Allow to create more than 1 session per day for INN not enrolled client"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ec8c673e0ba8c660",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657271373555,
+        "stop" : 1657271377931,
+        "duration" : 4376
+      }
+    }, {
+      "uid" : "ab3c12354ec5cd17",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657271242157,
+        "stop" : 1657271246482,
+        "duration" : 4325
+      }
+    }, {
+      "uid" : "19257c61576b4715",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657271103759,
+        "stop" : 1657271108141,
+        "duration" : 4382
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "79ee70136cc132f.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}

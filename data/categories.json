@@ -1,18 +1,85 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "element (\"//button[text()='Close']\") still not displayed after 60000ms",
+      "children" : [ {
+        "name" : "Should select some Payer and upload card",
+        "uid" : "7231724572b0532a",
+        "parentUid" : "baa2e0a538cf7048ad49885fef7b6e96",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657270708512,
+          "stop" : 1657270773295,
+          "duration" : 64783
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.53" ]
+      } ],
+      "uid" : "baa2e0a538cf7048ad49885fef7b6e96"
+    }, {
+      "name" : "element (\"#insurer_id\") still not displayed after 60000ms",
+      "children" : [ {
+        "name" : "The insurance tab should be with Insurance info",
+        "uid" : "abd5e83872ade5bb",
+        "parentUid" : "7eea607227a17f3c4c978df09fb32066",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657270773295,
+          "stop" : 1657270845931,
+          "duration" : 72636
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.53" ]
+      } ],
+      "uid" : "7eea607227a17f3c4c978df09fb32066"
+    }, {
+      "name" : "element (\"[class*=\"noty_bar noty_type__warning\"] [class=\"btn btn-success\"]\") still not displayed after 60000ms",
+      "children" : [ {
+        "name" : "\"before all\" hook for C2283: Verify that 'Pronoun' it's required field",
+        "uid" : "1f6161f1c13a5bc5",
+        "parentUid" : "6d4fd2c9937553436b3b989994b5671b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657273028313,
+          "stop" : 1657273133055,
+          "duration" : 104742
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.53" ]
+      } ],
+      "uid" : "6d4fd2c9937553436b3b989994b5671b"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
     "name" : "Product defects",
     "children" : [ {
       "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: false\n                Received: true",
       "children" : [ {
         "name" : "In \"Sessions\" tab all future sessions should be deleted",
-        "uid" : "a4351a57122ba93a",
+        "uid" : "1090fcc7b85d3867",
         "parentUid" : "19a176217a26805f0d44bbfda36ce55c",
         "status" : "failed",
         "time" : {
-          "start" : 1657209300323,
-          "stop" : 1657209315682,
-          "duration" : 15359
+          "start" : 1657271570898,
+          "stop" : 1657271586950,
+          "duration" : 16052
         },
         "flaky" : false,
         "newFailed" : false,
