@@ -1,0 +1,86 @@
+{
+  "uid" : "6bd176a41a448c42",
+  "name" : "Should go to client",
+  "fullName" : "C2283: Verify that 'Pronoun' it's required field.Should go to client",
+  "historyId" : "d368b57ff95d2b09599110d356811c2",
+  "time" : {
+    "start" : 1657291038776,
+    "stop" : 1657291039797,
+    "duration" : 1021
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d5b47f215dd365c6",
+      "name" : "Screenshot",
+      "source" : "d5b47f215dd365c6.png",
+      "type" : "image/png",
+      "size" : 98650
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-26"
+  }, {
+    "name" : "suite",
+    "value" : "C2283: Verify that 'Pronoun' it's required field"
+  }, {
+    "name" : "testClass",
+    "value" : "C2283: Verify that 'Pronoun' it's required field"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should go to client"
+  }, {
+    "name" : "package",
+    "value" : "C2283: Verify that 'Pronoun' it's required field"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6394bec02dc0f47",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657290943729,
+        "stop" : 1657290944700,
+        "duration" : 971
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6bd176a41a448c42.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}
