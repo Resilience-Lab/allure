@@ -1,0 +1,113 @@
+{
+  "uid" : "a0c9ae7a0b1f90a3",
+  "name" : "The insurance tab should be with Insurance info",
+  "fullName" : "C2280: Verify Insurance Card Form.The insurance tab should be with Insurance info",
+  "historyId" : "b22b9573c6c2614962263f33bcb9ed9a",
+  "time" : {
+    "start" : 1657275689996,
+    "stop" : 1657275762479,
+    "duration" : 72483
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"#insurer_id\") still not displayed after 60000ms",
+  "statusTrace" : "Error: element (\"#insurer_id\") still not displayed after 60000ms\n                    at async ProfilePage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async ProfilePage.getElementText (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:198:9)\n                    at async ProfilePage.getPayerInsurerLabelText (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:191:16)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"#insurer_id\") still not displayed after 60000ms",
+    "statusTrace" : "Error: element (\"#insurer_id\") still not displayed after 60000ms\n                    at async ProfilePage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async ProfilePage.getElementText (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:198:9)\n                    at async ProfilePage.getPayerInsurerLabelText (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:191:16)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5b8e6ba17753a2e4",
+      "name" : "Screenshot",
+      "source" : "5b8e6ba17753a2e4.png",
+      "type" : "image/png",
+      "size" : 57974
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-7"
+  }, {
+    "name" : "suite",
+    "value" : "C2280: Verify Insurance Card Form"
+  }, {
+    "name" : "testClass",
+    "value" : "C2280: Verify Insurance Card Form"
+  }, {
+    "name" : "testMethod",
+    "value" : "The insurance tab should be with Insurance info"
+  }, {
+    "name" : "package",
+    "value" : "C2280: Verify Insurance Card Form"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c1b0a7565fa4dc28",
+      "status" : "broken",
+      "statusDetails" : "element (\"#insurer_id\") still not displayed after 60000ms",
+      "time" : {
+        "start" : 1657275501381,
+        "stop" : 1657275572581,
+        "duration" : 71200
+      }
+    }, {
+      "uid" : "e64635b2427ae120",
+      "status" : "broken",
+      "statusDetails" : "element (\"#insurer_id\") still not displayed after 60000ms",
+      "time" : {
+        "start" : 1657275312375,
+        "stop" : 1657275384064,
+        "duration" : 71689
+      }
+    }, {
+      "uid" : "cabc861f6796e660",
+      "status" : "broken",
+      "statusDetails" : "element (\"#insurer_id\") still not displayed after 60000ms",
+      "time" : {
+        "start" : 1657275123349,
+        "stop" : 1657275194820,
+        "duration" : 71471
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "a0c9ae7a0b1f90a3.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}
