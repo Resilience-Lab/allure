@@ -1,0 +1,102 @@
+{
+  "uid" : "d3bf2f7c868006c4",
+  "name" : "The message 'For INN partners, prices are preset by CPT code' should not be visible and price should be editable.",
+  "fullName" : "C2267: Price should be 0 with active cost share waiver (CSW).The message 'For INN partners, prices are preset by CPT code' should not be visible and price should be editable.",
+  "historyId" : "b2649f3fbc124e6ca08bdd7fc3d891af",
+  "time" : {
+    "start" : 1657386640216,
+    "stop" : 1657386651973,
+    "duration" : 11757
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "afeac65a81d00a16",
+      "name" : "Screenshot",
+      "source" : "afeac65a81d00a16.png",
+      "type" : "image/png",
+      "size" : 124590
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-15"
+  }, {
+    "name" : "suite",
+    "value" : "C2267: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "testClass",
+    "value" : "C2267: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "testMethod",
+    "value" : "The message 'For INN partners, prices are preset by CPT code' should not be visible and price should be editable."
+  }, {
+    "name" : "package",
+    "value" : "C2267: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1458b0dd9aa695e3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657386561207,
+        "stop" : 1657386572837,
+        "duration" : 11630
+      }
+    }, {
+      "uid" : "7d843c855430d6de",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657386480842,
+        "stop" : 1657386492785,
+        "duration" : 11943
+      }
+    }, {
+      "uid" : "4e858b21099dae8b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657386400278,
+        "stop" : 1657386412149,
+        "duration" : 11871
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d3bf2f7c868006c4.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}

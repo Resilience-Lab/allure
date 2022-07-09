@@ -1,0 +1,80 @@
+{
+  "uid" : "b43e98157da992e7",
+  "name" : "Should go to Create Client page",
+  "fullName" : "C2273: Verify if regular clinicians can add 'columns' in 'CLINICIANS' tab.Should go to Create Client page",
+  "historyId" : "c79d5f66f43e6b6b9e651a40b3f0f2e0",
+  "time" : {
+    "start" : 1657387532194,
+    "stop" : 1657387533966,
+    "duration" : 1772
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"Create\"\n                Received: \"CREATE\"",
+  "statusTrace" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"Create\"\n                Received: \"CREATE\"\n                    at Context.<anonymous> (/home/runner/work/webautomation/webautomation/test/specs/Clinicians/C2273_Verify_if_clinicians_can_add_themselves_to_client_profile_if_they_have_their_email_address.spec.ts:38:60)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"Create\"\n                Received: \"CREATE\"",
+    "statusTrace" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"Create\"\n                Received: \"CREATE\"\n                    at Context.<anonymous> (/home/runner/work/webautomation/webautomation/test/specs/Clinicians/C2273_Verify_if_clinicians_can_add_themselves_to_client_profile_if_they_have_their_email_address.spec.ts:38:60)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "cc49881cacdaed12",
+      "name" : "Screenshot",
+      "source" : "cc49881cacdaed12.png",
+      "type" : "image/png",
+      "size" : 83959
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-23"
+  }, {
+    "name" : "suite",
+    "value" : "C2273: Verify if regular clinicians can add 'columns' in 'CLINICIANS' tab"
+  }, {
+    "name" : "testClass",
+    "value" : "C2273: Verify if regular clinicians can add 'columns' in 'CLINICIANS' tab"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should go to Create Client page"
+  }, {
+    "name" : "package",
+    "value" : "C2273: Verify if regular clinicians can add 'columns' in 'CLINICIANS' tab"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b43e98157da992e7.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}

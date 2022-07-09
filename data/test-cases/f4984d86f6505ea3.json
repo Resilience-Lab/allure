@@ -1,0 +1,78 @@
+{
+  "uid" : "f4984d86f6505ea3",
+  "name" : "Should relogin as clinician",
+  "fullName" : "C2272: Don't allow to create more than 1 session per day for INN enrolled client.Should relogin as clinician",
+  "historyId" : "c96813cd4e945543b717284a7ee3bd57",
+  "time" : {
+    "start" : 1657387195719,
+    "stop" : 1657387204660,
+    "duration" : 8941
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ce0769c6d1daf247",
+      "name" : "Screenshot",
+      "source" : "ce0769c6d1daf247.png",
+      "type" : "image/png",
+      "size" : 30658
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-21"
+  }, {
+    "name" : "suite",
+    "value" : "C2272: Don't allow to create more than 1 session per day for INN enrolled client"
+  }, {
+    "name" : "testClass",
+    "value" : "C2272: Don't allow to create more than 1 session per day for INN enrolled client"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should relogin as clinician"
+  }, {
+    "name" : "package",
+    "value" : "C2272: Don't allow to create more than 1 session per day for INN enrolled client"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f4984d86f6505ea3.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}

@@ -1,0 +1,76 @@
+{
+  "uid" : "b2701046177ad057",
+  "name" : "In \"Status\" tab \"Stage\" should be \"Terminated\"",
+  "fullName" : "C2285: Verify that future sesiions will be deleted after sign 'Termination note'.In \"Status\" tab \"Stage\" should be \"Terminated\"",
+  "historyId" : "39c1b019ef78108f2487d9082d82a134",
+  "time" : {
+    "start" : 1657385774623,
+    "stop" : 1657385836046,
+    "duration" : 61423
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b68db18b137d943c",
+      "name" : "Screenshot",
+      "source" : "b68db18b137d943c.png",
+      "type" : "image/png",
+      "size" : 66112
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-10"
+  }, {
+    "name" : "suite",
+    "value" : "C2285: Verify that future sesiions will be deleted after sign 'Termination note'"
+  }, {
+    "name" : "testClass",
+    "value" : "C2285: Verify that future sesiions will be deleted after sign 'Termination note'"
+  }, {
+    "name" : "testMethod",
+    "value" : "In \"Status\" tab \"Stage\" should be \"Terminated\""
+  }, {
+    "name" : "package",
+    "value" : "C2285: Verify that future sesiions will be deleted after sign 'Termination note'"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b2701046177ad057.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}

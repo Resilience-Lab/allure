@@ -1,0 +1,113 @@
+{
+  "uid" : "4f98a7cc62ac684a",
+  "name" : "In \"Sessions\" tab all future sessions should be deleted",
+  "fullName" : "C2285: Verify that future sesiions will be deleted after sign 'Termination note'.In \"Sessions\" tab all future sessions should be deleted",
+  "historyId" : "4b21f0cb0c0bb4458210625c3c256839",
+  "time" : {
+    "start" : 1657385964972,
+    "stop" : 1657385979801,
+    "duration" : 14829
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: false\n                Received: true",
+  "statusTrace" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                Expected: false\n                Received: true\n                    at Context.<anonymous> (/home/runner/work/webautomation/webautomation/test/specs/Clients/C2285_Verify_that_future_sesiions_will_be_deleted_after_sign_'Termination_note'.spec.ts:69:70)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: false\n                Received: true",
+    "statusTrace" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                Expected: false\n                Received: true\n                    at Context.<anonymous> (/home/runner/work/webautomation/webautomation/test/specs/Clients/C2285_Verify_that_future_sesiions_will_be_deleted_after_sign_'Termination_note'.spec.ts:69:70)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1b037ce76a420962",
+      "name" : "Screenshot",
+      "source" : "1b037ce76a420962.png",
+      "type" : "image/png",
+      "size" : 85215
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-10"
+  }, {
+    "name" : "suite",
+    "value" : "C2285: Verify that future sesiions will be deleted after sign 'Termination note'"
+  }, {
+    "name" : "testClass",
+    "value" : "C2285: Verify that future sesiions will be deleted after sign 'Termination note'"
+  }, {
+    "name" : "testMethod",
+    "value" : "In \"Sessions\" tab all future sessions should be deleted"
+  }, {
+    "name" : "package",
+    "value" : "C2285: Verify that future sesiions will be deleted after sign 'Termination note'"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "98be7d75b35ae894",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: false\n                Received: true",
+      "time" : {
+        "start" : 1657385836046,
+        "stop" : 1657385850911,
+        "duration" : 14865
+      }
+    }, {
+      "uid" : "86f01c32a122416",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: false\n                Received: true",
+      "time" : {
+        "start" : 1657385708253,
+        "stop" : 1657385723553,
+        "duration" : 15300
+      }
+    }, {
+      "uid" : "40afebb80a86dd66",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: false\n                Received: true",
+      "time" : {
+        "start" : 1657385578861,
+        "stop" : 1657385595394,
+        "duration" : 16533
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "4f98a7cc62ac684a.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}

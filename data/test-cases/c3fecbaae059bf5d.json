@@ -1,0 +1,78 @@
+{
+  "uid" : "c3fecbaae059bf5d",
+  "name" : "Should go to filter and from 'Insurance Status' select blank status, from 'In-Network' select 'No', from 'Out-Of-Network' select 'No'",
+  "fullName" : "C2277: Allow to create more than 1 session per day for independent client.Should go to filter and from 'Insurance Status' select blank status, from 'In-Network' select 'No', from 'Out-Of-Network' select 'No'",
+  "historyId" : "60db84de80e1fcd90c12786b44614cc",
+  "time" : {
+    "start" : 1657387096776,
+    "stop" : 1657387100678,
+    "duration" : 3902
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "31f461e157942ba",
+      "name" : "Screenshot",
+      "source" : "31f461e157942ba.png",
+      "type" : "image/png",
+      "size" : 66543
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-20"
+  }, {
+    "name" : "suite",
+    "value" : "C2277: Allow to create more than 1 session per day for independent client"
+  }, {
+    "name" : "testClass",
+    "value" : "C2277: Allow to create more than 1 session per day for independent client"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should go to filter and from 'Insurance Status' select blank status, from 'In-Network' select 'No', from 'Out-Of-Network' select 'No'"
+  }, {
+    "name" : "package",
+    "value" : "C2277: Allow to create more than 1 session per day for independent client"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c3fecbaae059bf5d.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}

@@ -6,13 +6,13 @@
       "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: false\n                Received: true",
       "children" : [ {
         "name" : "In \"Sessions\" tab all future sessions should be deleted",
-        "uid" : "625ff5fe64bf6a81",
+        "uid" : "4f98a7cc62ac684a",
         "parentUid" : "19a176217a26805f0d44bbfda36ce55c",
         "status" : "failed",
         "time" : {
-          "start" : 1657289509471,
-          "stop" : 1657289525896,
-          "duration" : 16425
+          "start" : 1657385964972,
+          "stop" : 1657385979801,
+          "duration" : 14829
         },
         "flaky" : false,
         "newFailed" : false,
@@ -23,6 +23,69 @@
         "parameters" : [ "chrome-103.0.5060.53" ]
       } ],
       "uid" : "19a176217a26805f0d44bbfda36ce55c"
+    }, {
+      "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: true\n                Received: false",
+      "children" : [ {
+        "name" : "\"Insurance API Log\" column should be sorted by default by \"Date Created\"",
+        "uid" : "a20894f3db81dcb9",
+        "parentUid" : "7d22550bcc2853ce14c87084cc359937",
+        "status" : "failed",
+        "time" : {
+          "start" : 1657386331540,
+          "stop" : 1657386331873,
+          "duration" : 333
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.53" ]
+      } ],
+      "uid" : "7d22550bcc2853ce14c87084cc359937"
+    }, {
+      "name" : "expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"(For INN partners, prices are preset by CPT code)\"\n                Received string:    \"Standard Billing Rate:\n                For INN partners, prices are preset by CPT code *\"",
+      "children" : [ {
+        "name" : "Should see this message 'For INN partners, prices are preset by CPT code' and price should not be editable.",
+        "uid" : "b00133c4e9ffebe5",
+        "parentUid" : "87862e60a79dfa7ec8c153f128afa423",
+        "status" : "failed",
+        "time" : {
+          "start" : 1657386634700,
+          "stop" : 1657386637930,
+          "duration" : 3230
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.53" ]
+      } ],
+      "uid" : "87862e60a79dfa7ec8c153f128afa423"
+    }, {
+      "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"Create\"\n                Received: \"CREATE\"",
+      "children" : [ {
+        "name" : "Should go to Create Client page",
+        "uid" : "417352fbed19d403",
+        "parentUid" : "f35f09d9ba9f998fdbcaf0854fba71ae",
+        "status" : "failed",
+        "time" : {
+          "start" : 1657387718226,
+          "stop" : 1657387719990,
+          "duration" : 1764
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.53" ]
+      } ],
+      "uid" : "f35f09d9ba9f998fdbcaf0854fba71ae"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ],
