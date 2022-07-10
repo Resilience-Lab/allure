@@ -6,13 +6,13 @@
       "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: false\n                Received: true",
       "children" : [ {
         "name" : "In \"Sessions\" tab all future sessions should be deleted",
-        "uid" : "4f98a7cc62ac684a",
+        "uid" : "d2c791b79170c06d",
         "parentUid" : "19a176217a26805f0d44bbfda36ce55c",
         "status" : "failed",
         "time" : {
-          "start" : 1657385964972,
-          "stop" : 1657385979801,
-          "duration" : 14829
+          "start" : 1657462842278,
+          "stop" : 1657462858515,
+          "duration" : 16237
         },
         "flaky" : false,
         "newFailed" : false,
@@ -24,16 +24,37 @@
       } ],
       "uid" : "19a176217a26805f0d44bbfda36ce55c"
     }, {
+      "name" : "expect(received).not.toBe(expected) // Object.is equality\n                \n                Expected: not \"  https://claims-api-sandbox.meetnirvana.com/api/v1/coverage/estimate/ {\\\"coverage_status\\\":true,\\\"deductible... 07/09/2022 01:03pm vadym.morozov89@gmail.com\"",
+      "children" : [ {
+        "name" : "Should open first client profile and uncheck insurance subject \"Cost-share Waiver\" check box",
+        "uid" : "28c0657da272fae",
+        "parentUid" : "9691e1844e752f9f43b3a99b15790d47",
+        "status" : "failed",
+        "time" : {
+          "start" : 1657463392307,
+          "stop" : 1657463417150,
+          "duration" : 24843
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.53" ]
+      } ],
+      "uid" : "9691e1844e752f9f43b3a99b15790d47"
+    }, {
       "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: true\n                Received: false",
       "children" : [ {
         "name" : "\"Insurance API Log\" column should be sorted by default by \"Date Created\"",
-        "uid" : "a20894f3db81dcb9",
+        "uid" : "704320608f620fb7",
         "parentUid" : "7d22550bcc2853ce14c87084cc359937",
         "status" : "failed",
         "time" : {
-          "start" : 1657386331540,
-          "stop" : 1657386331873,
-          "duration" : 333
+          "start" : 1657463571523,
+          "stop" : 1657463571839,
+          "duration" : 316
         },
         "flaky" : false,
         "newFailed" : false,
@@ -48,13 +69,13 @@
       "name" : "expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"(For INN partners, prices are preset by CPT code)\"\n                Received string:    \"Standard Billing Rate:\n                For INN partners, prices are preset by CPT code *\"",
       "children" : [ {
         "name" : "Should see this message 'For INN partners, prices are preset by CPT code' and price should not be editable.",
-        "uid" : "b00133c4e9ffebe5",
+        "uid" : "1cf600502368c2c",
         "parentUid" : "87862e60a79dfa7ec8c153f128afa423",
         "status" : "failed",
         "time" : {
-          "start" : 1657386634700,
-          "stop" : 1657386637930,
-          "duration" : 3230
+          "start" : 1657463884271,
+          "stop" : 1657463887622,
+          "duration" : 3351
         },
         "flaky" : false,
         "newFailed" : false,
@@ -69,13 +90,13 @@
       "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"Create\"\n                Received: \"CREATE\"",
       "children" : [ {
         "name" : "Should go to Create Client page",
-        "uid" : "417352fbed19d403",
+        "uid" : "7d095eabbdd249cc",
         "parentUid" : "f35f09d9ba9f998fdbcaf0854fba71ae",
         "status" : "failed",
         "time" : {
-          "start" : 1657387718226,
-          "stop" : 1657387719990,
-          "duration" : 1764
+          "start" : 1657464996813,
+          "stop" : 1657464998724,
+          "duration" : 1911
         },
         "flaky" : false,
         "newFailed" : false,

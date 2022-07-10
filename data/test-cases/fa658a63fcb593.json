@@ -1,0 +1,108 @@
+{
+  "uid" : "fa658a63fcb593",
+  "name" : "Should paste copied email and check pop-up message that 'Duplicate found'",
+  "fullName" : "C2273: Verify if regular clinicians can add 'columns' in 'CLINICIANS' tab.Should paste copied email and check pop-up message that 'Duplicate found'",
+  "historyId" : "25c73c2b8a246c086adcebf9efbc8e7a",
+  "time" : {
+    "start" : 1657464998725,
+    "stop" : 1657465021228,
+    "duration" : 22503
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "970dfd0958523bd9",
+      "name" : "Screenshot",
+      "source" : "970dfd0958523bd9.png",
+      "type" : "image/png",
+      "size" : 89026
+    }, {
+      "uid" : "feb004adac21dbfc",
+      "name" : "Screenshot",
+      "source" : "feb004adac21dbfc.png",
+      "type" : "image/png",
+      "size" : 102492
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-23"
+  }, {
+    "name" : "suite",
+    "value" : "C2273: Verify if regular clinicians can add 'columns' in 'CLINICIANS' tab"
+  }, {
+    "name" : "testClass",
+    "value" : "C2273: Verify if regular clinicians can add 'columns' in 'CLINICIANS' tab"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should paste copied email and check pop-up message that 'Duplicate found'"
+  }, {
+    "name" : "package",
+    "value" : "C2273: Verify if regular clinicians can add 'columns' in 'CLINICIANS' tab"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a662798225621079",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657464904046,
+        "stop" : 1657464927117,
+        "duration" : 23071
+      }
+    }, {
+      "uid" : "878cea0d56713f1d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657464810326,
+        "stop" : 1657464832369,
+        "duration" : 22043
+      }
+    }, {
+      "uid" : "dfebaaeaeda74c21",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657464716030,
+        "stop" : 1657464738836,
+        "duration" : 22806
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fa658a63fcb593.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}

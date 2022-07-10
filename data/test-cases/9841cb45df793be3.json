@@ -1,0 +1,102 @@
+{
+  "uid" : "9841cb45df793be3",
+  "name" : "Should go to clients page and check url",
+  "fullName" : "C2285: Verify that future sesiions will be deleted after sign 'Termination note'.Should go to clients page and check url",
+  "historyId" : "ad2fa47a335e569cc06f384edc7e78a0",
+  "time" : {
+    "start" : 1657462729600,
+    "stop" : 1657462763434,
+    "duration" : 33834
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e7634067f10c469a",
+      "name" : "Screenshot",
+      "source" : "e7634067f10c469a.png",
+      "type" : "image/png",
+      "size" : 212077
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-10"
+  }, {
+    "name" : "suite",
+    "value" : "C2285: Verify that future sesiions will be deleted after sign 'Termination note'"
+  }, {
+    "name" : "testClass",
+    "value" : "C2285: Verify that future sesiions will be deleted after sign 'Termination note'"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should go to clients page and check url"
+  }, {
+    "name" : "package",
+    "value" : "C2285: Verify that future sesiions will be deleted after sign 'Termination note'"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e83cc839950bf919",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657462597892,
+        "stop" : 1657462632556,
+        "duration" : 34664
+      }
+    }, {
+      "uid" : "617f8219815959d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657462459043,
+        "stop" : 1657462497383,
+        "duration" : 38340
+      }
+    }, {
+      "uid" : "ea0a0ee4234177d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657462320932,
+        "stop" : 1657462359797,
+        "duration" : 38865
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9841cb45df793be3.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}

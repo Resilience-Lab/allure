@@ -1,0 +1,80 @@
+{
+  "uid" : "6340c13881b22eed",
+  "name" : "Should open first client profile and uncheck insurance subject \"Cost-share Waiver\" check box",
+  "fullName" : "C2263: Multi State: Connect Nirvana API Key with correct PCorp.Should open first client profile and uncheck insurance subject \"Cost-share Waiver\" check box",
+  "historyId" : "ff85921e7032b499c8fbaf3243f053b2",
+  "time" : {
+    "start" : 1657463171325,
+    "stop" : 1657463196095,
+    "duration" : 24770
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expect(received).not.toBe(expected) // Object.is equality\n                \n                Expected: not \"  https://claims-api-sandbox.meetnirvana.com/api/v1/coverage/estimate/ {\\\"coverage_status\\\":true,\\\"deductible... 07/09/2022 01:03pm vadym.morozov89@gmail.com\"",
+  "statusTrace" : "Error: expect(received).not.toBe(expected) // Object.is equality\n                \n                Expected: not \"  https://claims-api-sandbox.meetnirvana.com/api/v1/coverage/estimate/ {\\\"coverage_status\\\":true,\\\"deductible... 07/09/2022 01:03pm vadym.morozov89@gmail.com\"\n                    at ProfilePage.changeCostShareWaiverCBoxAndCheckAPILog (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:835:69)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at async Context.<anonymous> (/home/runner/work/webautomation/webautomation/test/specs/Clients/Insurance/C2263_uncheck_cost_share_waiver.spec.ts:25:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expect(received).not.toBe(expected) // Object.is equality\n                \n                Expected: not \"  https://claims-api-sandbox.meetnirvana.com/api/v1/coverage/estimate/ {\\\"coverage_status\\\":true,\\\"deductible... 07/09/2022 01:03pm vadym.morozov89@gmail.com\"",
+    "statusTrace" : "Error: expect(received).not.toBe(expected) // Object.is equality\n                \n                Expected: not \"  https://claims-api-sandbox.meetnirvana.com/api/v1/coverage/estimate/ {\\\"coverage_status\\\":true,\\\"deductible... 07/09/2022 01:03pm vadym.morozov89@gmail.com\"\n                    at ProfilePage.changeCostShareWaiverCBoxAndCheckAPILog (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:835:69)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at async Context.<anonymous> (/home/runner/work/webautomation/webautomation/test/specs/Clients/Insurance/C2263_uncheck_cost_share_waiver.spec.ts:25:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "eb5b7714422a44ec",
+      "name" : "Screenshot",
+      "source" : "eb5b7714422a44ec.png",
+      "type" : "image/png",
+      "size" : 208157
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-12"
+  }, {
+    "name" : "suite",
+    "value" : "C2263: Multi State: Connect Nirvana API Key with correct PCorp"
+  }, {
+    "name" : "testClass",
+    "value" : "C2263: Multi State: Connect Nirvana API Key with correct PCorp"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should open first client profile and uncheck insurance subject \"Cost-share Waiver\" check box"
+  }, {
+    "name" : "package",
+    "value" : "C2263: Multi State: Connect Nirvana API Key with correct PCorp"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6340c13881b22eed.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}
