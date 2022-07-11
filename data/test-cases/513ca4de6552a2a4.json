@@ -1,0 +1,102 @@
+{
+  "uid" : "513ca4de6552a2a4",
+  "name" : "Should go to PODs page and check url",
+  "fullName" : "C2262: PC POD Clinicians.Should go to PODs page and check url",
+  "historyId" : "bfd467c4e535084f09af674490fa9f26",
+  "time" : {
+    "start" : 1657571713852,
+    "stop" : 1657571727308,
+    "duration" : 13456
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d9656fffce4d5749",
+      "name" : "Screenshot",
+      "source" : "d9656fffce4d5749.png",
+      "type" : "image/png",
+      "size" : 162307
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-27"
+  }, {
+    "name" : "suite",
+    "value" : "C2262: PC POD Clinicians"
+  }, {
+    "name" : "testClass",
+    "value" : "C2262: PC POD Clinicians"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should go to PODs page and check url"
+  }, {
+    "name" : "package",
+    "value" : "C2262: PC POD Clinicians"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "954cbfd93f561b10",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657571627668,
+        "stop" : 1657571638436,
+        "duration" : 10768
+      }
+    }, {
+      "uid" : "62338ea03b83f086",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657571538733,
+        "stop" : 1657571552183,
+        "duration" : 13450
+      }
+    }, {
+      "uid" : "1403a3a98f1b37bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657571448883,
+        "stop" : 1657571463257,
+        "duration" : 14374
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "513ca4de6552a2a4.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}

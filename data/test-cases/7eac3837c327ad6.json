@@ -1,0 +1,145 @@
+{
+  "uid" : "7eac3837c327ad6",
+  "name" : "Should create session with similar to time of first session and check alert",
+  "fullName" : "C2272: Don't allow to create more than 1 session per day for INN enrolled client.Should create session with similar to time of first session and check alert",
+  "historyId" : "1b60292efc2d9ba01a33a2e0b34a9c91",
+  "time" : {
+    "start" : 1657569742047,
+    "stop" : 1657569807274,
+    "duration" : 65227
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"[onclick*=\"changeTabsSubpanels('4')\"]\") still not displayed after 60000ms",
+  "statusTrace" : "Error: element (\"[onclick*=\"changeTabsSubpanels('4')\"]\") still not displayed after 60000ms\n                    at async ProfilePage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async ProfilePage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:143:9)\n                    at async ProfilePage.clickSessionsTabBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:410:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 7,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"[onclick*=\"changeTabsSubpanels('4')\"]\") still not displayed after 60000ms",
+    "statusTrace" : "Error: element (\"[onclick*=\"changeTabsSubpanels('4')\"]\") still not displayed after 60000ms\n                    at async ProfilePage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async ProfilePage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:143:9)\n                    at async ProfilePage.clickSessionsTabBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:410:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "80ab47bb25c42c9e",
+      "name" : "Screenshot",
+      "source" : "80ab47bb25c42c9e.png",
+      "type" : "image/png",
+      "size" : 68769
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-21"
+  }, {
+    "name" : "suite",
+    "value" : "C2272: Don't allow to create more than 1 session per day for INN enrolled client"
+  }, {
+    "name" : "testClass",
+    "value" : "C2272: Don't allow to create more than 1 session per day for INN enrolled client"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should create session with similar to time of first session and check alert"
+  }, {
+    "name" : "package",
+    "value" : "C2272: Don't allow to create more than 1 session per day for INN enrolled client"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "12bea0a30e11ce2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657569699387,
+        "stop" : 1657569718305,
+        "duration" : 18918
+      }
+    }, {
+      "uid" : "e37f6576111160a1",
+      "status" : "broken",
+      "statusDetails" : "element (\"[onclick*=\"changeTabsSubpanels('4')\"]\") still not displayed after 60000ms",
+      "time" : {
+        "start" : 1657569604784,
+        "stop" : 1657569670012,
+        "duration" : 65228
+      }
+    }, {
+      "uid" : "c0ff8d7c41a8dcd7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657569562243,
+        "stop" : 1657569581156,
+        "duration" : 18913
+      }
+    }, {
+      "uid" : "39b4f6763c12a0b7",
+      "status" : "broken",
+      "statusDetails" : "element (\"[onclick*=\"changeTabsSubpanels('4')\"]\") still not displayed after 60000ms",
+      "time" : {
+        "start" : 1657569467734,
+        "stop" : 1657569532950,
+        "duration" : 65216
+      }
+    }, {
+      "uid" : "4b6ca237f4c136f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657569423949,
+        "stop" : 1657569442861,
+        "duration" : 18912
+      }
+    }, {
+      "uid" : "23f57d277e45e754",
+      "status" : "broken",
+      "statusDetails" : "element (\"[onclick*=\"changeTabsSubpanels('4')\"]\") still not displayed after 60000ms",
+      "time" : {
+        "start" : 1657569329459,
+        "stop" : 1657569394679,
+        "duration" : 65220
+      }
+    }, {
+      "uid" : "3df56c6b9bc0cf50",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657569285936,
+        "stop" : 1657569304775,
+        "duration" : 18839
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "7eac3837c327ad6.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}

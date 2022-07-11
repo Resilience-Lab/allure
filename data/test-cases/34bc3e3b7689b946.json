@@ -1,0 +1,113 @@
+{
+  "uid" : "34bc3e3b7689b946",
+  "name" : "Should open POD and click select",
+  "fullName" : "C2262: PC POD Clinicians.Should open POD and click select",
+  "historyId" : "5122fc24cedb688af13d73108947f41f",
+  "time" : {
+    "start" : 1657571727311,
+    "stop" : 1657571790511,
+    "duration" : 63200
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"#pod_clinicians_select_button\") still not displayed after 60000ms",
+  "statusTrace" : "Error: element (\"#pod_clinicians_select_button\") still not displayed after 60000ms\n                    at async PodsPage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async PodsPage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:143:9)\n                    at async PodsPage.clickSelectBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/pods.page.ts:24:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"#pod_clinicians_select_button\") still not displayed after 60000ms",
+    "statusTrace" : "Error: element (\"#pod_clinicians_select_button\") still not displayed after 60000ms\n                    at async PodsPage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async PodsPage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:143:9)\n                    at async PodsPage.clickSelectBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/pods.page.ts:24:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4405624eba4a5a4",
+      "name" : "Screenshot",
+      "source" : "4405624eba4a5a4.png",
+      "type" : "image/png",
+      "size" : 85229
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-27"
+  }, {
+    "name" : "suite",
+    "value" : "C2262: PC POD Clinicians"
+  }, {
+    "name" : "testClass",
+    "value" : "C2262: PC POD Clinicians"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should open POD and click select"
+  }, {
+    "name" : "package",
+    "value" : "C2262: PC POD Clinicians"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "334dbb214f53aa17",
+      "status" : "broken",
+      "statusDetails" : "element (\"#pod_clinicians_select_button\") still not displayed after 60000ms",
+      "time" : {
+        "start" : 1657571638436,
+        "stop" : 1657571701565,
+        "duration" : 63129
+      }
+    }, {
+      "uid" : "c680bde16d29131c",
+      "status" : "broken",
+      "statusDetails" : "element (\"#pod_clinicians_select_button\") still not displayed after 60000ms",
+      "time" : {
+        "start" : 1657571552184,
+        "stop" : 1657571615354,
+        "duration" : 63170
+      }
+    }, {
+      "uid" : "79b9599dc77a7995",
+      "status" : "broken",
+      "statusDetails" : "element (\"#pod_clinicians_select_button\") still not displayed after 60000ms",
+      "time" : {
+        "start" : 1657571463258,
+        "stop" : 1657571526539,
+        "duration" : 63281
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "34bc3e3b7689b946.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}

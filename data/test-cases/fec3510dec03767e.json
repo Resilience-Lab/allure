@@ -1,0 +1,80 @@
+{
+  "uid" : "fec3510dec03767e",
+  "name" : "Should open window with creating 'Progress Note' document and check fields",
+  "fullName" : "C2281: Verify Progress Note mandatory fields.Should open window with creating 'Progress Note' document and check fields",
+  "historyId" : "886c00700e6863fdbb236a4d7bd855c4",
+  "time" : {
+    "start" : 1657566122909,
+    "stop" : 1657566194443,
+    "duration" : 71534
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\".nav li:nth-child(4) #tab3\") still not displayed after 60000ms",
+  "statusTrace" : "Error: element (\".nav li:nth-child(4) #tab3\") still not displayed after 60000ms\n                    at async ProfilePage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async ProfilePage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:143:9)\n                    at async ProfilePage.clickDocumentsTabBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:472:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\".nav li:nth-child(4) #tab3\") still not displayed after 60000ms",
+    "statusTrace" : "Error: element (\".nav li:nth-child(4) #tab3\") still not displayed after 60000ms\n                    at async ProfilePage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async ProfilePage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:143:9)\n                    at async ProfilePage.clickDocumentsTabBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:472:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2998754ad25780c9",
+      "name" : "Screenshot",
+      "source" : "2998754ad25780c9.png",
+      "type" : "image/png",
+      "size" : 100695
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-8"
+  }, {
+    "name" : "suite",
+    "value" : "C2281: Verify Progress Note mandatory fields"
+  }, {
+    "name" : "testClass",
+    "value" : "C2281: Verify Progress Note mandatory fields"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should open window with creating 'Progress Note' document and check fields"
+  }, {
+    "name" : "package",
+    "value" : "C2281: Verify Progress Note mandatory fields"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fec3510dec03767e.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}

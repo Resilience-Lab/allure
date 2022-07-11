@@ -1,0 +1,113 @@
+{
+  "uid" : "9dd31680f6c00062",
+  "name" : "Should signUp to account",
+  "fullName" : "C2258: Superbill submission via Portal.Should signUp to account",
+  "historyId" : "1233d5f48586fea1e35bf3f47fc25785",
+  "time" : {
+    "start" : 1657563423319,
+    "stop" : 1657563483516,
+    "duration" : 60197
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"[name=\"email\"]\") still not displayed after 60000ms",
+  "statusTrace" : "Error: element (\"[name=\"email\"]\") still not displayed after 60000ms\n                    at async CPSignUpPage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async CPSignUpPage.getElementValue (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:228:9)\n                    at async CPSignUpPage.signUp (/home/runner/work/webautomation/webautomation/test/pageobjects/CP/cpSignUp.page.ts:50:14)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"[name=\"email\"]\") still not displayed after 60000ms",
+    "statusTrace" : "Error: element (\"[name=\"email\"]\") still not displayed after 60000ms\n                    at async CPSignUpPage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async CPSignUpPage.getElementValue (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:228:9)\n                    at async CPSignUpPage.signUp (/home/runner/work/webautomation/webautomation/test/pageobjects/CP/cpSignUp.page.ts:50:14)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "463d188498e7df8b",
+      "name" : "Screenshot",
+      "source" : "463d188498e7df8b.png",
+      "type" : "image/png",
+      "size" : 78487
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "C2258: Superbill submission via Portal"
+  }, {
+    "name" : "testClass",
+    "value" : "C2258: Superbill submission via Portal"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should signUp to account"
+  }, {
+    "name" : "package",
+    "value" : "C2258: Superbill submission via Portal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "cd22729d767301c8",
+      "status" : "broken",
+      "statusDetails" : "element (\"[name=\"email\"]\") still not displayed after 60000ms",
+      "time" : {
+        "start" : 1657563143164,
+        "stop" : 1657563203372,
+        "duration" : 60208
+      }
+    }, {
+      "uid" : "c4378045a61066ad",
+      "status" : "broken",
+      "statusDetails" : "element (\"[name=\"email\"]\") still not displayed after 60000ms",
+      "time" : {
+        "start" : 1657562862232,
+        "stop" : 1657562922435,
+        "duration" : 60203
+      }
+    }, {
+      "uid" : "21de5b8a9fb8095a",
+      "status" : "broken",
+      "statusDetails" : "element (\"[name=\"email\"]\") still not displayed after 60000ms",
+      "time" : {
+        "start" : 1657562581910,
+        "stop" : 1657562642106,
+        "duration" : 60196
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "9dd31680f6c00062.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}

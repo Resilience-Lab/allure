@@ -1,0 +1,113 @@
+{
+  "uid" : "3f14f2fa7e31989a",
+  "name" : "Should signUp to account",
+  "fullName" : "C2257: Default text for document exchanges.Should signUp to account",
+  "historyId" : "59527c3242f2b3367db099ac79682de5",
+  "time" : {
+    "start" : 1657562065906,
+    "stop" : 1657562126115,
+    "duration" : 60209
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"[name=\"email\"]\") still not displayed after 60000ms",
+  "statusTrace" : "Error: element (\"[name=\"email\"]\") still not displayed after 60000ms\n                    at async CPSignUpPage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async CPSignUpPage.getElementValue (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:228:9)\n                    at async CPSignUpPage.signUp (/home/runner/work/webautomation/webautomation/test/pageobjects/CP/cpSignUp.page.ts:50:14)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"[name=\"email\"]\") still not displayed after 60000ms",
+    "statusTrace" : "Error: element (\"[name=\"email\"]\") still not displayed after 60000ms\n                    at async CPSignUpPage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async CPSignUpPage.getElementValue (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:228:9)\n                    at async CPSignUpPage.signUp (/home/runner/work/webautomation/webautomation/test/pageobjects/CP/cpSignUp.page.ts:50:14)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "603eb264c6bd4997",
+      "name" : "Screenshot",
+      "source" : "603eb264c6bd4997.png",
+      "type" : "image/png",
+      "size" : 81895
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "testClass",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should signUp to account"
+  }, {
+    "name" : "package",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "192ced619248a3b1",
+      "status" : "broken",
+      "statusDetails" : "element (\"[name=\"email\"]\") still not displayed after 60000ms",
+      "time" : {
+        "start" : 1657561560061,
+        "stop" : 1657561620257,
+        "duration" : 60196
+      }
+    }, {
+      "uid" : "51e4224650bef64f",
+      "status" : "broken",
+      "statusDetails" : "element (\"[name=\"email\"]\") still not displayed after 60000ms",
+      "time" : {
+        "start" : 1657561056191,
+        "stop" : 1657561116401,
+        "duration" : 60210
+      }
+    }, {
+      "uid" : "5aef922e9b0b350",
+      "status" : "broken",
+      "statusDetails" : "element (\"[name=\"email\"]\") still not displayed after 60000ms",
+      "time" : {
+        "start" : 1657560552425,
+        "stop" : 1657560612640,
+        "duration" : 60215
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "3f14f2fa7e31989a.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}

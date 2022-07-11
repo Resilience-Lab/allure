@@ -1,0 +1,80 @@
+{
+  "uid" : "91c37248d397afac",
+  "name" : "Should fill out credit card form and click \"Submit\" button",
+  "fullName" : "C2257: Default text for document exchanges.Should fill out credit card form and click \"Submit\" button",
+  "historyId" : "2132940bd3bb9bd315f3ceb1bf59ca10",
+  "time" : {
+    "start" : 1657562267420,
+    "stop" : 1657562332661,
+    "duration" : 65241
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"input#cardNumber\") still not displayed after 60000ms",
+  "statusTrace" : "Error: element (\"input#cardNumber\") still not displayed after 60000ms\n                    at async CPRequestsPage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async CPRequestsPage.setValue (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:297:9)\n                    at async CPRequestsPage.setCardNumberInputValue (/home/runner/work/webautomation/webautomation/test/pageobjects/CP/cpRequests.page.ts:138:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"input#cardNumber\") still not displayed after 60000ms",
+    "statusTrace" : "Error: element (\"input#cardNumber\") still not displayed after 60000ms\n                    at async CPRequestsPage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async CPRequestsPage.setValue (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:297:9)\n                    at async CPRequestsPage.setCardNumberInputValue (/home/runner/work/webautomation/webautomation/test/pageobjects/CP/cpRequests.page.ts:138:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "95d255b2a755abb6",
+      "name" : "Screenshot",
+      "source" : "95d255b2a755abb6.png",
+      "type" : "image/png",
+      "size" : 266631
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "testClass",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should fill out credit card form and click \"Submit\" button"
+  }, {
+    "name" : "package",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "91c37248d397afac.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}

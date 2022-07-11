@@ -1,0 +1,80 @@
+{
+  "uid" : "4c877dbb5bc8c662",
+  "name" : "In \"Status\" tab \"Stage\" should be \"Terminated\"",
+  "fullName" : "C2285: Verify that future sesiions will be deleted after sign 'Termination note'.In \"Status\" tab \"Stage\" should be \"Terminated\"",
+  "historyId" : "39c1b019ef78108f2487d9082d82a134",
+  "time" : {
+    "start" : 1657567367723,
+    "stop" : 1657567429131,
+    "duration" : 61408
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"Terminated\"\n                Received: \"Active\"",
+  "statusTrace" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"Terminated\"\n                Received: \"Active\"\n                    at Context.<anonymous> (/home/runner/work/webautomation/webautomation/test/specs/Clients/C2285_Verify_that_future_sesiions_will_be_deleted_after_sign_'Termination_note'.spec.ts:63:55)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"Terminated\"\n                Received: \"Active\"",
+    "statusTrace" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"Terminated\"\n                Received: \"Active\"\n                    at Context.<anonymous> (/home/runner/work/webautomation/webautomation/test/specs/Clients/C2285_Verify_that_future_sesiions_will_be_deleted_after_sign_'Termination_note'.spec.ts:63:55)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9564f28b19625eec",
+      "name" : "Screenshot",
+      "source" : "9564f28b19625eec.png",
+      "type" : "image/png",
+      "size" : 52483
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-10"
+  }, {
+    "name" : "suite",
+    "value" : "C2285: Verify that future sesiions will be deleted after sign 'Termination note'"
+  }, {
+    "name" : "testClass",
+    "value" : "C2285: Verify that future sesiions will be deleted after sign 'Termination note'"
+  }, {
+    "name" : "testMethod",
+    "value" : "In \"Status\" tab \"Stage\" should be \"Terminated\""
+  }, {
+    "name" : "package",
+    "value" : "C2285: Verify that future sesiions will be deleted after sign 'Termination note'"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4c877dbb5bc8c662.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}

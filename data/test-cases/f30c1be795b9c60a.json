@@ -1,0 +1,102 @@
+{
+  "uid" : "f30c1be795b9c60a",
+  "name" : "Should go to some active client profile",
+  "fullName" : "C2256: Set clinician as inactive..Should go to some active client profile",
+  "historyId" : "9b7201227bcc0c883a7b1e99774de619",
+  "time" : {
+    "start" : 1657570581452,
+    "stop" : 1657570583040,
+    "duration" : 1588
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "61c93318f9d4ef39",
+      "name" : "Screenshot",
+      "source" : "61c93318f9d4ef39.png",
+      "type" : "image/png",
+      "size" : 99802
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-22"
+  }, {
+    "name" : "suite",
+    "value" : "C2256: Set clinician as inactive."
+  }, {
+    "name" : "testClass",
+    "value" : "C2256: Set clinician as inactive."
+  }, {
+    "name" : "testMethod",
+    "value" : "Should go to some active client profile"
+  }, {
+    "name" : "package",
+    "value" : "C2256: Set clinician as inactive."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "134f3f5c6286acd0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657570354025,
+        "stop" : 1657570355470,
+        "duration" : 1445
+      }
+    }, {
+      "uid" : "daa819ac90905b49",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657570126436,
+        "stop" : 1657570127729,
+        "duration" : 1293
+      }
+    }, {
+      "uid" : "36bb1676160178ce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657569899786,
+        "stop" : 1657569901067,
+        "duration" : 1281
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f30c1be795b9c60a.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}

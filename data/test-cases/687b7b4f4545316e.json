@@ -1,0 +1,102 @@
+{
+  "uid" : "687b7b4f4545316e",
+  "name" : "Should send invitation to CP",
+  "fullName" : "C2258: Superbill submission via Portal.Should send invitation to CP",
+  "historyId" : "1a0f3334ae1b8be5246413e46ba69513",
+  "time" : {
+    "start" : 1657563400058,
+    "stop" : 1657563401361,
+    "duration" : 1303
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8852fdc83c8742f2",
+      "name" : "Screenshot",
+      "source" : "8852fdc83c8742f2.png",
+      "type" : "image/png",
+      "size" : 65867
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "C2258: Superbill submission via Portal"
+  }, {
+    "name" : "testClass",
+    "value" : "C2258: Superbill submission via Portal"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should send invitation to CP"
+  }, {
+    "name" : "package",
+    "value" : "C2258: Superbill submission via Portal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "20bc128fb0839a9d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657563119974,
+        "stop" : 1657563121266,
+        "duration" : 1292
+      }
+    }, {
+      "uid" : "1f3f6bbec5280c47",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657562839024,
+        "stop" : 1657562840317,
+        "duration" : 1293
+      }
+    }, {
+      "uid" : "59236471a46247b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657562558633,
+        "stop" : 1657562559894,
+        "duration" : 1261
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "687b7b4f4545316e.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}

@@ -1,0 +1,102 @@
+{
+  "uid" : "7b2816dc8f11f92e",
+  "name" : "Should relogin to other clinician and check that logged as user",
+  "fullName" : "C2273: Verify if regular clinicians can add 'columns' in 'CLINICIANS' tab.Should relogin to other clinician and check that logged as user",
+  "historyId" : "de9537a731344d952f2bf5c2617c9068",
+  "time" : {
+    "start" : 1657571215851,
+    "stop" : 1657571222704,
+    "duration" : 6853
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5ad63c2c2f976195",
+      "name" : "Screenshot",
+      "source" : "5ad63c2c2f976195.png",
+      "type" : "image/png",
+      "size" : 96195
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-23"
+  }, {
+    "name" : "suite",
+    "value" : "C2273: Verify if regular clinicians can add 'columns' in 'CLINICIANS' tab"
+  }, {
+    "name" : "testClass",
+    "value" : "C2273: Verify if regular clinicians can add 'columns' in 'CLINICIANS' tab"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should relogin to other clinician and check that logged as user"
+  }, {
+    "name" : "package",
+    "value" : "C2273: Verify if regular clinicians can add 'columns' in 'CLINICIANS' tab"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "59c585fc40b37bfd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657571117775,
+        "stop" : 1657571124653,
+        "duration" : 6878
+      }
+    }, {
+      "uid" : "7eac238c97a24948",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657571018961,
+        "stop" : 1657571025875,
+        "duration" : 6914
+      }
+    }, {
+      "uid" : "6545f43a2f29708d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657570916481,
+        "stop" : 1657570923916,
+        "duration" : 7435
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7b2816dc8f11f92e.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}

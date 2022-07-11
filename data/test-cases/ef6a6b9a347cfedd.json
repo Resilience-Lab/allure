@@ -1,0 +1,113 @@
+{
+  "uid" : "ef6a6b9a347cfedd",
+  "name" : "Should add more than 10 clinicians (also who have supervisors)",
+  "fullName" : "C2262: PC POD Clinicians.Should add more than 10 clinicians (also who have supervisors)",
+  "historyId" : "67bb0025799073131849f421d579305",
+  "time" : {
+    "start" : 1657571790511,
+    "stop" : 1657571800721,
+    "duration" : 10210
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Can't call scrollIntoView on element with selector \"(//td[1]/input[@type='checkbox'])[1]\" because element wasn't found",
+  "statusTrace" : "Error: Can't call scrollIntoView on element with selector \"(//td[1]/input[@type='checkbox'])[1]\" because element wasn't found\n                    at async PodsPage.scrollElementByIndexIntoViewTop (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:281:9)\n                    at async PodsPage.clickByIndexCliniciansFilterCBox (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/pods.page.ts:33:9)\n                    at async PodsPage.clickSomeAmountOfCliniansFilterCBox (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/pods.page.ts:47:13)\n                    at async Context.<anonymous> (/home/runner/work/webautomation/webautomation/test/specs/POD/C2262_PC_POD_Clinicians.spec.ts:26:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Can't call scrollIntoView on element with selector \"(//td[1]/input[@type='checkbox'])[1]\" because element wasn't found",
+    "statusTrace" : "Error: Can't call scrollIntoView on element with selector \"(//td[1]/input[@type='checkbox'])[1]\" because element wasn't found\n                    at async PodsPage.scrollElementByIndexIntoViewTop (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:281:9)\n                    at async PodsPage.clickByIndexCliniciansFilterCBox (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/pods.page.ts:33:9)\n                    at async PodsPage.clickSomeAmountOfCliniansFilterCBox (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/pods.page.ts:47:13)\n                    at async Context.<anonymous> (/home/runner/work/webautomation/webautomation/test/specs/POD/C2262_PC_POD_Clinicians.spec.ts:26:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d3b42942c20352f8",
+      "name" : "Screenshot",
+      "source" : "d3b42942c20352f8.png",
+      "type" : "image/png",
+      "size" : 85229
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-27"
+  }, {
+    "name" : "suite",
+    "value" : "C2262: PC POD Clinicians"
+  }, {
+    "name" : "testClass",
+    "value" : "C2262: PC POD Clinicians"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should add more than 10 clinicians (also who have supervisors)"
+  }, {
+    "name" : "package",
+    "value" : "C2262: PC POD Clinicians"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ff038a31a5b3f2e3",
+      "status" : "broken",
+      "statusDetails" : "Can't call scrollIntoView on element with selector \"(//td[1]/input[@type='checkbox'])[1]\" because element wasn't found",
+      "time" : {
+        "start" : 1657571701566,
+        "stop" : 1657571711776,
+        "duration" : 10210
+      }
+    }, {
+      "uid" : "9c3fefa88c3775fb",
+      "status" : "broken",
+      "statusDetails" : "Can't call scrollIntoView on element with selector \"(//td[1]/input[@type='checkbox'])[1]\" because element wasn't found",
+      "time" : {
+        "start" : 1657571615354,
+        "stop" : 1657571625564,
+        "duration" : 10210
+      }
+    }, {
+      "uid" : "6d66b3410ef05ece",
+      "status" : "broken",
+      "statusDetails" : "Can't call scrollIntoView on element with selector \"(//td[1]/input[@type='checkbox'])[1]\" because element wasn't found",
+      "time" : {
+        "start" : 1657571526540,
+        "stop" : 1657571536749,
+        "duration" : 10209
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "ef6a6b9a347cfedd.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}

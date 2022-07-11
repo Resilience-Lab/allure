@@ -1,0 +1,80 @@
+{
+  "uid" : "67c3dfcfbe762166",
+  "name" : "Should sign up to client portal without invitation",
+  "fullName" : "C2258: Superbill submission via Portal.Should sign up to client portal without invitation",
+  "historyId" : "794da25cc7d016fbc5c4fd9e2175332d",
+  "time" : {
+    "start" : 1657562650440,
+    "stop" : 1657562716985,
+    "duration" : 66545
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"a[href=\"https://dev.client.resiliencelab.us/logout\"]\") still not displayed after 60000ms",
+  "statusTrace" : "Error: element (\"a[href=\"https://dev.client.resiliencelab.us/logout\"]\") still not displayed after 60000ms\n                    at async CPHomePage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async CPHomePage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:143:9)\n                    at async CPHomePage.clickLogOutBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CP/cpHome.page.ts:24:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"a[href=\"https://dev.client.resiliencelab.us/logout\"]\") still not displayed after 60000ms",
+    "statusTrace" : "Error: element (\"a[href=\"https://dev.client.resiliencelab.us/logout\"]\") still not displayed after 60000ms\n                    at async CPHomePage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async CPHomePage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:143:9)\n                    at async CPHomePage.clickLogOutBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CP/cpHome.page.ts:24:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6e3a5ddc3b5d033d",
+      "name" : "Screenshot",
+      "source" : "6e3a5ddc3b5d033d.png",
+      "type" : "image/png",
+      "size" : 51170
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "C2258: Superbill submission via Portal"
+  }, {
+    "name" : "testClass",
+    "value" : "C2258: Superbill submission via Portal"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should sign up to client portal without invitation"
+  }, {
+    "name" : "package",
+    "value" : "C2258: Superbill submission via Portal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "67c3dfcfbe762166.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}

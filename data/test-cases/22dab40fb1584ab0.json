@@ -1,0 +1,86 @@
+{
+  "uid" : "22dab40fb1584ab0",
+  "name" : "Should click filter and check if it's diplayed",
+  "fullName" : "C2254: Filter clinicians search.Should click filter and check if it's diplayed",
+  "historyId" : "2849700f56ff5290c6494c759a525cae",
+  "time" : {
+    "start" : 1657571921485,
+    "stop" : 1657571921843,
+    "duration" : 358
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7880de1adc9fc120",
+      "name" : "Screenshot",
+      "source" : "7880de1adc9fc120.png",
+      "type" : "image/png",
+      "size" : 206178
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-30"
+  }, {
+    "name" : "suite",
+    "value" : "C2254: Filter clinicians search"
+  }, {
+    "name" : "testClass",
+    "value" : "C2254: Filter clinicians search"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should click filter and check if it's diplayed"
+  }, {
+    "name" : "package",
+    "value" : "C2254: Filter clinicians search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2863462a6e197226",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657571916449,
+        "stop" : 1657571916921,
+        "duration" : 472
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "22dab40fb1584ab0.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}

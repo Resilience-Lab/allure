@@ -1,0 +1,80 @@
+{
+  "uid" : "99c7934d01643ff",
+  "name" : "Should signUp to account",
+  "fullName" : "C2280: Verify Insurance Card Form.Should signUp to account",
+  "historyId" : "330e298e4ed3207003e6570403660ceb",
+  "time" : {
+    "start" : 1657565285974,
+    "stop" : 1657565346181,
+    "duration" : 60207
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"[name=\"email\"]\") still not displayed after 60000ms",
+  "statusTrace" : "Error: element (\"[name=\"email\"]\") still not displayed after 60000ms\n                    at async CPSignUpPage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async CPSignUpPage.getElementValue (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:228:9)\n                    at async CPSignUpPage.signUp (/home/runner/work/webautomation/webautomation/test/pageobjects/CP/cpSignUp.page.ts:50:14)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"[name=\"email\"]\") still not displayed after 60000ms",
+    "statusTrace" : "Error: element (\"[name=\"email\"]\") still not displayed after 60000ms\n                    at async CPSignUpPage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async CPSignUpPage.getElementValue (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:228:9)\n                    at async CPSignUpPage.signUp (/home/runner/work/webautomation/webautomation/test/pageobjects/CP/cpSignUp.page.ts:50:14)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b99853322e20f09a",
+      "name" : "Screenshot",
+      "source" : "b99853322e20f09a.png",
+      "type" : "image/png",
+      "size" : 78831
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-7"
+  }, {
+    "name" : "suite",
+    "value" : "C2280: Verify Insurance Card Form"
+  }, {
+    "name" : "testClass",
+    "value" : "C2280: Verify Insurance Card Form"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should signUp to account"
+  }, {
+    "name" : "package",
+    "value" : "C2280: Verify Insurance Card Form"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "99c7934d01643ff.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}

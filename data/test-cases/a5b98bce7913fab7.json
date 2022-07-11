@@ -1,0 +1,113 @@
+{
+  "uid" : "a5b98bce7913fab7",
+  "name" : "\"Insurance API Log\" column should be sorted by default by \"Date Created\"",
+  "fullName" : "C2266: API log sort.\"Insurance API Log\" column should be sorted by default by \"Date Created\"",
+  "historyId" : "2f17ac25ca04f80b2459803a49751f04",
+  "time" : {
+    "start" : 1657568381318,
+    "stop" : 1657568381667,
+    "duration" : 349
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: true\n                Received: false",
+  "statusTrace" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                Expected: true\n                Received: false\n                    at Context.<anonymous> (/home/runner/work/webautomation/webautomation/test/specs/Clients/Insurance/C2266_API_log_sort.spec.ts:41:56)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: true\n                Received: false",
+    "statusTrace" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                Expected: true\n                Received: false\n                    at Context.<anonymous> (/home/runner/work/webautomation/webautomation/test/specs/Clients/Insurance/C2266_API_log_sort.spec.ts:41:56)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4e6b7a386828bd0c",
+      "name" : "Screenshot",
+      "source" : "4e6b7a386828bd0c.png",
+      "type" : "image/png",
+      "size" : 175820
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-14"
+  }, {
+    "name" : "suite",
+    "value" : "C2266: API log sort"
+  }, {
+    "name" : "testClass",
+    "value" : "C2266: API log sort"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"Insurance API Log\" column should be sorted by default by \"Date Created\""
+  }, {
+    "name" : "package",
+    "value" : "C2266: API log sort"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8d043063c5d9608a",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: true\n                Received: false",
+      "time" : {
+        "start" : 1657568363003,
+        "stop" : 1657568363355,
+        "duration" : 352
+      }
+    }, {
+      "uid" : "4697cc5ed0ef0b03",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: true\n                Received: false",
+      "time" : {
+        "start" : 1657568344472,
+        "stop" : 1657568344819,
+        "duration" : 347
+      }
+    }, {
+      "uid" : "51047b323a655ee",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: true\n                Received: false",
+      "time" : {
+        "start" : 1657568325402,
+        "stop" : 1657568325785,
+        "duration" : 383
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "a5b98bce7913fab7.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}

@@ -1,0 +1,80 @@
+{
+  "uid" : "512a07963fc034d2",
+  "name" : "Should terminate client assigned to \"Danashia Mclaughlin\" with reason \"test\"",
+  "fullName" : "C2265: Terminate client with multiclinician.Should terminate client assigned to \"Danashia Mclaughlin\" with reason \"test\"",
+  "historyId" : "eb7283766db0da0955dac7e24d8942af",
+  "time" : {
+    "start" : 1657563702721,
+    "stop" : 1657563764995,
+    "duration" : 62274
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"input[value=\"Cancel\"]\") still not displayed after 60000ms",
+  "statusTrace" : "Error: element (\"input[value=\"Cancel\"]\") still not displayed after 60000ms\n                    at async ProfilePage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async ProfilePage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:143:9)\n                    at async ProfilePage.clickCancelModalBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:532:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"input[value=\"Cancel\"]\") still not displayed after 60000ms",
+    "statusTrace" : "Error: element (\"input[value=\"Cancel\"]\") still not displayed after 60000ms\n                    at async ProfilePage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async ProfilePage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:143:9)\n                    at async ProfilePage.clickCancelModalBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:532:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3500b130199d1539",
+      "name" : "Screenshot",
+      "source" : "3500b130199d1539.png",
+      "type" : "image/png",
+      "size" : 66180
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-4"
+  }, {
+    "name" : "suite",
+    "value" : "C2265: Terminate client with multiclinician"
+  }, {
+    "name" : "testClass",
+    "value" : "C2265: Terminate client with multiclinician"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should terminate client assigned to \"Danashia Mclaughlin\" with reason \"test\""
+  }, {
+    "name" : "package",
+    "value" : "C2265: Terminate client with multiclinician"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "512a07963fc034d2.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}

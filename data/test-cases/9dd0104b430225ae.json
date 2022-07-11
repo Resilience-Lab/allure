@@ -1,0 +1,86 @@
+{
+  "uid" : "9dd0104b430225ae",
+  "name" : "Should click the 'Edit' button and in 'Pronoun' field select the 'white' option",
+  "fullName" : "C2283: Verify that 'Pronoun' it's required field.Should click the 'Edit' button and in 'Pronoun' field select the 'white' option",
+  "historyId" : "74bc884a976a7b8453ca7bb8d2187197",
+  "time" : {
+    "start" : 1657571427791,
+    "stop" : 1657571430159,
+    "duration" : 2368
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "60d0ce04f685b6cb",
+      "name" : "Screenshot",
+      "source" : "60d0ce04f685b6cb.png",
+      "type" : "image/png",
+      "size" : 94945
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-26"
+  }, {
+    "name" : "suite",
+    "value" : "C2283: Verify that 'Pronoun' it's required field"
+  }, {
+    "name" : "testClass",
+    "value" : "C2283: Verify that 'Pronoun' it's required field"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should click the 'Edit' button and in 'Pronoun' field select the 'white' option"
+  }, {
+    "name" : "package",
+    "value" : "C2283: Verify that 'Pronoun' it's required field"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.53"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e903d639468bc615",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657571338952,
+        "stop" : 1657571340404,
+        "duration" : 1452
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9dd0104b430225ae.json",
+  "parameterValues" : [ "chrome-103.0.5060.53" ]
+}
