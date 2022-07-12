@@ -1,0 +1,111 @@
+{
+  "uid" : "79e20e94bbb86a87",
+  "name" : "Should terminate client assigned to \"Danashia Mclaughlin\" with reason \"test\"",
+  "fullName" : "C2265: Terminate client with multiclinician.Should terminate client assigned to \"Danashia Mclaughlin\" with reason \"test\"",
+  "historyId" : "87bc84399f594c86a14b21925fcb5edc",
+  "time" : {
+    "start" : 1657629158301,
+    "stop" : 1657629218680,
+    "duration" : 60379
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"button#terminate-btn\") still not displayed after 60000ms",
+  "statusTrace" : "Error: element (\"button#terminate-btn\") still not displayed after 60000ms\n                    at async ProfilePage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async ProfilePage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:143:9)\n                    at async ProfilePage.clickTerminateClientBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:520:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"button#terminate-btn\") still not displayed after 60000ms",
+    "statusTrace" : "Error: element (\"button#terminate-btn\") still not displayed after 60000ms\n                    at async ProfilePage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async ProfilePage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:143:9)\n                    at async ProfilePage.clickTerminateClientBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:520:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ec446307f4ead9ea",
+      "name" : "Screenshot",
+      "source" : "ec446307f4ead9ea.png",
+      "type" : "image/png",
+      "size" : 67182
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-4"
+  }, {
+    "name" : "suite",
+    "value" : "C2265: Terminate client with multiclinician"
+  }, {
+    "name" : "testClass",
+    "value" : "C2265: Terminate client with multiclinician"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should terminate client assigned to \"Danashia Mclaughlin\" with reason \"test\""
+  }, {
+    "name" : "package",
+    "value" : "C2265: Terminate client with multiclinician"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7c296a39d4713620",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657628964594,
+        "stop" : 1657628994860,
+        "duration" : 30266
+      }
+    }, {
+      "uid" : "4ca8f538b332264e",
+      "status" : "broken",
+      "statusDetails" : "element (\"button#terminate-btn\") still not displayed after 60000ms",
+      "time" : {
+        "start" : 1657628840537,
+        "stop" : 1657628900891,
+        "duration" : 60354
+      }
+    }, {
+      "uid" : "3c55b7d0b67d1f2e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657628662009,
+        "stop" : 1657628683808,
+        "duration" : 21799
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "79e20e94bbb86a87.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

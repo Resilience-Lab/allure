@@ -1,220 +1,470 @@
 [ {
-  "uid" : "2c4aef18ca722101",
-  "name" : "Should go back to pending requests",
+  "uid" : "6d973612e41c1ea3",
+  "name" : "Should download file",
   "time" : {
-    "start" : 1657624552398,
-    "stop" : 1657624552671,
-    "duration" : 273
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "dc8e52a64909fdc2",
-  "name" : "Should go to clients page and check url",
-  "time" : {
-    "start" : 1657624142050,
-    "stop" : 1657624169097,
-    "duration" : 27047
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "38867fc15c9990b3",
-  "name" : "Should go to clients page and check url",
-  "time" : {
-    "start" : 1657624639697,
-    "stop" : 1657624684900,
-    "duration" : 45203
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b79430cd2e20a9f7",
-  "name" : "Should try to download file",
-  "time" : {
-    "start" : 1657624492202,
-    "stop" : 1657624552397,
-    "duration" : 60195
+    "start" : 1657628436026,
+    "stop" : 1657628436251,
+    "duration" : 225
   },
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "10fe9950265f5db6",
+  "uid" : "69299c363ae57036",
+  "name" : "Should relogin then check filter and column",
+  "time" : {
+    "start" : 1657629351223,
+    "stop" : 1657629373869,
+    "duration" : 22646
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c5f2dca69196baa8",
+  "name" : "Should select library document to share",
+  "time" : {
+    "start" : 1657627292790,
+    "stop" : 1657627295892,
+    "duration" : 3102
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "57e30ba9daaa4556",
+  "name" : "Should go to clients page and check url",
+  "time" : {
+    "start" : 1657629279007,
+    "stop" : 1657629322276,
+    "duration" : 43269
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e22da0332f6afef7",
   "name" : "Should go back to client profile and check \"Account status:\" to be \"Account Created\" ",
   "time" : {
-    "start" : 1657624628017,
-    "stop" : 1657624637825,
-    "duration" : 9808
+    "start" : 1657627452793,
+    "stop" : 1657627463410,
+    "duration" : 10617
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "6b5c53d982202026",
-  "name" : "Should sign up to client portal without invitation",
+  "uid" : "b0c5e908682162bf",
+  "name" : "Should go to some active client profile",
   "time" : {
-    "start" : 1657624775367,
-    "stop" : 1657624845254,
-    "duration" : 69887
+    "start" : 1657628598964,
+    "stop" : 1657628600505,
+    "duration" : 1541
   },
-  "status" : "broken",
+  "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "cb6612cc9b7dea20",
-  "name" : "Should check \"test\" text matches",
-  "time" : {
-    "start" : 1657624482007,
-    "stop" : 1657624492202,
-    "duration" : 10195
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "56fc171a8eee2663",
+  "uid" : "61bd6ea0b222fac1",
   "name" : "Should send invitation to CP",
   "time" : {
-    "start" : 1657624684902,
-    "stop" : 1657624685937,
-    "duration" : 1035
+    "start" : 1657628350848,
+    "stop" : 1657628352156,
+    "duration" : 1308
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "bb06a27024149de2",
-  "name" : "Should fill out credit card form and click \"Submit\" button",
+  "uid" : "158a2795edfc5c5c",
+  "name" : "Should write document name and click \"Upload and Send Document\" button",
   "time" : {
-    "start" : 1657624562850,
-    "stop" : 1657624628016,
-    "duration" : 65166
+    "start" : 1657628617782,
+    "stop" : 1657628620299,
+    "duration" : 2517
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f39f0d1d5da753b5",
+  "name" : "Should signUp to account",
+  "time" : {
+    "start" : 1657628373987,
+    "stop" : 1657628434205,
+    "duration" : 60218
   },
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "8f872659adadbfa5",
+  "uid" : "1034263405f0a229",
+  "name" : "\"after all\" hook for C2265: Terminate client with multiclinician",
+  "time" : {
+    "start" : 1657628994861,
+    "stop" : 1657629115169,
+    "duration" : 120308
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "39beeefe1e7527b6",
+  "name" : "Should to clients page and check url",
+  "time" : {
+    "start" : 1657628581081,
+    "stop" : 1657628598962,
+    "duration" : 17881
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2afe46e2ff0cba79",
+  "name" : "The insurance tab should be with Insurance info",
+  "time" : {
+    "start" : 1657629801605,
+    "stop" : 1657629871997,
+    "duration" : 70392
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "213beb8157a24efb",
+  "name" : "Should create and download Superbill statement",
+  "time" : {
+    "start" : 1657628600505,
+    "stop" : 1657628601658,
+    "duration" : 1153
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6901129338b1beae",
+  "name" : "Should verify email from Resiliencelab",
+  "time" : {
+    "start" : 1657628352156,
+    "stop" : 1657628373987,
+    "duration" : 21831
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "3a7edd4c923d7a84",
+  "name" : "Should go to client with not created account",
+  "time" : {
+    "start" : 1657629655236,
+    "stop" : 1657629656330,
+    "duration" : 1094
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bc2b4ed6a37efc4e",
+  "name" : "Should fill out credit card form and click \"Submit\" button",
+  "time" : {
+    "start" : 1657627387590,
+    "stop" : 1657627452792,
+    "duration" : 65202
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "6ae72094a66db5ee",
+  "name" : "Should open filter, choose stage - 'Inactive' and show 'DOB' column",
+  "time" : {
+    "start" : 1657629322277,
+    "stop" : 1657629351222,
+    "duration" : 28945
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "49c60c523664ac90",
+  "name" : "Should see a pop-up about some missing (required) client's information",
+  "time" : {
+    "start" : 1657629275642,
+    "stop" : 1657629277162,
+    "duration" : 1520
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f51a5cf781762b10",
+  "name" : "Should go to clients page and check url",
+  "time" : {
+    "start" : 1657629246066,
+    "stop" : 1657629273871,
+    "duration" : 27805
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "30fe26eb9430b855",
+  "name" : "Should signUp to account",
+  "time" : {
+    "start" : 1657629681214,
+    "stop" : 1657629741407,
+    "duration" : 60193
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "73e9235518cdd224",
+  "name" : "Should switch \"As assigned to:\" to \"Samuel Steinbock\" and check that it is not terminated",
+  "time" : {
+    "start" : 1657629218681,
+    "stop" : 1657629243899,
+    "duration" : 25218
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "852db0a31f3bb389",
+  "name" : "Should open \"Sarah\" client profile change \"As assigned to:\" to \"Danashia Mclaughlin\"",
+  "time" : {
+    "start" : 1657629141749,
+    "stop" : 1657629158301,
+    "duration" : 16552
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bc236e80ebb0874e",
   "name" : "Should click 'View Requests' button in 'Pending Requests' ",
   "time" : {
-    "start" : 1657624481822,
-    "stop" : 1657624482007,
-    "duration" : 185
+    "start" : 1657627306384,
+    "stop" : 1657627306593,
+    "duration" : 209
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "2205128c4af7a5ff",
-  "name" : "Should select library document to share",
-  "time" : {
-    "start" : 1657624468378,
-    "stop" : 1657624471339,
-    "duration" : 2961
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "bbcdb9b2742bc757",
+  "uid" : "9427e7c5b6675a76",
   "name" : "Should signUp to account",
   "time" : {
-    "start" : 1657624200403,
-    "stop" : 1657624260565,
-    "duration" : 60162
+    "start" : 1657627024634,
+    "stop" : 1657627084832,
+    "duration" : 60198
   },
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "8188a48bbd730ad",
+  "uid" : "f0f0c9949e4c0293",
+  "name" : "Should verify file upload",
+  "time" : {
+    "start" : 1657628620299,
+    "stop" : 1657628625036,
+    "duration" : 4737
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3cf69ff33142d4e2",
+  "name" : "Should go back to pending requests",
+  "time" : {
+    "start" : 1657627377047,
+    "stop" : 1657627377375,
+    "duration" : 328
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f96aa039eaeb515d",
+  "name" : "Should go to clients page and check url",
+  "time" : {
+    "start" : 1657628302114,
+    "stop" : 1657628350845,
+    "duration" : 48731
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1125e90d7c4b14a3",
+  "name" : "Should send documents to email",
+  "time" : {
+    "start" : 1657629656331,
+    "stop" : 1657629659231,
+    "duration" : 2900
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9940e2c41c40f000",
   "name" : "Should verify email from Resiliencelab",
   "time" : {
-    "start" : 1657624471339,
-    "stop" : 1657624481822,
-    "duration" : 10483
+    "start" : 1657627295892,
+    "stop" : 1657627306384,
+    "duration" : 10492
   },
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "5ba10bba8e318be0",
-  "name" : "Should go to client with not created account",
+  "uid" : "45e0d9e12e8e1c48",
+  "name" : "Should go to clients page and check url",
   "time" : {
-    "start" : 1657624169098,
-    "stop" : 1657624170027,
-    "duration" : 929
+    "start" : 1657629117277,
+    "stop" : 1657629141747,
+    "duration" : 24470
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "c8d43926e036e462",
-  "name" : "Should go to new user without invitation",
-  "time" : {
-    "start" : 1657624770148,
-    "stop" : 1657624773795,
-    "duration" : 3647
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "44eed4eede120fac",
-  "name" : "Should download file without invitation",
-  "time" : {
-    "start" : 1657624845254,
-    "stop" : 1657624914790,
-    "duration" : 69536
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "72f872d9bef2a69b",
-  "name" : "Should signUp to account",
-  "time" : {
-    "start" : 1657624707850,
-    "stop" : 1657624768012,
-    "duration" : 60162
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "b27f553220989712",
-  "name" : "Should download file",
-  "time" : {
-    "start" : 1657624769934,
-    "stop" : 1657624770148,
-    "duration" : 214
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "5932b0722aa3d2f9",
+  "uid" : "4e909393a61b7cd3",
   "name" : "Should go to \"Review and Complete\" for \"New Credit Card Form\"",
   "time" : {
-    "start" : 1657624552672,
-    "stop" : 1657624562850,
-    "duration" : 10178
+    "start" : 1657627377375,
+    "stop" : 1657627387589,
+    "duration" : 10214
   },
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "bb37efd108916340",
-  "name" : "Should verify email from Resiliencelab",
+  "uid" : "47f3070110fc1092",
+  "name" : "Should go to new user without invitation",
   "time" : {
-    "start" : 1657624685937,
-    "stop" : 1657624707850,
-    "duration" : 21913
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "77ad85d640cdce83",
-  "name" : "Should create Superbill statement",
-  "time" : {
-    "start" : 1657624768012,
-    "stop" : 1657624769934,
-    "duration" : 1922
+    "start" : 1657628436251,
+    "stop" : 1657628440178,
+    "duration" : 3927
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "30b59580c5983acb",
+  "uid" : "ae2aa1ceda339ae1",
+  "name" : "Should open client without email",
+  "time" : {
+    "start" : 1657629273872,
+    "stop" : 1657629275642,
+    "duration" : 1770
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3a62513d26c1e29b",
+  "name" : "Should go to client with not created account",
+  "time" : {
+    "start" : 1657626993540,
+    "stop" : 1657626994632,
+    "duration" : 1092
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "79e20e94bbb86a87",
+  "name" : "Should terminate client assigned to \"Danashia Mclaughlin\" with reason \"test\"",
+  "time" : {
+    "start" : 1657629158301,
+    "stop" : 1657629218680,
+    "duration" : 60379
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "bf5e97eb6f9dac42",
+  "name" : "Should download file without invitation",
+  "time" : {
+    "start" : 1657628507995,
+    "stop" : 1657628578928,
+    "duration" : 70933
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "236fb969ab8d160a",
   "name" : "Should create Superbill statement without invitation",
   "time" : {
-    "start" : 1657624773795,
-    "stop" : 1657624775363,
-    "duration" : 1568
+    "start" : 1657628440178,
+    "stop" : 1657628441876,
+    "duration" : 1698
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "565d80ce06164082",
+  "name" : "Should sign up to client portal without invitation",
+  "time" : {
+    "start" : 1657628441876,
+    "stop" : 1657628507994,
+    "duration" : 66118
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "20bd71ad2a6db440",
+  "name" : "Should check \"test\" text matches",
+  "time" : {
+    "start" : 1657627306593,
+    "stop" : 1657627316816,
+    "duration" : 10223
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d78bc03d3d96bcbd",
+  "name" : "Should open CP page and Log In",
+  "time" : {
+    "start" : 1657628603828,
+    "stop" : 1657628615624,
+    "duration" : 11796
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e382c96a71cbaf9b",
+  "name" : "Should try to download file",
+  "time" : {
+    "start" : 1657627316816,
+    "stop" : 1657627377046,
+    "duration" : 60230
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b40f2e51bf1d5d67",
+  "name" : "Should verify email from Resiliencelab",
+  "time" : {
+    "start" : 1657629659231,
+    "stop" : 1657629681213,
+    "duration" : 21982
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "16a7b43205d3d388",
+  "name" : "Should go to clients page and check url",
+  "time" : {
+    "start" : 1657626964876,
+    "stop" : 1657626993538,
+    "duration" : 28662
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "56ee6d0512a660a0",
+  "name" : "Should select some Payer and upload card",
+  "time" : {
+    "start" : 1657629741407,
+    "stop" : 1657629801604,
+    "duration" : 60197
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f8d97b5d5f562785",
+  "name" : "Should create Superbill statement",
+  "time" : {
+    "start" : 1657628434205,
+    "stop" : 1657628436026,
+    "duration" : 1821
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "61de84dd92ff1173",
+  "name" : "Should click \"Upload File\" button and add file",
+  "time" : {
+    "start" : 1657628615625,
+    "stop" : 1657628617782,
+    "duration" : 2157
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b3311f4c038501d4",
+  "name" : "Should go to clients page and check url",
+  "time" : {
+    "start" : 1657629626581,
+    "stop" : 1657629655235,
+    "duration" : 28654
   },
   "status" : "passed",
   "severity" : "normal"
