@@ -1,0 +1,80 @@
+{
+  "uid" : "cb0a2c92c196bc95",
+  "name" : "Should click on \"View clients\"",
+  "fullName" : "C2256: Set clinician as inactive..Should click on \"View clients\"",
+  "historyId" : "ae7e9334b5209a99e702d654a86b0d22",
+  "time" : {
+    "start" : 1657656252599,
+    "stop" : 1657656312764,
+    "duration" : 60165
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"//a[text()=\"View Clients\"]\") still not displayed after 60000ms",
+  "statusTrace" : "Error: element (\"//a[text()=\"View Clients\"]\") still not displayed after 60000ms\n                    at async ProfilePage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async ProfilePage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:143:9)\n                    at async ProfilePage.clickViewClientsBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:394:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"//a[text()=\"View Clients\"]\") still not displayed after 60000ms",
+    "statusTrace" : "Error: element (\"//a[text()=\"View Clients\"]\") still not displayed after 60000ms\n                    at async ProfilePage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async ProfilePage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:143:9)\n                    at async ProfilePage.clickViewClientsBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:394:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "89b446c9918f13c2",
+      "name" : "Screenshot",
+      "source" : "89b446c9918f13c2.png",
+      "type" : "image/png",
+      "size" : 37732
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-22"
+  }, {
+    "name" : "suite",
+    "value" : "C2256: Set clinician as inactive."
+  }, {
+    "name" : "testClass",
+    "value" : "C2256: Set clinician as inactive."
+  }, {
+    "name" : "testMethod",
+    "value" : "Should click on \"View clients\""
+  }, {
+    "name" : "package",
+    "value" : "C2256: Set clinician as inactive."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cb0a2c92c196bc95.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

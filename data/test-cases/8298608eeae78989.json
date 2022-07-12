@@ -1,0 +1,131 @@
+{
+  "uid" : "8298608eeae78989",
+  "name" : "\"after all\" hook for C2283: Verify that 'Pronoun' it's required field",
+  "fullName" : "C2283: Verify that 'Pronoun' it's required field.\"after all\" hook for C2283: Verify that 'Pronoun' it's required field",
+  "historyId" : "ebb66713db5a9a4ad3d40ed0b68edac",
+  "time" : {
+    "start" : 1657661406370,
+    "stop" : 1657661466773,
+    "duration" : 60403
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"#globalLinks #with-label\") still not clickable after 60000ms",
+  "statusTrace" : "Error: element (\"#globalLinks #with-label\") still not clickable after 60000ms\n                    at runNextTicks (node:internal/process/task_queues:61:5)\n                    at processTimers (node:internal/timers:499:9)\n                    at async NavigationBar.waitElementForClickable (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:89:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 7,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-26"
+  }, {
+    "name" : "suite",
+    "value" : "C2283: Verify that 'Pronoun' it's required field"
+  }, {
+    "name" : "testClass",
+    "value" : "C2283: Verify that 'Pronoun' it's required field"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"after all\" hook for C2283: Verify that 'Pronoun' it's required field"
+  }, {
+    "name" : "package",
+    "value" : "C2283: Verify that 'Pronoun' it's required field"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "877d2a40ebbe4dca",
+      "status" : "broken",
+      "statusDetails" : "element (\"#globalLinks #with-label\") still not clickable after 60000ms",
+      "time" : {
+        "start" : 1657661104173,
+        "stop" : 1657661164585,
+        "duration" : 60412
+      }
+    }, {
+      "uid" : "c488089729451bae",
+      "status" : "broken",
+      "statusDetails" : "element (\"#globalLinks #with-label\") still not clickable after 60000ms",
+      "time" : {
+        "start" : 1657660802070,
+        "stop" : 1657660862449,
+        "duration" : 60379
+      }
+    }, {
+      "uid" : "a95d7ddabd87f00",
+      "status" : "broken",
+      "statusDetails" : "element (\"#globalLinks #with-label\") still not clickable after 60000ms",
+      "time" : {
+        "start" : 1657660499931,
+        "stop" : 1657660560336,
+        "duration" : 60405
+      }
+    }, {
+      "uid" : "141465eae2141ee8",
+      "status" : "broken",
+      "statusDetails" : "element (\"#globalLinks #with-label\") still not clickable after 60000ms",
+      "time" : {
+        "start" : 1657660197820,
+        "stop" : 1657660258194,
+        "duration" : 60374
+      }
+    }, {
+      "uid" : "d643bbd5f495a768",
+      "status" : "broken",
+      "statusDetails" : "element (\"#globalLinks #with-label\") still not clickable after 60000ms",
+      "time" : {
+        "start" : 1657659895645,
+        "stop" : 1657659956025,
+        "duration" : 60380
+      }
+    }, {
+      "uid" : "c49666ddad120dba",
+      "status" : "broken",
+      "statusDetails" : "element (\"#globalLinks #with-label\") still not clickable after 60000ms",
+      "time" : {
+        "start" : 1657659593414,
+        "stop" : 1657659653797,
+        "duration" : 60383
+      }
+    }, {
+      "uid" : "a38c4b3e963a5321",
+      "status" : "broken",
+      "statusDetails" : "element (\"#globalLinks #with-label\") still not clickable after 60000ms",
+      "time" : {
+        "start" : 1657659291206,
+        "stop" : 1657659351619,
+        "duration" : 60413
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "8298608eeae78989.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

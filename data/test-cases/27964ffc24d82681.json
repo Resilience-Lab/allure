@@ -1,0 +1,113 @@
+{
+  "uid" : "27964ffc24d82681",
+  "name" : "Should click on \"View clients\"",
+  "fullName" : "C2256: Set clinician as inactive..Should click on \"View clients\"",
+  "historyId" : "ae7e9334b5209a99e702d654a86b0d22",
+  "time" : {
+    "start" : 1657657499968,
+    "stop" : 1657657560140,
+    "duration" : 60172
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"//a[text()=\"View Clients\"]\") still not displayed after 60000ms",
+  "statusTrace" : "Error: element (\"//a[text()=\"View Clients\"]\") still not displayed after 60000ms\n                    at async ProfilePage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async ProfilePage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:143:9)\n                    at async ProfilePage.clickViewClientsBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:394:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"//a[text()=\"View Clients\"]\") still not displayed after 60000ms",
+    "statusTrace" : "Error: element (\"//a[text()=\"View Clients\"]\") still not displayed after 60000ms\n                    at async ProfilePage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async ProfilePage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:143:9)\n                    at async ProfilePage.clickViewClientsBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:394:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a6e99061340a2898",
+      "name" : "Screenshot",
+      "source" : "a6e99061340a2898.png",
+      "type" : "image/png",
+      "size" : 37732
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-22"
+  }, {
+    "name" : "suite",
+    "value" : "C2256: Set clinician as inactive."
+  }, {
+    "name" : "testClass",
+    "value" : "C2256: Set clinician as inactive."
+  }, {
+    "name" : "testMethod",
+    "value" : "Should click on \"View clients\""
+  }, {
+    "name" : "package",
+    "value" : "C2256: Set clinician as inactive."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "31b0ed231c56b6d2",
+      "status" : "broken",
+      "statusDetails" : "element (\"//a[text()=\"View Clients\"]\") still not displayed after 60000ms",
+      "time" : {
+        "start" : 1657657083834,
+        "stop" : 1657657143997,
+        "duration" : 60163
+      }
+    }, {
+      "uid" : "685553daedde6dad",
+      "status" : "broken",
+      "statusDetails" : "element (\"//a[text()=\"View Clients\"]\") still not displayed after 60000ms",
+      "time" : {
+        "start" : 1657656667732,
+        "stop" : 1657656727895,
+        "duration" : 60163
+      }
+    }, {
+      "uid" : "cb0a2c92c196bc95",
+      "status" : "broken",
+      "statusDetails" : "element (\"//a[text()=\"View Clients\"]\") still not displayed after 60000ms",
+      "time" : {
+        "start" : 1657656252599,
+        "stop" : 1657656312764,
+        "duration" : 60165
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "27964ffc24d82681.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

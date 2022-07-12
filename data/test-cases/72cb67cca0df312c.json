@@ -1,0 +1,102 @@
+{
+  "uid" : "72cb67cca0df312c",
+  "name" : "Should go to clients page and check url",
+  "fullName" : "C2270: Check HIPAA checkbox when enrolling .Should go to clients page and check url",
+  "historyId" : "cfb0a6bb2ffbf574e3052904bc837b3a",
+  "time" : {
+    "start" : 1657654262538,
+    "stop" : 1657654337004,
+    "duration" : 74466
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6f9f80529c554d49",
+      "name" : "Screenshot",
+      "source" : "6f9f80529c554d49.png",
+      "type" : "image/png",
+      "size" : 212406
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-16"
+  }, {
+    "name" : "suite",
+    "value" : "C2270: Check HIPAA checkbox when enrolling "
+  }, {
+    "name" : "testClass",
+    "value" : "C2270: Check HIPAA checkbox when enrolling "
+  }, {
+    "name" : "testMethod",
+    "value" : "Should go to clients page and check url"
+  }, {
+    "name" : "package",
+    "value" : "C2270: Check HIPAA checkbox when enrolling "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "53d1766c51466662",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657654125729,
+        "stop" : 1657654199114,
+        "duration" : 73385
+      }
+    }, {
+      "uid" : "ac39b1aa49d5d604",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657653992123,
+        "stop" : 1657654065167,
+        "duration" : 73044
+      }
+    }, {
+      "uid" : "4fd35e6ee7df1074",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657653850779,
+        "stop" : 1657653929649,
+        "duration" : 78870
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "72cb67cca0df312c.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

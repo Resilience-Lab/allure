@@ -1,0 +1,131 @@
+{
+  "uid" : "6ca1f5370971eca4",
+  "name" : "\"before all\" hook for C2283: Verify that 'Pronoun' it's required field",
+  "fullName" : "C2283: Verify that 'Pronoun' it's required field.\"before all\" hook for C2283: Verify that 'Pronoun' it's required field",
+  "historyId" : "2928a2d953d2889d1947fe27e79ff2f1",
+  "time" : {
+    "start" : 1657661166365,
+    "stop" : 1657661406369,
+    "duration" : 240004
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Timeout of 240000ms exceeded. The execution in the test \"C2283: Verify that 'Pronoun' it's required field \"before all\" hook for \"Should go to clients page and check url\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/home/runner/work/webautomation/webautomation/test/specs/Clinicians/C2284_Verify_that_'client_have_contact_with_the_Care_Coordinator'_it's_required_field.spec.ts)",
+  "statusTrace" : "Error: Timeout of 240000ms exceeded. The execution in the test \"C2283: Verify that 'Pronoun' it's required field \"before all\" hook for \"Should go to clients page and check url\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/home/runner/work/webautomation/webautomation/test/specs/Clinicians/C2284_Verify_that_'client_have_contact_with_the_Care_Coordinator'_it's_required_field.spec.ts)\n                    at createTimeoutError (/home/runner/work/webautomation/webautomation/node_modules/mocha/lib/errors.js:498:15)\n                    at Hook.Runnable._timeoutError (/home/runner/work/webautomation/webautomation/node_modules/mocha/lib/runnable.js:431:10)\n                    at Timeout.<anonymous> (/home/runner/work/webautomation/webautomation/node_modules/mocha/lib/runnable.js:246:24)\n                    at listOnTimeout (node:internal/timers:559:17)\n                    at processTimers (node:internal/timers:502:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 7,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-26"
+  }, {
+    "name" : "suite",
+    "value" : "C2283: Verify that 'Pronoun' it's required field"
+  }, {
+    "name" : "testClass",
+    "value" : "C2283: Verify that 'Pronoun' it's required field"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook for C2283: Verify that 'Pronoun' it's required field"
+  }, {
+    "name" : "package",
+    "value" : "C2283: Verify that 'Pronoun' it's required field"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1a203a3ec8ace319",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 240000ms exceeded. The execution in the test \"C2283: Verify that 'Pronoun' it's required field \"before all\" hook for \"Should go to clients page and check url\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/home/runner/work/webautomation/webautomation/test/specs/Clinicians/C2284_Verify_that_'client_have_contact_with_the_Care_Coordinator'_it's_required_field.spec.ts)",
+      "time" : {
+        "start" : 1657660864165,
+        "stop" : 1657661104172,
+        "duration" : 240007
+      }
+    }, {
+      "uid" : "2875b1e78fa2e8ae",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 240000ms exceeded. The execution in the test \"C2283: Verify that 'Pronoun' it's required field \"before all\" hook for \"Should go to clients page and check url\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/home/runner/work/webautomation/webautomation/test/specs/Clinicians/C2284_Verify_that_'client_have_contact_with_the_Care_Coordinator'_it's_required_field.spec.ts)",
+      "time" : {
+        "start" : 1657660562063,
+        "stop" : 1657660802069,
+        "duration" : 240006
+      }
+    }, {
+      "uid" : "75f401c3068b979c",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 240000ms exceeded. The execution in the test \"C2283: Verify that 'Pronoun' it's required field \"before all\" hook for \"Should go to clients page and check url\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/home/runner/work/webautomation/webautomation/test/specs/Clinicians/C2284_Verify_that_'client_have_contact_with_the_Care_Coordinator'_it's_required_field.spec.ts)",
+      "time" : {
+        "start" : 1657660259925,
+        "stop" : 1657660499930,
+        "duration" : 240005
+      }
+    }, {
+      "uid" : "1897f90d17b2f795",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 240000ms exceeded. The execution in the test \"C2283: Verify that 'Pronoun' it's required field \"before all\" hook for \"Should go to clients page and check url\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/home/runner/work/webautomation/webautomation/test/specs/Clinicians/C2283_Verify_that_'Pronoun'_it's_required_field.spec.ts)",
+      "time" : {
+        "start" : 1657659957814,
+        "stop" : 1657660197819,
+        "duration" : 240005
+      }
+    }, {
+      "uid" : "99ab574c94c36e",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 240000ms exceeded. The execution in the test \"C2283: Verify that 'Pronoun' it's required field \"before all\" hook for \"Should go to clients page and check url\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/home/runner/work/webautomation/webautomation/test/specs/Clinicians/C2283_Verify_that_'Pronoun'_it's_required_field.spec.ts)",
+      "time" : {
+        "start" : 1657659655639,
+        "stop" : 1657659895644,
+        "duration" : 240005
+      }
+    }, {
+      "uid" : "afdc4a1adafcd069",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 240000ms exceeded. The execution in the test \"C2283: Verify that 'Pronoun' it's required field \"before all\" hook for \"Should go to clients page and check url\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/home/runner/work/webautomation/webautomation/test/specs/Clinicians/C2283_Verify_that_'Pronoun'_it's_required_field.spec.ts)",
+      "time" : {
+        "start" : 1657659353406,
+        "stop" : 1657659593413,
+        "duration" : 240007
+      }
+    }, {
+      "uid" : "bcab63bfbf2456e",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 240000ms exceeded. The execution in the test \"C2283: Verify that 'Pronoun' it's required field \"before all\" hook for \"Should go to clients page and check url\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/home/runner/work/webautomation/webautomation/test/specs/Clinicians/C2283_Verify_that_'Pronoun'_it's_required_field.spec.ts)",
+      "time" : {
+        "start" : 1657659051201,
+        "stop" : 1657659291206,
+        "duration" : 240005
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "6ca1f5370971eca4.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

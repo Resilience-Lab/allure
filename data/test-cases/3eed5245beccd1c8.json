@@ -1,0 +1,62 @@
+{
+  "uid" : "3eed5245beccd1c8",
+  "name" : "\"before all\" hook for C2267: Price should be 0 with active cost share waiver (CSW)",
+  "fullName" : "C2267: Price should be 0 with active cost share waiver (CSW).\"before all\" hook for C2267: Price should be 0 with active cost share waiver (CSW)",
+  "historyId" : "3b0e2aca96c027692ca79155ad70c25d",
+  "time" : {
+    "start" : 1657652944281,
+    "stop" : 1657653184286,
+    "duration" : 240005
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Timeout of 240000ms exceeded. The execution in the test \"C2267: Price should be 0 with active cost share waiver (CSW) \"before all\" hook for \"Should go to clients page and check url\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/home/runner/work/webautomation/webautomation/test/specs/Clients/Insurance/C2267_Standard_billing_rate_message_for_INN_partner_payer.spec.ts)",
+  "statusTrace" : "Error: Timeout of 240000ms exceeded. The execution in the test \"C2267: Price should be 0 with active cost share waiver (CSW) \"before all\" hook for \"Should go to clients page and check url\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/home/runner/work/webautomation/webautomation/test/specs/Clients/Insurance/C2267_Standard_billing_rate_message_for_INN_partner_payer.spec.ts)\n                    at createTimeoutError (/home/runner/work/webautomation/webautomation/node_modules/mocha/lib/errors.js:498:15)\n                    at Hook.Runnable._timeoutError (/home/runner/work/webautomation/webautomation/node_modules/mocha/lib/runnable.js:431:10)\n                    at Timeout.<anonymous> (/home/runner/work/webautomation/webautomation/node_modules/mocha/lib/runnable.js:246:24)\n                    at listOnTimeout (node:internal/timers:559:17)\n                    at processTimers (node:internal/timers:502:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-15"
+  }, {
+    "name" : "suite",
+    "value" : "C2267: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "testClass",
+    "value" : "C2267: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook for C2267: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "package",
+    "value" : "C2267: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3eed5245beccd1c8.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

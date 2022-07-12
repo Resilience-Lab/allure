@@ -1,0 +1,113 @@
+{
+  "uid" : "7e849edf495d0a42",
+  "name" : "Should change clinican status to Inactive",
+  "fullName" : "C2256: Set clinician as inactive..Should change clinican status to Inactive",
+  "historyId" : "6ca0e411974b046867688853610250",
+  "time" : {
+    "start" : 1657657633196,
+    "stop" : 1657657693452,
+    "duration" : 60256
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\".noty_buttons .btn.btn-success\") still not displayed after 60000ms",
+  "statusTrace" : "Error: element (\".noty_buttons .btn.btn-success\") still not displayed after 60000ms\n                    at async EditPage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async EditPage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:143:9)\n                    at async EditPage.clickCfmSessionsDeleteBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/edit.page.ts:33:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\".noty_buttons .btn.btn-success\") still not displayed after 60000ms",
+    "statusTrace" : "Error: element (\".noty_buttons .btn.btn-success\") still not displayed after 60000ms\n                    at async EditPage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async EditPage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:143:9)\n                    at async EditPage.clickCfmSessionsDeleteBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/edit.page.ts:33:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6e6a5f2f1a97280a",
+      "name" : "Screenshot",
+      "source" : "6e6a5f2f1a97280a.png",
+      "type" : "image/png",
+      "size" : 111690
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-22"
+  }, {
+    "name" : "suite",
+    "value" : "C2256: Set clinician as inactive."
+  }, {
+    "name" : "testClass",
+    "value" : "C2256: Set clinician as inactive."
+  }, {
+    "name" : "testMethod",
+    "value" : "Should change clinican status to Inactive"
+  }, {
+    "name" : "package",
+    "value" : "C2256: Set clinician as inactive."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "52b88ef1a44a1755",
+      "status" : "broken",
+      "statusDetails" : "element (\".noty_buttons .btn.btn-success\") still not displayed after 60000ms",
+      "time" : {
+        "start" : 1657657216870,
+        "stop" : 1657657277154,
+        "duration" : 60284
+      }
+    }, {
+      "uid" : "240bc2d00b5d8762",
+      "status" : "broken",
+      "statusDetails" : "element (\".noty_buttons .btn.btn-success\") still not displayed after 60000ms",
+      "time" : {
+        "start" : 1657656800750,
+        "stop" : 1657656861018,
+        "duration" : 60268
+      }
+    }, {
+      "uid" : "71ed914c025f2d70",
+      "status" : "broken",
+      "statusDetails" : "element (\".noty_buttons .btn.btn-success\") still not displayed after 60000ms",
+      "time" : {
+        "start" : 1657656385689,
+        "stop" : 1657656445948,
+        "duration" : 60259
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "7e849edf495d0a42.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

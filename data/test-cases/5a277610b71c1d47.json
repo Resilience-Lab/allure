@@ -1,0 +1,95 @@
+{
+  "uid" : "5a277610b71c1d47",
+  "name" : "\"before all\" hook for C2280: Verify Insurance Card Form",
+  "fullName" : "C2280: Verify Insurance Card Form.\"before all\" hook for C2280: Verify Insurance Card Form",
+  "historyId" : "aeb2bec4e410834405f3040a38fbeb4c",
+  "time" : {
+    "start" : 1657650493247,
+    "stop" : 1657650733252,
+    "duration" : 240005
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Timeout of 240000ms exceeded. The execution in the test \"C2280: Verify Insurance Card Form \"before all\" hook for \"Should go to clients page and check url\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/home/runner/work/webautomation/webautomation/test/specs/Clients/C2280_Verify_Insurance_Card_Form.spec.ts)",
+  "statusTrace" : "Error: Timeout of 240000ms exceeded. The execution in the test \"C2280: Verify Insurance Card Form \"before all\" hook for \"Should go to clients page and check url\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/home/runner/work/webautomation/webautomation/test/specs/Clients/C2280_Verify_Insurance_Card_Form.spec.ts)\n                    at createTimeoutError (/home/runner/work/webautomation/webautomation/node_modules/mocha/lib/errors.js:498:15)\n                    at Hook.Runnable._timeoutError (/home/runner/work/webautomation/webautomation/node_modules/mocha/lib/runnable.js:431:10)\n                    at Timeout.<anonymous> (/home/runner/work/webautomation/webautomation/node_modules/mocha/lib/runnable.js:246:24)\n                    at listOnTimeout (node:internal/timers:559:17)\n                    at processTimers (node:internal/timers:502:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-7"
+  }, {
+    "name" : "suite",
+    "value" : "C2280: Verify Insurance Card Form"
+  }, {
+    "name" : "testClass",
+    "value" : "C2280: Verify Insurance Card Form"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook for C2280: Verify Insurance Card Form"
+  }, {
+    "name" : "package",
+    "value" : "C2280: Verify Insurance Card Form"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e0febb5483d32063",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 240000ms exceeded. The execution in the test \"C2280: Verify Insurance Card Form \"before all\" hook for \"Should go to clients page and check url\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/home/runner/work/webautomation/webautomation/test/specs/Clients/C2280_Verify_Insurance_Card_Form.spec.ts)",
+      "time" : {
+        "start" : 1657650191002,
+        "stop" : 1657650431006,
+        "duration" : 240004
+      }
+    }, {
+      "uid" : "98bb9371e5b966d1",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 240000ms exceeded. The execution in the test \"C2280: Verify Insurance Card Form \"before all\" hook for \"Should go to clients page and check url\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/home/runner/work/webautomation/webautomation/test/specs/Clients/C2280_Verify_Insurance_Card_Form.spec.ts)",
+      "time" : {
+        "start" : 1657649888731,
+        "stop" : 1657650128736,
+        "duration" : 240005
+      }
+    }, {
+      "uid" : "716183cbf95d7db9",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 240000ms exceeded. The execution in the test \"C2280: Verify Insurance Card Form \"before all\" hook for \"Should go to clients page and check url\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/home/runner/work/webautomation/webautomation/test/specs/Clients/C2280_Verify_Insurance_Card_Form.spec.ts)",
+      "time" : {
+        "start" : 1657649586470,
+        "stop" : 1657649826476,
+        "duration" : 240006
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "5a277610b71c1d47.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

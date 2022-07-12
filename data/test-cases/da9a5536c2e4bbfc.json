@@ -1,0 +1,62 @@
+{
+  "uid" : "da9a5536c2e4bbfc",
+  "name" : "\"after all\" hook for C2280: Verify Insurance Card Form",
+  "fullName" : "C2280: Verify Insurance Card Form.\"after all\" hook for C2280: Verify Insurance Card Form",
+  "historyId" : "61afe0c4bc3c8f456f867f83d6008a21",
+  "time" : {
+    "start" : 1657650128737,
+    "stop" : 1657650189142,
+    "duration" : 60405
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"#toolbar a[href=\"index.php?module=Accounts&action=index&parentTab=All\"]\") still not displayed after 60000ms",
+  "statusTrace" : "Error: element (\"#toolbar a[href=\"index.php?module=Accounts&action=index&parentTab=All\"]\") still not displayed after 60000ms\n                    at runNextTicks (node:internal/process/task_queues:61:5)\n                    at processTimers (node:internal/timers:499:9)\n                    at async NavigationBar.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-7"
+  }, {
+    "name" : "suite",
+    "value" : "C2280: Verify Insurance Card Form"
+  }, {
+    "name" : "testClass",
+    "value" : "C2280: Verify Insurance Card Form"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"after all\" hook for C2280: Verify Insurance Card Form"
+  }, {
+    "name" : "package",
+    "value" : "C2280: Verify Insurance Card Form"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "da9a5536c2e4bbfc.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

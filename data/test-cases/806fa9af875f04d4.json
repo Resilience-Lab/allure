@@ -1,0 +1,62 @@
+{
+  "uid" : "806fa9af875f04d4",
+  "name" : "\"before all\" hook for C2261: Clients need to be able to upload documents via Portal",
+  "fullName" : "C2261: Clients need to be able to upload documents via Portal.\"before all\" hook for C2261: Clients need to be able to upload documents via Portal",
+  "historyId" : "78d841fd2bd054eb668367ed2f354fa9",
+  "time" : {
+    "start" : 1657648164249,
+    "stop" : 1657648404253,
+    "duration" : 240004
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Timeout of 240000ms exceeded. The execution in the test \"C2261: Clients need to be able to upload documents via Portal \"before all\" hook for \"Should open CP page and Log In\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/home/runner/work/webautomation/webautomation/test/specs/Clients/C2261_upload_doc_via_portal.spec.ts)",
+  "statusTrace" : "Error: Timeout of 240000ms exceeded. The execution in the test \"C2261: Clients need to be able to upload documents via Portal \"before all\" hook for \"Should open CP page and Log In\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/home/runner/work/webautomation/webautomation/test/specs/Clients/C2261_upload_doc_via_portal.spec.ts)\n                    at createTimeoutError (/home/runner/work/webautomation/webautomation/node_modules/mocha/lib/errors.js:498:15)\n                    at Hook.Runnable._timeoutError (/home/runner/work/webautomation/webautomation/node_modules/mocha/lib/runnable.js:431:10)\n                    at Timeout.<anonymous> (/home/runner/work/webautomation/webautomation/node_modules/mocha/lib/runnable.js:246:24)\n                    at listOnTimeout (node:internal/timers:559:17)\n                    at processTimers (node:internal/timers:502:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "C2261: Clients need to be able to upload documents via Portal"
+  }, {
+    "name" : "testClass",
+    "value" : "C2261: Clients need to be able to upload documents via Portal"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook for C2261: Clients need to be able to upload documents via Portal"
+  }, {
+    "name" : "package",
+    "value" : "C2261: Clients need to be able to upload documents via Portal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "806fa9af875f04d4.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

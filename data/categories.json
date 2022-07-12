@@ -6,13 +6,13 @@
       "name" : "element (\"[name=\"email\"]\") still not displayed after 60000ms",
       "children" : [ {
         "name" : "Should signUp to account",
-        "uid" : "9427e7c5b6675a76",
+        "uid" : "14db0a297e4bda91",
         "parentUid" : "a6ec8fee4d6ecc89c0ac894aec3efe04",
         "status" : "broken",
         "time" : {
-          "start" : 1657627024634,
-          "stop" : 1657627084832,
-          "duration" : 60198
+          "start" : 1657646460110,
+          "stop" : 1657646520298,
+          "duration" : 60188
         },
         "flaky" : false,
         "newFailed" : false,
@@ -23,36 +23,19 @@
         "parameters" : [ "chrome-103.0.5060.114" ]
       }, {
         "name" : "Should signUp to account",
-        "uid" : "f39f0d1d5da753b5",
+        "uid" : "7a22990de3d48f95",
         "parentUid" : "a6ec8fee4d6ecc89c0ac894aec3efe04",
         "status" : "broken",
         "time" : {
-          "start" : 1657628373987,
-          "stop" : 1657628434205,
-          "duration" : 60218
+          "start" : 1657646968456,
+          "stop" : 1657647028631,
+          "duration" : 60175
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 3,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-103.0.5060.114" ]
-      }, {
-        "name" : "Should signUp to account",
-        "uid" : "30fe26eb9430b855",
-        "parentUid" : "a6ec8fee4d6ecc89c0ac894aec3efe04",
-        "status" : "broken",
-        "time" : {
-          "start" : 1657629681214,
-          "stop" : 1657629741407,
-          "duration" : 60193
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
+        "retriesCount" : 0,
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-103.0.5060.114" ]
       } ],
@@ -61,13 +44,13 @@
       "name" : "element (\"(//td[@class='col-xs-4'])[1]\") still not clickable after 10000ms",
       "children" : [ {
         "name" : "Should verify email from Resiliencelab",
-        "uid" : "9940e2c41c40f000",
+        "uid" : "865cdcda71081422",
         "parentUid" : "69715e28b6c12c26c59d319c868e506e",
         "status" : "broken",
         "time" : {
-          "start" : 1657627295892,
-          "stop" : 1657627306384,
-          "duration" : 10492
+          "start" : 1657646730806,
+          "stop" : 1657646741281,
+          "duration" : 10475
         },
         "flaky" : false,
         "newFailed" : false,
@@ -78,36 +61,19 @@
         "parameters" : [ "chrome-103.0.5060.114" ]
       }, {
         "name" : "Should verify email from Resiliencelab",
-        "uid" : "6901129338b1beae",
+        "uid" : "8018425cf7c034a6",
         "parentUid" : "69715e28b6c12c26c59d319c868e506e",
         "status" : "broken",
         "time" : {
-          "start" : 1657628352156,
-          "stop" : 1657628373987,
-          "duration" : 21831
+          "start" : 1657646946595,
+          "stop" : 1657646968450,
+          "duration" : 21855
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 3,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-103.0.5060.114" ]
-      }, {
-        "name" : "Should verify email from Resiliencelab",
-        "uid" : "b40f2e51bf1d5d67",
-        "parentUid" : "69715e28b6c12c26c59d319c868e506e",
-        "status" : "broken",
-        "time" : {
-          "start" : 1657629659231,
-          "stop" : 1657629681213,
-          "duration" : 21982
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
+        "retriesCount" : 0,
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-103.0.5060.114" ]
       } ],
@@ -116,13 +82,13 @@
       "name" : "element (\"(//p[contains(text(),\"test\")]//..//..//button)[2]\") still not clickable after 10000ms",
       "children" : [ {
         "name" : "Should check \"test\" text matches",
-        "uid" : "20bd71ad2a6db440",
+        "uid" : "b76e34cf765f2674",
         "parentUid" : "fa3a9e0a7ffd9b4257ba6042b6ad8b88",
         "status" : "broken",
         "time" : {
-          "start" : 1657627306593,
-          "stop" : 1657627316816,
-          "duration" : 10223
+          "start" : 1657646741465,
+          "stop" : 1657646751659,
+          "duration" : 10194
         },
         "flaky" : false,
         "newFailed" : false,
@@ -137,13 +103,13 @@
       "name" : "element (\"//button[@type=\"submit\"][text()=\"Download Document\"]\") still not displayed after 60000ms",
       "children" : [ {
         "name" : "Should try to download file",
-        "uid" : "e382c96a71cbaf9b",
+        "uid" : "79e74f24b754b20",
         "parentUid" : "29a24ae9a32e313bc106d1d9d982aa87",
         "status" : "broken",
         "time" : {
-          "start" : 1657627316816,
-          "stop" : 1657627377046,
-          "duration" : 60230
+          "start" : 1657646751659,
+          "stop" : 1657646811858,
+          "duration" : 60199
         },
         "flaky" : false,
         "newFailed" : false,
@@ -158,13 +124,13 @@
       "name" : "element (\"(//p[contains(text(),\"New Credit Card Form\")]//..//..//button)[1]\") still not clickable after 10000ms",
       "children" : [ {
         "name" : "Should go to \"Review and Complete\" for \"New Credit Card Form\"",
-        "uid" : "4e909393a61b7cd3",
+        "uid" : "1fd1f6fd00d60fd8",
         "parentUid" : "5464dd2776ae6ac43532abeaf9130f7c",
         "status" : "broken",
         "time" : {
-          "start" : 1657627377375,
-          "stop" : 1657627387589,
-          "duration" : 10214
+          "start" : 1657646812226,
+          "stop" : 1657646822433,
+          "duration" : 10207
         },
         "flaky" : false,
         "newFailed" : false,
@@ -179,13 +145,13 @@
       "name" : "element (\"input#cardNumber\") still not displayed after 60000ms",
       "children" : [ {
         "name" : "Should fill out credit card form and click \"Submit\" button",
-        "uid" : "bc2b4ed6a37efc4e",
+        "uid" : "85f626fe42a996ba",
         "parentUid" : "8acb3ebe13ea97471207fb54440726f2",
         "status" : "broken",
         "time" : {
-          "start" : 1657627387590,
-          "stop" : 1657627452792,
-          "duration" : 65202
+          "start" : 1657646822433,
+          "stop" : 1657646887616,
+          "duration" : 65183
         },
         "flaky" : false,
         "newFailed" : false,
@@ -200,19 +166,19 @@
       "name" : "No window found with title, url or name matching \"Home | Resilence Lab\"",
       "children" : [ {
         "name" : "Should download file",
-        "uid" : "6d973612e41c1ea3",
+        "uid" : "d43e67ce42af1909",
         "parentUid" : "b1456b046bd4f719d75736c54a932442",
         "status" : "broken",
         "time" : {
-          "start" : 1657628436026,
-          "stop" : 1657628436251,
-          "duration" : 225
+          "start" : 1657647030412,
+          "stop" : 1657647030603,
+          "duration" : 191
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 3,
+        "retriesCount" : 0,
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-103.0.5060.114" ]
       } ],
@@ -221,19 +187,19 @@
       "name" : "element (\"a[href=\"https://dev.client.resiliencelab.us/logout\"]\") still not displayed after 60000ms",
       "children" : [ {
         "name" : "Should sign up to client portal without invitation",
-        "uid" : "565d80ce06164082",
+        "uid" : "acb80b410400f741",
         "parentUid" : "1f35a388ab6f8a6391af40fd78da76da",
         "status" : "broken",
         "time" : {
-          "start" : 1657628441876,
-          "stop" : 1657628507994,
-          "duration" : 66118
+          "start" : 1657647036306,
+          "stop" : 1657647102116,
+          "duration" : 65810
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 3,
+        "retriesCount" : 0,
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-103.0.5060.114" ]
       } ],
@@ -242,13 +208,76 @@
       "name" : "element (\"//button[text() = 'View Requests']\") still not displayed after 60000ms",
       "children" : [ {
         "name" : "Should download file without invitation",
-        "uid" : "bf5e97eb6f9dac42",
+        "uid" : "3b90bfac2865c07b",
         "parentUid" : "e7990517bf9bd2ec83e3df24e394464e",
         "status" : "broken",
         "time" : {
-          "start" : 1657628507995,
-          "stop" : 1657628578928,
-          "duration" : 70933
+          "start" : 1657647102116,
+          "stop" : 1657647172874,
+          "duration" : 70758
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      } ],
+      "uid" : "e7990517bf9bd2ec83e3df24e394464e"
+    }, {
+      "name" : "Timeout of 240000ms exceeded. The execution in the test \"C2258: Superbill submission via Portal \"before all\" hook for \"Should go to clients page and check url\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/home/runner/work/webautomation/webautomation/test/specs/Clients/C2258_superbill_submission_via_portal.spec.ts)",
+      "children" : [ {
+        "name" : "\"before all\" hook for C2258: Superbill submission via Portal",
+        "uid" : "d5099d848f247d8e",
+        "parentUid" : "e9a09e994ee5c83549babd7e6060fead",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657647658712,
+          "stop" : 1657647898718,
+          "duration" : 240006
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      } ],
+      "uid" : "e9a09e994ee5c83549babd7e6060fead"
+    }, {
+      "name" : "No window found with title, url or name matching \"Clients - ResilienceLab\"",
+      "children" : [ {
+        "name" : "\"after all\" hook for C2258: Superbill submission via Portal",
+        "uid" : "92c8212eb606fcbd",
+        "parentUid" : "7101ea51507b144473754291497c00fc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657647898719,
+          "stop" : 1657647898758,
+          "duration" : 39
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      } ],
+      "uid" : "7101ea51507b144473754291497c00fc"
+    }, {
+      "name" : "Timeout of 240000ms exceeded. The execution in the test \"C2261: Clients need to be able to upload documents via Portal \"before all\" hook for \"Should open CP page and Log In\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/home/runner/work/webautomation/webautomation/test/specs/Clients/C2261_upload_doc_via_portal.spec.ts)",
+      "children" : [ {
+        "name" : "\"before all\" hook for C2261: Clients need to be able to upload documents via Portal",
+        "uid" : "b3db304d0f5da104",
+        "parentUid" : "47546415ec71f4582cb303187f60d928",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657648647686,
+          "stop" : 1657648887690,
+          "duration" : 240004
         },
         "flaky" : false,
         "newFailed" : false,
@@ -257,36 +286,19 @@
         "retriesCount" : 3,
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-103.0.5060.114" ]
-      }, {
-        "name" : "Should select some Payer and upload card",
-        "uid" : "56ee6d0512a660a0",
-        "parentUid" : "e7990517bf9bd2ec83e3df24e394464e",
-        "status" : "broken",
-        "time" : {
-          "start" : 1657629741407,
-          "stop" : 1657629801604,
-          "duration" : 60197
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-103.0.5060.114" ]
       } ],
-      "uid" : "e7990517bf9bd2ec83e3df24e394464e"
+      "uid" : "47546415ec71f4582cb303187f60d928"
     }, {
       "name" : "element (\"select#rl_multi_clinicians_dropdown\") still not clickable after 60000ms",
       "children" : [ {
         "name" : "\"after all\" hook for C2265: Terminate client with multiclinician",
-        "uid" : "1034263405f0a229",
+        "uid" : "55dd6421bdff4dfd",
         "parentUid" : "b9ca2c9bc8adc21ff333120fd3acf161",
         "status" : "broken",
         "time" : {
-          "start" : 1657628994861,
-          "stop" : 1657629115169,
-          "duration" : 120308
+          "start" : 1657649391425,
+          "stop" : 1657649511650,
+          "duration" : 120225
         },
         "flaky" : false,
         "newFailed" : false,
@@ -298,37 +310,117 @@
       } ],
       "uid" : "b9ca2c9bc8adc21ff333120fd3acf161"
     }, {
-      "name" : "element (\"button#terminate-btn\") still not displayed after 60000ms",
+      "name" : "Timeout of 240000ms exceeded. The execution in the test \"C2280: Verify Insurance Card Form \"before all\" hook for \"Should go to clients page and check url\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/home/runner/work/webautomation/webautomation/test/specs/Clients/C2280_Verify_Insurance_Card_Form.spec.ts)",
       "children" : [ {
-        "name" : "Should terminate client assigned to \"Danashia Mclaughlin\" with reason \"test\"",
-        "uid" : "79e20e94bbb86a87",
-        "parentUid" : "8e4332ff073a1442f6c37be87e5d49a0",
+        "name" : "\"before all\" hook for C2280: Verify Insurance Card Form",
+        "uid" : "5a277610b71c1d47",
+        "parentUid" : "d3ede0569cae4c25b1e40c602e6bc605",
         "status" : "broken",
         "time" : {
-          "start" : 1657629158301,
-          "stop" : 1657629218680,
-          "duration" : 60379
+          "start" : 1657650493247,
+          "stop" : 1657650733252,
+          "duration" : 240005
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
         "retriesCount" : 3,
-        "retriesStatusChange" : true,
+        "retriesStatusChange" : false,
         "parameters" : [ "chrome-103.0.5060.114" ]
       } ],
-      "uid" : "8e4332ff073a1442f6c37be87e5d49a0"
+      "uid" : "d3ede0569cae4c25b1e40c602e6bc605"
     }, {
-      "name" : "element (\"#insurer_id\") still not displayed after 60000ms",
+      "name" : "element (\"#toolbar a[href=\"index.php?module=Accounts&action=index&parentTab=All\"]\") still not displayed after 60000ms",
       "children" : [ {
-        "name" : "The insurance tab should be with Insurance info",
-        "uid" : "2afe46e2ff0cba79",
-        "parentUid" : "7eea607227a17f3c4c978df09fb32066",
+        "name" : "\"after all\" hook for C2280: Verify Insurance Card Form",
+        "uid" : "92a7f13dc71863e4",
+        "parentUid" : "072b646b1267e370ce40e91f71807966",
         "status" : "broken",
         "time" : {
-          "start" : 1657629801605,
-          "stop" : 1657629871997,
-          "duration" : 70392
+          "start" : 1657650733253,
+          "stop" : 1657650793643,
+          "duration" : 60390
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      }, {
+        "name" : "\"after all\" hook for C2267: Price should be 0 with active cost share waiver (CSW)",
+        "uid" : "ce055e3953e2de60",
+        "parentUid" : "072b646b1267e370ce40e91f71807966",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657653788618,
+          "stop" : 1657653849026,
+          "duration" : 60408
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      } ],
+      "uid" : "072b646b1267e370ce40e91f71807966"
+    }, {
+      "name" : "Timeout of 240000ms exceeded. The execution in the test \"C2266: API log sort \"before all\" hook for \"Should go to clients page and check url\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/home/runner/work/webautomation/webautomation/test/specs/Clients/Insurance/C2266_API_log_sort.spec.ts)",
+      "children" : [ {
+        "name" : "\"before all\" hook for C2266: API log sort",
+        "uid" : "f728e681a0475cbe",
+        "parentUid" : "979e36ca8615320eb5036a19026792f7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657652400337,
+          "stop" : 1657652640341,
+          "duration" : 240004
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      } ],
+      "uid" : "979e36ca8615320eb5036a19026792f7"
+    }, {
+      "name" : "Timeout of 240000ms exceeded. The execution in the test \"C2267: Price should be 0 with active cost share waiver (CSW) \"before all\" hook for \"Should go to clients page and check url\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/home/runner/work/webautomation/webautomation/test/specs/Clients/Insurance/C2267_Standard_billing_rate_message_for_INN_partner_payer.spec.ts)",
+      "children" : [ {
+        "name" : "\"before all\" hook for C2267: Price should be 0 with active cost share waiver (CSW)",
+        "uid" : "a34f64f7e9aa6568",
+        "parentUid" : "997966cc45a6f49446a9e59669ea9c31",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657653548613,
+          "stop" : 1657653788617,
+          "duration" : 240004
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      } ],
+      "uid" : "997966cc45a6f49446a9e59669ea9c31"
+    }, {
+      "name" : "element (\"((//tr[@class='oddListRowS1'])[1]//td//a)[1]\") still not displayed after 60000ms",
+      "children" : [ {
+        "name" : "\"before all\" hook for C2275: Allow to create more than 1 session per day for INN not enrolled client",
+        "uid" : "ad4b89f2ae996c06",
+        "parentUid" : "a5554690420a8ad7e10448b9a8518fee",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657654607938,
+          "stop" : 1657654797811,
+          "duration" : 189873
         },
         "flaky" : false,
         "newFailed" : false,
@@ -338,7 +430,255 @@
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-103.0.5060.114" ]
       } ],
-      "uid" : "7eea607227a17f3c4c978df09fb32066"
+      "uid" : "a5554690420a8ad7e10448b9a8518fee"
+    }, {
+      "name" : "Timeout of 240000ms exceeded. The execution in the test \"C2272: Don't allow to create more than 1 session per day for INN enrolled client \"before all\" hook for \"Should go to clients page and check url\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/home/runner/work/webautomation/webautomation/test/specs/Clients/Session creating test cases/С2272_Don't_allow_to_create_more_than_1_session_per_day_for_INN_enrolled_client.spec.ts)",
+      "children" : [ {
+        "name" : "\"before all\" hook for C2272: Don't allow to create more than 1 session per day for INN enrolled client",
+        "uid" : "2cf6cf5bd2b34d29",
+        "parentUid" : "fbb2a7412cb6969254af7d56dcbf4a9d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657655915883,
+          "stop" : 1657656155889,
+          "duration" : 240006
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      } ],
+      "uid" : "fbb2a7412cb6969254af7d56dcbf4a9d"
+    }, {
+      "name" : "Can't call scrollIntoView on element with selector \"(//tr[contains(@class,'ListRowS1')]//td[3]//a)[contains(text(),'Vadym')]\" because element wasn't found",
+      "children" : [ {
+        "name" : "Should go to some active clinician profile",
+        "uid" : "70c7a22bd97ea2cd",
+        "parentUid" : "20bbeace38af7639ea93723b27af0515",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657657486815,
+          "stop" : 1657657499968,
+          "duration" : 13153
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      } ],
+      "uid" : "20bbeace38af7639ea93723b27af0515"
+    }, {
+      "name" : "element (\"//a[text()=\"View Clients\"]\") still not displayed after 60000ms",
+      "children" : [ {
+        "name" : "Should click on \"View clients\"",
+        "uid" : "27964ffc24d82681",
+        "parentUid" : "dbeff447c54844a2c5ce6d9fd0fe3c99",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657657499968,
+          "stop" : 1657657560140,
+          "duration" : 60172
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      } ],
+      "uid" : "dbeff447c54844a2c5ce6d9fd0fe3c99"
+    }, {
+      "name" : "Can't call scrollIntoView on element with selector \"(//td[contains(@field,\"name\")]//a)[1]\" because element wasn't found",
+      "children" : [ {
+        "name" : "Should go to some active client profile",
+        "uid" : "d557d1d32ef85d1e",
+        "parentUid" : "eccf853c121e10215b5885f5d2df3ccb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657657560141,
+          "stop" : 1657657570319,
+          "duration" : 10178
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      } ],
+      "uid" : "eccf853c121e10215b5885f5d2df3ccb"
+    }, {
+      "name" : "element (\"[onclick*=\"changeTabsSubpanels('4')\"]\") still not displayed after 60000ms",
+      "children" : [ {
+        "name" : "Should go to sessions tab and create future session",
+        "uid" : "c23c2f22868b1752",
+        "parentUid" : "69704100506f45d234fa15d992c0c2ce",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657657570319,
+          "stop" : 1657657630488,
+          "duration" : 60169
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      } ],
+      "uid" : "69704100506f45d234fa15d992c0c2ce"
+    }, {
+      "name" : "element (\".noty_buttons .btn.btn-success\") still not displayed after 60000ms",
+      "children" : [ {
+        "name" : "Should change clinican status to Inactive",
+        "uid" : "7e849edf495d0a42",
+        "parentUid" : "a36b4cc5bb6816156c6da4c49282112d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657657633196,
+          "stop" : 1657657693452,
+          "duration" : 60256
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      } ],
+      "uid" : "a36b4cc5bb6816156c6da4c49282112d"
+    }, {
+      "name" : "element (\"(//li[@class=\"sugar_action_button desktopOnly\"])[1]\") still not displayed after 60000ms",
+      "children" : [ {
+        "name" : "\"after all\" hook for C2256: Set clinician as inactive.",
+        "uid" : "a137b95153ef0cfe",
+        "parentUid" : "40dcc12578836b944fc825608a5ed0f2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657657693453,
+          "stop" : 1657657821546,
+          "duration" : 128093
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      } ],
+      "uid" : "40dcc12578836b944fc825608a5ed0f2"
+    }, {
+      "name" : "Timeout of 240000ms exceeded. The execution in the test \"C2273: Verify if regular clinicians can add 'columns' in 'CLINICIANS' tab \"before all\" hook for \"Should go to clients page, copy email and check url\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/home/runner/work/webautomation/webautomation/test/specs/Clinicians/C2273_Verify_if_clinicians_can_add_themselves_to_client_profile_if_they_have_their_email_address.spec.ts)",
+      "children" : [ {
+        "name" : "\"before all\" hook for C2273: Verify if regular clinicians can add 'columns' in 'CLINICIANS' tab",
+        "uid" : "ce464cb4d7259954",
+        "parentUid" : "e19ef0435b32d363a7e1f9020f63c437",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657658728848,
+          "stop" : 1657658968854,
+          "duration" : 240006
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      } ],
+      "uid" : "e19ef0435b32d363a7e1f9020f63c437"
+    }, {
+      "name" : "element (\"#globalLinks #with-label\") still not clickable after 60000ms",
+      "children" : [ {
+        "name" : "\"after all\" hook for C2273: Verify if regular clinicians can add 'columns' in 'CLINICIANS' tab",
+        "uid" : "3321d5bbc629d1a9",
+        "parentUid" : "4ba9f5431618c9f475cb40826beb655f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657658968855,
+          "stop" : 1657659028902,
+          "duration" : 60047
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      }, {
+        "name" : "\"after all\" hook for C2283: Verify that 'Pronoun' it's required field",
+        "uid" : "8298608eeae78989",
+        "parentUid" : "4ba9f5431618c9f475cb40826beb655f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657661406370,
+          "stop" : 1657661466773,
+          "duration" : 60403
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 7,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      } ],
+      "uid" : "4ba9f5431618c9f475cb40826beb655f"
+    }, {
+      "name" : "Timeout of 240000ms exceeded. The execution in the test \"C2283: Verify that 'Pronoun' it's required field \"before all\" hook for \"Should go to clients page and check url\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/home/runner/work/webautomation/webautomation/test/specs/Clinicians/C2284_Verify_that_'client_have_contact_with_the_Care_Coordinator'_it's_required_field.spec.ts)",
+      "children" : [ {
+        "name" : "\"before all\" hook for C2283: Verify that 'Pronoun' it's required field",
+        "uid" : "6ca1f5370971eca4",
+        "parentUid" : "cc7e1bb2af9539aa00a5af48bbfc7f6d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657661166365,
+          "stop" : 1657661406369,
+          "duration" : 240004
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 7,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      } ],
+      "uid" : "cc7e1bb2af9539aa00a5af48bbfc7f6d"
+    }, {
+      "name" : "Timeout of 240000ms exceeded. The execution in the test \"C2253: Verify fields on scheduler quick create popup \"before all\" hook for \"Should hover more button and check if dropdown menu is displayed\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/home/runner/work/webautomation/webautomation/test/specs/Reports/C2278_Verify_fields_on_scheduler_quick_create_popup.spec.ts)",
+      "children" : [ {
+        "name" : "\"before all\" hook for C2253: Verify fields on scheduler quick create popup",
+        "uid" : "d34ba170da2f6fef",
+        "parentUid" : "671b0b9dd4664f730ca3e50b6052412b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657662287470,
+          "stop" : 1657662527475,
+          "duration" : 240005
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      } ],
+      "uid" : "671b0b9dd4664f730ca3e50b6052412b"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   }, {
@@ -347,13 +687,13 @@
       "name" : "Malformed type for \"handle\" parameter of command switchToWindow\n                Expected: string\n                Actual: undefined\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-window\n                ",
       "children" : [ {
         "name" : "Should click 'View Requests' button in 'Pending Requests' ",
-        "uid" : "bc236e80ebb0874e",
+        "uid" : "84d91b6d774be5be",
         "parentUid" : "77b6ad08a8eb107a082221f2c635e05d",
         "status" : "failed",
         "time" : {
-          "start" : 1657627306384,
-          "stop" : 1657627306593,
-          "duration" : 209
+          "start" : 1657646741281,
+          "stop" : 1657646741464,
+          "duration" : 183
         },
         "flaky" : false,
         "newFailed" : false,
@@ -364,6 +704,27 @@
         "parameters" : [ "chrome-103.0.5060.114" ]
       } ],
       "uid" : "77b6ad08a8eb107a082221f2c635e05d"
+    }, {
+      "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"Enrollment In Process, you will be notified on result\"\n                Received: \"Error: Therapist is required to proceed\"",
+      "children" : [ {
+        "name" : "Should click the 'Enrole Insurance' button",
+        "uid" : "94acaa1b13297a38",
+        "parentUid" : "b2fbca309dbab3ba6b16fc3696d4977e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1657654340503,
+          "stop" : 1657654363699,
+          "duration" : 23196
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      } ],
+      "uid" : "b2fbca309dbab3ba6b16fc3696d4977e"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ],

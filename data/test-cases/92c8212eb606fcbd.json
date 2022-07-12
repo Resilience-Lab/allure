@@ -1,0 +1,86 @@
+{
+  "uid" : "92c8212eb606fcbd",
+  "name" : "\"after all\" hook for C2258: Superbill submission via Portal",
+  "fullName" : "C2258: Superbill submission via Portal.\"after all\" hook for C2258: Superbill submission via Portal",
+  "historyId" : "d094badc80989af28050cdca9c038c8b",
+  "time" : {
+    "start" : 1657647898719,
+    "stop" : 1657647898758,
+    "duration" : 39
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "No window found with title, url or name matching \"Clients - ResilienceLab\"",
+  "statusTrace" : "Error: No window found with title, url or name matching \"Clients - ResilienceLab\"\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at async Context.<anonymous> (/home/runner/work/webautomation/webautomation/test/specs/Clients/C2258_superbill_submission_via_portal.spec.ts:95:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "C2258: Superbill submission via Portal"
+  }, {
+    "name" : "testClass",
+    "value" : "C2258: Superbill submission via Portal"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"after all\" hook for C2258: Superbill submission via Portal"
+  }, {
+    "name" : "package",
+    "value" : "C2258: Superbill submission via Portal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b328934cc58c48ad",
+      "status" : "broken",
+      "statusDetails" : "No window found with title, url or name matching \"Clients - ResilienceLab\"",
+      "time" : {
+        "start" : 1657647656792,
+        "stop" : 1657647656838,
+        "duration" : 46
+      }
+    }, {
+      "uid" : "f6d96b310219cced",
+      "status" : "broken",
+      "statusDetails" : "No window found with title, url or name matching \"Clients - ResilienceLab\"",
+      "time" : {
+        "start" : 1657647414846,
+        "stop" : 1657647414888,
+        "duration" : 42
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "92c8212eb606fcbd.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

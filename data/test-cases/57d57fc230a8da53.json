@@ -1,0 +1,80 @@
+{
+  "uid" : "57d57fc230a8da53",
+  "name" : "insurance Api log should contain 9fc440c4-5784-6d54-d4d1-6245e3d8d12b",
+  "fullName" : "C2260: Multi State: Connect Nirvana API Key with correct PCorp.insurance Api log should contain 9fc440c4-5784-6d54-d4d1-6245e3d8d12b",
+  "historyId" : "bb9b6c2b17094f1a441e40570756148b",
+  "time" : {
+    "start" : 1657651276267,
+    "stop" : 1657651363337,
+    "duration" : 87070
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"//a[@id='tab5'][contains(text(),'Insurance')]\") still not displayed after 60000ms",
+  "statusTrace" : "Error: element (\"//a[@id='tab5'][contains(text(),'Insurance')]\") still not displayed after 60000ms\n                    at async ProfilePage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async ProfilePage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:143:9)\n                    at async ProfilePage.clickInsuranceTabBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:426:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"//a[@id='tab5'][contains(text(),'Insurance')]\") still not displayed after 60000ms",
+    "statusTrace" : "Error: element (\"//a[@id='tab5'][contains(text(),'Insurance')]\") still not displayed after 60000ms\n                    at async ProfilePage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async ProfilePage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:143:9)\n                    at async ProfilePage.clickInsuranceTabBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:426:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "85e7b67201401079",
+      "name" : "Screenshot",
+      "source" : "85e7b67201401079.png",
+      "type" : "image/png",
+      "size" : 139690
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-11"
+  }, {
+    "name" : "suite",
+    "value" : "C2260: Multi State: Connect Nirvana API Key with correct PCorp"
+  }, {
+    "name" : "testClass",
+    "value" : "C2260: Multi State: Connect Nirvana API Key with correct PCorp"
+  }, {
+    "name" : "testMethod",
+    "value" : "insurance Api log should contain 9fc440c4-5784-6d54-d4d1-6245e3d8d12b"
+  }, {
+    "name" : "package",
+    "value" : "C2260: Multi State: Connect Nirvana API Key with correct PCorp"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "57d57fc230a8da53.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

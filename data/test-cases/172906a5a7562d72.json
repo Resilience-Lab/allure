@@ -1,0 +1,80 @@
+{
+  "uid" : "172906a5a7562d72",
+  "name" : "Should click the 'Enrole Insurance' button",
+  "fullName" : "C2270: Check HIPAA checkbox when enrolling .Should click the 'Enrole Insurance' button",
+  "historyId" : "3de2ca33150b51b6dde4a9fbc1bdee6b",
+  "time" : {
+    "start" : 1657654202876,
+    "stop" : 1657654260785,
+    "duration" : 57909
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"Enrollment In Process, you will be notified on result\"\n                Received: \"Error: Therapist is required to proceed\"",
+  "statusTrace" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"Enrollment In Process, you will be notified on result\"\n                Received: \"Error: Therapist is required to proceed\"\n                    at Context.<anonymous> (/home/runner/work/webautomation/webautomation/test/specs/Clients/Insurance/C2270_ Check_HIPAA_checkbox_when_enrolling.spec.ts:31:64)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"Enrollment In Process, you will be notified on result\"\n                Received: \"Error: Therapist is required to proceed\"",
+    "statusTrace" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"Enrollment In Process, you will be notified on result\"\n                Received: \"Error: Therapist is required to proceed\"\n                    at Context.<anonymous> (/home/runner/work/webautomation/webautomation/test/specs/Clients/Insurance/C2270_ Check_HIPAA_checkbox_when_enrolling.spec.ts:31:64)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "512ad1f16a9c6b4f",
+      "name" : "Screenshot",
+      "source" : "512ad1f16a9c6b4f.png",
+      "type" : "image/png",
+      "size" : 131076
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-16"
+  }, {
+    "name" : "suite",
+    "value" : "C2270: Check HIPAA checkbox when enrolling "
+  }, {
+    "name" : "testClass",
+    "value" : "C2270: Check HIPAA checkbox when enrolling "
+  }, {
+    "name" : "testMethod",
+    "value" : "Should click the 'Enrole Insurance' button"
+  }, {
+    "name" : "package",
+    "value" : "C2270: Check HIPAA checkbox when enrolling "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "172906a5a7562d72.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}
