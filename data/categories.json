@@ -6,13 +6,13 @@
       "name" : "element (\"[name=\"email\"]\") still not displayed after 60000ms",
       "children" : [ {
         "name" : "Should signUp to account",
-        "uid" : "3f14f2fa7e31989a",
+        "uid" : "bbcdb9b2742bc757",
         "parentUid" : "a6ec8fee4d6ecc89c0ac894aec3efe04",
         "status" : "broken",
         "time" : {
-          "start" : 1657562065906,
-          "stop" : 1657562126115,
-          "duration" : 60209
+          "start" : 1657624200403,
+          "stop" : 1657624260565,
+          "duration" : 60162
         },
         "flaky" : false,
         "newFailed" : false,
@@ -20,54 +20,37 @@
         "newBroken" : false,
         "retriesCount" : 3,
         "retriesStatusChange" : false,
-        "parameters" : [ "chrome-103.0.5060.53" ]
+        "parameters" : [ "chrome-103.0.5060.114" ]
       }, {
         "name" : "Should signUp to account",
-        "uid" : "9dd31680f6c00062",
+        "uid" : "72f872d9bef2a69b",
         "parentUid" : "a6ec8fee4d6ecc89c0ac894aec3efe04",
         "status" : "broken",
         "time" : {
-          "start" : 1657563423319,
-          "stop" : 1657563483516,
-          "duration" : 60197
+          "start" : 1657624707850,
+          "stop" : 1657624768012,
+          "duration" : 60162
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 3,
+        "retriesCount" : 0,
         "retriesStatusChange" : false,
-        "parameters" : [ "chrome-103.0.5060.53" ]
-      }, {
-        "name" : "Should signUp to account",
-        "uid" : "af1cf4b66d377686",
-        "parentUid" : "a6ec8fee4d6ecc89c0ac894aec3efe04",
-        "status" : "broken",
-        "time" : {
-          "start" : 1657565538631,
-          "stop" : 1657565598844,
-          "duration" : 60213
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 3,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-103.0.5060.53" ]
+        "parameters" : [ "chrome-103.0.5060.114" ]
       } ],
       "uid" : "a6ec8fee4d6ecc89c0ac894aec3efe04"
     }, {
       "name" : "element (\"(//td[@class='col-xs-4'])[1]\") still not clickable after 10000ms",
       "children" : [ {
         "name" : "Should verify email from Resiliencelab",
-        "uid" : "ea360cfcc46b8bd5",
+        "uid" : "8188a48bbd730ad",
         "parentUid" : "69715e28b6c12c26c59d319c868e506e",
         "status" : "broken",
         "time" : {
-          "start" : 1657562337950,
-          "stop" : 1657562348442,
-          "duration" : 10492
+          "start" : 1657624471339,
+          "stop" : 1657624481822,
+          "duration" : 10483
         },
         "flaky" : false,
         "newFailed" : false,
@@ -75,54 +58,37 @@
         "newBroken" : false,
         "retriesCount" : 7,
         "retriesStatusChange" : false,
-        "parameters" : [ "chrome-103.0.5060.53" ]
+        "parameters" : [ "chrome-103.0.5060.114" ]
       }, {
         "name" : "Should verify email from Resiliencelab",
-        "uid" : "8de5caa26cb848c2",
+        "uid" : "bb37efd108916340",
         "parentUid" : "69715e28b6c12c26c59d319c868e506e",
         "status" : "broken",
         "time" : {
-          "start" : 1657563401361,
-          "stop" : 1657563423318,
-          "duration" : 21957
+          "start" : 1657624685937,
+          "stop" : 1657624707850,
+          "duration" : 21913
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 3,
+        "retriesCount" : 0,
         "retriesStatusChange" : false,
-        "parameters" : [ "chrome-103.0.5060.53" ]
-      }, {
-        "name" : "Should verify email from Resiliencelab",
-        "uid" : "46a2332447538d70",
-        "parentUid" : "69715e28b6c12c26c59d319c868e506e",
-        "status" : "broken",
-        "time" : {
-          "start" : 1657565516534,
-          "stop" : 1657565538630,
-          "duration" : 22096
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 3,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-103.0.5060.53" ]
+        "parameters" : [ "chrome-103.0.5060.114" ]
       } ],
       "uid" : "69715e28b6c12c26c59d319c868e506e"
     }, {
       "name" : "element (\"(//p[contains(text(),\"test\")]//..//..//button)[2]\") still not clickable after 10000ms",
       "children" : [ {
         "name" : "Should check \"test\" text matches",
-        "uid" : "b986a85a73c97d48",
+        "uid" : "cb6612cc9b7dea20",
         "parentUid" : "fa3a9e0a7ffd9b4257ba6042b6ad8b88",
         "status" : "broken",
         "time" : {
-          "start" : 1657562348642,
-          "stop" : 1657562358889,
-          "duration" : 10247
+          "start" : 1657624482007,
+          "stop" : 1657624492202,
+          "duration" : 10195
         },
         "flaky" : false,
         "newFailed" : false,
@@ -130,20 +96,20 @@
         "newBroken" : false,
         "retriesCount" : 7,
         "retriesStatusChange" : false,
-        "parameters" : [ "chrome-103.0.5060.53" ]
+        "parameters" : [ "chrome-103.0.5060.114" ]
       } ],
       "uid" : "fa3a9e0a7ffd9b4257ba6042b6ad8b88"
     }, {
       "name" : "element (\"//button[@type=\"submit\"][text()=\"Download Document\"]\") still not displayed after 60000ms",
       "children" : [ {
         "name" : "Should try to download file",
-        "uid" : "92bb77102aa248c1",
+        "uid" : "b79430cd2e20a9f7",
         "parentUid" : "29a24ae9a32e313bc106d1d9d982aa87",
         "status" : "broken",
         "time" : {
-          "start" : 1657562358889,
-          "stop" : 1657562419128,
-          "duration" : 60239
+          "start" : 1657624492202,
+          "stop" : 1657624552397,
+          "duration" : 60195
         },
         "flaky" : false,
         "newFailed" : false,
@@ -151,20 +117,20 @@
         "newBroken" : false,
         "retriesCount" : 7,
         "retriesStatusChange" : false,
-        "parameters" : [ "chrome-103.0.5060.53" ]
+        "parameters" : [ "chrome-103.0.5060.114" ]
       } ],
       "uid" : "29a24ae9a32e313bc106d1d9d982aa87"
     }, {
       "name" : "element (\"(//p[contains(text(),\"New Credit Card Form\")]//..//..//button)[1]\") still not clickable after 10000ms",
       "children" : [ {
         "name" : "Should go to \"Review and Complete\" for \"New Credit Card Form\"",
-        "uid" : "7a9b538b32379677",
+        "uid" : "5932b0722aa3d2f9",
         "parentUid" : "5464dd2776ae6ac43532abeaf9130f7c",
         "status" : "broken",
         "time" : {
-          "start" : 1657562419460,
-          "stop" : 1657562429657,
-          "duration" : 10197
+          "start" : 1657624552672,
+          "stop" : 1657624562850,
+          "duration" : 10178
         },
         "flaky" : false,
         "newFailed" : false,
@@ -172,20 +138,20 @@
         "newBroken" : false,
         "retriesCount" : 7,
         "retriesStatusChange" : false,
-        "parameters" : [ "chrome-103.0.5060.53" ]
+        "parameters" : [ "chrome-103.0.5060.114" ]
       } ],
       "uid" : "5464dd2776ae6ac43532abeaf9130f7c"
     }, {
       "name" : "element (\"input#cardNumber\") still not displayed after 60000ms",
       "children" : [ {
         "name" : "Should fill out credit card form and click \"Submit\" button",
-        "uid" : "7787fa313b539da0",
+        "uid" : "bb06a27024149de2",
         "parentUid" : "8acb3ebe13ea97471207fb54440726f2",
         "status" : "broken",
         "time" : {
-          "start" : 1657562429658,
-          "stop" : 1657562494872,
-          "duration" : 65214
+          "start" : 1657624562850,
+          "stop" : 1657624628016,
+          "duration" : 65166
         },
         "flaky" : false,
         "newFailed" : false,
@@ -193,417 +159,72 @@
         "newBroken" : false,
         "retriesCount" : 7,
         "retriesStatusChange" : false,
-        "parameters" : [ "chrome-103.0.5060.53" ]
+        "parameters" : [ "chrome-103.0.5060.114" ]
       } ],
       "uid" : "8acb3ebe13ea97471207fb54440726f2"
     }, {
       "name" : "No window found with title, url or name matching \"Home | Resilence Lab\"",
       "children" : [ {
         "name" : "Should download file",
-        "uid" : "f9395f6dc7280f6b",
+        "uid" : "b27f553220989712",
         "parentUid" : "b1456b046bd4f719d75736c54a932442",
         "status" : "broken",
         "time" : {
-          "start" : 1657563485347,
-          "stop" : 1657563485567,
-          "duration" : 220
+          "start" : 1657624769934,
+          "stop" : 1657624770148,
+          "duration" : 214
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 3,
+        "retriesCount" : 0,
         "retriesStatusChange" : false,
-        "parameters" : [ "chrome-103.0.5060.53" ]
+        "parameters" : [ "chrome-103.0.5060.114" ]
       } ],
       "uid" : "b1456b046bd4f719d75736c54a932442"
     }, {
       "name" : "element (\"a[href=\"https://dev.client.resiliencelab.us/logout\"]\") still not displayed after 60000ms",
       "children" : [ {
         "name" : "Should sign up to client portal without invitation",
-        "uid" : "57b7083fc6b1f8bd",
+        "uid" : "6b5c53d982202026",
         "parentUid" : "1f35a388ab6f8a6391af40fd78da76da",
         "status" : "broken",
         "time" : {
-          "start" : 1657563491674,
-          "stop" : 1657563557784,
-          "duration" : 66110
+          "start" : 1657624775367,
+          "stop" : 1657624845254,
+          "duration" : 69887
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 3,
+        "retriesCount" : 0,
         "retriesStatusChange" : false,
-        "parameters" : [ "chrome-103.0.5060.53" ]
+        "parameters" : [ "chrome-103.0.5060.114" ]
       } ],
       "uid" : "1f35a388ab6f8a6391af40fd78da76da"
     }, {
       "name" : "element (\"//button[text() = 'View Requests']\") still not displayed after 60000ms",
       "children" : [ {
         "name" : "Should download file without invitation",
-        "uid" : "ccd76334e8cb4896",
+        "uid" : "44eed4eede120fac",
         "parentUid" : "e7990517bf9bd2ec83e3df24e394464e",
         "status" : "broken",
         "time" : {
-          "start" : 1657563557785,
-          "stop" : 1657563629263,
-          "duration" : 71478
+          "start" : 1657624845254,
+          "stop" : 1657624914790,
+          "duration" : 69536
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 3,
+        "retriesCount" : 0,
         "retriesStatusChange" : false,
-        "parameters" : [ "chrome-103.0.5060.53" ]
-      }, {
-        "name" : "Should select some Payer and upload card",
-        "uid" : "91265b5025283da9",
-        "parentUid" : "e7990517bf9bd2ec83e3df24e394464e",
-        "status" : "broken",
-        "time" : {
-          "start" : 1657565598845,
-          "stop" : 1657565659054,
-          "duration" : 60209
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 3,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-103.0.5060.53" ]
+        "parameters" : [ "chrome-103.0.5060.114" ]
       } ],
       "uid" : "e7990517bf9bd2ec83e3df24e394464e"
-    }, {
-      "name" : "element (\"select#rl_multi_clinicians_dropdown\") still not clickable after 60000ms",
-      "children" : [ {
-        "name" : "\"after all\" hook for C2265: Terminate client with multiclinician",
-        "uid" : "f85e449f64c4c7d9",
-        "parentUid" : "b9ca2c9bc8adc21ff333120fd3acf161",
-        "status" : "broken",
-        "time" : {
-          "start" : 1657564382896,
-          "stop" : 1657564502645,
-          "duration" : 119749
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-103.0.5060.53" ]
-      } ],
-      "uid" : "b9ca2c9bc8adc21ff333120fd3acf161"
-    }, {
-      "name" : "element (\"input[value=\"Cancel\"]\") still not displayed after 60000ms",
-      "children" : [ {
-        "name" : "Should terminate client assigned to \"Danashia Mclaughlin\" with reason \"test\"",
-        "uid" : "9015e8fc335caf37",
-        "parentUid" : "c33c996a7c66dd0a3b204429fab868dc",
-        "status" : "broken",
-        "time" : {
-          "start" : 1657564535634,
-          "stop" : 1657564597876,
-          "duration" : 62242
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 3,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-103.0.5060.53" ]
-      } ],
-      "uid" : "c33c996a7c66dd0a3b204429fab868dc"
-    }, {
-      "name" : "element (\"#insurer_id\") still not displayed after 60000ms",
-      "children" : [ {
-        "name" : "The insurance tab should be with Insurance info",
-        "uid" : "5f7f809b0b197237",
-        "parentUid" : "7eea607227a17f3c4c978df09fb32066",
-        "status" : "broken",
-        "time" : {
-          "start" : 1657565659054,
-          "stop" : 1657565731552,
-          "duration" : 72498
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 3,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-103.0.5060.53" ]
-      } ],
-      "uid" : "7eea607227a17f3c4c978df09fb32066"
-    }, {
-      "name" : "element (\".nav li:nth-child(4) #tab3\") still not displayed after 60000ms",
-      "children" : [ {
-        "name" : "Should open window with creating 'Progress Note' document and check fields",
-        "uid" : "9c814e60d75d646c",
-        "parentUid" : "3351cf05790a09640306e9f536e4a8d8",
-        "status" : "broken",
-        "time" : {
-          "start" : 1657566274219,
-          "stop" : 1657566345125,
-          "duration" : 70906
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 3,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-103.0.5060.53" ]
-      }, {
-        "name" : "Should open window with creating 'Progress Note' document and check fields",
-        "uid" : "66402c690ad0824e",
-        "parentUid" : "3351cf05790a09640306e9f536e4a8d8",
-        "status" : "broken",
-        "time" : {
-          "start" : 1657567187679,
-          "stop" : 1657567259090,
-          "duration" : 71411
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-103.0.5060.53" ]
-      }, {
-        "name" : "Should create 'Termination note'",
-        "uid" : "781b1b8f6c06d143",
-        "parentUid" : "3351cf05790a09640306e9f536e4a8d8",
-        "status" : "broken",
-        "time" : {
-          "start" : 1657567875882,
-          "stop" : 1657567936114,
-          "duration" : 60232
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 3,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-103.0.5060.53" ]
-      } ],
-      "uid" : "3351cf05790a09640306e9f536e4a8d8"
-    }, {
-      "name" : "stale element reference: element is not attached to the page document\n                  (Session info: headless chrome=103.0.5060.53)",
-      "children" : [ {
-        "name" : "\"after all\" hook for C2282: Verify Progress Note disabled fields",
-        "uid" : "29aa51b922099d81",
-        "parentUid" : "92f2e4c2a581786fa6cd9204257ce572",
-        "status" : "broken",
-        "time" : {
-          "start" : 1657566921673,
-          "stop" : 1657567049081,
-          "duration" : 127408
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-103.0.5060.53" ]
-      } ],
-      "uid" : "92f2e4c2a581786fa6cd9204257ce572"
-    }, {
-      "name" : "Can't call scrollIntoView on element with selector \"(//td[@field='first_name']//a)[1]\" because element wasn't found",
-      "children" : [ {
-        "name" : "Should open client profile and create session",
-        "uid" : "dd3a7c0a0aaed024",
-        "parentUid" : "9908eb251c5daffb2364d18abb567a98",
-        "status" : "broken",
-        "time" : {
-          "start" : 1657569731790,
-          "stop" : 1657569742046,
-          "duration" : 10256
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 7,
-        "retriesStatusChange" : true,
-        "parameters" : [ "chrome-103.0.5060.53" ]
-      } ],
-      "uid" : "9908eb251c5daffb2364d18abb567a98"
-    }, {
-      "name" : "element (\"[onclick*=\"changeTabsSubpanels('4')\"]\") still not displayed after 60000ms",
-      "children" : [ {
-        "name" : "Should create session with similar to time of first session and check alert",
-        "uid" : "7eac3837c327ad6",
-        "parentUid" : "69704100506f45d234fa15d992c0c2ce",
-        "status" : "broken",
-        "time" : {
-          "start" : 1657569742047,
-          "stop" : 1657569807274,
-          "duration" : 65227
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 7,
-        "retriesStatusChange" : true,
-        "parameters" : [ "chrome-103.0.5060.53" ]
-      } ],
-      "uid" : "69704100506f45d234fa15d992c0c2ce"
-    }, {
-      "name" : "element (\"(//li[@class=\"sugar_action_button desktopOnly\"])[1]\") still not displayed after 60000ms",
-      "children" : [ {
-        "name" : "\"after all\" hook for C2256: Set clinician as inactive.",
-        "uid" : "1c30b5055fac2905",
-        "parentUid" : "40dcc12578836b944fc825608a5ed0f2",
-        "status" : "broken",
-        "time" : {
-          "start" : 1657570366958,
-          "stop" : 1657570487401,
-          "duration" : 120443
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 2,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-103.0.5060.53" ]
-      } ],
-      "uid" : "40dcc12578836b944fc825608a5ed0f2"
-    }, {
-      "name" : "element (\"a[href=\"index.php?module=Employees&action=index&parentTab=All\"]\") still not clickable after 60000ms",
-      "children" : [ {
-        "name" : "Should go back to clinician",
-        "uid" : "fa258fd12d1e82b7",
-        "parentUid" : "8d580a39be4bddd5baaa972151b6a3db",
-        "status" : "broken",
-        "time" : {
-          "start" : 1657570590691,
-          "stop" : 1657570650934,
-          "duration" : 60243
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 3,
-        "retriesStatusChange" : true,
-        "parameters" : [ "chrome-103.0.5060.53" ]
-      } ],
-      "uid" : "8d580a39be4bddd5baaa972151b6a3db"
-    }, {
-      "name" : "element (\"#tab-actions\") still not clickable after 60000ms",
-      "children" : [ {
-        "name" : "Should go to clinician edit page",
-        "uid" : "d71627a77e089018",
-        "parentUid" : "5b9875ae1882c2c14849c77ff0b3bafb",
-        "status" : "broken",
-        "time" : {
-          "start" : 1657570650934,
-          "stop" : 1657570711165,
-          "duration" : 60231
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 3,
-        "retriesStatusChange" : true,
-        "parameters" : [ "chrome-103.0.5060.53" ]
-      } ],
-      "uid" : "5b9875ae1882c2c14849c77ff0b3bafb"
-    }, {
-      "name" : "element (\"[name=\"employee_status\"]\") still not clickable after 60000ms",
-      "children" : [ {
-        "name" : "Should change clinican status to Inactive",
-        "uid" : "26915d75c3cdb35f",
-        "parentUid" : "14b6313f89466f10b8a2fed704933bcb",
-        "status" : "broken",
-        "time" : {
-          "start" : 1657570711165,
-          "stop" : 1657570771384,
-          "duration" : 60219
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 3,
-        "retriesStatusChange" : true,
-        "parameters" : [ "chrome-103.0.5060.53" ]
-      } ],
-      "uid" : "14b6313f89466f10b8a2fed704933bcb"
-    }, {
-      "name" : "element (\"//a[text()=\"View Clients\"]\") still not displayed after 60000ms",
-      "children" : [ {
-        "name" : "Should repeat steps 3-4 and check that there is not more sessions",
-        "uid" : "324503c08c5f5288",
-        "parentUid" : "dbeff447c54844a2c5ce6d9fd0fe3c99",
-        "status" : "broken",
-        "time" : {
-          "start" : 1657570771385,
-          "stop" : 1657570847997,
-          "duration" : 76612
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-103.0.5060.53" ]
-      } ],
-      "uid" : "dbeff447c54844a2c5ce6d9fd0fe3c99"
-    }, {
-      "name" : "element (\"#pod_clinicians_select_button\") still not displayed after 60000ms",
-      "children" : [ {
-        "name" : "Should open POD and click select",
-        "uid" : "34bc3e3b7689b946",
-        "parentUid" : "1d503c9bd8913fd7fa3b471f8f995c46",
-        "status" : "broken",
-        "time" : {
-          "start" : 1657571727311,
-          "stop" : 1657571790511,
-          "duration" : 63200
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 3,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-103.0.5060.53" ]
-      } ],
-      "uid" : "1d503c9bd8913fd7fa3b471f8f995c46"
-    }, {
-      "name" : "Can't call scrollIntoView on element with selector \"(//td[1]/input[@type='checkbox'])[1]\" because element wasn't found",
-      "children" : [ {
-        "name" : "Should add more than 10 clinicians (also who have supervisors)",
-        "uid" : "ef6a6b9a347cfedd",
-        "parentUid" : "358538d7bb0d70ba89012fa84e732678",
-        "status" : "broken",
-        "time" : {
-          "start" : 1657571790511,
-          "stop" : 1657571800721,
-          "duration" : 10210
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 3,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-103.0.5060.53" ]
-      } ],
-      "uid" : "358538d7bb0d70ba89012fa84e732678"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   }, {
@@ -612,13 +233,13 @@
       "name" : "Malformed type for \"handle\" parameter of command switchToWindow\n                Expected: string\n                Actual: undefined\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-window\n                ",
       "children" : [ {
         "name" : "Should click 'View Requests' button in 'Pending Requests' ",
-        "uid" : "71788c10e09c287e",
+        "uid" : "8f872659adadbfa5",
         "parentUid" : "77b6ad08a8eb107a082221f2c635e05d",
         "status" : "failed",
         "time" : {
-          "start" : 1657562348442,
-          "stop" : 1657562348642,
-          "duration" : 200
+          "start" : 1657624481822,
+          "stop" : 1657624482007,
+          "duration" : 185
         },
         "flaky" : false,
         "newFailed" : false,
@@ -626,135 +247,9 @@
         "newBroken" : false,
         "retriesCount" : 7,
         "retriesStatusChange" : true,
-        "parameters" : [ "chrome-103.0.5060.53" ]
+        "parameters" : [ "chrome-103.0.5060.114" ]
       } ],
       "uid" : "77b6ad08a8eb107a082221f2c635e05d"
-    }, {
-      "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"Terminated\"\n                Received: \"Active\"",
-      "children" : [ {
-        "name" : "In \"Status\" tab \"Stage\" should be \"Terminated\"",
-        "uid" : "348c8b6dda0a1343",
-        "parentUid" : "7ea7041f0670e9597379191cce57a04d",
-        "status" : "failed",
-        "time" : {
-          "start" : 1657567936129,
-          "stop" : 1657567997724,
-          "duration" : 61595
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 3,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-103.0.5060.53" ]
-      } ],
-      "uid" : "7ea7041f0670e9597379191cce57a04d"
-    }, {
-      "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: false\n                Received: true",
-      "children" : [ {
-        "name" : "In \"Sessions\" tab all future sessions should be deleted",
-        "uid" : "30b1e0c195db698a",
-        "parentUid" : "19a176217a26805f0d44bbfda36ce55c",
-        "status" : "failed",
-        "time" : {
-          "start" : 1657567997725,
-          "stop" : 1657568010622,
-          "duration" : 12897
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 3,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-103.0.5060.53" ]
-      } ],
-      "uid" : "19a176217a26805f0d44bbfda36ce55c"
-    }, {
-      "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: true\n                Received: false",
-      "children" : [ {
-        "name" : "\"Insurance API Log\" column should be sorted by default by \"Date Created\"",
-        "uid" : "a5b98bce7913fab7",
-        "parentUid" : "7d22550bcc2853ce14c87084cc359937",
-        "status" : "failed",
-        "time" : {
-          "start" : 1657568381318,
-          "stop" : 1657568381667,
-          "duration" : 349
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 3,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-103.0.5060.53" ]
-      } ],
-      "uid" : "7d22550bcc2853ce14c87084cc359937"
-    }, {
-      "name" : "expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"(For INN partners, prices are preset by CPT code)\"\n                Received string:    \"Standard Billing Rate:\n                For INN partners, prices are preset by CPT code *\"",
-      "children" : [ {
-        "name" : "Should see this message 'For INN partners, prices are preset by CPT code' and price should not be editable.",
-        "uid" : "e93b927a8b614829",
-        "parentUid" : "87862e60a79dfa7ec8c153f128afa423",
-        "status" : "failed",
-        "time" : {
-          "start" : 1657568705563,
-          "stop" : 1657568708928,
-          "duration" : 3365
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 3,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-103.0.5060.53" ]
-      } ],
-      "uid" : "87862e60a79dfa7ec8c153f128afa423"
-    }, {
-      "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: \"Create\"\n                Received: \"CREATE\"",
-      "children" : [ {
-        "name" : "Should go to Create Client page",
-        "uid" : "e8eda893cf09cdb3",
-        "parentUid" : "f35f09d9ba9f998fdbcaf0854fba71ae",
-        "status" : "failed",
-        "time" : {
-          "start" : 1657571222705,
-          "stop" : 1657571224794,
-          "duration" : 2089
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 3,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-103.0.5060.53" ]
-      } ],
-      "uid" : "f35f09d9ba9f998fdbcaf0854fba71ae"
-    }, {
-      "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: 10\n                Received: 0",
-      "children" : [ {
-        "name" : "Should have list size of 10 clinicians",
-        "uid" : "ebe1b0a8265701e3",
-        "parentUid" : "e662345e6e6a4b3a805e41ee1f61de5d",
-        "status" : "failed",
-        "time" : {
-          "start" : 1657571800721,
-          "stop" : 1657571800940,
-          "duration" : 219
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 3,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-103.0.5060.53" ]
-      } ],
-      "uid" : "e662345e6e6a4b3a805e41ee1f61de5d"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ],
