@@ -1,0 +1,113 @@
+{
+  "uid" : "cc680e9863812d3f",
+  "name" : "Should download file",
+  "fullName" : "C2258: Superbill submission via Portal.Should download file",
+  "historyId" : "a85d73871360c3e024acae848ba65c44",
+  "time" : {
+    "start" : 1657723052471,
+    "stop" : 1657723052666,
+    "duration" : 195
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "No window found with title, url or name matching \"Home | Resilence Lab\"",
+  "statusTrace" : "Error: No window found with title, url or name matching \"Home | Resilence Lab\"\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at async Context.<anonymous> (/home/runner/work/webautomation/webautomation/test/specs/Clients/C2258_superbill_submission_via_portal.spec.ts:58:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "No window found with title, url or name matching \"Home | Resilence Lab\"",
+    "statusTrace" : "Error: No window found with title, url or name matching \"Home | Resilence Lab\"\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at async Context.<anonymous> (/home/runner/work/webautomation/webautomation/test/specs/Clients/C2258_superbill_submission_via_portal.spec.ts:58:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d3e4f7dce848c5f",
+      "name" : "Screenshot",
+      "source" : "d3e4f7dce848c5f.png",
+      "type" : "image/png",
+      "size" : 79687
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "C2258: Superbill submission via Portal"
+  }, {
+    "name" : "testClass",
+    "value" : "C2258: Superbill submission via Portal"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should download file"
+  }, {
+    "name" : "package",
+    "value" : "C2258: Superbill submission via Portal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "624083cdb985f8af",
+      "status" : "broken",
+      "statusDetails" : "No window found with title, url or name matching \"Home | Resilence Lab\"",
+      "time" : {
+        "start" : 1657722776468,
+        "stop" : 1657722776666,
+        "duration" : 198
+      }
+    }, {
+      "uid" : "8b22fb2cf02a33e4",
+      "status" : "broken",
+      "statusDetails" : "No window found with title, url or name matching \"Home | Resilence Lab\"",
+      "time" : {
+        "start" : 1657722499900,
+        "stop" : 1657722500132,
+        "duration" : 232
+      }
+    }, {
+      "uid" : "73a9cc73b631493a",
+      "status" : "broken",
+      "statusDetails" : "No window found with title, url or name matching \"Home | Resilence Lab\"",
+      "time" : {
+        "start" : 1657722224545,
+        "stop" : 1657722224740,
+        "duration" : 195
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "cc680e9863812d3f.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

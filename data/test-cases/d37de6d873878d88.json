@@ -1,0 +1,102 @@
+{
+  "uid" : "d37de6d873878d88",
+  "name" : "Should go to clients page and check url",
+  "fullName" : "C2257: Default text for document exchanges.Should go to clients page and check url",
+  "historyId" : "b4c1e13f24c35225d70e7413c2469b05",
+  "time" : {
+    "start" : 1657721594088,
+    "stop" : 1657721622050,
+    "duration" : 27962
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5dd789ef889975b4",
+      "name" : "Screenshot",
+      "source" : "5dd789ef889975b4.png",
+      "type" : "image/png",
+      "size" : 176543
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "testClass",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should go to clients page and check url"
+  }, {
+    "name" : "package",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7853420d140b1a3d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657721095010,
+        "stop" : 1657721122580,
+        "duration" : 27570
+      }
+    }, {
+      "uid" : "a4332b754456b4c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657720595533,
+        "stop" : 1657720623074,
+        "duration" : 27541
+      }
+    }, {
+      "uid" : "a4f9a0e4df96793f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657720092377,
+        "stop" : 1657720123324,
+        "duration" : 30947
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d37de6d873878d88.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

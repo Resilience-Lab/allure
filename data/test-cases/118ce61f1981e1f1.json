@@ -1,0 +1,78 @@
+{
+  "uid" : "118ce61f1981e1f1",
+  "name" : "Should go to clients page and check url",
+  "fullName" : "C2275: Allow to create more than 1 session per day for INN not enrolled client.Should go to clients page and check url",
+  "historyId" : "da9e78f18d4399d4a5212efac277d2c5",
+  "time" : {
+    "start" : 1657725410791,
+    "stop" : 1657725505211,
+    "duration" : 94420
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "42d293eb690e2d15",
+      "name" : "Screenshot",
+      "source" : "42d293eb690e2d15.png",
+      "type" : "image/png",
+      "size" : 228048
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-19"
+  }, {
+    "name" : "suite",
+    "value" : "C2275: Allow to create more than 1 session per day for INN not enrolled client"
+  }, {
+    "name" : "testClass",
+    "value" : "C2275: Allow to create more than 1 session per day for INN not enrolled client"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should go to clients page and check url"
+  }, {
+    "name" : "package",
+    "value" : "C2275: Allow to create more than 1 session per day for INN not enrolled client"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "118ce61f1981e1f1.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

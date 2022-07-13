@@ -1,0 +1,78 @@
+{
+  "uid" : "b06f99d02ddc72dc",
+  "name" : "Should repeat steps 3-4 and check that there is not more sessions",
+  "fullName" : "C2256: Set clinician as inactive..Should repeat steps 3-4 and check that there is not more sessions",
+  "historyId" : "13a2229a6a3883ee4b07613eaddf84a6",
+  "time" : {
+    "start" : 1657726104935,
+    "stop" : 1657726127430,
+    "duration" : 22495
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d07ad3fb1f0fafa5",
+      "name" : "Screenshot",
+      "source" : "d07ad3fb1f0fafa5.png",
+      "type" : "image/png",
+      "size" : 64024
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-23"
+  }, {
+    "name" : "suite",
+    "value" : "C2256: Set clinician as inactive."
+  }, {
+    "name" : "testClass",
+    "value" : "C2256: Set clinician as inactive."
+  }, {
+    "name" : "testMethod",
+    "value" : "Should repeat steps 3-4 and check that there is not more sessions"
+  }, {
+    "name" : "package",
+    "value" : "C2256: Set clinician as inactive."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b06f99d02ddc72dc.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

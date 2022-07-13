@@ -1,0 +1,78 @@
+{
+  "uid" : "5ecdae1d51b3613e",
+  "name" : "Should check cbox for cost-share Waiver and add end date",
+  "fullName" : "C2264: Price should be 0 with active cost share waiver (CSW).Should check cbox for cost-share Waiver and add end date",
+  "historyId" : "e309627830dd25d9c975296e1b03b5f6",
+  "time" : {
+    "start" : 1657725066666,
+    "stop" : 1657725074460,
+    "duration" : 7794
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e6be8d09e071e1d9",
+      "name" : "Screenshot",
+      "source" : "e6be8d09e071e1d9.png",
+      "type" : "image/png",
+      "size" : 186350
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-14"
+  }, {
+    "name" : "suite",
+    "value" : "C2264: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "testClass",
+    "value" : "C2264: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should check cbox for cost-share Waiver and add end date"
+  }, {
+    "name" : "package",
+    "value" : "C2264: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5ecdae1d51b3613e.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

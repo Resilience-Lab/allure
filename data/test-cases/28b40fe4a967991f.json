@@ -1,0 +1,113 @@
+{
+  "uid" : "28b40fe4a967991f",
+  "name" : "Should download file without invitation",
+  "fullName" : "C2258: Superbill submission via Portal.Should download file without invitation",
+  "historyId" : "6e01eb17ef41c447885d1f264a7b6634",
+  "time" : {
+    "start" : 1657723124113,
+    "stop" : 1657723194225,
+    "duration" : 70112
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"//button[text() = 'View Requests']\") still not displayed after 60000ms",
+  "statusTrace" : "Error: element (\"//button[text() = 'View Requests']\") still not displayed after 60000ms\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at async CPHomePage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async CPHomePage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:143:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"//button[text() = 'View Requests']\") still not displayed after 60000ms",
+    "statusTrace" : "Error: element (\"//button[text() = 'View Requests']\") still not displayed after 60000ms\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at async CPHomePage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async CPHomePage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:143:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9a33140eea808ed7",
+      "name" : "Screenshot",
+      "source" : "9a33140eea808ed7.png",
+      "type" : "image/png",
+      "size" : 51170
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "C2258: Superbill submission via Portal"
+  }, {
+    "name" : "testClass",
+    "value" : "C2258: Superbill submission via Portal"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should download file without invitation"
+  }, {
+    "name" : "package",
+    "value" : "C2258: Superbill submission via Portal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b360c936765423a0",
+      "status" : "broken",
+      "statusDetails" : "element (\"//button[text() = 'View Requests']\") still not displayed after 60000ms",
+      "time" : {
+        "start" : 1657722847884,
+        "stop" : 1657722919283,
+        "duration" : 71399
+      }
+    }, {
+      "uid" : "72f2c17763ab2ff8",
+      "status" : "broken",
+      "statusDetails" : "element (\"//button[text() = 'View Requests']\") still not displayed after 60000ms",
+      "time" : {
+        "start" : 1657722571308,
+        "stop" : 1657722642810,
+        "duration" : 71502
+      }
+    }, {
+      "uid" : "849a351622689899",
+      "status" : "broken",
+      "statusDetails" : "element (\"//button[text() = 'View Requests']\") still not displayed after 60000ms",
+      "time" : {
+        "start" : 1657722296664,
+        "stop" : 1657722367187,
+        "duration" : 70523
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "28b40fe4a967991f.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}
