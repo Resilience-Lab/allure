@@ -1,0 +1,78 @@
+{
+  "uid" : "c036c475c6c9c7d0",
+  "name" : "Should create session with similar to time of first session and check alert",
+  "fullName" : "C2274: Don't allow to create more than 1 session per day for OON enrolled client.Should create session with similar to time of first session and check alert",
+  "historyId" : "aafb98f87ed4166f20f6e3e1fba8676a",
+  "time" : {
+    "start" : 1657732323209,
+    "stop" : 1657732332153,
+    "duration" : 8944
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "209cacf221042593",
+      "name" : "Screenshot",
+      "source" : "209cacf221042593.png",
+      "type" : "image/png",
+      "size" : 220025
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-18"
+  }, {
+    "name" : "suite",
+    "value" : "C2274: Don't allow to create more than 1 session per day for OON enrolled client"
+  }, {
+    "name" : "testClass",
+    "value" : "C2274: Don't allow to create more than 1 session per day for OON enrolled client"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should create session with similar to time of first session and check alert"
+  }, {
+    "name" : "package",
+    "value" : "C2274: Don't allow to create more than 1 session per day for OON enrolled client"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c036c475c6c9c7d0.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

@@ -34,17 +34,6 @@
       "total" : 7
     }
   }, {
-    "uid" : "7252c200c3842484dfd9c64eb5df1966",
-    "name" : "C2276: Allow to create more than 1 session per day for OON not enrolled client",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 4,
-      "unknown" : 0,
-      "total" : 5
-    }
-  }, {
     "uid" : "4fdd22980b2fbeaabcb98f54388d1e85",
     "name" : "C2256: Set clinician as inactive.",
     "statistic" : {
@@ -102,6 +91,17 @@
   }, {
     "uid" : "6661e9a2fa08a7eeb33ed54acd800a13",
     "name" : "C2267: Price should be 0 with active cost share waiver (CSW)",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "f43b806b8bfb6d683dbbead68f4b237c",
+    "name" : "C2272: Don't allow to create more than 1 session per day for INN enrolled client",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
