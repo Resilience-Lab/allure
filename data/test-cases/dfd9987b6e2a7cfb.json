@@ -1,0 +1,102 @@
+{
+  "uid" : "dfd9987b6e2a7cfb",
+  "name" : "Should go to client with not created account",
+  "fullName" : "C2280: Verify Insurance Card Form.Should go to client with not created account",
+  "historyId" : "322fbb916acc98df65b6f355b9f06c6f",
+  "time" : {
+    "start" : 1657786539453,
+    "stop" : 1657786540395,
+    "duration" : 942
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "62b73611c97d5c38",
+      "name" : "Screenshot",
+      "source" : "62b73611c97d5c38.png",
+      "type" : "image/png",
+      "size" : 90289
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-7"
+  }, {
+    "name" : "suite",
+    "value" : "C2280: Verify Insurance Card Form"
+  }, {
+    "name" : "testClass",
+    "value" : "C2280: Verify Insurance Card Form"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should go to client with not created account"
+  }, {
+    "name" : "package",
+    "value" : "C2280: Verify Insurance Card Form"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b075bf71ef7f5e13",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657786291195,
+        "stop" : 1657786292090,
+        "duration" : 895
+      }
+    }, {
+      "uid" : "a783977fa61d2910",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657786044787,
+        "stop" : 1657786045666,
+        "duration" : 879
+      }
+    }, {
+      "uid" : "cf7c9a28d904454e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657785796880,
+        "stop" : 1657785797792,
+        "duration" : 912
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dfd9987b6e2a7cfb.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

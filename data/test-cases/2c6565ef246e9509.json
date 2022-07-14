@@ -1,0 +1,113 @@
+{
+  "uid" : "2c6565ef246e9509",
+  "name" : "Should download file without invitation",
+  "fullName" : "C2258: Superbill submission via Portal.Should download file without invitation",
+  "historyId" : "6e01eb17ef41c447885d1f264a7b6634",
+  "time" : {
+    "start" : 1657785396069,
+    "stop" : 1657785466655,
+    "duration" : 70586
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"//button[text() = 'View Requests']\") still not displayed after 60000ms",
+  "statusTrace" : "Error: element (\"//button[text() = 'View Requests']\") still not displayed after 60000ms\n                    at async CPHomePage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async CPHomePage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:143:9)\n                    at async CPHomePage.clickViewRequestsBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CP/cpHome.page.ts:20:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"//button[text() = 'View Requests']\") still not displayed after 60000ms",
+    "statusTrace" : "Error: element (\"//button[text() = 'View Requests']\") still not displayed after 60000ms\n                    at async CPHomePage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async CPHomePage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:143:9)\n                    at async CPHomePage.clickViewRequestsBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CP/cpHome.page.ts:20:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c66c1edd5cfec7b4",
+      "name" : "Screenshot",
+      "source" : "c66c1edd5cfec7b4.png",
+      "type" : "image/png",
+      "size" : 51170
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "C2258: Superbill submission via Portal"
+  }, {
+    "name" : "testClass",
+    "value" : "C2258: Superbill submission via Portal"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should download file without invitation"
+  }, {
+    "name" : "package",
+    "value" : "C2258: Superbill submission via Portal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2779232a5c17e3f5",
+      "status" : "broken",
+      "statusDetails" : "element (\"//button[text() = 'View Requests']\") still not displayed after 60000ms",
+      "time" : {
+        "start" : 1657785120013,
+        "stop" : 1657785190965,
+        "duration" : 70952
+      }
+    }, {
+      "uid" : "f32d637f66947bff",
+      "status" : "broken",
+      "statusDetails" : "element (\"//button[text() = 'View Requests']\") still not displayed after 60000ms",
+      "time" : {
+        "start" : 1657784843758,
+        "stop" : 1657784913940,
+        "duration" : 70182
+      }
+    }, {
+      "uid" : "f4c120de7b577826",
+      "status" : "broken",
+      "statusDetails" : "element (\"//button[text() = 'View Requests']\") still not displayed after 60000ms",
+      "time" : {
+        "start" : 1657784568972,
+        "stop" : 1657784639153,
+        "duration" : 70181
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "2c6565ef246e9509.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

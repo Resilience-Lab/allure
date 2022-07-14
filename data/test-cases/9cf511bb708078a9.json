@@ -1,0 +1,113 @@
+{
+  "uid" : "9cf511bb708078a9",
+  "name" : "Should sign up to client portal without invitation",
+  "fullName" : "C2258: Superbill submission via Portal.Should sign up to client portal without invitation",
+  "historyId" : "91ac57804304e64de0c64628a79e14a2",
+  "time" : {
+    "start" : 1657785330442,
+    "stop" : 1657785396069,
+    "duration" : 65627
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"a[href=\"https://dev.client.resiliencelab.us/logout\"]\") still not displayed after 60000ms",
+  "statusTrace" : "Error: element (\"a[href=\"https://dev.client.resiliencelab.us/logout\"]\") still not displayed after 60000ms\n                    at async CPHomePage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async CPHomePage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:143:9)\n                    at async CPHomePage.clickLogOutBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CP/cpHome.page.ts:24:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"a[href=\"https://dev.client.resiliencelab.us/logout\"]\") still not displayed after 60000ms",
+    "statusTrace" : "Error: element (\"a[href=\"https://dev.client.resiliencelab.us/logout\"]\") still not displayed after 60000ms\n                    at async CPHomePage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async CPHomePage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:143:9)\n                    at async CPHomePage.clickLogOutBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CP/cpHome.page.ts:24:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f36d0e8563f8d4ac",
+      "name" : "Screenshot",
+      "source" : "f36d0e8563f8d4ac.png",
+      "type" : "image/png",
+      "size" : 51170
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "C2258: Superbill submission via Portal"
+  }, {
+    "name" : "testClass",
+    "value" : "C2258: Superbill submission via Portal"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should sign up to client portal without invitation"
+  }, {
+    "name" : "package",
+    "value" : "C2258: Superbill submission via Portal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "fa5eddf5f2ae586c",
+      "status" : "broken",
+      "statusDetails" : "element (\"a[href=\"https://dev.client.resiliencelab.us/logout\"]\") still not displayed after 60000ms",
+      "time" : {
+        "start" : 1657785054387,
+        "stop" : 1657785120012,
+        "duration" : 65625
+      }
+    }, {
+      "uid" : "d7558cf3b3b12bad",
+      "status" : "broken",
+      "statusDetails" : "element (\"a[href=\"https://dev.client.resiliencelab.us/logout\"]\") still not displayed after 60000ms",
+      "time" : {
+        "start" : 1657784778177,
+        "stop" : 1657784843758,
+        "duration" : 65581
+      }
+    }, {
+      "uid" : "39ac09f6088554b8",
+      "status" : "broken",
+      "statusDetails" : "element (\"a[href=\"https://dev.client.resiliencelab.us/logout\"]\") still not displayed after 60000ms",
+      "time" : {
+        "start" : 1657784502342,
+        "stop" : 1657784568972,
+        "duration" : 66630
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "9cf511bb708078a9.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

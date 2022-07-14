@@ -1,0 +1,78 @@
+{
+  "uid" : "43817a039aae9774",
+  "name" : "Should go to clients page and check url",
+  "fullName" : "C2274: Don't allow to create more than 1 session per day for OON enrolled client.Should go to clients page and check url",
+  "historyId" : "8b80607d42439bb6a585fdb75b460694",
+  "time" : {
+    "start" : 1657787679471,
+    "stop" : 1657787689527,
+    "duration" : 10056
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "aa9addda3cd3e03a",
+      "name" : "Screenshot",
+      "source" : "aa9addda3cd3e03a.png",
+      "type" : "image/png",
+      "size" : 231338
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-18"
+  }, {
+    "name" : "suite",
+    "value" : "C2274: Don't allow to create more than 1 session per day for OON enrolled client"
+  }, {
+    "name" : "testClass",
+    "value" : "C2274: Don't allow to create more than 1 session per day for OON enrolled client"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should go to clients page and check url"
+  }, {
+    "name" : "package",
+    "value" : "C2274: Don't allow to create more than 1 session per day for OON enrolled client"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "43817a039aae9774.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}
