@@ -1,0 +1,102 @@
+{
+  "uid" : "3f29f053750fe85a",
+  "name" : "Should create Superbill statement",
+  "fullName" : "C2258: Superbill submission via Portal.Should create Superbill statement",
+  "historyId" : "f857ab172df6fec8d7e59f2385a3953",
+  "time" : {
+    "start" : 1657810714988,
+    "stop" : 1657810716564,
+    "duration" : 1576
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1436275f5fe08cae",
+      "name" : "Screenshot",
+      "source" : "1436275f5fe08cae.png",
+      "type" : "image/png",
+      "size" : 60846
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "C2258: Superbill submission via Portal"
+  }, {
+    "name" : "testClass",
+    "value" : "C2258: Superbill submission via Portal"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should create Superbill statement"
+  }, {
+    "name" : "package",
+    "value" : "C2258: Superbill submission via Portal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "516a31f591c4d83a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657810443211,
+        "stop" : 1657810444790,
+        "duration" : 1579
+      }
+    }, {
+      "uid" : "a524173024f68d06",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657810172010,
+        "stop" : 1657810173596,
+        "duration" : 1586
+      }
+    }, {
+      "uid" : "33bac31e33490a14",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657809897954,
+        "stop" : 1657809899974,
+        "duration" : 2020
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3f29f053750fe85a.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}
