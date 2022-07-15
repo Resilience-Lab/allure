@@ -1,0 +1,80 @@
+{
+  "uid" : "d758c4c48abbb70b",
+  "name" : "Should see this message 'For INN partners, prices are preset by CPT code' and price should not be editable.",
+  "fullName" : "C2267: Price should be 0 with active cost share waiver (CSW).Should see this message 'For INN partners, prices are preset by CPT code' and price should not be editable.",
+  "historyId" : "4dc9ff9f5aed7cfde4f811bd7b56d3f5",
+  "time" : {
+    "start" : 1657898534307,
+    "stop" : 1657898537460,
+    "duration" : 3153
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"For INN partners, prices are preset by CPT code\"\n                Received string:    \"Standard Billing Rate\n                 *\"",
+  "statusTrace" : "Error: expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"For INN partners, prices are preset by CPT code\"\n                Received string:    \"Standard Billing Rate\n                 *\"\n                    at Context.<anonymous> (/home/runner/work/webautomation/webautomation/test/specs/Clients/Insurance/C2267_Standard_billing_rate_message_for_INN_partner_payer.spec.ts:36:69)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"For INN partners, prices are preset by CPT code\"\n                Received string:    \"Standard Billing Rate\n                 *\"",
+    "statusTrace" : "Error: expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"For INN partners, prices are preset by CPT code\"\n                Received string:    \"Standard Billing Rate\n                 *\"\n                    at Context.<anonymous> (/home/runner/work/webautomation/webautomation/test/specs/Clients/Insurance/C2267_Standard_billing_rate_message_for_INN_partner_payer.spec.ts:36:69)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c71ceb843d4f148f",
+      "name" : "Screenshot",
+      "source" : "c71ceb843d4f148f.png",
+      "type" : "image/png",
+      "size" : 125750
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-18"
+  }, {
+    "name" : "suite",
+    "value" : "C2267: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "testClass",
+    "value" : "C2267: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should see this message 'For INN partners, prices are preset by CPT code' and price should not be editable."
+  }, {
+    "name" : "package",
+    "value" : "C2267: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d758c4c48abbb70b.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

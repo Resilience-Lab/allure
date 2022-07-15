@@ -1,0 +1,86 @@
+{
+  "uid" : "81f3afdbb34f2496",
+  "name" : "Should go to client",
+  "fullName" : "C2283: Verify that 'Pronoun' it's required field.Should go to client",
+  "historyId" : "5680c171f96bc0a4f184d9ea6d5bf73e",
+  "time" : {
+    "start" : 1657899704047,
+    "stop" : 1657899705072,
+    "duration" : 1025
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "71714bc2c0aa98f4",
+      "name" : "Screenshot",
+      "source" : "71714bc2c0aa98f4.png",
+      "type" : "image/png",
+      "size" : 102177
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-29"
+  }, {
+    "name" : "suite",
+    "value" : "C2283: Verify that 'Pronoun' it's required field"
+  }, {
+    "name" : "testClass",
+    "value" : "C2283: Verify that 'Pronoun' it's required field"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should go to client"
+  }, {
+    "name" : "package",
+    "value" : "C2283: Verify that 'Pronoun' it's required field"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "448e68f8cfa2c53e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657899616934,
+        "stop" : 1657899618091,
+        "duration" : 1157
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "81f3afdbb34f2496.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

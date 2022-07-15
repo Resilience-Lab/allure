@@ -1,0 +1,149 @@
+{
+  "uid" : "dc56f1f39f8ed6a1",
+  "name" : "Should go to \"Review and Complete\" for \"New Credit Card Form\"",
+  "fullName" : "C2257: Default text for document exchanges.Should go to \"Review and Complete\" for \"New Credit Card Form\"",
+  "historyId" : "dab386c2a59185e63766dbbca53c0af7",
+  "time" : {
+    "start" : 1657894996840,
+    "stop" : 1657895007021,
+    "duration" : 10181
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"(//p[contains(text(),\"New Credit Card Form\")]//..//..//button)[1]\") still not clickable after 10000ms",
+  "statusTrace" : "Error: element (\"(//p[contains(text(),\"New Credit Card Form\")]//..//..//button)[1]\") still not clickable after 10000ms\n                    at async CPRequestsPage.waitForElementClickableByIndex (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:93:9)\n                    at async CPRequestsPage.clickByIndex (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:149:9)\n                    at async CPRequestsPage.clickNewCreditCardFormReviewAndCompleteBtnByIndex (/home/runner/work/webautomation/webautomation/test/pageobjects/CP/cpRequests.page.ts:113:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 7,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"(//p[contains(text(),\"New Credit Card Form\")]//..//..//button)[1]\") still not clickable after 10000ms",
+    "statusTrace" : "Error: element (\"(//p[contains(text(),\"New Credit Card Form\")]//..//..//button)[1]\") still not clickable after 10000ms\n                    at async CPRequestsPage.waitForElementClickableByIndex (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:93:9)\n                    at async CPRequestsPage.clickByIndex (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:149:9)\n                    at async CPRequestsPage.clickNewCreditCardFormReviewAndCompleteBtnByIndex (/home/runner/work/webautomation/webautomation/test/pageobjects/CP/cpRequests.page.ts:113:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "851be094cfa88507",
+      "name" : "Screenshot",
+      "source" : "851be094cfa88507.png",
+      "type" : "image/png",
+      "size" : 67873
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "testClass",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should go to \"Review and Complete\" for \"New Credit Card Form\""
+  }, {
+    "name" : "package",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7ebad8058d9c300a",
+      "status" : "broken",
+      "statusDetails" : "element (\"(//p[contains(text(),\"New Credit Card Form\")]//..//..//button)[1]\") still not clickable after 10000ms",
+      "time" : {
+        "start" : 1657894835975,
+        "stop" : 1657894846158,
+        "duration" : 10183
+      }
+    }, {
+      "uid" : "69a14a23abe120ef",
+      "status" : "broken",
+      "statusDetails" : "element (\"(//p[contains(text(),\"New Credit Card Form\")]//..//..//button)[1]\") still not clickable after 10000ms",
+      "time" : {
+        "start" : 1657894497724,
+        "stop" : 1657894507891,
+        "duration" : 10167
+      }
+    }, {
+      "uid" : "987d47b175f1d20f",
+      "status" : "broken",
+      "statusDetails" : "element (\"(//p[contains(text(),\"New Credit Card Form\")]//..//..//button)[1]\") still not clickable after 10000ms",
+      "time" : {
+        "start" : 1657894336812,
+        "stop" : 1657894347010,
+        "duration" : 10198
+      }
+    }, {
+      "uid" : "271647ba82b1232c",
+      "status" : "broken",
+      "statusDetails" : "element (\"(//p[contains(text(),\"New Credit Card Form\")]//..//..//button)[1]\") still not clickable after 10000ms",
+      "time" : {
+        "start" : 1657893998563,
+        "stop" : 1657894008727,
+        "duration" : 10164
+      }
+    }, {
+      "uid" : "496ca3ce1aeacfca",
+      "status" : "broken",
+      "statusDetails" : "element (\"(//p[contains(text(),\"New Credit Card Form\")]//..//..//button)[1]\") still not clickable after 10000ms",
+      "time" : {
+        "start" : 1657893837867,
+        "stop" : 1657893847565,
+        "duration" : 9698
+      }
+    }, {
+      "uid" : "775a57760790b2bd",
+      "status" : "broken",
+      "statusDetails" : "element (\"(//p[contains(text(),\"New Credit Card Form\")]//..//..//button)[1]\") still not clickable after 10000ms",
+      "time" : {
+        "start" : 1657893500235,
+        "stop" : 1657893510396,
+        "duration" : 10161
+      }
+    }, {
+      "uid" : "43b311b920c82fb6",
+      "status" : "broken",
+      "statusDetails" : "element (\"(//p[contains(text(),\"New Credit Card Form\")]//..//..//button)[1]\") still not clickable after 10000ms",
+      "time" : {
+        "start" : 1657893339251,
+        "stop" : 1657893349466,
+        "duration" : 10215
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "dc56f1f39f8ed6a1.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

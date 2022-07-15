@@ -1,0 +1,68 @@
+{
+  "uid" : "b28534f24358d071",
+  "name" : "\"before all\" hook for C2267: Price should be 0 with active cost share waiver (CSW)",
+  "fullName" : "C2267: Price should be 0 with active cost share waiver (CSW).\"before all\" hook for C2267: Price should be 0 with active cost share waiver (CSW)",
+  "historyId" : "3b0e2aca96c027692ca79155ad70c25d",
+  "time" : {
+    "start" : 1657898413665,
+    "stop" : 1657898461306,
+    "duration" : 47641
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "move target out of bounds\n                  (Session info: headless chrome=103.0.5060.114)",
+  "statusTrace" : "move target out of bounds: move target out of bounds\n                  (Session info: headless chrome=103.0.5060.114)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-18"
+  }, {
+    "name" : "suite",
+    "value" : "C2267: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "testClass",
+    "value" : "C2267: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook for C2267: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "package",
+    "value" : "C2267: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "b28534f24358d071.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

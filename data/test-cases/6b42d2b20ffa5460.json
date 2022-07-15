@@ -1,0 +1,80 @@
+{
+  "uid" : "6b42d2b20ffa5460",
+  "name" : "\"Insurance API Log\" column should be sorted by default by \"Date Created\"",
+  "fullName" : "C2266: API log sort.\"Insurance API Log\" column should be sorted by default by \"Date Created\"",
+  "historyId" : "f39a036c8d0b68e86edd201f0585c218",
+  "time" : {
+    "start" : 1657898356788,
+    "stop" : 1657898357120,
+    "duration" : 332
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: true\n                Received: false",
+  "statusTrace" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                Expected: true\n                Received: false\n                    at Context.<anonymous> (/home/runner/work/webautomation/webautomation/test/specs/Clients/Insurance/C2266_API_log_sort.spec.ts:39:57)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: true\n                Received: false",
+    "statusTrace" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                Expected: true\n                Received: false\n                    at Context.<anonymous> (/home/runner/work/webautomation/webautomation/test/specs/Clients/Insurance/C2266_API_log_sort.spec.ts:39:57)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6637491115aa220f",
+      "name" : "Screenshot",
+      "source" : "6637491115aa220f.png",
+      "type" : "image/png",
+      "size" : 175817
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-17"
+  }, {
+    "name" : "suite",
+    "value" : "C2266: API log sort"
+  }, {
+    "name" : "testClass",
+    "value" : "C2266: API log sort"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"Insurance API Log\" column should be sorted by default by \"Date Created\""
+  }, {
+    "name" : "package",
+    "value" : "C2266: API log sort"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6b42d2b20ffa5460.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

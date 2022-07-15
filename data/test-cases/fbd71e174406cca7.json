@@ -1,0 +1,78 @@
+{
+  "uid" : "fbd71e174406cca7",
+  "name" : "Should click the 'Filters' button and choose 'Stage' - 'Activity', 'Insurance status' - 'Verified'",
+  "fullName" : "C2270: Check HIPAA checkbox when enrolling .Should click the 'Filters' button and choose 'Stage' - 'Activity', 'Insurance status' - 'Verified'",
+  "historyId" : "243690f95db518ab6dc47964e23e59e5",
+  "time" : {
+    "start" : 1657898720557,
+    "stop" : 1657898724292,
+    "duration" : 3735
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c8b0165a8ac20fa9",
+      "name" : "Screenshot",
+      "source" : "c8b0165a8ac20fa9.png",
+      "type" : "image/png",
+      "size" : 82568
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-19"
+  }, {
+    "name" : "suite",
+    "value" : "C2270: Check HIPAA checkbox when enrolling "
+  }, {
+    "name" : "testClass",
+    "value" : "C2270: Check HIPAA checkbox when enrolling "
+  }, {
+    "name" : "testMethod",
+    "value" : "Should click the 'Filters' button and choose 'Stage' - 'Activity', 'Insurance status' - 'Verified'"
+  }, {
+    "name" : "package",
+    "value" : "C2270: Check HIPAA checkbox when enrolling "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fbd71e174406cca7.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}
