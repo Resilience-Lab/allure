@@ -1,0 +1,86 @@
+{
+  "uid" : "beebce34fc8aa5a8",
+  "name" : "Should go to clients page and check url",
+  "fullName" : "C2283: Verify that 'Pronoun' it's required field.Should go to clients page and check url",
+  "historyId" : "c9ad664290559f933a94efc7d3b6efda",
+  "time" : {
+    "start" : 1657920446982,
+    "stop" : 1657920519049,
+    "duration" : 72067
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8776b62c36546305",
+      "name" : "Screenshot",
+      "source" : "8776b62c36546305.png",
+      "type" : "image/png",
+      "size" : 122469
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-29"
+  }, {
+    "name" : "suite",
+    "value" : "C2283: Verify that 'Pronoun' it's required field"
+  }, {
+    "name" : "testClass",
+    "value" : "C2283: Verify that 'Pronoun' it's required field"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should go to clients page and check url"
+  }, {
+    "name" : "package",
+    "value" : "C2283: Verify that 'Pronoun' it's required field"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3f8509ffec9595d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657920354735,
+        "stop" : 1657920427719,
+        "duration" : 72984
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "beebce34fc8aa5a8.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

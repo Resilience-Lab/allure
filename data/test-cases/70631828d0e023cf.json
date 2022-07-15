@@ -1,0 +1,76 @@
+{
+  "uid" : "70631828d0e023cf",
+  "name" : "Should go to filter and from 'Insurance Status' select 'Enrollment Completed', from 'In-Network' select 'Yes'",
+  "fullName" : "C2272: Don't allow to create more than 1 session per day for INN enrolled client.Should go to filter and from 'Insurance Status' select 'Enrollment Completed', from 'In-Network' select 'Yes'",
+  "historyId" : "7413eeb5f50d24a3f752121db22afbeb",
+  "time" : {
+    "start" : 1657920023035,
+    "stop" : 1657920025162,
+    "duration" : 2127
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f2d4d45a69f4cfce",
+      "name" : "Screenshot",
+      "source" : "f2d4d45a69f4cfce.png",
+      "type" : "image/png",
+      "size" : 131937
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-24"
+  }, {
+    "name" : "suite",
+    "value" : "C2272: Don't allow to create more than 1 session per day for INN enrolled client"
+  }, {
+    "name" : "testClass",
+    "value" : "C2272: Don't allow to create more than 1 session per day for INN enrolled client"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should go to filter and from 'Insurance Status' select 'Enrollment Completed', from 'In-Network' select 'Yes'"
+  }, {
+    "name" : "package",
+    "value" : "C2272: Don't allow to create more than 1 session per day for INN enrolled client"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "70631828d0e023cf.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

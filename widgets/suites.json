@@ -45,15 +45,15 @@
       "total" : 7
     }
   }, {
-    "uid" : "6661e9a2fa08a7eeb33ed54acd800a13",
-    "name" : "C2267: Price should be 0 with active cost share waiver (CSW)",
+    "uid" : "c8295443e51a55754789e764bcf91681",
+    "name" : "C2253: Report hint",
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 4,
       "skipped" : 0,
-      "passed" : 5,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     }
   }, {
     "uid" : "4fdd22980b2fbeaabcb98f54388d1e85",
@@ -89,17 +89,6 @@
       "total" : 6
     }
   }, {
-    "uid" : "c8295443e51a55754789e764bcf91681",
-    "name" : "C2253: Report hint",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 6,
-      "unknown" : 0,
-      "total" : 6
-    }
-  }, {
     "uid" : "02f8c43aebd3f83f1c5cd7ef2a528217",
     "name" : "C2254: Filter clinicians search",
     "statistic" : {
@@ -109,6 +98,17 @@
       "passed" : 6,
       "unknown" : 0,
       "total" : 6
+    }
+  }, {
+    "uid" : "26595c51ac19bfe0f7298c4004853f66",
+    "name" : "C2290: Verify that creating Treatment Plan with Z-code Diagnosis as Primary - don't allowed",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
     }
   } ]
 }

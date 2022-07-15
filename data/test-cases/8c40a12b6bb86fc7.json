@@ -1,0 +1,113 @@
+{
+  "uid" : "8c40a12b6bb86fc7",
+  "name" : "Should add some hint, save, and check if hint sing is visible",
+  "fullName" : "C2253: Report hint.Should add some hint, save, and check if hint sing is visible",
+  "historyId" : "4edbc20d67cfd78b5b840da518c361f5",
+  "time" : {
+    "start" : 1657921952583,
+    "stop" : 1657922012774,
+    "duration" : 60191
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"#hint_text\") still not displayed after 60000ms",
+  "statusTrace" : "Error: element (\"#hint_text\") still not displayed after 60000ms\n                    at async EditPage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async EditPage.setValue (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:297:9)\n                    at async EditPage.setHintTextInputValue (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/edit.page.ts:17:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"#hint_text\") still not displayed after 60000ms",
+    "statusTrace" : "Error: element (\"#hint_text\") still not displayed after 60000ms\n                    at async EditPage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async EditPage.setValue (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:297:9)\n                    at async EditPage.setHintTextInputValue (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/edit.page.ts:17:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "27a7b490789958fe",
+      "name" : "Screenshot",
+      "source" : "27a7b490789958fe.png",
+      "type" : "image/png",
+      "size" : 161348
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-31"
+  }, {
+    "name" : "suite",
+    "value" : "C2253: Report hint"
+  }, {
+    "name" : "testClass",
+    "value" : "C2253: Report hint"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should add some hint, save, and check if hint sing is visible"
+  }, {
+    "name" : "package",
+    "value" : "C2253: Report hint"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "86e24eca05ba22d6",
+      "status" : "broken",
+      "statusDetails" : "element (\"#hint_text\") still not displayed after 60000ms",
+      "time" : {
+        "start" : 1657921483301,
+        "stop" : 1657921543499,
+        "duration" : 60198
+      }
+    }, {
+      "uid" : "c611cbaf31927c37",
+      "status" : "broken",
+      "statusDetails" : "element (\"#hint_text\") still not displayed after 60000ms",
+      "time" : {
+        "start" : 1657920901591,
+        "stop" : 1657920961798,
+        "duration" : 60207
+      }
+    }, {
+      "uid" : "618bec230b64a6b8",
+      "status" : "broken",
+      "statusDetails" : "Can't call elementClick on element with selector \"#SAVE_HEADER\" because element wasn't found",
+      "time" : {
+        "start" : 1657920598384,
+        "stop" : 1657920643513,
+        "duration" : 45129
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "8c40a12b6bb86fc7.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

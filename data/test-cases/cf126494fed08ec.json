@@ -1,0 +1,113 @@
+{
+  "uid" : "cf126494fed08ec",
+  "name" : "Should select some Payer and upload card",
+  "fullName" : "C2280: Verify Insurance Card Form.Should select some Payer and upload card",
+  "historyId" : "b169c9dff1581284bbac83b1fdf10fc8",
+  "time" : {
+    "start" : 1657918300977,
+    "stop" : 1657918361161,
+    "duration" : 60184
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"//button[text() = 'View Requests']\") still not displayed after 60000ms",
+  "statusTrace" : "Error: element (\"//button[text() = 'View Requests']\") still not displayed after 60000ms\n                    at async CPHomePage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async CPHomePage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:143:9)\n                    at async CPHomePage.clickViewRequestsBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CP/cpHome.page.ts:20:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"//button[text() = 'View Requests']\") still not displayed after 60000ms",
+    "statusTrace" : "Error: element (\"//button[text() = 'View Requests']\") still not displayed after 60000ms\n                    at async CPHomePage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async CPHomePage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:143:9)\n                    at async CPHomePage.clickViewRequestsBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CP/cpHome.page.ts:20:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "540c0e9d5c191c5a",
+      "name" : "Screenshot",
+      "source" : "540c0e9d5c191c5a.png",
+      "type" : "image/png",
+      "size" : 80073
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-7"
+  }, {
+    "name" : "suite",
+    "value" : "C2280: Verify Insurance Card Form"
+  }, {
+    "name" : "testClass",
+    "value" : "C2280: Verify Insurance Card Form"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should select some Payer and upload card"
+  }, {
+    "name" : "package",
+    "value" : "C2280: Verify Insurance Card Form"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1774bbd9f225dec7",
+      "status" : "broken",
+      "statusDetails" : "element (\"//button[text() = 'View Requests']\") still not displayed after 60000ms",
+      "time" : {
+        "start" : 1657918055340,
+        "stop" : 1657918115524,
+        "duration" : 60184
+      }
+    }, {
+      "uid" : "dd97e43c22f8c4dd",
+      "status" : "broken",
+      "statusDetails" : "element (\"//button[text() = 'View Requests']\") still not displayed after 60000ms",
+      "time" : {
+        "start" : 1657917808998,
+        "stop" : 1657917869180,
+        "duration" : 60182
+      }
+    }, {
+      "uid" : "a8ac9e623a56d8cf",
+      "status" : "broken",
+      "statusDetails" : "element (\"//button[text() = 'View Requests']\") still not displayed after 60000ms",
+      "time" : {
+        "start" : 1657917562577,
+        "stop" : 1657917622754,
+        "duration" : 60177
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "cf126494fed08ec.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

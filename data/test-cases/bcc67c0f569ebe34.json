@@ -1,0 +1,78 @@
+{
+  "uid" : "bcc67c0f569ebe34",
+  "name" : "Should terminate client assigned to \"Danashia Mclaughlin\" with reason \"test\"",
+  "fullName" : "C2265: Terminate client with multiclinician.Should terminate client assigned to \"Danashia Mclaughlin\" with reason \"test\"",
+  "historyId" : "87bc84399f594c86a14b21925fcb5edc",
+  "time" : {
+    "start" : 1657917199360,
+    "stop" : 1657917228877,
+    "duration" : 29517
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3cf1244f96406adc",
+      "name" : "Screenshot",
+      "source" : "3cf1244f96406adc.png",
+      "type" : "image/png",
+      "size" : 64278
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-4"
+  }, {
+    "name" : "suite",
+    "value" : "C2265: Terminate client with multiclinician"
+  }, {
+    "name" : "testClass",
+    "value" : "C2265: Terminate client with multiclinician"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should terminate client assigned to \"Danashia Mclaughlin\" with reason \"test\""
+  }, {
+    "name" : "package",
+    "value" : "C2265: Terminate client with multiclinician"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bcc67c0f569ebe34.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

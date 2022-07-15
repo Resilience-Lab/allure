@@ -1,0 +1,102 @@
+{
+  "uid" : "f62e8d88dc0b7f36",
+  "name" : "Should go to Insurance Case and scroll down to 'Insurance API Log'",
+  "fullName" : "C2266: API log sort.Should go to Insurance Case and scroll down to 'Insurance API Log'",
+  "historyId" : "97fd101476a959bbb5254167dc5f0195",
+  "time" : {
+    "start" : 1657919396789,
+    "stop" : 1657919397920,
+    "duration" : 1131
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "32435cda485f867",
+      "name" : "Screenshot",
+      "source" : "32435cda485f867.png",
+      "type" : "image/png",
+      "size" : 175817
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-17"
+  }, {
+    "name" : "suite",
+    "value" : "C2266: API log sort"
+  }, {
+    "name" : "testClass",
+    "value" : "C2266: API log sort"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should go to Insurance Case and scroll down to 'Insurance API Log'"
+  }, {
+    "name" : "package",
+    "value" : "C2266: API log sort"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9c090a0b5f4dff79",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657919380279,
+        "stop" : 1657919381457,
+        "duration" : 1178
+      }
+    }, {
+      "uid" : "9c10865fc159f4e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657919363691,
+        "stop" : 1657919364877,
+        "duration" : 1186
+      }
+    }, {
+      "uid" : "1ef17a5a3327b32a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657919346849,
+        "stop" : 1657919348176,
+        "duration" : 1327
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f62e8d88dc0b7f36.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

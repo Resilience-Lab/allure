@@ -1,0 +1,78 @@
+{
+  "uid" : "9fd40ad4879cb1a3",
+  "name" : "Should have pop-up message that it's not allowed",
+  "fullName" : "C2288: Verify that creating Treatment Plan with Z-code Diagnosis as Primary - don't allowed.Should have pop-up message that it's not allowed",
+  "historyId" : "463a2d379a741708960e47d1bdd3bb49",
+  "time" : {
+    "start" : 1657918844725,
+    "stop" : 1657918862727,
+    "duration" : 18002
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1c2c9874c80c66b2",
+      "name" : "Screenshot",
+      "source" : "1c2c9874c80c66b2.png",
+      "type" : "image/png",
+      "size" : 105005
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-11"
+  }, {
+    "name" : "suite",
+    "value" : "C2288: Verify that creating Treatment Plan with Z-code Diagnosis as Primary - don't allowed"
+  }, {
+    "name" : "testClass",
+    "value" : "C2288: Verify that creating Treatment Plan with Z-code Diagnosis as Primary - don't allowed"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should have pop-up message that it's not allowed"
+  }, {
+    "name" : "package",
+    "value" : "C2288: Verify that creating Treatment Plan with Z-code Diagnosis as Primary - don't allowed"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9fd40ad4879cb1a3.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

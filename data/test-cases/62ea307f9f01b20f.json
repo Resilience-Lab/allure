@@ -1,0 +1,113 @@
+{
+  "uid" : "62ea307f9f01b20f",
+  "name" : "Should signUp to account",
+  "fullName" : "C2280: Verify Insurance Card Form.Should signUp to account",
+  "historyId" : "b745042a766f85f654b2a6be8dab918e",
+  "time" : {
+    "start" : 1657918240769,
+    "stop" : 1657918300976,
+    "duration" : 60207
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"[name=\"email\"]\") still not displayed after 60000ms",
+  "statusTrace" : "Error: element (\"[name=\"email\"]\") still not displayed after 60000ms\n                    at async CPSignUpPage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async CPSignUpPage.getElementValue (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:228:9)\n                    at async CPSignUpPage.signUp (/home/runner/work/webautomation/webautomation/test/pageobjects/CP/cpSignUp.page.ts:50:14)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"[name=\"email\"]\") still not displayed after 60000ms",
+    "statusTrace" : "Error: element (\"[name=\"email\"]\") still not displayed after 60000ms\n                    at async CPSignUpPage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async CPSignUpPage.getElementValue (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:228:9)\n                    at async CPSignUpPage.signUp (/home/runner/work/webautomation/webautomation/test/pageobjects/CP/cpSignUp.page.ts:50:14)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a2f775e6498ce06a",
+      "name" : "Screenshot",
+      "source" : "a2f775e6498ce06a.png",
+      "type" : "image/png",
+      "size" : 80073
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-7"
+  }, {
+    "name" : "suite",
+    "value" : "C2280: Verify Insurance Card Form"
+  }, {
+    "name" : "testClass",
+    "value" : "C2280: Verify Insurance Card Form"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should signUp to account"
+  }, {
+    "name" : "package",
+    "value" : "C2280: Verify Insurance Card Form"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9eb1750793755898",
+      "status" : "broken",
+      "statusDetails" : "element (\"[name=\"email\"]\") still not displayed after 60000ms",
+      "time" : {
+        "start" : 1657917995163,
+        "stop" : 1657918055340,
+        "duration" : 60177
+      }
+    }, {
+      "uid" : "bbf4d8fdc7260221",
+      "status" : "broken",
+      "statusDetails" : "element (\"[name=\"email\"]\") still not displayed after 60000ms",
+      "time" : {
+        "start" : 1657917748818,
+        "stop" : 1657917808997,
+        "duration" : 60179
+      }
+    }, {
+      "uid" : "3c46eafc72fd91c2",
+      "status" : "broken",
+      "statusDetails" : "element (\"[name=\"email\"]\") still not displayed after 60000ms",
+      "time" : {
+        "start" : 1657917502382,
+        "stop" : 1657917562577,
+        "duration" : 60195
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "62ea307f9f01b20f.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

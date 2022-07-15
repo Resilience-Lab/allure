@@ -1,0 +1,80 @@
+{
+  "uid" : "c611cbaf31927c37",
+  "name" : "Should add some hint, save, and check if hint sing is visible",
+  "fullName" : "C2253: Report hint.Should add some hint, save, and check if hint sing is visible",
+  "historyId" : "4edbc20d67cfd78b5b840da518c361f5",
+  "time" : {
+    "start" : 1657920901591,
+    "stop" : 1657920961798,
+    "duration" : 60207
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"#hint_text\") still not displayed after 60000ms",
+  "statusTrace" : "Error: element (\"#hint_text\") still not displayed after 60000ms\n                    at async EditPage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async EditPage.setValue (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:297:9)\n                    at async EditPage.setHintTextInputValue (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/edit.page.ts:17:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"#hint_text\") still not displayed after 60000ms",
+    "statusTrace" : "Error: element (\"#hint_text\") still not displayed after 60000ms\n                    at async EditPage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async EditPage.setValue (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:297:9)\n                    at async EditPage.setHintTextInputValue (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/edit.page.ts:17:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "aa73d53521ced32e",
+      "name" : "Screenshot",
+      "source" : "aa73d53521ced32e.png",
+      "type" : "image/png",
+      "size" : 161348
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-31"
+  }, {
+    "name" : "suite",
+    "value" : "C2253: Report hint"
+  }, {
+    "name" : "testClass",
+    "value" : "C2253: Report hint"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should add some hint, save, and check if hint sing is visible"
+  }, {
+    "name" : "package",
+    "value" : "C2253: Report hint"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c611cbaf31927c37.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

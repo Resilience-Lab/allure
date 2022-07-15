@@ -1,0 +1,80 @@
+{
+  "uid" : "c5cd3b670ba21112",
+  "name" : "Should check \"test\" text matches",
+  "fullName" : "C2257: Default text for document exchanges.Should check \"test\" text matches",
+  "historyId" : "a25b410ce3da0e82922ff26ba157a703",
+  "time" : {
+    "start" : 1657914328917,
+    "stop" : 1657914339113,
+    "duration" : 10196
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"(//p[contains(text(),\"test\")]//..//..//button)[2]\") still not clickable after 10000ms",
+  "statusTrace" : "Error: element (\"(//p[contains(text(),\"test\")]//..//..//button)[2]\") still not clickable after 10000ms\n                    at async CPRequestsPage.waitForElementClickableByIndex (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:93:9)\n                    at async CPRequestsPage.clickByIndex (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:149:9)\n                    at async CPRequestsPage.clickTestReviewAndCompleteBtnByIndex (/home/runner/work/webautomation/webautomation/test/pageobjects/CP/cpRequests.page.ts:107:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"(//p[contains(text(),\"test\")]//..//..//button)[2]\") still not clickable after 10000ms",
+    "statusTrace" : "Error: element (\"(//p[contains(text(),\"test\")]//..//..//button)[2]\") still not clickable after 10000ms\n                    at async CPRequestsPage.waitForElementClickableByIndex (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:93:9)\n                    at async CPRequestsPage.clickByIndex (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:149:9)\n                    at async CPRequestsPage.clickTestReviewAndCompleteBtnByIndex (/home/runner/work/webautomation/webautomation/test/pageobjects/CP/cpRequests.page.ts:107:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "89602d4a7f1c2e25",
+      "name" : "Screenshot",
+      "source" : "89602d4a7f1c2e25.png",
+      "type" : "image/png",
+      "size" : 261898
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "testClass",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should check \"test\" text matches"
+  }, {
+    "name" : "package",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c5cd3b670ba21112.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

@@ -1,0 +1,78 @@
+{
+  "uid" : "4cc1d9d5ad6a5a21",
+  "name" : "In \"Sessions\" tab all future sessions should be deleted",
+  "fullName" : "C2285: Verify that future sesiions will be deleted after sign 'Termination note'.In \"Sessions\" tab all future sessions should be deleted",
+  "historyId" : "77a8bba3bace76a5171b57a9f0036c4a",
+  "time" : {
+    "start" : 1657918746810,
+    "stop" : 1657918763764,
+    "duration" : 16954
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "63fa06c6e4aa4769",
+      "name" : "Screenshot",
+      "source" : "63fa06c6e4aa4769.png",
+      "type" : "image/png",
+      "size" : 43450
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-10"
+  }, {
+    "name" : "suite",
+    "value" : "C2285: Verify that future sesiions will be deleted after sign 'Termination note'"
+  }, {
+    "name" : "testClass",
+    "value" : "C2285: Verify that future sesiions will be deleted after sign 'Termination note'"
+  }, {
+    "name" : "testMethod",
+    "value" : "In \"Sessions\" tab all future sessions should be deleted"
+  }, {
+    "name" : "package",
+    "value" : "C2285: Verify that future sesiions will be deleted after sign 'Termination note'"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4cc1d9d5ad6a5a21.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

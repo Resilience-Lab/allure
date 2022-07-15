@@ -1,0 +1,113 @@
+{
+  "uid" : "819f34c56c739271",
+  "name" : "Should verify email from Resiliencelab",
+  "fullName" : "C2280: Verify Insurance Card Form.Should verify email from Resiliencelab",
+  "historyId" : "5630c7ff87570e3384cc5d5653222840",
+  "time" : {
+    "start" : 1657918218834,
+    "stop" : 1657918240769,
+    "duration" : 21935
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"(//td[@class='col-xs-4'])[1]\") still not clickable after 10000ms",
+  "statusTrace" : "Error: element (\"(//td[@class='col-xs-4'])[1]\") still not clickable after 10000ms\n                    at async EmailPage.waitForElementClickableByIndex (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:93:9)\n                    at async EmailPage.clickByIndex (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:149:9)\n                    at async EmailPage.clickLetterByIndex (/home/runner/work/webautomation/webautomation/test/pageobjects/email.page.ts:34:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"(//td[@class='col-xs-4'])[1]\") still not clickable after 10000ms",
+    "statusTrace" : "Error: element (\"(//td[@class='col-xs-4'])[1]\") still not clickable after 10000ms\n                    at async EmailPage.waitForElementClickableByIndex (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:93:9)\n                    at async EmailPage.clickByIndex (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:149:9)\n                    at async EmailPage.clickLetterByIndex (/home/runner/work/webautomation/webautomation/test/pageobjects/email.page.ts:34:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3f31b00ad5f8aa2e",
+      "name" : "Screenshot",
+      "source" : "3f31b00ad5f8aa2e.png",
+      "type" : "image/png",
+      "size" : 80073
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-7"
+  }, {
+    "name" : "suite",
+    "value" : "C2280: Verify Insurance Card Form"
+  }, {
+    "name" : "testClass",
+    "value" : "C2280: Verify Insurance Card Form"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should verify email from Resiliencelab"
+  }, {
+    "name" : "package",
+    "value" : "C2280: Verify Insurance Card Form"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a426352d15eea028",
+      "status" : "broken",
+      "statusDetails" : "element (\"(//td[@class='col-xs-4'])[1]\") still not clickable after 10000ms",
+      "time" : {
+        "start" : 1657917972984,
+        "stop" : 1657917995163,
+        "duration" : 22179
+      }
+    }, {
+      "uid" : "c6b22bdd9c7b31e2",
+      "status" : "broken",
+      "statusDetails" : "element (\"(//td[@class='col-xs-4'])[1]\") still not clickable after 10000ms",
+      "time" : {
+        "start" : 1657917727139,
+        "stop" : 1657917748818,
+        "duration" : 21679
+      }
+    }, {
+      "uid" : "e301a8a41752d776",
+      "status" : "broken",
+      "statusDetails" : "element (\"(//td[@class='col-xs-4'])[1]\") still not clickable after 10000ms",
+      "time" : {
+        "start" : 1657917480261,
+        "stop" : 1657917502381,
+        "duration" : 22120
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "819f34c56c739271.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

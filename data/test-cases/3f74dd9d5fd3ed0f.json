@@ -1,0 +1,102 @@
+{
+  "uid" : "3f74dd9d5fd3ed0f",
+  "name" : "Should go to clients page and check url",
+  "fullName" : "C2266: API log sort.Should go to clients page and check url",
+  "historyId" : "47ee097b50dfc2c54d5bb482f5459b2",
+  "time" : {
+    "start" : 1657919383670,
+    "stop" : 1657919392443,
+    "duration" : 8773
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d5709ca0974e88de",
+      "name" : "Screenshot",
+      "source" : "d5709ca0974e88de.png",
+      "type" : "image/png",
+      "size" : 176398
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-17"
+  }, {
+    "name" : "suite",
+    "value" : "C2266: API log sort"
+  }, {
+    "name" : "testClass",
+    "value" : "C2266: API log sort"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should go to clients page and check url"
+  }, {
+    "name" : "package",
+    "value" : "C2266: API log sort"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9085ab1d84829a0f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657919367119,
+        "stop" : 1657919375967,
+        "duration" : 8848
+      }
+    }, {
+      "uid" : "a34476b03f4377c3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657919350427,
+        "stop" : 1657919359321,
+        "duration" : 8894
+      }
+    }, {
+      "uid" : "8bfa148b2e09692b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657919331367,
+        "stop" : 1657919342030,
+        "duration" : 10663
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3f74dd9d5fd3ed0f.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

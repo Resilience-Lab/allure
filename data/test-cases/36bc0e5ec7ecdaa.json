@@ -1,0 +1,102 @@
+{
+  "uid" : "36bc0e5ec7ecdaa",
+  "name" : "Should hover more button and check if dropdown menu is displayed",
+  "fullName" : "C2253: Report hint.Should hover more button and check if dropdown menu is displayed",
+  "historyId" : "8bbe636f2ee7552914e57e4b3b9a2044",
+  "time" : {
+    "start" : 1657921665307,
+    "stop" : 1657921700698,
+    "duration" : 35391
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4b27b43e02ad2085",
+      "name" : "Screenshot",
+      "source" : "4b27b43e02ad2085.png",
+      "type" : "image/png",
+      "size" : 46279
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-31"
+  }, {
+    "name" : "suite",
+    "value" : "C2253: Report hint"
+  }, {
+    "name" : "testClass",
+    "value" : "C2253: Report hint"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should hover more button and check if dropdown menu is displayed"
+  }, {
+    "name" : "package",
+    "value" : "C2253: Report hint"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "392f37a00be6be06",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657921083622,
+        "stop" : 1657921240352,
+        "duration" : 156730
+      }
+    }, {
+      "uid" : "d452f8d86958e704",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657920648101,
+        "stop" : 1657920657652,
+        "duration" : 9551
+      }
+    }, {
+      "uid" : "62f17b7fc1b87a88",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657920558163,
+        "stop" : 1657920565790,
+        "duration" : 7627
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "36bc0e5ec7ecdaa.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

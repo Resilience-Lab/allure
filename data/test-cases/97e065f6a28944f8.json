@@ -1,0 +1,112 @@
+{
+  "uid" : "97e065f6a28944f8",
+  "name" : "Should go to report edit page",
+  "fullName" : "C2253: Report hint.Should go to report edit page",
+  "historyId" : "6d207d3aee6416df31188614d98fa4e4",
+  "time" : {
+    "start" : 1657921892351,
+    "stop" : 1657921952582,
+    "duration" : 60231
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"li#tab-actions [href=\"#\"]\") still not displayed after 60000ms",
+  "statusTrace" : "Error: element (\"li#tab-actions [href=\"#\"]\") still not displayed after 60000ms\n                    at async ReportPage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async ReportPage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:143:9)\n                    at async ReportPage.clickActionsBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/report.page.ts:25:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"li#tab-actions [href=\"#\"]\") still not displayed after 60000ms",
+    "statusTrace" : "Error: element (\"li#tab-actions [href=\"#\"]\") still not displayed after 60000ms\n                    at async ReportPage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async ReportPage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:143:9)\n                    at async ReportPage.clickActionsBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/report.page.ts:25:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9b0bb079a9d4796a",
+      "name" : "Screenshot",
+      "source" : "9b0bb079a9d4796a.png",
+      "type" : "image/png",
+      "size" : 161348
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-31"
+  }, {
+    "name" : "suite",
+    "value" : "C2253: Report hint"
+  }, {
+    "name" : "testClass",
+    "value" : "C2253: Report hint"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should go to report edit page"
+  }, {
+    "name" : "package",
+    "value" : "C2253: Report hint"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8540197ce445791c",
+      "status" : "broken",
+      "statusDetails" : "element (\"li#tab-actions [href=\"#\"]\") still not displayed after 60000ms",
+      "time" : {
+        "start" : 1657921423086,
+        "stop" : 1657921483300,
+        "duration" : 60214
+      }
+    }, {
+      "uid" : "dbd2b28c6590d11c",
+      "status" : "broken",
+      "statusDetails" : "element (\"li#tab-actions [href=\"#\"]\") still not displayed after 60000ms",
+      "time" : {
+        "start" : 1657920841348,
+        "stop" : 1657920901591,
+        "duration" : 60243
+      }
+    }, {
+      "uid" : "2f913c7ceaa0add8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657920594933,
+        "stop" : 1657920598383,
+        "duration" : 3450
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "97e065f6a28944f8.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

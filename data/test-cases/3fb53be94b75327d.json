@@ -1,0 +1,78 @@
+{
+  "uid" : "3fb53be94b75327d",
+  "name" : "Should go to client`s profile",
+  "fullName" : "C2281: Verify Progress Note mandatory fields.Should go to client`s profile",
+  "historyId" : "53bc4ea5164cabbd53dec34b577beb71",
+  "time" : {
+    "start" : 1657918514866,
+    "stop" : 1657918515974,
+    "duration" : 1108
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "cb150af729116b85",
+      "name" : "Screenshot",
+      "source" : "cb150af729116b85.png",
+      "type" : "image/png",
+      "size" : 100379
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-8"
+  }, {
+    "name" : "suite",
+    "value" : "C2281: Verify Progress Note mandatory fields"
+  }, {
+    "name" : "testClass",
+    "value" : "C2281: Verify Progress Note mandatory fields"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should go to client`s profile"
+  }, {
+    "name" : "package",
+    "value" : "C2281: Verify Progress Note mandatory fields"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3fb53be94b75327d.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}
