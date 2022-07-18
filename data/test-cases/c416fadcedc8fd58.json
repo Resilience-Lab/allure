@@ -1,0 +1,149 @@
+{
+  "uid" : "c416fadcedc8fd58",
+  "name" : "Should fill out credit card form and click \"Submit\" button",
+  "fullName" : "C2257: Default text for document exchanges.Should fill out credit card form and click \"Submit\" button",
+  "historyId" : "530857d9c453109e0795af455f4f508f",
+  "time" : {
+    "start" : 1658157583821,
+    "stop" : 1658157648989,
+    "duration" : 65168
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"input#cardNumber\") still not displayed after 60000ms",
+  "statusTrace" : "Error: element (\"input#cardNumber\") still not displayed after 60000ms\n                    at async CPRequestsPage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async CPRequestsPage.setValue (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:297:9)\n                    at async CPRequestsPage.setCardNumberInputValue (/home/runner/work/webautomation/webautomation/test/pageobjects/CP/cpRequests.page.ts:172:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 7,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"input#cardNumber\") still not displayed after 60000ms",
+    "statusTrace" : "Error: element (\"input#cardNumber\") still not displayed after 60000ms\n                    at async CPRequestsPage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async CPRequestsPage.setValue (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:297:9)\n                    at async CPRequestsPage.setCardNumberInputValue (/home/runner/work/webautomation/webautomation/test/pageobjects/CP/cpRequests.page.ts:172:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7a8ef2d94d0f2e34",
+      "name" : "Screenshot",
+      "source" : "7a8ef2d94d0f2e34.png",
+      "type" : "image/png",
+      "size" : 66186
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "testClass",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should fill out credit card form and click \"Submit\" button"
+  }, {
+    "name" : "package",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c0b912f09ccfb37a",
+      "status" : "broken",
+      "statusDetails" : "element (\"input#cardNumber\") still not displayed after 60000ms",
+      "time" : {
+        "start" : 1658157422490,
+        "stop" : 1658157487707,
+        "duration" : 65217
+      }
+    }, {
+      "uid" : "428ba0a1c97d6278",
+      "status" : "broken",
+      "statusDetails" : "element (\"input#cardNumber\") still not displayed after 60000ms",
+      "time" : {
+        "start" : 1658157054993,
+        "stop" : 1658157120162,
+        "duration" : 65169
+      }
+    }, {
+      "uid" : "3353adab3c0a3034",
+      "status" : "broken",
+      "statusDetails" : "element (\"input#cardNumber\") still not displayed after 60000ms",
+      "time" : {
+        "start" : 1658156892816,
+        "stop" : 1658156958028,
+        "duration" : 65212
+      }
+    }, {
+      "uid" : "4b7903b67d61e186",
+      "status" : "broken",
+      "statusDetails" : "element (\"input#cardNumber\") still not displayed after 60000ms",
+      "time" : {
+        "start" : 1658156553879,
+        "stop" : 1658156619062,
+        "duration" : 65183
+      }
+    }, {
+      "uid" : "12e552382e055ea9",
+      "status" : "broken",
+      "statusDetails" : "element (\"input#cardNumber\") still not displayed after 60000ms",
+      "time" : {
+        "start" : 1658156392517,
+        "stop" : 1658156457716,
+        "duration" : 65199
+      }
+    }, {
+      "uid" : "3db55e5520950b9b",
+      "status" : "broken",
+      "statusDetails" : "element (\"input#cardNumber\") still not displayed after 60000ms",
+      "time" : {
+        "start" : 1658156052365,
+        "stop" : 1658156117549,
+        "duration" : 65184
+      }
+    }, {
+      "uid" : "956f17fb01676cdc",
+      "status" : "broken",
+      "statusDetails" : "element (\"input#cardNumber\") still not displayed after 60000ms",
+      "time" : {
+        "start" : 1658155891202,
+        "stop" : 1658155956401,
+        "duration" : 65199
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "c416fadcedc8fd58.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

@@ -1,0 +1,149 @@
+{
+  "uid" : "a18dd3c4372cfb9e",
+  "name" : "Should check \"test\" text matches",
+  "fullName" : "C2257: Default text for document exchanges.Should check \"test\" text matches",
+  "historyId" : "a25b410ce3da0e82922ff26ba157a703",
+  "time" : {
+    "start" : 1658157502970,
+    "stop" : 1658157513155,
+    "duration" : 10185
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"(//p[contains(text(),\"test\")]//..//..//button)[2]\") still not clickable after 10000ms",
+  "statusTrace" : "Error: element (\"(//p[contains(text(),\"test\")]//..//..//button)[2]\") still not clickable after 10000ms\n                    at async CPRequestsPage.waitForElementClickableByIndex (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:93:9)\n                    at async CPRequestsPage.clickByIndex (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:149:9)\n                    at async CPRequestsPage.clickTestReviewAndCompleteBtnByIndex (/home/runner/work/webautomation/webautomation/test/pageobjects/CP/cpRequests.page.ts:141:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 7,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"(//p[contains(text(),\"test\")]//..//..//button)[2]\") still not clickable after 10000ms",
+    "statusTrace" : "Error: element (\"(//p[contains(text(),\"test\")]//..//..//button)[2]\") still not clickable after 10000ms\n                    at async CPRequestsPage.waitForElementClickableByIndex (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:93:9)\n                    at async CPRequestsPage.clickByIndex (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:149:9)\n                    at async CPRequestsPage.clickTestReviewAndCompleteBtnByIndex (/home/runner/work/webautomation/webautomation/test/pageobjects/CP/cpRequests.page.ts:141:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a399e016518443cc",
+      "name" : "Screenshot",
+      "source" : "a399e016518443cc.png",
+      "type" : "image/png",
+      "size" : 261572
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "testClass",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should check \"test\" text matches"
+  }, {
+    "name" : "package",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9e34e646bbd339a7",
+      "status" : "broken",
+      "statusDetails" : "element (\"(//p[contains(text(),\"test\")]//..//..//button)[1]\") still not clickable after 10000ms",
+      "time" : {
+        "start" : 1658157341621,
+        "stop" : 1658157351799,
+        "duration" : 10178
+      }
+    }, {
+      "uid" : "e85ab18dd8895e2c",
+      "status" : "broken",
+      "statusDetails" : "element (\"(//p[contains(text(),\"test\")]//..//..//button)[2]\") still not clickable after 10000ms",
+      "time" : {
+        "start" : 1658156974094,
+        "stop" : 1658156984306,
+        "duration" : 10212
+      }
+    }, {
+      "uid" : "54f5f611a8e9e4d8",
+      "status" : "broken",
+      "statusDetails" : "element (\"(//p[contains(text(),\"test\")]//..//..//button)[1]\") still not clickable after 10000ms",
+      "time" : {
+        "start" : 1658156811975,
+        "stop" : 1658156822154,
+        "duration" : 10179
+      }
+    }, {
+      "uid" : "dea2e7832ca44910",
+      "status" : "broken",
+      "statusDetails" : "element (\"(//p[contains(text(),\"test\")]//..//..//button)[2]\") still not clickable after 10000ms",
+      "time" : {
+        "start" : 1658156473014,
+        "stop" : 1658156483211,
+        "duration" : 10197
+      }
+    }, {
+      "uid" : "e8d85eb397b8a189",
+      "status" : "broken",
+      "statusDetails" : "element (\"(//p[contains(text(),\"test\")]//..//..//button)[1]\") still not clickable after 10000ms",
+      "time" : {
+        "start" : 1658156311675,
+        "stop" : 1658156321839,
+        "duration" : 10164
+      }
+    }, {
+      "uid" : "603c57032c25035b",
+      "status" : "broken",
+      "statusDetails" : "element (\"(//p[contains(text(),\"test\")]//..//..//button)[2]\") still not clickable after 10000ms",
+      "time" : {
+        "start" : 1658155971481,
+        "stop" : 1658155981666,
+        "duration" : 10185
+      }
+    }, {
+      "uid" : "8e1e7813db51bbcd",
+      "status" : "broken",
+      "statusDetails" : "element (\"(//p[contains(text(),\"test\")]//..//..//button)[1]\") still not clickable after 10000ms",
+      "time" : {
+        "start" : 1658155810313,
+        "stop" : 1658155820475,
+        "duration" : 10162
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "a18dd3c4372cfb9e.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

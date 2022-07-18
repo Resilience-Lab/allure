@@ -1,0 +1,86 @@
+{
+  "uid" : "634934a3a91d80f8",
+  "name" : "Should go to clients page and check url",
+  "fullName" : "C2272: Don't allow to create more than 1 session per day for INN enrolled client.Should go to clients page and check url",
+  "historyId" : "2d0d44253ef0fed5c8de6a3518ea9546",
+  "time" : {
+    "start" : 1658160872276,
+    "stop" : 1658160874132,
+    "duration" : 1856
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f03821d074f293bf",
+      "name" : "Screenshot",
+      "source" : "f03821d074f293bf.png",
+      "type" : "image/png",
+      "size" : 110812
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-25"
+  }, {
+    "name" : "suite",
+    "value" : "C2272: Don't allow to create more than 1 session per day for INN enrolled client"
+  }, {
+    "name" : "testClass",
+    "value" : "C2272: Don't allow to create more than 1 session per day for INN enrolled client"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should go to clients page and check url"
+  }, {
+    "name" : "package",
+    "value" : "C2272: Don't allow to create more than 1 session per day for INN enrolled client"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "52ae0a6c538dd801",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658160813590,
+        "stop" : 1658160825264,
+        "duration" : 11674
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "634934a3a91d80f8.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

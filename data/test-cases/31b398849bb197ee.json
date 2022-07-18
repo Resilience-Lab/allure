@@ -1,0 +1,149 @@
+{
+  "uid" : "31b398849bb197ee",
+  "name" : "Should verify email from Resiliencelab",
+  "fullName" : "C2257: Default text for document exchanges.Should verify email from Resiliencelab",
+  "historyId" : "cd74ed7c33ba38ccac63bfd56546ebf3",
+  "time" : {
+    "start" : 1658157492276,
+    "stop" : 1658157502787,
+    "duration" : 10511
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"(//td[@class='col-xs-4'])[1]\") still not clickable after 10000ms",
+  "statusTrace" : "Error: element (\"(//td[@class='col-xs-4'])[1]\") still not clickable after 10000ms\n                    at async EmailPage.waitForElementClickableByIndex (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:93:9)\n                    at async EmailPage.clickByIndex (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:149:9)\n                    at async EmailPage.clickLetterByIndex (/home/runner/work/webautomation/webautomation/test/pageobjects/email.page.ts:34:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 7,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"(//td[@class='col-xs-4'])[1]\") still not clickable after 10000ms",
+    "statusTrace" : "Error: element (\"(//td[@class='col-xs-4'])[1]\") still not clickable after 10000ms\n                    at async EmailPage.waitForElementClickableByIndex (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:93:9)\n                    at async EmailPage.clickByIndex (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:149:9)\n                    at async EmailPage.clickLetterByIndex (/home/runner/work/webautomation/webautomation/test/pageobjects/email.page.ts:34:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2c3362ec929333a3",
+      "name" : "Screenshot",
+      "source" : "2c3362ec929333a3.png",
+      "type" : "image/png",
+      "size" : 261572
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "testClass",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should verify email from Resiliencelab"
+  }, {
+    "name" : "package",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ce6d529108784bed",
+      "status" : "broken",
+      "statusDetails" : "element (\"(//td[@class='col-xs-4'])[1]\") still not clickable after 10000ms",
+      "time" : {
+        "start" : 1658157194355,
+        "stop" : 1658157221257,
+        "duration" : 26902
+      }
+    }, {
+      "uid" : "cbd05225b5e4aab8",
+      "status" : "broken",
+      "statusDetails" : "element (\"(//td[@class='col-xs-4'])[1]\") still not clickable after 10000ms",
+      "time" : {
+        "start" : 1658156962848,
+        "stop" : 1658156973909,
+        "duration" : 11061
+      }
+    }, {
+      "uid" : "388ec1ad282aef43",
+      "status" : "broken",
+      "statusDetails" : "element (\"(//td[@class='col-xs-4'])[1]\") still not clickable after 10000ms",
+      "time" : {
+        "start" : 1658156664709,
+        "stop" : 1658156691608,
+        "duration" : 26899
+      }
+    }, {
+      "uid" : "c1dc6b074da1813c",
+      "status" : "broken",
+      "statusDetails" : "element (\"(//td[@class='col-xs-4'])[1]\") still not clickable after 10000ms",
+      "time" : {
+        "start" : 1658156462222,
+        "stop" : 1658156472827,
+        "duration" : 10605
+      }
+    }, {
+      "uid" : "a352051b750f7be4",
+      "status" : "broken",
+      "statusDetails" : "element (\"(//td[@class='col-xs-4'])[1]\") still not clickable after 10000ms",
+      "time" : {
+        "start" : 1658156163994,
+        "stop" : 1658156191313,
+        "duration" : 27319
+      }
+    }, {
+      "uid" : "30b49a230838649f",
+      "status" : "broken",
+      "statusDetails" : "element (\"(//td[@class='col-xs-4'])[1]\") still not clickable after 10000ms",
+      "time" : {
+        "start" : 1658155960808,
+        "stop" : 1658155971297,
+        "duration" : 10489
+      }
+    }, {
+      "uid" : "eac5c0e2530b623",
+      "status" : "broken",
+      "statusDetails" : "element (\"(//td[@class='col-xs-4'])[1]\") still not clickable after 10000ms",
+      "time" : {
+        "start" : 1658155662451,
+        "stop" : 1658155689933,
+        "duration" : 27482
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "31b398849bb197ee.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

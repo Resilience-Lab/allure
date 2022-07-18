@@ -1,0 +1,149 @@
+{
+  "uid" : "85b1fe0f414c83a",
+  "name" : "Should try to download file",
+  "fullName" : "C2257: Default text for document exchanges.Should try to download file",
+  "historyId" : "76531f9216edba0845934dd49511aec2",
+  "time" : {
+    "start" : 1658157513155,
+    "stop" : 1658157573351,
+    "duration" : 60196
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"//button[@type=\"submit\"][text()=\"Download Document\"]\") still not displayed after 60000ms",
+  "statusTrace" : "Error: element (\"//button[@type=\"submit\"][text()=\"Download Document\"]\") still not displayed after 60000ms\n                    at async CPRequestsPage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async CPRequestsPage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:143:9)\n                    at async CPRequestsPage.clickDownloadDocBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CP/cpRequests.page.ts:155:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 7,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"//button[@type=\"submit\"][text()=\"Download Document\"]\") still not displayed after 60000ms",
+    "statusTrace" : "Error: element (\"//button[@type=\"submit\"][text()=\"Download Document\"]\") still not displayed after 60000ms\n                    at async CPRequestsPage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async CPRequestsPage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:143:9)\n                    at async CPRequestsPage.clickDownloadDocBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CP/cpRequests.page.ts:155:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4769f4023390c5f",
+      "name" : "Screenshot",
+      "source" : "4769f4023390c5f.png",
+      "type" : "image/png",
+      "size" : 261572
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "testClass",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should try to download file"
+  }, {
+    "name" : "package",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c765dafee347427d",
+      "status" : "broken",
+      "statusDetails" : "element (\"//button[@type=\"submit\"][text()=\"Download Document\"]\") still not displayed after 60000ms",
+      "time" : {
+        "start" : 1658157351799,
+        "stop" : 1658157411961,
+        "duration" : 60162
+      }
+    }, {
+      "uid" : "dffe786120d6f757",
+      "status" : "broken",
+      "statusDetails" : "element (\"//button[@type=\"submit\"][text()=\"Download Document\"]\") still not displayed after 60000ms",
+      "time" : {
+        "start" : 1658156984307,
+        "stop" : 1658157044506,
+        "duration" : 60199
+      }
+    }, {
+      "uid" : "d01eb8ab6f6a053d",
+      "status" : "broken",
+      "statusDetails" : "element (\"//button[@type=\"submit\"][text()=\"Download Document\"]\") still not displayed after 60000ms",
+      "time" : {
+        "start" : 1658156822155,
+        "stop" : 1658156882316,
+        "duration" : 60161
+      }
+    }, {
+      "uid" : "c444c79d6db05236",
+      "status" : "broken",
+      "statusDetails" : "element (\"//button[@type=\"submit\"][text()=\"Download Document\"]\") still not displayed after 60000ms",
+      "time" : {
+        "start" : 1658156483211,
+        "stop" : 1658156543408,
+        "duration" : 60197
+      }
+    }, {
+      "uid" : "ceeaf450a1dab8a9",
+      "status" : "broken",
+      "statusDetails" : "element (\"//button[@type=\"submit\"][text()=\"Download Document\"]\") still not displayed after 60000ms",
+      "time" : {
+        "start" : 1658156321839,
+        "stop" : 1658156382002,
+        "duration" : 60163
+      }
+    }, {
+      "uid" : "8cf4877c84ade9ed",
+      "status" : "broken",
+      "statusDetails" : "element (\"//button[@type=\"submit\"][text()=\"Download Document\"]\") still not displayed after 60000ms",
+      "time" : {
+        "start" : 1658155981667,
+        "stop" : 1658156041863,
+        "duration" : 60196
+      }
+    }, {
+      "uid" : "1d4be2ec4e9b9a5",
+      "status" : "broken",
+      "statusDetails" : "element (\"//button[@type=\"submit\"][text()=\"Download Document\"]\") still not displayed after 60000ms",
+      "time" : {
+        "start" : 1658155820475,
+        "stop" : 1658155880639,
+        "duration" : 60164
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "85b1fe0f414c83a.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

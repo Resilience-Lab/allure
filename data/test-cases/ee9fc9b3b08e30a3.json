@@ -1,0 +1,134 @@
+{
+  "uid" : "ee9fc9b3b08e30a3",
+  "name" : "Should go back to pending requests",
+  "fullName" : "C2257: Default text for document exchanges.Should go back to pending requests",
+  "historyId" : "a92ca01ca3feafe3fa78eda6b9ff30cf",
+  "time" : {
+    "start" : 1658157573351,
+    "stop" : 1658157573655,
+    "duration" : 304
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 7,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e963e749a42367e0",
+      "name" : "Screenshot",
+      "source" : "e963e749a42367e0.png",
+      "type" : "image/png",
+      "size" : 66186
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "testClass",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should go back to pending requests"
+  }, {
+    "name" : "package",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "fde28e5209c83002",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658157411962,
+        "stop" : 1658157412292,
+        "duration" : 330
+      }
+    }, {
+      "uid" : "ae171c50d8326066",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658157044507,
+        "stop" : 1658157044814,
+        "duration" : 307
+      }
+    }, {
+      "uid" : "99fa377bd4365ea7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658156882316,
+        "stop" : 1658156882630,
+        "duration" : 314
+      }
+    }, {
+      "uid" : "3c865abcb47fd38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658156543408,
+        "stop" : 1658156543703,
+        "duration" : 295
+      }
+    }, {
+      "uid" : "ccf3ce2591a0d6de",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658156382002,
+        "stop" : 1658156382324,
+        "duration" : 322
+      }
+    }, {
+      "uid" : "34e5555e9b0abc9d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658156041863,
+        "stop" : 1658156042199,
+        "duration" : 336
+      }
+    }, {
+      "uid" : "bb12bb9e4d62e741",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658155880639,
+        "stop" : 1658155880989,
+        "duration" : 350
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ee9fc9b3b08e30a3.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}
