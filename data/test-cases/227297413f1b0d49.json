@@ -1,0 +1,78 @@
+{
+  "uid" : "227297413f1b0d49",
+  "name" : "Go to Source tab and click Edit",
+  "fullName" : "C2290: Verify that creating Treatment Plan with Z-code Diagnosis as Primary - don't allowed.Go to Source tab and click Edit",
+  "historyId" : "5bb76323ba541deb9f2565e9343aadc5",
+  "time" : {
+    "start" : 1658248298686,
+    "stop" : 1658248299833,
+    "duration" : 1147
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ba4edce9e19287b4",
+      "name" : "Screenshot",
+      "source" : "ba4edce9e19287b4.png",
+      "type" : "image/png",
+      "size" : 91005
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-14"
+  }, {
+    "name" : "suite",
+    "value" : "C2290: Verify that creating Treatment Plan with Z-code Diagnosis as Primary - don't allowed"
+  }, {
+    "name" : "testClass",
+    "value" : "C2290: Verify that creating Treatment Plan with Z-code Diagnosis as Primary - don't allowed"
+  }, {
+    "name" : "testMethod",
+    "value" : "Go to Source tab and click Edit"
+  }, {
+    "name" : "package",
+    "value" : "C2290: Verify that creating Treatment Plan with Z-code Diagnosis as Primary - don't allowed"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "227297413f1b0d49.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

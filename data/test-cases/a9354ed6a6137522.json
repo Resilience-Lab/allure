@@ -1,0 +1,78 @@
+{
+  "uid" : "a9354ed6a6137522",
+  "name" : "Should open client profile and create session",
+  "fullName" : "C2277: Allow to create more than 1 session per day for independent client.Should open client profile and create session",
+  "historyId" : "cd98df602e8cc35e802f150a4df7e493",
+  "time" : {
+    "start" : 1658249149947,
+    "stop" : 1658249158642,
+    "duration" : 8695
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9cf3e71b915dc763",
+      "name" : "Screenshot",
+      "source" : "9cf3e71b915dc763.png",
+      "type" : "image/png",
+      "size" : 95380
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-24"
+  }, {
+    "name" : "suite",
+    "value" : "C2277: Allow to create more than 1 session per day for independent client"
+  }, {
+    "name" : "testClass",
+    "value" : "C2277: Allow to create more than 1 session per day for independent client"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should open client profile and create session"
+  }, {
+    "name" : "package",
+    "value" : "C2277: Allow to create more than 1 session per day for independent client"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a9354ed6a6137522.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

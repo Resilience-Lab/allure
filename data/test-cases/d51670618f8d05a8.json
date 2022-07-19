@@ -1,0 +1,86 @@
+{
+  "uid" : "d51670618f8d05a8",
+  "name" : "Should verify email from Resiliencelab",
+  "fullName" : "C2257: Default text for document exchanges.Should verify email from Resiliencelab",
+  "historyId" : "cd74ed7c33ba38ccac63bfd56546ebf3",
+  "time" : {
+    "start" : 1658246893322,
+    "stop" : 1658246898946,
+    "duration" : 5624
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "dca584a897a0a34e",
+      "name" : "Screenshot",
+      "source" : "dca584a897a0a34e.png",
+      "type" : "image/png",
+      "size" : 123594
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "testClass",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should verify email from Resiliencelab"
+  }, {
+    "name" : "package",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "36c4ad7f3b8ca8b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658246846803,
+        "stop" : 1658246865956,
+        "duration" : 19153
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d51670618f8d05a8.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

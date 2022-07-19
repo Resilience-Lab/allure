@@ -1,0 +1,76 @@
+{
+  "uid" : "c535cc7b3af1191f",
+  "name" : "Should open client profile and create session",
+  "fullName" : "C2272: Don't allow to create more than 1 session per day for INN enrolled client.Should open client profile and create session",
+  "historyId" : "93acd7d6ab51cbb893195494cba0321",
+  "time" : {
+    "start" : 1658249216087,
+    "stop" : 1658249231251,
+    "duration" : 15164
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4854323e5cdf6181",
+      "name" : "Screenshot",
+      "source" : "4854323e5cdf6181.png",
+      "type" : "image/png",
+      "size" : 184250
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-25"
+  }, {
+    "name" : "suite",
+    "value" : "C2272: Don't allow to create more than 1 session per day for INN enrolled client"
+  }, {
+    "name" : "testClass",
+    "value" : "C2272: Don't allow to create more than 1 session per day for INN enrolled client"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should open client profile and create session"
+  }, {
+    "name" : "package",
+    "value" : "C2272: Don't allow to create more than 1 session per day for INN enrolled client"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c535cc7b3af1191f.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}
