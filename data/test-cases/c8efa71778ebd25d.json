@@ -1,0 +1,94 @@
+{
+  "uid" : "c8efa71778ebd25d",
+  "name" : "Should appear 2 fields",
+  "fullName" : "C2290: Verify that creating Treatment Plan with Z-code Diagnosis as Primary - don't allowed.Should appear 2 fields",
+  "historyId" : "17f6da23c01bafee667560ff89091246",
+  "time" : {
+    "start" : 1658330700246,
+    "stop" : 1658330715538,
+    "duration" : 15292
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "866c9786f34564d3",
+      "name" : "Screenshot",
+      "source" : "866c9786f34564d3.png",
+      "type" : "image/png",
+      "size" : 83166
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-14"
+  }, {
+    "name" : "suite",
+    "value" : "C2290: Verify that creating Treatment Plan with Z-code Diagnosis as Primary - don't allowed"
+  }, {
+    "name" : "testClass",
+    "value" : "C2290: Verify that creating Treatment Plan with Z-code Diagnosis as Primary - don't allowed"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should appear 2 fields"
+  }, {
+    "name" : "package",
+    "value" : "C2290: Verify that creating Treatment Plan with Z-code Diagnosis as Primary - don't allowed"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "af80b382a78678a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658330697563,
+        "stop" : 1658330698923,
+        "duration" : 1360
+      }
+    }, {
+      "uid" : "32b1ab03daf53613",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658330694876,
+        "stop" : 1658330696273,
+        "duration" : 1397
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c8efa71778ebd25d.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

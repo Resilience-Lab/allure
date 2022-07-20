@@ -1,0 +1,78 @@
+{
+  "uid" : "4f440fdec79c3aaa",
+  "name" : "Should create and download Superbill statement",
+  "fullName" : "C2259: Viewing a PDF superbill.Should create and download Superbill statement",
+  "historyId" : "70ce88a9bcfa4eda6b9014291ed3ffae",
+  "time" : {
+    "start" : 1658329563154,
+    "stop" : 1658329564377,
+    "duration" : 1223
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c4e5e8aa9802a3af",
+      "name" : "Screenshot",
+      "source" : "c4e5e8aa9802a3af.png",
+      "type" : "image/png",
+      "size" : 96525
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "C2259: Viewing a PDF superbill"
+  }, {
+    "name" : "testClass",
+    "value" : "C2259: Viewing a PDF superbill"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should create and download Superbill statement"
+  }, {
+    "name" : "package",
+    "value" : "C2259: Viewing a PDF superbill"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4f440fdec79c3aaa.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}
