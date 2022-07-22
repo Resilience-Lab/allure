@@ -1,0 +1,80 @@
+{
+  "uid" : "5cf874dfbfa22b30",
+  "name" : "Should create 'Termination note'",
+  "fullName" : "C2285: Verify that future sesiions will be deleted after sign 'Termination note'.Should create 'Termination note'",
+  "historyId" : "f3185b58415bafa07050cfff459ce476",
+  "time" : {
+    "start" : 1658511266008,
+    "stop" : 1658511339123,
+    "duration" : 73115
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"#sign_this_form\") still not clickable after 60000ms",
+  "statusTrace" : "Error: element (\"#sign_this_form\") still not clickable after 60000ms\n                    at async ProfilePage.waitElementForClickable (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:89:9)\n                    at async ProfilePage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:144:9)\n                    at async ProfilePage.selectSignThisFromCB (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:315:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"#sign_this_form\") still not clickable after 60000ms",
+    "statusTrace" : "Error: element (\"#sign_this_form\") still not clickable after 60000ms\n                    at async ProfilePage.waitElementForClickable (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:89:9)\n                    at async ProfilePage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:144:9)\n                    at async ProfilePage.selectSignThisFromCB (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:315:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8a563767b36bc3bb",
+      "name" : "Screenshot",
+      "source" : "8a563767b36bc3bb.png",
+      "type" : "image/png",
+      "size" : 79063
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-10"
+  }, {
+    "name" : "suite",
+    "value" : "C2285: Verify that future sesiions will be deleted after sign 'Termination note'"
+  }, {
+    "name" : "testClass",
+    "value" : "C2285: Verify that future sesiions will be deleted after sign 'Termination note'"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should create 'Termination note'"
+  }, {
+    "name" : "package",
+    "value" : "C2285: Verify that future sesiions will be deleted after sign 'Termination note'"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5cf874dfbfa22b30.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

@@ -1,0 +1,80 @@
+{
+  "uid" : "4d3f79e0a9255ade",
+  "name" : "Change clients physical location on Connecticut, verify and in 'Insurance' tab 'Standard Billing Rate: ' should be the price exactly as in step 14/15",
+  "fullName" : "C2292: Verify that Humana rates are different in NJ/CT and NY.Change clients physical location on Connecticut, verify and in 'Insurance' tab 'Standard Billing Rate: ' should be the price exactly as in step 14/15",
+  "historyId" : "77428943ed4f6ad0e0c3b66abf79abeb",
+  "time" : {
+    "start" : 1658515118287,
+    "stop" : 1658515178488,
+    "duration" : 60201
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"[onclick*=\"changeTabsSubpanels('0')\"]\") still not displayed after 60000ms",
+  "statusTrace" : "Error: element (\"[onclick*=\"changeTabsSubpanels('0')\"]\") still not displayed after 60000ms\n                    at async ProfilePage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async ProfilePage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:143:9)\n                    at async ProfilePage.clickClientInfoTabBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:607:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"[onclick*=\"changeTabsSubpanels('0')\"]\") still not displayed after 60000ms",
+    "statusTrace" : "Error: element (\"[onclick*=\"changeTabsSubpanels('0')\"]\") still not displayed after 60000ms\n                    at async ProfilePage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async ProfilePage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:143:9)\n                    at async ProfilePage.clickClientInfoTabBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:607:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1f51dfd2b51a1614",
+      "name" : "Screenshot",
+      "source" : "1f51dfd2b51a1614.png",
+      "type" : "image/png",
+      "size" : 141380
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-22"
+  }, {
+    "name" : "suite",
+    "value" : "C2292: Verify that Humana rates are different in NJ/CT and NY"
+  }, {
+    "name" : "testClass",
+    "value" : "C2292: Verify that Humana rates are different in NJ/CT and NY"
+  }, {
+    "name" : "testMethod",
+    "value" : "Change clients physical location on Connecticut, verify and in 'Insurance' tab 'Standard Billing Rate: ' should be the price exactly as in step 14/15"
+  }, {
+    "name" : "package",
+    "value" : "C2292: Verify that Humana rates are different in NJ/CT and NY"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4d3f79e0a9255ade.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

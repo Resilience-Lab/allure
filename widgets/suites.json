@@ -1,15 +1,92 @@
 {
-  "total" : 4,
+  "total" : 27,
   "items" : [ {
+    "uid" : "e8aa6596bccc27d40beb307c5c90151c",
+    "name" : "C2264: Price should be 0 with active cost share waiver (CSW)",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 3,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 7
+    }
+  }, {
+    "uid" : "c3c7a657718f54401d8308e5c9c5a9bc",
+    "name" : "C2292: Verify that Humana rates are different in NJ/CT and NY",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 3,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 7
+    }
+  }, {
     "uid" : "81ae33d00cd469cb53c0f71f073c4980",
     "name" : "C2257: Default text for document exchanges",
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 12,
       "unknown" : 0,
-      "total" : 12
+      "total" : 14
+    }
+  }, {
+    "uid" : "9838e78a8139fa4fdf9952b22b4339e3",
+    "name" : "C2275: Allow to create more than 1 session per day for INN not enrolled client",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
+    "uid" : "7252c200c3842484dfd9c64eb5df1966",
+    "name" : "C2276: Allow to create more than 1 session per day for OON not enrolled client",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
+    "uid" : "4bfc9a47a5fa5a87c7b438556413a3c0",
+    "name" : "C2265: Terminate client with multiclinician",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "563760655627164119fb49f810694278",
+    "name" : "C2277: Allow to create more than 1 session per day for independent client",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "c11630f8e128dc550f96b5162924754c",
+    "name" : "C2291: Verify that creating Treatment Plan with Z-code Diagnosis as Primary - allowed for non insured client",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 7
     }
   }, {
     "uid" : "64a81b910dc1e42f5d18a913a20274f8",
@@ -23,26 +100,15 @@
       "total" : 10
     }
   }, {
-    "uid" : "e61216604e05de4a2256469c38f3c4ce",
-    "name" : "C2261: Clients need to be able to upload documents via Portal",
+    "uid" : "10cf3220297253cf92506af29ec6dbf7",
+    "name" : "C2280: Verify Insurance Card Form",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 4
-    }
-  }, {
-    "uid" : "aa1cbaab3539ba0c52ef3563e8ad4f12",
-    "name" : "C2259: Viewing a PDF superbill",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 3,
-      "unknown" : 0,
-      "total" : 3
+      "total" : 7
     }
   } ]
 }

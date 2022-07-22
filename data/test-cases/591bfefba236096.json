@@ -1,0 +1,80 @@
+{
+  "uid" : "591bfefba236096",
+  "name" : "Should open \"Sarah\" client profile change \"As assigned to:\" to \"Danashia Mclaughlin\"",
+  "fullName" : "C2265: Terminate client with multiclinician.Should open \"Sarah\" client profile change \"As assigned to:\" to \"Danashia Mclaughlin\"",
+  "historyId" : "8f9c44df635a2aba28e9d0ef6ee3ccaf",
+  "time" : {
+    "start" : 1658509092242,
+    "stop" : 1658509278331,
+    "duration" : 186089
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Timeout awaiting 'request' for 30000ms when running \"element/335edae6-ee8c-47d9-a380-9f6d18533ff9/click\" with method \"POST\"",
+  "statusTrace" : "TimeoutError: Timeout awaiting 'request' for 30000ms when running \"element/335edae6-ee8c-47d9-a380-9f6d18533ff9/click\" with method \"POST\"\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Timeout awaiting 'request' for 30000ms when running \"element/335edae6-ee8c-47d9-a380-9f6d18533ff9/click\" with method \"POST\"",
+    "statusTrace" : "TimeoutError: Timeout awaiting 'request' for 30000ms when running \"element/335edae6-ee8c-47d9-a380-9f6d18533ff9/click\" with method \"POST\"\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4225c8a52f08f542",
+      "name" : "Screenshot",
+      "source" : "4225c8a52f08f542.png",
+      "type" : "image/png",
+      "size" : 125027
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-4"
+  }, {
+    "name" : "suite",
+    "value" : "C2265: Terminate client with multiclinician"
+  }, {
+    "name" : "testClass",
+    "value" : "C2265: Terminate client with multiclinician"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should open \"Sarah\" client profile change \"As assigned to:\" to \"Danashia Mclaughlin\""
+  }, {
+    "name" : "package",
+    "value" : "C2265: Terminate client with multiclinician"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "591bfefba236096.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

@@ -1,0 +1,86 @@
+{
+  "uid" : "c93978460c6ffb57",
+  "name" : "Should verify that each CPT code have the same agreed rate value '0'",
+  "fullName" : "C2264: Price should be 0 with active cost share waiver (CSW).Should verify that each CPT code have the same agreed rate value '0'",
+  "historyId" : "9df92f5ea7d80bed8f35b23250a4650a",
+  "time" : {
+    "start" : 1658514291279,
+    "stop" : 1658514477499,
+    "duration" : 186220
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"#customUtils___getMeetingsForClientsQuery_create_button\") still not displayed after 60000ms",
+  "statusTrace" : "Error: element (\"#customUtils___getMeetingsForClientsQuery_create_button\") still not displayed after 60000ms\n                    at async ProfilePage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async ProfilePage.scrollElementIntoViewTop (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:272:9)\n                    at async ProfilePage.clickSessionsCreateBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:802:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"#customUtils___getMeetingsForClientsQuery_create_button\") still not displayed after 60000ms",
+    "statusTrace" : "Error: element (\"#customUtils___getMeetingsForClientsQuery_create_button\") still not displayed after 60000ms\n                    at async ProfilePage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async ProfilePage.scrollElementIntoViewTop (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:272:9)\n                    at async ProfilePage.clickSessionsCreateBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:802:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2e0a472fcdfcfaf1",
+      "name" : "Screenshot",
+      "source" : "2e0a472fcdfcfaf1.png",
+      "type" : "image/png",
+      "size" : 97442
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-18"
+  }, {
+    "name" : "suite",
+    "value" : "C2264: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "testClass",
+    "value" : "C2264: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should verify that each CPT code have the same agreed rate value '0'"
+  }, {
+    "name" : "package",
+    "value" : "C2264: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "c93978460c6ffb57.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

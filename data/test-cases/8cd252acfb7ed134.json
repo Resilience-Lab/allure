@@ -1,0 +1,102 @@
+{
+  "uid" : "8cd252acfb7ed134",
+  "name" : "Should open some client",
+  "fullName" : "C2291: Verify that creating Treatment Plan with Z-code Diagnosis as Primary - allowed for non insured client.Should open some client",
+  "historyId" : "fd9f860e54862b552f8c3d37920dc8d3",
+  "time" : {
+    "start" : 1658512814158,
+    "stop" : 1658512815199,
+    "duration" : 1041
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e6d5e6a7301b3f60",
+      "name" : "Screenshot",
+      "source" : "e6d5e6a7301b3f60.png",
+      "type" : "image/png",
+      "size" : 89891
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-15"
+  }, {
+    "name" : "suite",
+    "value" : "C2291: Verify that creating Treatment Plan with Z-code Diagnosis as Primary - allowed for non insured client"
+  }, {
+    "name" : "testClass",
+    "value" : "C2291: Verify that creating Treatment Plan with Z-code Diagnosis as Primary - allowed for non insured client"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should open some client"
+  }, {
+    "name" : "package",
+    "value" : "C2291: Verify that creating Treatment Plan with Z-code Diagnosis as Primary - allowed for non insured client"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "79e0074eb78b29e6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658512703218,
+        "stop" : 1658512704098,
+        "duration" : 880
+      }
+    }, {
+      "uid" : "d8cee5b88f0d1027",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658512592156,
+        "stop" : 1658512593020,
+        "duration" : 864
+      }
+    }, {
+      "uid" : "cf360a2b381a6cd9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658512480066,
+        "stop" : 1658512481029,
+        "duration" : 963
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8cd252acfb7ed134.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

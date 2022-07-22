@@ -1,0 +1,113 @@
+{
+  "uid" : "90755f6108b116a7",
+  "name" : "Should terminate client assigned to \"Danashia Mclaughlin\" with reason \"test\"",
+  "fullName" : "C2265: Terminate client with multiclinician.Should terminate client assigned to \"Danashia Mclaughlin\" with reason \"test\"",
+  "historyId" : "87bc84399f594c86a14b21925fcb5edc",
+  "time" : {
+    "start" : 1658510166320,
+    "stop" : 1658510228575,
+    "duration" : 62255
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "waitUntil condition timed out after 60000ms",
+  "statusTrace" : "Error: waitUntil condition timed out after 60000ms\n                    at async ProfilePage.waitUntilDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:109:9)\n                    at async ProfilePage.waitUntilCancelModalBtnDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:1015:16)\n                    at async ProfilePage.terminateClient (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:1070:9)\n                    at async Context.<anonymous> (/home/runner/work/webautomation/webautomation/test/specs/Clients/C2265_terminate_client_with_multiclinician.spec.ts:27:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "waitUntil condition timed out after 60000ms",
+    "statusTrace" : "Error: waitUntil condition timed out after 60000ms\n                    at async ProfilePage.waitUntilDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:109:9)\n                    at async ProfilePage.waitUntilCancelModalBtnDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:1015:16)\n                    at async ProfilePage.terminateClient (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:1070:9)\n                    at async Context.<anonymous> (/home/runner/work/webautomation/webautomation/test/specs/Clients/C2265_terminate_client_with_multiclinician.spec.ts:27:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "bac16ad7c35ffd7a",
+      "name" : "Screenshot",
+      "source" : "bac16ad7c35ffd7a.png",
+      "type" : "image/png",
+      "size" : 66964
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-4"
+  }, {
+    "name" : "suite",
+    "value" : "C2265: Terminate client with multiclinician"
+  }, {
+    "name" : "testClass",
+    "value" : "C2265: Terminate client with multiclinician"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should terminate client assigned to \"Danashia Mclaughlin\" with reason \"test\""
+  }, {
+    "name" : "package",
+    "value" : "C2265: Terminate client with multiclinician"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7e2e3aed005dde49",
+      "status" : "broken",
+      "statusDetails" : "element (\"#tab1[onclick=\"changeTabsSubpanels('1');\"]\") still not displayed after 60000ms",
+      "time" : {
+        "start" : 1658509747596,
+        "stop" : 1658509807828,
+        "duration" : 60232
+      }
+    }, {
+      "uid" : "9a6c98e80a6a0f3e",
+      "status" : "broken",
+      "statusDetails" : "element (\"#tab1[onclick=\"changeTabsSubpanels('1');\"]\") still not displayed after 60000ms",
+      "time" : {
+        "start" : 1658509278332,
+        "stop" : 1658509338560,
+        "duration" : 60228
+      }
+    }, {
+      "uid" : "7dc87e274e5f161f",
+      "status" : "broken",
+      "statusDetails" : "element (\"#tab1[onclick=\"changeTabsSubpanels('1');\"]\") still not displayed after 60000ms",
+      "time" : {
+        "start" : 1658508768879,
+        "stop" : 1658508829112,
+        "duration" : 60233
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "90755f6108b116a7.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

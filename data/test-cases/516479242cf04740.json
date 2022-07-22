@@ -1,0 +1,80 @@
+{
+  "uid" : "516479242cf04740",
+  "name" : "\"after all\" hook for C2265: Terminate client with multiclinician",
+  "fullName" : "C2265: Terminate client with multiclinician.\"after all\" hook for C2265: Terminate client with multiclinician",
+  "historyId" : "ab6e0ca8a8829b57c446da8510d18b98",
+  "time" : {
+    "start" : 1658509338561,
+    "stop" : 1658509518814,
+    "duration" : 180253
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"select#rl_multi_clinicians_dropdown\") still not clickable after 60000ms",
+  "statusTrace" : "Error: element (\"select#rl_multi_clinicians_dropdown\") still not clickable after 60000ms\n                    at runNextTicks (node:internal/process/task_queues:61:5)\n                    at processTimers (node:internal/timers:499:9)\n                    at async ProfilePage.waitElementForClickable (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:89:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"select#rl_multi_clinicians_dropdown\") still not clickable after 60000ms",
+    "statusTrace" : "Error: element (\"select#rl_multi_clinicians_dropdown\") still not clickable after 60000ms\n                    at runNextTicks (node:internal/process/task_queues:61:5)\n                    at processTimers (node:internal/timers:499:9)\n                    at async ProfilePage.waitElementForClickable (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:89:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2500074d737207e9",
+      "name" : "Screenshot",
+      "source" : "2500074d737207e9.png",
+      "type" : "image/png",
+      "size" : 125027
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-4"
+  }, {
+    "name" : "suite",
+    "value" : "C2265: Terminate client with multiclinician"
+  }, {
+    "name" : "testClass",
+    "value" : "C2265: Terminate client with multiclinician"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"after all\" hook for C2265: Terminate client with multiclinician"
+  }, {
+    "name" : "package",
+    "value" : "C2265: Terminate client with multiclinician"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "516479242cf04740.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

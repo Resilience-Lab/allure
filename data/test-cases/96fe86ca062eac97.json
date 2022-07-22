@@ -1,0 +1,96 @@
+{
+  "uid" : "96fe86ca062eac97",
+  "name" : "In \"Sessions\" tab all future sessions should be deleted",
+  "fullName" : "C2285: Verify that future sesiions will be deleted after sign 'Termination note'.In \"Sessions\" tab all future sessions should be deleted",
+  "historyId" : "77a8bba3bace76a5171b57a9f0036c4a",
+  "time" : {
+    "start" : 1658511546264,
+    "stop" : 1658511602828,
+    "duration" : 56564
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9f0bc842a94b95ae",
+      "name" : "Screenshot",
+      "source" : "9f0bc842a94b95ae.png",
+      "type" : "image/png",
+      "size" : 43450
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-10"
+  }, {
+    "name" : "suite",
+    "value" : "C2285: Verify that future sesiions will be deleted after sign 'Termination note'"
+  }, {
+    "name" : "testClass",
+    "value" : "C2285: Verify that future sesiions will be deleted after sign 'Termination note'"
+  }, {
+    "name" : "testMethod",
+    "value" : "In \"Sessions\" tab all future sessions should be deleted"
+  }, {
+    "name" : "package",
+    "value" : "C2285: Verify that future sesiions will be deleted after sign 'Termination note'"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "fd4a4f9305269a83",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: false\n                Received: true",
+      "time" : {
+        "start" : 1658511401003,
+        "stop" : 1658511422613,
+        "duration" : 21610
+      }
+    }, {
+      "uid" : "59cfdede0b4aa2ed",
+      "status" : "broken",
+      "statusDetails" : "Can't call elementClick on element with selector \"//a[@onclick=\"cstmAccount.redirectToMeetings();return false;\"]\" because element wasn't found",
+      "time" : {
+        "start" : 1658511122488,
+        "stop" : 1658511208463,
+        "duration" : 85975
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "96fe86ca062eac97.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

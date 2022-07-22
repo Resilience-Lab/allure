@@ -1,0 +1,111 @@
+{
+  "uid" : "6ae23fe857ee9756",
+  "name" : "Should go back to profile and check that 'Client agreed rate' = 0",
+  "fullName" : "C2264: Price should be 0 with active cost share waiver (CSW).Should go back to profile and check that 'Client agreed rate' = 0",
+  "historyId" : "ede70c5d19e9dcbecea83f2de349686f",
+  "time" : {
+    "start" : 1658514223414,
+    "stop" : 1658514291279,
+    "duration" : 67865
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Can't call elementClick on element with selector \"(//td[contains(@field,\"name\")]//a)[1]\" because element wasn't found",
+  "statusTrace" : "Error: Can't call elementClick on element with selector \"(//td[contains(@field,\"name\")]//a)[1]\" because element wasn't found\n                    at async ClientsPage.clickByIndex (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:150:9)\n                    at async ClientsPage.clickByIndexClientProfile (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/clients.page.ts:105:9)\n                    at async Context.<anonymous> (/home/runner/work/webautomation/webautomation/test/specs/Clients/Insurance/C2264_price_should_be_0_with_active_cost_share_waiver_(CSW).spec.ts:36:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Can't call elementClick on element with selector \"(//td[contains(@field,\"name\")]//a)[1]\" because element wasn't found",
+    "statusTrace" : "Error: Can't call elementClick on element with selector \"(//td[contains(@field,\"name\")]//a)[1]\" because element wasn't found\n                    at async ClientsPage.clickByIndex (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:150:9)\n                    at async ClientsPage.clickByIndexClientProfile (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/clients.page.ts:105:9)\n                    at async Context.<anonymous> (/home/runner/work/webautomation/webautomation/test/specs/Clients/Insurance/C2264_price_should_be_0_with_active_cost_share_waiver_(CSW).spec.ts:36:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3343de0b7da07725",
+      "name" : "Screenshot",
+      "source" : "3343de0b7da07725.png",
+      "type" : "image/png",
+      "size" : 97442
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-18"
+  }, {
+    "name" : "suite",
+    "value" : "C2264: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "testClass",
+    "value" : "C2264: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should go back to profile and check that 'Client agreed rate' = 0"
+  }, {
+    "name" : "package",
+    "value" : "C2264: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "632f44666ab8a08e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658513944814,
+        "stop" : 1658513996481,
+        "duration" : 51667
+      }
+    }, {
+      "uid" : "fb8f512a7417e5c9",
+      "status" : "broken",
+      "statusDetails" : "Timeout awaiting 'request' for 30000ms when running \"element/93ad454e-11dc-4ef1-a546-8b1ceeafae60/click\" with method \"POST\"",
+      "time" : {
+        "start" : 1658513390088,
+        "stop" : 1658513598053,
+        "duration" : 207965
+      }
+    }, {
+      "uid" : "578767a1d64ac667",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658513095710,
+        "stop" : 1658513128484,
+        "duration" : 32774
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "6ae23fe857ee9756.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}
