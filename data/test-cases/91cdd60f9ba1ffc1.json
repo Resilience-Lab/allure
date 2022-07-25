@@ -1,0 +1,78 @@
+{
+  "uid" : "91cdd60f9ba1ffc1",
+  "name" : "Change clients physical location on New York, verify and in 'Insurance' tab 'Standard Billing Rate: ' should be the price 149.90 or 157.53",
+  "fullName" : "C2292: Verify that Humana rates are different in NJ/CT and NY.Change clients physical location on New York, verify and in 'Insurance' tab 'Standard Billing Rate: ' should be the price 149.90 or 157.53",
+  "historyId" : "f37e1f8bf17dd820c0f0ebcf44fec583",
+  "time" : {
+    "start" : 1658782068821,
+    "stop" : 1658782111085,
+    "duration" : 42264
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "741c01a166789943",
+      "name" : "Screenshot",
+      "source" : "741c01a166789943.png",
+      "type" : "image/png",
+      "size" : 127537
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-22"
+  }, {
+    "name" : "suite",
+    "value" : "C2292: Verify that Humana rates are different in NJ/CT and NY"
+  }, {
+    "name" : "testClass",
+    "value" : "C2292: Verify that Humana rates are different in NJ/CT and NY"
+  }, {
+    "name" : "testMethod",
+    "value" : "Change clients physical location on New York, verify and in 'Insurance' tab 'Standard Billing Rate: ' should be the price 149.90 or 157.53"
+  }, {
+    "name" : "package",
+    "value" : "C2292: Verify that Humana rates are different in NJ/CT and NY"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "91cdd60f9ba1ffc1.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}
