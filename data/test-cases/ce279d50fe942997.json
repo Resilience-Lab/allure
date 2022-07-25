@@ -1,0 +1,95 @@
+{
+  "uid" : "ce279d50fe942997",
+  "name" : "Should go back to profile and check that 'Client agreed rate' = 0",
+  "fullName" : "C2264: Price should be 0 with active cost share waiver (CSW).Should go back to profile and check that 'Client agreed rate' = 0",
+  "historyId" : "ede70c5d19e9dcbecea83f2de349686f",
+  "time" : {
+    "start" : 1658767503276,
+    "stop" : 1658767743290,
+    "duration" : 240014
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Timeout of 240000ms exceeded. The execution in the test \"C2264: Price should be 0 with active cost share waiver (CSW) Should go back to profile and check that 'Client agreed rate' = 0\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/home/runner/work/webautomation/webautomation/test/specs/Clients/Insurance/C2264_price_should_be_0_with_active_cost_share_waiver_(CSW).spec.ts)",
+  "statusTrace" : "Error: Timeout of 240000ms exceeded. The execution in the test \"C2264: Price should be 0 with active cost share waiver (CSW) Should go back to profile and check that 'Client agreed rate' = 0\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/home/runner/work/webautomation/webautomation/test/specs/Clients/Insurance/C2264_price_should_be_0_with_active_cost_share_waiver_(CSW).spec.ts)\n                    at createTimeoutError (/home/runner/work/webautomation/webautomation/node_modules/mocha/lib/errors.js:498:15)\n                    at Test.Runnable._timeoutError (/home/runner/work/webautomation/webautomation/node_modules/mocha/lib/runnable.js:431:10)\n                    at Timeout.<anonymous> (/home/runner/work/webautomation/webautomation/node_modules/mocha/lib/runnable.js:246:24)\n                    at listOnTimeout (node:internal/timers:559:17)\n                    at processTimers (node:internal/timers:502:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-18"
+  }, {
+    "name" : "suite",
+    "value" : "C2264: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "testClass",
+    "value" : "C2264: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should go back to profile and check that 'Client agreed rate' = 0"
+  }, {
+    "name" : "package",
+    "value" : "C2264: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9739b3ee78a490d6",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 240000ms exceeded. The execution in the test \"C2264: Price should be 0 with active cost share waiver (CSW) Should go back to profile and check that 'Client agreed rate' = 0\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/home/runner/work/webautomation/webautomation/test/specs/Clients/Insurance/C2264_price_should_be_0_with_active_cost_share_waiver_(CSW).spec.ts)",
+      "time" : {
+        "start" : 1658766453807,
+        "stop" : 1658766693833,
+        "duration" : 240026
+      }
+    }, {
+      "uid" : "2622b966079e7aec",
+      "status" : "broken",
+      "statusDetails" : "Timeout awaiting 'request' for 30000ms when running \"element/e5de7f66-9eed-4e40-ae60-51a75b0161bd/click\" with method \"POST\"",
+      "time" : {
+        "start" : 1658765749587,
+        "stop" : 1658765958984,
+        "duration" : 209397
+      }
+    }, {
+      "uid" : "c8b6f4378ca2e63",
+      "status" : "broken",
+      "statusDetails" : "Timeout awaiting 'request' for 30000ms when running \"element/485cee9d-cdf0-4c96-84b6-fc83a1e444c5/click\" with method \"POST\"",
+      "time" : {
+        "start" : 1658765052577,
+        "stop" : 1658765258173,
+        "duration" : 205596
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "ce279d50fe942997.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

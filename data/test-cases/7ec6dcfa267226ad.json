@@ -1,0 +1,86 @@
+{
+  "uid" : "7ec6dcfa267226ad",
+  "name" : "\"after all\" hook for C2264: Price should be 0 with active cost share waiver (CSW)",
+  "fullName" : "C2264: Price should be 0 with active cost share waiver (CSW).\"after all\" hook for C2264: Price should be 0 with active cost share waiver (CSW)",
+  "historyId" : "9f382fa5a217738977753fbd4ba33eb0",
+  "time" : {
+    "start" : 1658766693834,
+    "stop" : 1658766970900,
+    "duration" : 277066
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Timeout awaiting 'request' for 30000ms when running \"element/34eefecb-56e4-4499-91c9-491e6be73405/click\" with method \"POST\"",
+  "statusTrace" : "TimeoutError: Timeout awaiting 'request' for 30000ms when running \"element/34eefecb-56e4-4499-91c9-491e6be73405/click\" with method \"POST\"\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Timeout awaiting 'request' for 30000ms when running \"element/34eefecb-56e4-4499-91c9-491e6be73405/click\" with method \"POST\"",
+    "statusTrace" : "TimeoutError: Timeout awaiting 'request' for 30000ms when running \"element/34eefecb-56e4-4499-91c9-491e6be73405/click\" with method \"POST\"\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ff00b3117e2b756e",
+      "name" : "Screenshot",
+      "source" : "ff00b3117e2b756e.png",
+      "type" : "image/png",
+      "size" : 238948
+    }, {
+      "uid" : "b405ee6c54fe52a6",
+      "name" : "Screenshot",
+      "source" : "b405ee6c54fe52a6.png",
+      "type" : "image/png",
+      "size" : 238948
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-18"
+  }, {
+    "name" : "suite",
+    "value" : "C2264: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "testClass",
+    "value" : "C2264: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"after all\" hook for C2264: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "package",
+    "value" : "C2264: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7ec6dcfa267226ad.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

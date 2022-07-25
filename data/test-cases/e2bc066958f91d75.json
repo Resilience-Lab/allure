@@ -1,0 +1,119 @@
+{
+  "uid" : "e2bc066958f91d75",
+  "name" : "\"after all\" hook for C2264: Price should be 0 with active cost share waiver (CSW)",
+  "fullName" : "C2264: Price should be 0 with active cost share waiver (CSW).\"after all\" hook for C2264: Price should be 0 with active cost share waiver (CSW)",
+  "historyId" : "9f382fa5a217738977753fbd4ba33eb0",
+  "time" : {
+    "start" : 1658767743291,
+    "stop" : 1658767957472,
+    "duration" : 214181
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"#toolbar a[href=\"index.php?module=Accounts&action=index&parentTab=All\"]\") still not displayed after 60000ms",
+  "statusTrace" : "Error: element (\"#toolbar a[href=\"index.php?module=Accounts&action=index&parentTab=All\"]\") still not displayed after 60000ms\n                    at async NavigationBar.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async NavigationBar.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:143:9)\n                    at async NavigationBar.clickClientsBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/navigation.bar.ts:55:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"#toolbar a[href=\"index.php?module=Accounts&action=index&parentTab=All\"]\") still not displayed after 60000ms",
+    "statusTrace" : "Error: element (\"#toolbar a[href=\"index.php?module=Accounts&action=index&parentTab=All\"]\") still not displayed after 60000ms\n                    at async NavigationBar.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async NavigationBar.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:143:9)\n                    at async NavigationBar.clickClientsBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/navigation.bar.ts:55:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5b16125476281083",
+      "name" : "Screenshot",
+      "source" : "5b16125476281083.png",
+      "type" : "image/png",
+      "size" : 238948
+    }, {
+      "uid" : "7e140db7bb071ed4",
+      "name" : "Screenshot",
+      "source" : "7e140db7bb071ed4.png",
+      "type" : "image/png",
+      "size" : 238948
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-18"
+  }, {
+    "name" : "suite",
+    "value" : "C2264: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "testClass",
+    "value" : "C2264: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"after all\" hook for C2264: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "package",
+    "value" : "C2264: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7ec6dcfa267226ad",
+      "status" : "broken",
+      "statusDetails" : "Timeout awaiting 'request' for 30000ms when running \"element/34eefecb-56e4-4499-91c9-491e6be73405/click\" with method \"POST\"",
+      "time" : {
+        "start" : 1658766693834,
+        "stop" : 1658766970900,
+        "duration" : 277066
+      }
+    }, {
+      "uid" : "9408e023701ace85",
+      "status" : "broken",
+      "statusDetails" : "stale element reference: element is not attached to the page document\n                  (Session info: headless chrome=103.0.5060.114)",
+      "time" : {
+        "start" : 1658765958985,
+        "stop" : 1658766130871,
+        "duration" : 171886
+      }
+    }, {
+      "uid" : "29a4395d13bac4ab",
+      "status" : "broken",
+      "statusDetails" : "element (\"#toolbar a[href=\"index.php?module=Accounts&action=index&parentTab=All\"]\") still not displayed after 60000ms",
+      "time" : {
+        "start" : 1658765258173,
+        "stop" : 1658765428596,
+        "duration" : 170423
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "e2bc066958f91d75.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

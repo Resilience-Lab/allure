@@ -1,0 +1,86 @@
+{
+  "uid" : "fbe77692675b6cc7",
+  "name" : "Should send documents to email",
+  "fullName" : "C2286: Verify Insurance Card Form.Should send documents to email",
+  "historyId" : "2150e18fed06984304c34c7993d0690c",
+  "time" : {
+    "start" : 1658764390493,
+    "stop" : 1658764393372,
+    "duration" : 2879
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8eedb66d83fcb51b",
+      "name" : "Screenshot",
+      "source" : "8eedb66d83fcb51b.png",
+      "type" : "image/png",
+      "size" : 97326
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-11"
+  }, {
+    "name" : "suite",
+    "value" : "C2286: Verify Insurance Card Form"
+  }, {
+    "name" : "testClass",
+    "value" : "C2286: Verify Insurance Card Form"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should send documents to email"
+  }, {
+    "name" : "package",
+    "value" : "C2286: Verify Insurance Card Form"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8ef92cb28dc8b5df",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658764307746,
+        "stop" : 1658764310617,
+        "duration" : 2871
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fbe77692675b6cc7.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

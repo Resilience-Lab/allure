@@ -1,5 +1,135 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "no such alert\n                  (Session info: headless chrome=103.0.5060.114)",
+      "children" : [ {
+        "name" : "\"after all\" hook for C2286: Verify Insurance Card Form",
+        "uid" : "97db47c012c17929",
+        "parentUid" : "7b85e066552de08e776d748aa141b072",
+        "status" : "broken",
+        "time" : {
+          "start" : 1658764344645,
+          "stop" : 1658764351472,
+          "duration" : 6827
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      } ],
+      "uid" : "7b85e066552de08e776d748aa141b072"
+    }, {
+      "name" : "Timeout awaiting 'request' for 30000ms when running \"element/124bcff8-4522-4e79-bba6-be8560b1c64b/click\" with method \"POST\"",
+      "children" : [ {
+        "name" : "Should go first client profile",
+        "uid" : "7119f91aa3245888",
+        "parentUid" : "1e5dcf0a12e34324704d562dac1d4421",
+        "status" : "broken",
+        "time" : {
+          "start" : 1658767262238,
+          "stop" : 1658767443046,
+          "duration" : 180808
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : true,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      } ],
+      "uid" : "1e5dcf0a12e34324704d562dac1d4421"
+    }, {
+      "name" : "element (\"//a[@id='tab5'][contains(text(),'Insurance')]\") still not displayed after 60000ms",
+      "children" : [ {
+        "name" : "Should check cbox for cost-share Waiver and add end date",
+        "uid" : "b84ba301ee16ae89",
+        "parentUid" : "001a491abb899a0aaca14006fd999f73",
+        "status" : "broken",
+        "time" : {
+          "start" : 1658767443046,
+          "stop" : 1658767503276,
+          "duration" : 60230
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : true,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      } ],
+      "uid" : "001a491abb899a0aaca14006fd999f73"
+    }, {
+      "name" : "Timeout of 240000ms exceeded. The execution in the test \"C2264: Price should be 0 with active cost share waiver (CSW) Should go back to profile and check that 'Client agreed rate' = 0\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/home/runner/work/webautomation/webautomation/test/specs/Clients/Insurance/C2264_price_should_be_0_with_active_cost_share_waiver_(CSW).spec.ts)",
+      "children" : [ {
+        "name" : "Should go back to profile and check that 'Client agreed rate' = 0",
+        "uid" : "ce279d50fe942997",
+        "parentUid" : "9aa22f2fc51864a15acb2012c2d27a32",
+        "status" : "broken",
+        "time" : {
+          "start" : 1658767503276,
+          "stop" : 1658767743290,
+          "duration" : 240014
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      } ],
+      "uid" : "9aa22f2fc51864a15acb2012c2d27a32"
+    }, {
+      "name" : "element (\"#toolbar a[href=\"index.php?module=Accounts&action=index&parentTab=All\"]\") still not displayed after 60000ms",
+      "children" : [ {
+        "name" : "\"after all\" hook for C2264: Price should be 0 with active cost share waiver (CSW)",
+        "uid" : "e2bc066958f91d75",
+        "parentUid" : "072b646b1267e370ce40e91f71807966",
+        "status" : "broken",
+        "time" : {
+          "start" : 1658767743291,
+          "stop" : 1658767957472,
+          "duration" : 214181
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      } ],
+      "uid" : "072b646b1267e370ce40e91f71807966"
+    }, {
+      "name" : "element (\"//li[@id=\"tab-actions\"]//a\") still not displayed after 60000ms",
+      "children" : [ {
+        "name" : "\"after all\" hook for C2287: Create a new user on DEV",
+        "uid" : "f2104617beccb777",
+        "parentUid" : "e4a1ec87efb8ad2e190a93367dfc96b1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1658770149203,
+          "stop" : 1658770269707,
+          "duration" : 120504
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.114" ]
+      } ],
+      "uid" : "e4a1ec87efb8ad2e190a93367dfc96b1"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
   "name" : "categories"
 }
