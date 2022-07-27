@@ -1,0 +1,80 @@
+{
+  "uid" : "e48cb4278eecb411",
+  "name" : "Should appear 2 fields",
+  "fullName" : "C2290: Verify that creating Treatment Plan with Z-code Diagnosis as Primary - don't allowed.Should appear 2 fields",
+  "historyId" : "f8d08ff9323b5f2e6a924cb24daeee71",
+  "time" : {
+    "start" : 1658910479693,
+    "stop" : 1658910479996,
+    "duration" : 303
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Option with text \"Yes\" not found.",
+  "statusTrace" : "Error: Option with text \"Yes\" not found.\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at async ProfilePage.selectElementByVisibleText (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:184:9)\n                    at async ProfilePage.selectSourceClientGetMatchedByVisibleText (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:260:9)\n                    at async Context.<anonymous> (/home/runner/work/webautomation/webautomation/test/specs/Clients/C2290_Make_sure_some_fields_are_present_and_optional_(in_Source_tab).spec.ts:55:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Option with text \"Yes\" not found.",
+    "statusTrace" : "Error: Option with text \"Yes\" not found.\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at async ProfilePage.selectElementByVisibleText (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:184:9)\n                    at async ProfilePage.selectSourceClientGetMatchedByVisibleText (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:260:9)\n                    at async Context.<anonymous> (/home/runner/work/webautomation/webautomation/test/specs/Clients/C2290_Make_sure_some_fields_are_present_and_optional_(in_Source_tab).spec.ts:55:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "28dd1f988c9d996f",
+      "name" : "Screenshot",
+      "source" : "28dd1f988c9d996f.png",
+      "type" : "image/png",
+      "size" : 94282
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-14"
+  }, {
+    "name" : "suite",
+    "value" : "C2290: Verify that creating Treatment Plan with Z-code Diagnosis as Primary - don't allowed"
+  }, {
+    "name" : "testClass",
+    "value" : "C2290: Verify that creating Treatment Plan with Z-code Diagnosis as Primary - don't allowed"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should appear 2 fields"
+  }, {
+    "name" : "package",
+    "value" : "C2290: Verify that creating Treatment Plan with Z-code Diagnosis as Primary - don't allowed"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e48cb4278eecb411.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}

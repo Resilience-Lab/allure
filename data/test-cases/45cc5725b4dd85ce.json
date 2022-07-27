@@ -1,0 +1,78 @@
+{
+  "uid" : "45cc5725b4dd85ce",
+  "name" : "Should go to client`s profile",
+  "fullName" : "C2282: Verify Progress Note disabled fields.Should go to client`s profile",
+  "historyId" : "1d78da116716e9408586c5d451170063",
+  "time" : {
+    "start" : 1658909754874,
+    "stop" : 1658909756273,
+    "duration" : 1399
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2f543ed78cd333ca",
+      "name" : "Screenshot",
+      "source" : "2f543ed78cd333ca.png",
+      "type" : "image/png",
+      "size" : 101117
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-9"
+  }, {
+    "name" : "suite",
+    "value" : "C2282: Verify Progress Note disabled fields"
+  }, {
+    "name" : "testClass",
+    "value" : "C2282: Verify Progress Note disabled fields"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should go to client`s profile"
+  }, {
+    "name" : "package",
+    "value" : "C2282: Verify Progress Note disabled fields"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "45cc5725b4dd85ce.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}

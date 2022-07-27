@@ -1,0 +1,149 @@
+{
+  "uid" : "b8290fb5817978f5",
+  "name" : "Should appear new field",
+  "fullName" : "C2290: Verify that creating Treatment Plan with Z-code Diagnosis as Primary - don't allowed.Should appear new field",
+  "historyId" : "3504178cc5b3db18305c9a7661c55df",
+  "time" : {
+    "start" : 1658910575543,
+    "stop" : 1658910575807,
+    "duration" : 264
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Option with text \"No\" not found.",
+  "statusTrace" : "Error: Option with text \"No\" not found.\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at async ProfilePage.selectElementByVisibleText (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:184:9)\n                    at async ProfilePage.selectSourceClientGetMatchedByVisibleText (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:260:9)\n                    at async Context.<anonymous> (/home/runner/work/webautomation/webautomation/test/specs/Clients/C2290_Make_sure_some_fields_are_present_and_optional_(in_Source_tab).spec.ts:63:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 7,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Option with text \"No\" not found.",
+    "statusTrace" : "Error: Option with text \"No\" not found.\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at async ProfilePage.selectElementByVisibleText (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:184:9)\n                    at async ProfilePage.selectSourceClientGetMatchedByVisibleText (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:260:9)\n                    at async Context.<anonymous> (/home/runner/work/webautomation/webautomation/test/specs/Clients/C2290_Make_sure_some_fields_are_present_and_optional_(in_Source_tab).spec.ts:63:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4322568f293f2586",
+      "name" : "Screenshot",
+      "source" : "4322568f293f2586.png",
+      "type" : "image/png",
+      "size" : 94282
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-14"
+  }, {
+    "name" : "suite",
+    "value" : "C2290: Verify that creating Treatment Plan with Z-code Diagnosis as Primary - don't allowed"
+  }, {
+    "name" : "testClass",
+    "value" : "C2290: Verify that creating Treatment Plan with Z-code Diagnosis as Primary - don't allowed"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should appear new field"
+  }, {
+    "name" : "package",
+    "value" : "C2290: Verify that creating Treatment Plan with Z-code Diagnosis as Primary - don't allowed"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a881f1b83fef4529",
+      "status" : "broken",
+      "statusDetails" : "Option with text \"Yes\" not found.",
+      "time" : {
+        "start" : 1658910574929,
+        "stop" : 1658910575254,
+        "duration" : 325
+      }
+    }, {
+      "uid" : "471160349243939e",
+      "status" : "broken",
+      "statusDetails" : "Option with text \"No\" not found.",
+      "time" : {
+        "start" : 1658910479996,
+        "stop" : 1658910480273,
+        "duration" : 277
+      }
+    }, {
+      "uid" : "d11de20dff7885bf",
+      "status" : "broken",
+      "statusDetails" : "Option with text \"Yes\" not found.",
+      "time" : {
+        "start" : 1658910479378,
+        "stop" : 1658910479693,
+        "duration" : 315
+      }
+    }, {
+      "uid" : "4f3a2ed529c27076",
+      "status" : "broken",
+      "statusDetails" : "Option with text \"No\" not found.",
+      "time" : {
+        "start" : 1658910385405,
+        "stop" : 1658910385683,
+        "duration" : 278
+      }
+    }, {
+      "uid" : "70fbe6660772ac3",
+      "status" : "broken",
+      "statusDetails" : "Option with text \"Yes\" not found.",
+      "time" : {
+        "start" : 1658910384784,
+        "stop" : 1658910385087,
+        "duration" : 303
+      }
+    }, {
+      "uid" : "3dc02014a2dc3b7c",
+      "status" : "broken",
+      "statusDetails" : "Option with text \"No\" not found.",
+      "time" : {
+        "start" : 1658910289157,
+        "stop" : 1658910289420,
+        "duration" : 263
+      }
+    }, {
+      "uid" : "6e447266ef01c731",
+      "status" : "broken",
+      "statusDetails" : "Option with text \"Yes\" not found.",
+      "time" : {
+        "start" : 1658910288538,
+        "stop" : 1658910288846,
+        "duration" : 308
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "b8290fb5817978f5.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}

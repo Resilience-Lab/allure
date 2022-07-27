@@ -1,0 +1,87 @@
+{
+  "uid" : "b8f80a78a6be7deb",
+  "name" : "Change clients physical location on New Jersey, verify and in 'Insurance' tab 'Standard Billing Rate: ' should be the price exactly as in step 9/10",
+  "fullName" : "C2292: Verify that Humana rates are different in NJ/CT and NY.Change clients physical location on New Jersey, verify and in 'Insurance' tab 'Standard Billing Rate: ' should be the price exactly as in step 9/10",
+  "historyId" : "1e1c3be380153a280f44598181f70244",
+  "time" : {
+    "start" : 1658912200993,
+    "stop" : 1658912218834,
+    "duration" : 17841
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "75e2ea46594fa3b3",
+      "name" : "Screenshot",
+      "source" : "75e2ea46594fa3b3.png",
+      "type" : "image/png",
+      "size" : 127075
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-22"
+  }, {
+    "name" : "suite",
+    "value" : "C2292: Verify that Humana rates are different in NJ/CT and NY"
+  }, {
+    "name" : "testClass",
+    "value" : "C2292: Verify that Humana rates are different in NJ/CT and NY"
+  }, {
+    "name" : "testMethod",
+    "value" : "Change clients physical location on New Jersey, verify and in 'Insurance' tab 'Standard Billing Rate: ' should be the price exactly as in step 9/10"
+  }, {
+    "name" : "package",
+    "value" : "C2292: Verify that Humana rates are different in NJ/CT and NY"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "11cb319579f247b8",
+      "status" : "broken",
+      "statusDetails" : "element (\"//input[@value=\"Save\"]\") still not clickable after 60000ms",
+      "time" : {
+        "start" : 1658911863188,
+        "stop" : 1658911933400,
+        "duration" : 70212
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b8f80a78a6be7deb.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}

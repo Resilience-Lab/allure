@@ -1,0 +1,94 @@
+{
+  "uid" : "daf93eba26140c93",
+  "name" : "Should go to filter and from  'Insurance Status' select some status except 'Enrollment Completed', from 'Out-Of-Network' select 'Yes'",
+  "fullName" : "C2276: Allow to create more than 1 session per day for OON not enrolled client.Should go to filter and from  'Insurance Status' select some status except 'Enrollment Completed', from 'Out-Of-Network' select 'Yes'",
+  "historyId" : "4d47182b97e88c7fd0e6468484b8a09a",
+  "time" : {
+    "start" : 1658913197981,
+    "stop" : 1658913200916,
+    "duration" : 2935
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4b4d3f897b5eba1b",
+      "name" : "Screenshot",
+      "source" : "4b4d3f897b5eba1b.png",
+      "type" : "image/png",
+      "size" : 68209
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-25"
+  }, {
+    "name" : "suite",
+    "value" : "C2276: Allow to create more than 1 session per day for OON not enrolled client"
+  }, {
+    "name" : "testClass",
+    "value" : "C2276: Allow to create more than 1 session per day for OON not enrolled client"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should go to filter and from  'Insurance Status' select some status except 'Enrollment Completed', from 'Out-Of-Network' select 'Yes'"
+  }, {
+    "name" : "package",
+    "value" : "C2276: Allow to create more than 1 session per day for OON not enrolled client"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4dc709a872bd06e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658912966951,
+        "stop" : 1658912970113,
+        "duration" : 3162
+      }
+    }, {
+      "uid" : "a920c9b3b2cf1e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658912775402,
+        "stop" : 1658912778455,
+        "duration" : 3053
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "daf93eba26140c93.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}

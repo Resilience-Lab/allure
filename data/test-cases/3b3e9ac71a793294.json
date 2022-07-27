@@ -1,0 +1,96 @@
+{
+  "uid" : "3b3e9ac71a793294",
+  "name" : "The session should be created without any pop-up",
+  "fullName" : "C2276: Allow to create more than 1 session per day for OON not enrolled client.The session should be created without any pop-up",
+  "historyId" : "84dea24af785bdf42b14c1bd7016f1fe",
+  "time" : {
+    "start" : 1658913210331,
+    "stop" : 1658913279888,
+    "duration" : 69557
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f5e29f19d2e49e67",
+      "name" : "Screenshot",
+      "source" : "f5e29f19d2e49e67.png",
+      "type" : "image/png",
+      "size" : 96881
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-25"
+  }, {
+    "name" : "suite",
+    "value" : "C2276: Allow to create more than 1 session per day for OON not enrolled client"
+  }, {
+    "name" : "testClass",
+    "value" : "C2276: Allow to create more than 1 session per day for OON not enrolled client"
+  }, {
+    "name" : "testMethod",
+    "value" : "The session should be created without any pop-up"
+  }, {
+    "name" : "package",
+    "value" : "C2276: Allow to create more than 1 session per day for OON not enrolled client"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9066b7471296b0e9",
+      "status" : "broken",
+      "statusDetails" : "Can't call elementClick on element with selector \"//a[@onclick=\"cstmAccount.redirectToMeetings();return false;\"]\" because element wasn't found",
+      "time" : {
+        "start" : 1658912979441,
+        "stop" : 1658913101448,
+        "duration" : 122007
+      }
+    }, {
+      "uid" : "3fe9fb700f3213fb",
+      "status" : "broken",
+      "statusDetails" : "Can't call elementClick on element with selector \"//a[@onclick=\"cstmAccount.redirectToMeetings();return false;\"]\" because element wasn't found",
+      "time" : {
+        "start" : 1658912787852,
+        "stop" : 1658912871548,
+        "duration" : 83696
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3b3e9ac71a793294.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}

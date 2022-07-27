@@ -1,5 +1,114 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Option with text \"No\" not found.",
+      "children" : [ {
+        "name" : "Should appear new field",
+        "uid" : "b8290fb5817978f5",
+        "parentUid" : "9e1e5be1e9a16fbd25e09bf37d3c334f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1658910575543,
+          "stop" : 1658910575807,
+          "duration" : 264
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 7,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      } ],
+      "uid" : "9e1e5be1e9a16fbd25e09bf37d3c334f"
+    }, {
+      "name" : "Option with text \"Yes\" not found.",
+      "children" : [ {
+        "name" : "Should appear 2 fields",
+        "uid" : "123f88e97ff0c334",
+        "parentUid" : "a47fa1ee2083d684a80ac7a4ea85efbd",
+        "status" : "broken",
+        "time" : {
+          "start" : 1658910575807,
+          "stop" : 1658910588183,
+          "duration" : 12376
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 11,
+        "retriesStatusChange" : true,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      } ],
+      "uid" : "a47fa1ee2083d684a80ac7a4ea85efbd"
+    }, {
+      "name" : "element (\"#toolbar a[href=\"index.php?module=Accounts&action=index&parentTab=All\"]\") still not displayed after 60000ms",
+      "children" : [ {
+        "name" : "\"after all\" hook for C2264: Price should be 0 with active cost share waiver (CSW)",
+        "uid" : "4efa05bce29bdc1f",
+        "parentUid" : "072b646b1267e370ce40e91f71807966",
+        "status" : "broken",
+        "time" : {
+          "start" : 1658911128406,
+          "stop" : 1658911298955,
+          "duration" : 170549
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      } ],
+      "uid" : "072b646b1267e370ce40e91f71807966"
+    }, {
+      "name" : "element (\"//li[@id='globalLinks']//button[@title]\") still not clickable after 60000ms",
+      "children" : [ {
+        "name" : "\"after all\" hook for C2277: Allow to create more than 1 session per day for independent client",
+        "uid" : "286e033eaf1138f5",
+        "parentUid" : "7ae2206e415d7638ac650102c0470d8d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1658913772658,
+          "stop" : 1658914087882,
+          "duration" : 315224
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      } ],
+      "uid" : "7ae2206e415d7638ac650102c0470d8d"
+    }, {
+      "name" : "element (\"//div[@class=\"noty_buttons\"]//button[text()='No']\") still not displayed after 60000ms",
+      "children" : [ {
+        "name" : "The session should be created without any pop-up",
+        "uid" : "c9a7f8316492631e",
+        "parentUid" : "fc6bdcf028688ffaceacf39f9f8fa6d5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1658914409770,
+          "stop" : 1658914488901,
+          "duration" : 79131
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      } ],
+      "uid" : "fc6bdcf028688ffaceacf39f9f8fa6d5"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
   "name" : "categories"
 }

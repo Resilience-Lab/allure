@@ -1,0 +1,102 @@
+{
+  "uid" : "af5751e47d37c013",
+  "name" : "Should go to filter and from 'Insurance Status' select blank status, from 'In-Network' select 'No', from 'Out-Of-Network' select 'No'",
+  "fullName" : "C2277: Allow to create more than 1 session per day for independent client.Should go to filter and from 'Insurance Status' select blank status, from 'In-Network' select 'No', from 'Out-Of-Network' select 'No'",
+  "historyId" : "adbdf3edb370bb73439b011792a76d4d",
+  "time" : {
+    "start" : 1658914396240,
+    "stop" : 1658914400909,
+    "duration" : 4669
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "67b196ba74d58810",
+      "name" : "Screenshot",
+      "source" : "67b196ba74d58810.png",
+      "type" : "image/png",
+      "size" : 77060
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-26"
+  }, {
+    "name" : "suite",
+    "value" : "C2277: Allow to create more than 1 session per day for independent client"
+  }, {
+    "name" : "testClass",
+    "value" : "C2277: Allow to create more than 1 session per day for independent client"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should go to filter and from 'Insurance Status' select blank status, from 'In-Network' select 'No', from 'Out-Of-Network' select 'No'"
+  }, {
+    "name" : "package",
+    "value" : "C2277: Allow to create more than 1 session per day for independent client"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5fc8b255e3feaf5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658914157379,
+        "stop" : 1658914162196,
+        "duration" : 4817
+      }
+    }, {
+      "uid" : "c587d8d78409a7d4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658913755298,
+        "stop" : 1658913761464,
+        "duration" : 6166
+      }
+    }, {
+      "uid" : "44dac20dea78c5a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658913329180,
+        "stop" : 1658913334260,
+        "duration" : 5080
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "af5751e47d37c013.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}

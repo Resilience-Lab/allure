@@ -1,0 +1,87 @@
+{
+  "uid" : "e90df5ce81c6b28a",
+  "name" : "Change clients physical location on New York, verify and in 'Insurance' tab 'Standard Billing Rate: ' should be the price 149.90 or 157.53",
+  "fullName" : "C2292: Verify that Humana rates are different in NJ/CT and NY.Change clients physical location on New York, verify and in 'Insurance' tab 'Standard Billing Rate: ' should be the price 149.90 or 157.53",
+  "historyId" : "f37e1f8bf17dd820c0f0ebcf44fec583",
+  "time" : {
+    "start" : 1658912236949,
+    "stop" : 1658912280373,
+    "duration" : 43424
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3710fcc06f861c9",
+      "name" : "Screenshot",
+      "source" : "3710fcc06f861c9.png",
+      "type" : "image/png",
+      "size" : 127253
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-22"
+  }, {
+    "name" : "suite",
+    "value" : "C2292: Verify that Humana rates are different in NJ/CT and NY"
+  }, {
+    "name" : "testClass",
+    "value" : "C2292: Verify that Humana rates are different in NJ/CT and NY"
+  }, {
+    "name" : "testMethod",
+    "value" : "Change clients physical location on New York, verify and in 'Insurance' tab 'Standard Billing Rate: ' should be the price 149.90 or 157.53"
+  }, {
+    "name" : "package",
+    "value" : "C2292: Verify that Humana rates are different in NJ/CT and NY"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ff0dd4f396c2aa9e",
+      "status" : "broken",
+      "statusDetails" : "element (\"[onclick*=\"changeTabsSubpanels('0')\"]\") still not displayed after 60000ms",
+      "time" : {
+        "start" : 1658911993636,
+        "stop" : 1658912080831,
+        "duration" : 87195
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e90df5ce81c6b28a.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}

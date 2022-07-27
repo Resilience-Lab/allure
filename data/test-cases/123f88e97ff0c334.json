@@ -1,0 +1,181 @@
+{
+  "uid" : "123f88e97ff0c334",
+  "name" : "Should appear 2 fields",
+  "fullName" : "C2290: Verify that creating Treatment Plan with Z-code Diagnosis as Primary - don't allowed.Should appear 2 fields",
+  "historyId" : "f8d08ff9323b5f2e6a924cb24daeee71",
+  "time" : {
+    "start" : 1658910575807,
+    "stop" : 1658910588183,
+    "duration" : 12376
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Option with text \"Yes\" not found.",
+  "statusTrace" : "Error: Option with text \"Yes\" not found.\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at async ProfilePage.selectElementByVisibleText (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:184:9)\n                    at async ProfilePage.selectSourceCareCoordinatorsFollowUpByVisibleText (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:236:9)\n                    at async Context.<anonymous> (/home/runner/work/webautomation/webautomation/test/specs/Clients/C2290_Make_sure_some_fields_are_present_and_optional_(in_Source_tab).spec.ts:71:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 11,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Option with text \"Yes\" not found.",
+    "statusTrace" : "Error: Option with text \"Yes\" not found.\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at async ProfilePage.selectElementByVisibleText (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:184:9)\n                    at async ProfilePage.selectSourceCareCoordinatorsFollowUpByVisibleText (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:236:9)\n                    at async Context.<anonymous> (/home/runner/work/webautomation/webautomation/test/specs/Clients/C2290_Make_sure_some_fields_are_present_and_optional_(in_Source_tab).spec.ts:71:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "78f2edeff6a058cd",
+      "name" : "Screenshot",
+      "source" : "78f2edeff6a058cd.png",
+      "type" : "image/png",
+      "size" : 92253
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-14"
+  }, {
+    "name" : "suite",
+    "value" : "C2290: Verify that creating Treatment Plan with Z-code Diagnosis as Primary - don't allowed"
+  }, {
+    "name" : "testClass",
+    "value" : "C2290: Verify that creating Treatment Plan with Z-code Diagnosis as Primary - don't allowed"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should appear 2 fields"
+  }, {
+    "name" : "package",
+    "value" : "C2290: Verify that creating Treatment Plan with Z-code Diagnosis as Primary - don't allowed"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "864598eab5bfb46",
+      "status" : "broken",
+      "statusDetails" : "Option with text \"Yes\" not found.",
+      "time" : {
+        "start" : 1658910575254,
+        "stop" : 1658910575542,
+        "duration" : 288
+      }
+    }, {
+      "uid" : "3995a9488c1aa530",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658910573543,
+        "stop" : 1658910574929,
+        "duration" : 1386
+      }
+    }, {
+      "uid" : "27106abb139c5d71",
+      "status" : "broken",
+      "statusDetails" : "Option with text \"Yes\" not found.",
+      "time" : {
+        "start" : 1658910480273,
+        "stop" : 1658910492649,
+        "duration" : 12376
+      }
+    }, {
+      "uid" : "e48cb4278eecb411",
+      "status" : "broken",
+      "statusDetails" : "Option with text \"Yes\" not found.",
+      "time" : {
+        "start" : 1658910479693,
+        "stop" : 1658910479996,
+        "duration" : 303
+      }
+    }, {
+      "uid" : "fb78ee40cd2b1d3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658910477996,
+        "stop" : 1658910479378,
+        "duration" : 1382
+      }
+    }, {
+      "uid" : "435cc9426637c1ce",
+      "status" : "broken",
+      "statusDetails" : "Option with text \"Yes\" not found.",
+      "time" : {
+        "start" : 1658910385684,
+        "stop" : 1658910397859,
+        "duration" : 12175
+      }
+    }, {
+      "uid" : "2e8cbe02c60cc1dd",
+      "status" : "broken",
+      "statusDetails" : "Option with text \"Yes\" not found.",
+      "time" : {
+        "start" : 1658910385087,
+        "stop" : 1658910385400,
+        "duration" : 313
+      }
+    }, {
+      "uid" : "5d8d895199e4e272",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658910383436,
+        "stop" : 1658910384783,
+        "duration" : 1347
+      }
+    }, {
+      "uid" : "5db18846e286b725",
+      "status" : "broken",
+      "statusDetails" : "Option with text \"Yes\" not found.",
+      "time" : {
+        "start" : 1658910289421,
+        "stop" : 1658910301770,
+        "duration" : 12349
+      }
+    }, {
+      "uid" : "be820285b3bd057a",
+      "status" : "broken",
+      "statusDetails" : "Option with text \"Yes\" not found.",
+      "time" : {
+        "start" : 1658910288847,
+        "stop" : 1658910289157,
+        "duration" : 310
+      }
+    }, {
+      "uid" : "9c7cc637a37afa00",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658910287156,
+        "stop" : 1658910288537,
+        "duration" : 1381
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "123f88e97ff0c334.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}
