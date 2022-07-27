@@ -1,0 +1,80 @@
+{
+  "uid" : "ca6614b9728cf50b",
+  "name" : "Should create session with similar to time of first session and check alert",
+  "fullName" : "C2272: Don't allow to create more than 1 session per day for INN enrolled client.Should create session with similar to time of first session and check alert",
+  "historyId" : "3fbcc294b72f03d00791323105c12cef",
+  "time" : {
+    "start" : 1658963092842,
+    "stop" : 1658963158063,
+    "duration" : 65221
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"[onclick*=\"changeTabsSubpanels('4')\"]\") still not displayed after 60000ms",
+  "statusTrace" : "Error: element (\"[onclick*=\"changeTabsSubpanels('4')\"]\") still not displayed after 60000ms\n                    at async ProfilePage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async ProfilePage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:143:9)\n                    at async ProfilePage.clickSessionsTabBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:736:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"[onclick*=\"changeTabsSubpanels('4')\"]\") still not displayed after 60000ms",
+    "statusTrace" : "Error: element (\"[onclick*=\"changeTabsSubpanels('4')\"]\") still not displayed after 60000ms\n                    at async ProfilePage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async ProfilePage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:143:9)\n                    at async ProfilePage.clickSessionsTabBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:736:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1de2b463370ebc4",
+      "name" : "Screenshot",
+      "source" : "1de2b463370ebc4.png",
+      "type" : "image/png",
+      "size" : 69162
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-27"
+  }, {
+    "name" : "suite",
+    "value" : "C2272: Don't allow to create more than 1 session per day for INN enrolled client"
+  }, {
+    "name" : "testClass",
+    "value" : "C2272: Don't allow to create more than 1 session per day for INN enrolled client"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should create session with similar to time of first session and check alert"
+  }, {
+    "name" : "package",
+    "value" : "C2272: Don't allow to create more than 1 session per day for INN enrolled client"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ca6614b9728cf50b.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}

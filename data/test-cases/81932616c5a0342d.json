@@ -1,0 +1,78 @@
+{
+  "uid" : "81932616c5a0342d",
+  "name" : "All fields, except Employer/Sponsor, should be mandatory",
+  "fullName" : "C2286: Verify Insurance Card Form.All fields, except Employer/Sponsor, should be mandatory",
+  "historyId" : "c7ebca4bd5b89ae20faf1a20987aa763",
+  "time" : {
+    "start" : 1658960488534,
+    "stop" : 1658960498212,
+    "duration" : 9678
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "167e0a8730fbf050",
+      "name" : "Screenshot",
+      "source" : "167e0a8730fbf050.png",
+      "type" : "image/png",
+      "size" : 71911
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-11"
+  }, {
+    "name" : "suite",
+    "value" : "C2286: Verify Insurance Card Form"
+  }, {
+    "name" : "testClass",
+    "value" : "C2286: Verify Insurance Card Form"
+  }, {
+    "name" : "testMethod",
+    "value" : "All fields, except Employer/Sponsor, should be mandatory"
+  }, {
+    "name" : "package",
+    "value" : "C2286: Verify Insurance Card Form"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "81932616c5a0342d.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}

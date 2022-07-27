@@ -1,0 +1,87 @@
+{
+  "uid" : "2152e72e6d7c33d2",
+  "name" : "The session should be created without any pop-up",
+  "fullName" : "C2277: Allow to create more than 1 session per day for independent client.The session should be created without any pop-up",
+  "historyId" : "ba4bf0b99dcaacd251e0ab2908b72b75",
+  "time" : {
+    "start" : 1658962946140,
+    "stop" : 1658963012923,
+    "duration" : 66783
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1e424a0411793fce",
+      "name" : "Screenshot",
+      "source" : "1e424a0411793fce.png",
+      "type" : "image/png",
+      "size" : 137668
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-26"
+  }, {
+    "name" : "suite",
+    "value" : "C2277: Allow to create more than 1 session per day for independent client"
+  }, {
+    "name" : "testClass",
+    "value" : "C2277: Allow to create more than 1 session per day for independent client"
+  }, {
+    "name" : "testMethod",
+    "value" : "The session should be created without any pop-up"
+  }, {
+    "name" : "package",
+    "value" : "C2277: Allow to create more than 1 session per day for independent client"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "85f24ce60931ede7",
+      "status" : "broken",
+      "statusDetails" : "Timeout awaiting 'request' for 30000ms when running \"element/39ef2391-ec7b-48f1-8b4c-16bc35cbee50/click\" with method \"POST\"",
+      "time" : {
+        "start" : 1658962215777,
+        "stop" : 1658962456535,
+        "duration" : 240758
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2152e72e6d7c33d2.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}

@@ -1,0 +1,76 @@
+{
+  "uid" : "a960a67f8ac9bd18",
+  "name" : "Should go to clients page and check url",
+  "fullName" : "C2277: Allow to create more than 1 session per day for independent client.Should go to clients page and check url",
+  "historyId" : "dc7093bc111221beab0e20226a932e7",
+  "time" : {
+    "start" : 1658962157097,
+    "stop" : 1658962199442,
+    "duration" : 42345
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c366f6c9bd1b4781",
+      "name" : "Screenshot",
+      "source" : "c366f6c9bd1b4781.png",
+      "type" : "image/png",
+      "size" : 231977
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-26"
+  }, {
+    "name" : "suite",
+    "value" : "C2277: Allow to create more than 1 session per day for independent client"
+  }, {
+    "name" : "testClass",
+    "value" : "C2277: Allow to create more than 1 session per day for independent client"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should go to clients page and check url"
+  }, {
+    "name" : "package",
+    "value" : "C2277: Allow to create more than 1 session per day for independent client"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a960a67f8ac9bd18.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}

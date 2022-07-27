@@ -1,0 +1,134 @@
+{
+  "uid" : "c80cc315e79d3455",
+  "name" : "Should go to filter and from 'Insurance Status' select 'Enrollment Completed', from 'In-Network' select 'Yes'",
+  "fullName" : "C2272: Don't allow to create more than 1 session per day for INN enrolled client.Should go to filter and from 'Insurance Status' select 'Enrollment Completed', from 'In-Network' select 'Yes'",
+  "historyId" : "b894520ecab120387d56d224f27749c2",
+  "time" : {
+    "start" : 1658963508300,
+    "stop" : 1658963511158,
+    "duration" : 2858
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 7,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e93888ae0ecb27a8",
+      "name" : "Screenshot",
+      "source" : "e93888ae0ecb27a8.png",
+      "type" : "image/png",
+      "size" : 68529
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-27"
+  }, {
+    "name" : "suite",
+    "value" : "C2272: Don't allow to create more than 1 session per day for INN enrolled client"
+  }, {
+    "name" : "testClass",
+    "value" : "C2272: Don't allow to create more than 1 session per day for INN enrolled client"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should go to filter and from 'Insurance Status' select 'Enrollment Completed', from 'In-Network' select 'Yes'"
+  }, {
+    "name" : "package",
+    "value" : "C2272: Don't allow to create more than 1 session per day for INN enrolled client"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "abe909cf64d7784a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658963456345,
+        "stop" : 1658963459240,
+        "duration" : 2895
+      }
+    }, {
+      "uid" : "9d36f3ef8de06311",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658963363150,
+        "stop" : 1658963366083,
+        "duration" : 2933
+      }
+    }, {
+      "uid" : "9d3ff59db27ccfea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658963314296,
+        "stop" : 1658963317212,
+        "duration" : 2916
+      }
+    }, {
+      "uid" : "694c1f78ff494808",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658963222445,
+        "stop" : 1658963225333,
+        "duration" : 2888
+      }
+    }, {
+      "uid" : "1b3be6c024e636ed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658963171989,
+        "stop" : 1658963174816,
+        "duration" : 2827
+      }
+    }, {
+      "uid" : "4e1fd038037f0297",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658963079739,
+        "stop" : 1658963082574,
+        "duration" : 2835
+      }
+    }, {
+      "uid" : "f40875952885bfe7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658963029506,
+        "stop" : 1658963032374,
+        "duration" : 2868
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c80cc315e79d3455.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}

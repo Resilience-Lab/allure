@@ -1,0 +1,87 @@
+{
+  "uid" : "c62b6e5317eaf3f3",
+  "name" : "The session should be created without any pop-up",
+  "fullName" : "C2276: Allow to create more than 1 session per day for OON not enrolled client.The session should be created without any pop-up",
+  "historyId" : "84dea24af785bdf42b14c1bd7016f1fe",
+  "time" : {
+    "start" : 1658962089194,
+    "stop" : 1658962154482,
+    "duration" : 65288
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c582c61f295c66f7",
+      "name" : "Screenshot",
+      "source" : "c582c61f295c66f7.png",
+      "type" : "image/png",
+      "size" : 97415
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-25"
+  }, {
+    "name" : "suite",
+    "value" : "C2276: Allow to create more than 1 session per day for OON not enrolled client"
+  }, {
+    "name" : "testClass",
+    "value" : "C2276: Allow to create more than 1 session per day for OON not enrolled client"
+  }, {
+    "name" : "testMethod",
+    "value" : "The session should be created without any pop-up"
+  }, {
+    "name" : "package",
+    "value" : "C2276: Allow to create more than 1 session per day for OON not enrolled client"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1759e265c7313d90",
+      "status" : "broken",
+      "statusDetails" : "Can't call elementClick on element with selector \"//a[text()='sessions click here']\" because element wasn't found",
+      "time" : {
+        "start" : 1658961885729,
+        "stop" : 1658961978614,
+        "duration" : 92885
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c62b6e5317eaf3f3.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}
