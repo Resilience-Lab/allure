@@ -1,0 +1,78 @@
+{
+  "uid" : "28733b20cd0eb3e4",
+  "name" : "Should send documents to email",
+  "fullName" : "C2286: Verify Insurance Card Form.Should send documents to email",
+  "historyId" : "4ff3d0b4a237971f545c7129bddc1ba9",
+  "time" : {
+    "start" : 1659038038928,
+    "stop" : 1659038041942,
+    "duration" : 3014
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d551ef6f1147a04f",
+      "name" : "Screenshot",
+      "source" : "d551ef6f1147a04f.png",
+      "type" : "image/png",
+      "size" : 97353
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-11"
+  }, {
+    "name" : "suite",
+    "value" : "C2286: Verify Insurance Card Form"
+  }, {
+    "name" : "testClass",
+    "value" : "C2286: Verify Insurance Card Form"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should send documents to email"
+  }, {
+    "name" : "package",
+    "value" : "C2286: Verify Insurance Card Form"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "28733b20cd0eb3e4.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}

@@ -1,17 +1,6 @@
 {
-  "total" : 4,
+  "total" : 18,
   "items" : [ {
-    "uid" : "aa1cbaab3539ba0c52ef3563e8ad4f12",
-    "name" : "C2259: Viewing a PDF superbill",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 2,
-      "unknown" : 0,
-      "total" : 3
-    }
-  }, {
     "uid" : "81ae33d00cd469cb53c0f71f073c4980",
     "name" : "C2257: Default text for document exchanges",
     "statistic" : {
@@ -34,8 +23,85 @@
       "total" : 10
     }
   }, {
+    "uid" : "26595c51ac19bfe0f7298c4004853f66",
+    "name" : "C2290: Verify that creating Treatment Plan with Z-code Diagnosis as Primary - don't allowed",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 8,
+      "unknown" : 0,
+      "total" : 8
+    }
+  }, {
+    "uid" : "10cf3220297253cf92506af29ec6dbf7",
+    "name" : "C2280: Verify Insurance Card Form",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 7
+    }
+  }, {
+    "uid" : "de14c62921acf86b325032420df3cf5c",
+    "name" : "C2286: Verify Insurance Card Form",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 7
+    }
+  }, {
+    "uid" : "c11630f8e128dc550f96b5162924754c",
+    "name" : "C2291: Verify that creating Treatment Plan with Z-code Diagnosis as Primary - allowed for non insured client",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 7
+    }
+  }, {
+    "uid" : "9d92227662f67dbe0a39b77de0acc5c2",
+    "name" : "C2285: Verify that future sesiions will be deleted after sign 'Termination note'",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
     "uid" : "e61216604e05de4a2256469c38f3c4ce",
     "name" : "C2261: Clients need to be able to upload documents via Portal",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "4bfc9a47a5fa5a87c7b438556413a3c0",
+    "name" : "C2265: Terminate client with multiclinician",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "92ca43a36b8a98da52a73c5129bf3955",
+    "name" : "C2288: Verify that creating Treatment Plan with Z-code Diagnosis as Primary - don't allowed",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
