@@ -1,5 +1,173 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Timeout awaiting 'request' for 45000ms when running \"element/62c7a159-ad87-4c3d-8c3e-44952954bf94/click\" with method \"POST\"",
+      "children" : [ {
+        "name" : "Should go first client profile",
+        "uid" : "9b12b57df965b075",
+        "parentUid" : "22f7b606f808b3b53e67701046e56333",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659041441497,
+          "stop" : 1659041682053,
+          "duration" : 240556
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      } ],
+      "uid" : "22f7b606f808b3b53e67701046e56333"
+    }, {
+      "name" : "element (\"//a[@id='tab5'][contains(text(),'Insurance')]\") still not displayed after 60000ms",
+      "children" : [ {
+        "name" : "Should check cbox for cost-share Waiver and add end date",
+        "uid" : "b871210c30eb743f",
+        "parentUid" : "001a491abb899a0aaca14006fd999f73",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659041682054,
+          "stop" : 1659041741802,
+          "duration" : 59748
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      } ],
+      "uid" : "001a491abb899a0aaca14006fd999f73"
+    }, {
+      "name" : "Timeout awaiting 'request' for 45000ms when running \"element/fa6235d4-5eac-45df-a1b1-cbb5505c7cc3/click\" with method \"POST\"",
+      "children" : [ {
+        "name" : "Should go back to profile and check that 'Client agreed rate' = 0",
+        "uid" : "dbedd4bcfb4ca01f",
+        "parentUid" : "7f652e829107007b19a5dc8897235baa",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659041741802,
+          "stop" : 1659042012740,
+          "duration" : 270938
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      } ],
+      "uid" : "7f652e829107007b19a5dc8897235baa"
+    }, {
+      "name" : "element (\"#toolbar a[href=\"index.php?module=Accounts&action=index&parentTab=All\"]\") still not displayed after 60000ms",
+      "children" : [ {
+        "name" : "\"after all\" hook for C2264: Price should be 0 with active cost share waiver (CSW)",
+        "uid" : "f3f4d2c01536957",
+        "parentUid" : "072b646b1267e370ce40e91f71807966",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659042012740,
+          "stop" : 1659042198117,
+          "duration" : 185377
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      } ],
+      "uid" : "072b646b1267e370ce40e91f71807966"
+    }, {
+      "name" : "Can't call elementClick on element with selector \"//a[text()='sessions click here']\" because element wasn't found",
+      "children" : [ {
+        "name" : "The session should be created without any pop-up",
+        "uid" : "30805826d9da4758",
+        "parentUid" : "1cc0628dbea9f8e33b551a71d9a95e05",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659043038329,
+          "stop" : 1659043133825,
+          "duration" : 95496
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      }, {
+        "name" : "The session should be created without any pop-up",
+        "uid" : "48e008c94cd40444",
+        "parentUid" : "1cc0628dbea9f8e33b551a71d9a95e05",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659044057368,
+          "stop" : 1659044228393,
+          "duration" : 171025
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      } ],
+      "uid" : "1cc0628dbea9f8e33b551a71d9a95e05"
+    }, {
+      "name" : "element (\"//li[@id='globalLinks']//button[@title]\") still not clickable after 60000ms",
+      "children" : [ {
+        "name" : "\"after all\" hook for C2276: Allow to create more than 1 session per day for OON not enrolled client",
+        "uid" : "3d30dfc7c8ffe123",
+        "parentUid" : "7ae2206e415d7638ac650102c0470d8d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659043234301,
+          "stop" : 1659043617255,
+          "duration" : 382954
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      } ],
+      "uid" : "7ae2206e415d7638ac650102c0470d8d"
+    }, {
+      "name" : "element (\"li#tab-actions [href=\"#\"]\") still not displayed after 60000ms",
+      "children" : [ {
+        "name" : "\"after all\" hook for C2253: Report hint",
+        "uid" : "1c39df701880dcf1",
+        "parentUid" : "32e1de187efaabdbd75a8211bce1a8a9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659045559487,
+          "stop" : 1659045679685,
+          "duration" : 120198
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      } ],
+      "uid" : "32e1de187efaabdbd75a8211bce1a8a9"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
   "name" : "categories"
 }

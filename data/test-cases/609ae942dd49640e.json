@@ -1,0 +1,78 @@
+{
+  "uid" : "609ae942dd49640e",
+  "name" : "Should fill all the fields",
+  "fullName" : "C2291: Verify that creating Treatment Plan with Z-code Diagnosis as Primary - allowed for non insured client.Should fill all the fields",
+  "historyId" : "6848b978b8b2504c7140834035397487",
+  "time" : {
+    "start" : 1659040901242,
+    "stop" : 1659040908081,
+    "duration" : 6839
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b663480594469432",
+      "name" : "Screenshot",
+      "source" : "b663480594469432.png",
+      "type" : "image/png",
+      "size" : 147542
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-15"
+  }, {
+    "name" : "suite",
+    "value" : "C2291: Verify that creating Treatment Plan with Z-code Diagnosis as Primary - allowed for non insured client"
+  }, {
+    "name" : "testClass",
+    "value" : "C2291: Verify that creating Treatment Plan with Z-code Diagnosis as Primary - allowed for non insured client"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should fill all the fields"
+  }, {
+    "name" : "package",
+    "value" : "C2291: Verify that creating Treatment Plan with Z-code Diagnosis as Primary - allowed for non insured client"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "609ae942dd49640e.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}

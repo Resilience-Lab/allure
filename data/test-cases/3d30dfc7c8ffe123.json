@@ -1,0 +1,86 @@
+{
+  "uid" : "3d30dfc7c8ffe123",
+  "name" : "\"after all\" hook for C2276: Allow to create more than 1 session per day for OON not enrolled client",
+  "fullName" : "C2276: Allow to create more than 1 session per day for OON not enrolled client.\"after all\" hook for C2276: Allow to create more than 1 session per day for OON not enrolled client",
+  "historyId" : "4a997c76727451d356c057412f5a1ea7",
+  "time" : {
+    "start" : 1659043234301,
+    "stop" : 1659043617255,
+    "duration" : 382954
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"//li[@id='globalLinks']//button[@title]\") still not clickable after 60000ms",
+  "statusTrace" : "Error: element (\"//li[@id='globalLinks']//button[@title]\") still not clickable after 60000ms\n                    at async NavigationBar.waitElementForClickable (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:107:9)\n                    at async NavigationBar.moveTo (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:177:9)\n                    at async NavigationBar.moveToProfileBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/navigation.bar.ts:88:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"//li[@id='globalLinks']//button[@title]\") still not clickable after 60000ms",
+    "statusTrace" : "Error: element (\"//li[@id='globalLinks']//button[@title]\") still not clickable after 60000ms\n                    at async NavigationBar.waitElementForClickable (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:107:9)\n                    at async NavigationBar.moveTo (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:177:9)\n                    at async NavigationBar.moveToProfileBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/navigation.bar.ts:88:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e683bd88a272dde7",
+      "name" : "Screenshot",
+      "source" : "e683bd88a272dde7.png",
+      "type" : "image/png",
+      "size" : 67830
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-25"
+  }, {
+    "name" : "suite",
+    "value" : "C2276: Allow to create more than 1 session per day for OON not enrolled client"
+  }, {
+    "name" : "testClass",
+    "value" : "C2276: Allow to create more than 1 session per day for OON not enrolled client"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"after all\" hook for C2276: Allow to create more than 1 session per day for OON not enrolled client"
+  }, {
+    "name" : "package",
+    "value" : "C2276: Allow to create more than 1 session per day for OON not enrolled client"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "3d30dfc7c8ffe123.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}

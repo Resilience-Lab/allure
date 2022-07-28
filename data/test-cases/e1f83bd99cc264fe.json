@@ -1,0 +1,78 @@
+{
+  "uid" : "e1f83bd99cc264fe",
+  "name" : "Should click the 'Filters' button and from 'Client's physical location for session' select 'New York' and open client`s profile",
+  "fullName" : "C2289: Verify session 'Location details'.Should click the 'Filters' button and from 'Client's physical location for session' select 'New York' and open client`s profile",
+  "historyId" : "7bab5a811c6015cffef5a0c0aa02f2fa",
+  "time" : {
+    "start" : 1659040732087,
+    "stop" : 1659040736826,
+    "duration" : 4739
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "55179cb55045b6a1",
+      "name" : "Screenshot",
+      "source" : "55179cb55045b6a1.png",
+      "type" : "image/png",
+      "size" : 102995
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-13"
+  }, {
+    "name" : "suite",
+    "value" : "C2289: Verify session 'Location details'"
+  }, {
+    "name" : "testClass",
+    "value" : "C2289: Verify session 'Location details'"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should click the 'Filters' button and from 'Client's physical location for session' select 'New York' and open client`s profile"
+  }, {
+    "name" : "package",
+    "value" : "C2289: Verify session 'Location details'"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e1f83bd99cc264fe.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}

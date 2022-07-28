@@ -1,0 +1,80 @@
+{
+  "uid" : "b58c6e48f6e3e3a8",
+  "name" : "Should add some hint, save, and check if hint sing is visible",
+  "fullName" : "C2253: Report hint.Should add some hint, save, and check if hint sing is visible",
+  "historyId" : "508c74da751d1afd5ac424e318b8ca5e",
+  "time" : {
+    "start" : 1659045437555,
+    "stop" : 1659045559486,
+    "duration" : 121931
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\".inlineHelpTip\") still not displayed after 60000ms",
+  "statusTrace" : "Error: element (\".inlineHelpTip\") still not displayed after 60000ms\n                    at async ReportPage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async ReportPage.waitHintSignForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/report.page.ts:46:9)\n                    at async Context.<anonymous> (/home/runner/work/webautomation/webautomation/test/specs/Reports/C2253_report_hint.spec.ts:40:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\".inlineHelpTip\") still not displayed after 60000ms",
+    "statusTrace" : "Error: element (\".inlineHelpTip\") still not displayed after 60000ms\n                    at async ReportPage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async ReportPage.waitHintSignForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/report.page.ts:46:9)\n                    at async Context.<anonymous> (/home/runner/work/webautomation/webautomation/test/specs/Reports/C2253_report_hint.spec.ts:40:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f5e7f5ea6e91d615",
+      "name" : "Screenshot",
+      "source" : "f5e7f5ea6e91d615.png",
+      "type" : "image/png",
+      "size" : 92672
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-35"
+  }, {
+    "name" : "suite",
+    "value" : "C2253: Report hint"
+  }, {
+    "name" : "testClass",
+    "value" : "C2253: Report hint"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should add some hint, save, and check if hint sing is visible"
+  }, {
+    "name" : "package",
+    "value" : "C2253: Report hint"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b58c6e48f6e3e3a8.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}

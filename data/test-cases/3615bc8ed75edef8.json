@@ -1,0 +1,80 @@
+{
+  "uid" : "3615bc8ed75edef8",
+  "name" : "Should check cbox for cost-share Waiver and add end date",
+  "fullName" : "C2264: Price should be 0 with active cost share waiver (CSW).Should check cbox for cost-share Waiver and add end date",
+  "historyId" : "1b7409da171092883c335e90e5d687d1",
+  "time" : {
+    "start" : 1659041105111,
+    "stop" : 1659041191685,
+    "duration" : 86574
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Can't call elementClick on element with selector \"#edit_button\" because element wasn't found",
+  "statusTrace" : "Error: Can't call elementClick on element with selector \"#edit_button\" because element wasn't found\n                    at async ProfilePage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:163:9)\n                    at async ProfilePage.clickEditDDLBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:763:9)\n                    at async ProfilePage.changeCostShareWaiver (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:1236:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Can't call elementClick on element with selector \"#edit_button\" because element wasn't found",
+    "statusTrace" : "Error: Can't call elementClick on element with selector \"#edit_button\" because element wasn't found\n                    at async ProfilePage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:163:9)\n                    at async ProfilePage.clickEditDDLBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:763:9)\n                    at async ProfilePage.changeCostShareWaiver (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:1236:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "36bf45c8c45e2cb7",
+      "name" : "Screenshot",
+      "source" : "36bf45c8c45e2cb7.png",
+      "type" : "image/png",
+      "size" : 161378
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-18"
+  }, {
+    "name" : "suite",
+    "value" : "C2264: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "testClass",
+    "value" : "C2264: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should check cbox for cost-share Waiver and add end date"
+  }, {
+    "name" : "package",
+    "value" : "C2264: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3615bc8ed75edef8.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}
