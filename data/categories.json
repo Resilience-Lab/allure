@@ -3,68 +3,26 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "element (\"//li[@id='globalLinks']//button[@title]\") still not clickable after 60000ms",
+      "name" : "element (\"input[onclick=\"superbill.modal()\"]\") still not displayed after 60000ms",
       "children" : [ {
-        "name" : "\"after all\" hook for C2277: Allow to create more than 1 session per day for independent client",
-        "uid" : "1b9c3706a570c27b",
-        "parentUid" : "7ae2206e415d7638ac650102c0470d8d",
+        "name" : "Should create and download Superbill statement",
+        "uid" : "e5be15a58178e482",
+        "parentUid" : "137876bf6967e3bd16753d20d7663654",
         "status" : "broken",
         "time" : {
-          "start" : 1658962518169,
-          "stop" : 1658962832941,
-          "duration" : 314772
+          "start" : 1658998394214,
+          "stop" : 1658998454480,
+          "duration" : 60266
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 0,
+        "retriesCount" : 1,
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-103.0.5060.134" ]
       } ],
-      "uid" : "7ae2206e415d7638ac650102c0470d8d"
-    }, {
-      "name" : "element (\"(//td[@field=\"first_name\"]//a)[1]\") still not clickable after 10000ms",
-      "children" : [ {
-        "name" : "Should open client profile and create session",
-        "uid" : "f04b628b76eabee",
-        "parentUid" : "33c25375763abb6ca0d21992fc2fe120",
-        "status" : "broken",
-        "time" : {
-          "start" : 1658963511158,
-          "stop" : 1658963521413,
-          "duration" : 10255
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 7,
-        "retriesStatusChange" : true,
-        "parameters" : [ "chrome-103.0.5060.134" ]
-      } ],
-      "uid" : "33c25375763abb6ca0d21992fc2fe120"
-    }, {
-      "name" : "element (\"[onclick*=\"changeTabsSubpanels('4')\"]\") still not displayed after 60000ms",
-      "children" : [ {
-        "name" : "Should create session with similar to time of first session and check alert",
-        "uid" : "81b601f5c92f2938",
-        "parentUid" : "69704100506f45d234fa15d992c0c2ce",
-        "status" : "broken",
-        "time" : {
-          "start" : 1658963521413,
-          "stop" : 1658963586659,
-          "duration" : 65246
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 7,
-        "retriesStatusChange" : true,
-        "parameters" : [ "chrome-103.0.5060.134" ]
-      } ],
-      "uid" : "69704100506f45d234fa15d992c0c2ce"
+      "uid" : "137876bf6967e3bd16753d20d7663654"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ],

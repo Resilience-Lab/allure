@@ -1,0 +1,95 @@
+{
+  "uid" : "e5be15a58178e482",
+  "name" : "Should create and download Superbill statement",
+  "fullName" : "C2259: Viewing a PDF superbill.Should create and download Superbill statement",
+  "historyId" : "b7c555e5f8b3cd9d5ea92e819b7c50f2",
+  "time" : {
+    "start" : 1658998394214,
+    "stop" : 1658998454480,
+    "duration" : 60266
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"input[onclick=\"superbill.modal()\"]\") still not displayed after 60000ms",
+  "statusTrace" : "Error: element (\"input[onclick=\"superbill.modal()\"]\") still not displayed after 60000ms\n                    at async ProfilePage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async ProfilePage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:161:9)\n                    at async ProfilePage.clickCreateSuperbillDDLBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:796:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"input[onclick=\"superbill.modal()\"]\") still not displayed after 60000ms",
+    "statusTrace" : "Error: element (\"input[onclick=\"superbill.modal()\"]\") still not displayed after 60000ms\n                    at async ProfilePage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async ProfilePage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:161:9)\n                    at async ProfilePage.clickCreateSuperbillDDLBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:796:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "cf3b45c5ab453f84",
+      "name" : "Screenshot",
+      "source" : "cf3b45c5ab453f84.png",
+      "type" : "image/png",
+      "size" : 106345
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "C2259: Viewing a PDF superbill"
+  }, {
+    "name" : "testClass",
+    "value" : "C2259: Viewing a PDF superbill"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should create and download Superbill statement"
+  }, {
+    "name" : "package",
+    "value" : "C2259: Viewing a PDF superbill"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "20df71e40cb95b8a",
+      "status" : "broken",
+      "statusDetails" : "element (\"input[onclick=\"superbill.modal()\"]\") still not displayed after 60000ms",
+      "time" : {
+        "start" : 1658998318607,
+        "stop" : 1658998378889,
+        "duration" : 60282
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "e5be15a58178e482.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}
