@@ -1,0 +1,95 @@
+{
+  "uid" : "43eceede6edf77ec",
+  "name" : "\"after all\" hook for C2277: Allow to create more than 1 session per day for independent client",
+  "fullName" : "C2277: Allow to create more than 1 session per day for independent client.\"after all\" hook for C2277: Allow to create more than 1 session per day for independent client",
+  "historyId" : "65f5deae0dc6e61e3c54f31c00041ebf",
+  "time" : {
+    "start" : 1659130116800,
+    "stop" : 1659130297153,
+    "duration" : 180353
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"//li[@id='globalLinks']//button[@title]\") still not clickable after 60000ms",
+  "statusTrace" : "Error: element (\"//li[@id='globalLinks']//button[@title]\") still not clickable after 60000ms\n                    at async NavigationBar.waitElementForClickable (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:116:9)\n                    at async NavigationBar.moveTo (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:186:9)\n                    at async NavigationBar.moveToProfileBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/navigation.bar.ts:93:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"//li[@id='globalLinks']//button[@title]\") still not clickable after 60000ms",
+    "statusTrace" : "Error: element (\"//li[@id='globalLinks']//button[@title]\") still not clickable after 60000ms\n                    at async NavigationBar.waitElementForClickable (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:116:9)\n                    at async NavigationBar.moveTo (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:186:9)\n                    at async NavigationBar.moveToProfileBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/navigation.bar.ts:93:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b78e3565364ce319",
+      "name" : "Screenshot",
+      "source" : "b78e3565364ce319.png",
+      "type" : "image/png",
+      "size" : 69052
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-26"
+  }, {
+    "name" : "suite",
+    "value" : "C2277: Allow to create more than 1 session per day for independent client"
+  }, {
+    "name" : "testClass",
+    "value" : "C2277: Allow to create more than 1 session per day for independent client"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"after all\" hook for C2277: Allow to create more than 1 session per day for independent client"
+  }, {
+    "name" : "package",
+    "value" : "C2277: Allow to create more than 1 session per day for independent client"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4fcdd405dc6a7dab",
+      "status" : "broken",
+      "statusDetails" : "element (\"//li[@id='globalLinks']//button[@title]\") still not clickable after 60000ms",
+      "time" : {
+        "start" : 1659129470363,
+        "stop" : 1659129650698,
+        "duration" : 180335
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "43eceede6edf77ec.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}

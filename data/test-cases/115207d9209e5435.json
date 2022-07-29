@@ -1,0 +1,62 @@
+{
+  "uid" : "115207d9209e5435",
+  "name" : "Should select Test User in NY POD",
+  "fullName" : "C2293: Verify Multi POD payments.Should select Test User in NY POD",
+  "historyId" : "ce3bd41d8b9c725771e69a064a36ede1",
+  "time" : {
+    "start" : 1659132120207,
+    "stop" : 1659132480212,
+    "duration" : 360005
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Timeout of 360000ms exceeded. The execution in the test \"C2293: Verify Multi POD payments Should select Test User in NY POD\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/home/runner/work/webautomation/webautomation/test/specs/Clinicians/C2293_Verify_Multi_POD_payments.spec.ts)",
+  "statusTrace" : "Error: Timeout of 360000ms exceeded. The execution in the test \"C2293: Verify Multi POD payments Should select Test User in NY POD\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/home/runner/work/webautomation/webautomation/test/specs/Clinicians/C2293_Verify_Multi_POD_payments.spec.ts)\n                    at createTimeoutError (/home/runner/work/webautomation/webautomation/node_modules/mocha/lib/errors.js:498:15)\n                    at Test.Runnable._timeoutError (/home/runner/work/webautomation/webautomation/node_modules/mocha/lib/runnable.js:431:10)\n                    at Timeout.<anonymous> (/home/runner/work/webautomation/webautomation/node_modules/mocha/lib/runnable.js:246:24)\n                    at listOnTimeout (node:internal/timers:559:17)\n                    at processTimers (node:internal/timers:502:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-33"
+  }, {
+    "name" : "suite",
+    "value" : "C2293: Verify Multi POD payments"
+  }, {
+    "name" : "testClass",
+    "value" : "C2293: Verify Multi POD payments"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should select Test User in NY POD"
+  }, {
+    "name" : "package",
+    "value" : "C2293: Verify Multi POD payments"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "115207d9209e5435.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}

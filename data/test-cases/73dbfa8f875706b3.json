@@ -1,0 +1,86 @@
+{
+  "uid" : "73dbfa8f875706b3",
+  "name" : "Should appear 2 fields 'What was the date of the follow-up?:' and 'What was the outcome?:'",
+  "fullName" : "C2290: Verify that creating Treatment Plan with Z-code Diagnosis as Primary - don't allowed.Should appear 2 fields 'What was the date of the follow-up?:' and 'What was the outcome?:'",
+  "historyId" : "313a85e545c3bbfdd4dad6a5478242af",
+  "time" : {
+    "start" : 1659123522683,
+    "stop" : 1659123535858,
+    "duration" : 13175
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c9d622c5e20e5d66",
+      "name" : "Screenshot",
+      "source" : "c9d622c5e20e5d66.png",
+      "type" : "image/png",
+      "size" : 86497
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-14"
+  }, {
+    "name" : "suite",
+    "value" : "C2290: Verify that creating Treatment Plan with Z-code Diagnosis as Primary - don't allowed"
+  }, {
+    "name" : "testClass",
+    "value" : "C2290: Verify that creating Treatment Plan with Z-code Diagnosis as Primary - don't allowed"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should appear 2 fields 'What was the date of the follow-up?:' and 'What was the outcome?:'"
+  }, {
+    "name" : "package",
+    "value" : "C2290: Verify that creating Treatment Plan with Z-code Diagnosis as Primary - don't allowed"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "257af49a9d627b2e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1659123430721,
+        "stop" : 1659123443299,
+        "duration" : 12578
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "73dbfa8f875706b3.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}

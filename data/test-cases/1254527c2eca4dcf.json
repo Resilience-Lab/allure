@@ -1,0 +1,86 @@
+{
+  "uid" : "1254527c2eca4dcf",
+  "name" : "Should open profile in Admin User Management and open edit mode",
+  "fullName" : "C2293: Verify Multi POD payments.Should open profile in Admin User Management and open edit mode",
+  "historyId" : "45e37ad2b9c5bdfd35c3b486dca7e19f",
+  "time" : {
+    "start" : 1659133354180,
+    "stop" : 1659133369793,
+    "duration" : 15613
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4e21872261f463e7",
+      "name" : "Screenshot",
+      "source" : "4e21872261f463e7.png",
+      "type" : "image/png",
+      "size" : 113516
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-33"
+  }, {
+    "name" : "suite",
+    "value" : "C2293: Verify Multi POD payments"
+  }, {
+    "name" : "testClass",
+    "value" : "C2293: Verify Multi POD payments"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should open profile in Admin User Management and open edit mode"
+  }, {
+    "name" : "package",
+    "value" : "C2293: Verify Multi POD payments"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6cc4e8ef22d8123d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1659132023199,
+        "stop" : 1659132048561,
+        "duration" : 25362
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1254527c2eca4dcf.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}

@@ -1,0 +1,95 @@
+{
+  "uid" : "2429ce09a5e21024",
+  "name" : "Should check cbox for cost-share Waiver and add end date",
+  "fullName" : "C2264: Price should be 0 with active cost share waiver (CSW).Should check cbox for cost-share Waiver and add end date",
+  "historyId" : "1b7409da171092883c335e90e5d687d1",
+  "time" : {
+    "start" : 1659125216935,
+    "stop" : 1659125277198,
+    "duration" : 60263
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"//a[@id='tab5'][contains(text(),'Insurance')]\") still not displayed after 60000ms",
+  "statusTrace" : "Error: element (\"//a[@id='tab5'][contains(text(),'Insurance')]\") still not displayed after 60000ms\n                    at async ProfilePage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async ProfilePage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:170:9)\n                    at async ProfilePage.clickInsuranceTabBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:779:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"//a[@id='tab5'][contains(text(),'Insurance')]\") still not displayed after 60000ms",
+    "statusTrace" : "Error: element (\"//a[@id='tab5'][contains(text(),'Insurance')]\") still not displayed after 60000ms\n                    at async ProfilePage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async ProfilePage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:170:9)\n                    at async ProfilePage.clickInsuranceTabBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:779:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7fc736cec524ce45",
+      "name" : "Screenshot",
+      "source" : "7fc736cec524ce45.png",
+      "type" : "image/png",
+      "size" : 300842
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-18"
+  }, {
+    "name" : "suite",
+    "value" : "C2264: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "testClass",
+    "value" : "C2264: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should check cbox for cost-share Waiver and add end date"
+  }, {
+    "name" : "package",
+    "value" : "C2264: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7285c4fcec557661",
+      "status" : "broken",
+      "statusDetails" : "Timeout awaiting 'request' for 45000ms when running \"element/5cc6efee-ffe3-4b0d-8f7d-6a4957b6e8e9/click\" with method \"POST\"",
+      "time" : {
+        "start" : 1659123851584,
+        "stop" : 1659124092512,
+        "duration" : 240928
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "2429ce09a5e21024.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}

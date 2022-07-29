@@ -1,0 +1,78 @@
+{
+  "uid" : "3a41ccc975cf512",
+  "name" : "Should go back to clinician",
+  "fullName" : "C2256: Set clinician as inactive..Should go back to clinician",
+  "historyId" : "5b1325893429243f4ef0b3de6e6ddea1",
+  "time" : {
+    "start" : 1659130977706,
+    "stop" : 1659130982116,
+    "duration" : 4410
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "dc2603bdce85a2ae",
+      "name" : "Screenshot",
+      "source" : "dc2603bdce85a2ae.png",
+      "type" : "image/png",
+      "size" : 95924
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-28"
+  }, {
+    "name" : "suite",
+    "value" : "C2256: Set clinician as inactive."
+  }, {
+    "name" : "testClass",
+    "value" : "C2256: Set clinician as inactive."
+  }, {
+    "name" : "testMethod",
+    "value" : "Should go back to clinician"
+  }, {
+    "name" : "package",
+    "value" : "C2256: Set clinician as inactive."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3a41ccc975cf512.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}

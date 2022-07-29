@@ -1,0 +1,95 @@
+{
+  "uid" : "d0d2f632842aeb48",
+  "name" : "\"after all\" hook for C2256: Set clinician as inactive.",
+  "fullName" : "C2256: Set clinician as inactive..\"after all\" hook for C2256: Set clinician as inactive.",
+  "historyId" : "a7611455243b889255c37c55821a446e",
+  "time" : {
+    "start" : 1659131044669,
+    "stop" : 1659131285038,
+    "duration" : 240369
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Timeout awaiting 'request' for 45000ms when running \"url\" with method \"POST\" and args \"{\"url\":\"https://staging.resiliencelab.us/\"}\"",
+  "statusTrace" : "TimeoutError: Timeout awaiting 'request' for 45000ms when running \"url\" with method \"POST\" and args \"{\"url\":\"https://staging.resiliencelab.us/\"}\"\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at async Context.<anonymous> (/home/runner/work/webautomation/webautomation/test/specs/Clinicians/C2256_clinicians_set_inactive.spec.ts:94:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Timeout awaiting 'request' for 45000ms when running \"url\" with method \"POST\" and args \"{\"url\":\"https://staging.resiliencelab.us/\"}\"",
+    "statusTrace" : "TimeoutError: Timeout awaiting 'request' for 45000ms when running \"url\" with method \"POST\" and args \"{\"url\":\"https://staging.resiliencelab.us/\"}\"\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at async Context.<anonymous> (/home/runner/work/webautomation/webautomation/test/specs/Clinicians/C2256_clinicians_set_inactive.spec.ts:94:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ab10d3ccae0568d6",
+      "name" : "Screenshot",
+      "source" : "ab10d3ccae0568d6.png",
+      "type" : "image/png",
+      "size" : 117834
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-28"
+  }, {
+    "name" : "suite",
+    "value" : "C2256: Set clinician as inactive."
+  }, {
+    "name" : "testClass",
+    "value" : "C2256: Set clinician as inactive."
+  }, {
+    "name" : "testMethod",
+    "value" : "\"after all\" hook for C2256: Set clinician as inactive."
+  }, {
+    "name" : "package",
+    "value" : "C2256: Set clinician as inactive."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "46f7c7600566a331",
+      "status" : "broken",
+      "statusDetails" : "element (\"(//li[@class=\"sugar_action_button desktopOnly\"])[1]\") still not displayed after 60000ms",
+      "time" : {
+        "start" : 1659130568938,
+        "stop" : 1659130654779,
+        "duration" : 85841
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "d0d2f632842aeb48.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}

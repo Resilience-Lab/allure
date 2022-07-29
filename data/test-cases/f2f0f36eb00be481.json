@@ -1,0 +1,80 @@
+{
+  "uid" : "f2f0f36eb00be481",
+  "name" : "Should go to report edit page",
+  "fullName" : "C2253: Report hint.Should go to report edit page",
+  "historyId" : "de22003e07da4800bc27f6913aeb91d7",
+  "time" : {
+    "start" : 1659134331059,
+    "stop" : 1659134391298,
+    "duration" : 60239
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"li#tab-actions [href=\"#\"]\") still not displayed after 60000ms",
+  "statusTrace" : "Error: element (\"li#tab-actions [href=\"#\"]\") still not displayed after 60000ms\n                    at async ReportPage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async ReportPage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:170:9)\n                    at async ReportPage.clickActionsBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/report.page.ts:26:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"li#tab-actions [href=\"#\"]\") still not displayed after 60000ms",
+    "statusTrace" : "Error: element (\"li#tab-actions [href=\"#\"]\") still not displayed after 60000ms\n                    at async ReportPage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async ReportPage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:170:9)\n                    at async ReportPage.clickActionsBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/report.page.ts:26:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1999ea5d70d0c6c2",
+      "name" : "Screenshot",
+      "source" : "1999ea5d70d0c6c2.png",
+      "type" : "image/png",
+      "size" : 161219
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-35"
+  }, {
+    "name" : "suite",
+    "value" : "C2253: Report hint"
+  }, {
+    "name" : "testClass",
+    "value" : "C2253: Report hint"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should go to report edit page"
+  }, {
+    "name" : "package",
+    "value" : "C2253: Report hint"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f2f0f36eb00be481.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}

@@ -1,0 +1,86 @@
+{
+  "uid" : "fdbad6aee11cbdb",
+  "name" : "Should go to clients page and check url",
+  "fullName" : "C2275: Allow to create more than 1 session per day for INN not enrolled client.Should go to clients page and check url",
+  "historyId" : "97aea3cfc7ccd8f3717f3987059fcb1a",
+  "time" : {
+    "start" : 1659126780084,
+    "stop" : 1659126896705,
+    "duration" : 116621
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "aa483f66cb393e8",
+      "name" : "Screenshot",
+      "source" : "aa483f66cb393e8.png",
+      "type" : "image/png",
+      "size" : 233316
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-24"
+  }, {
+    "name" : "suite",
+    "value" : "C2275: Allow to create more than 1 session per day for INN not enrolled client"
+  }, {
+    "name" : "testClass",
+    "value" : "C2275: Allow to create more than 1 session per day for INN not enrolled client"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should go to clients page and check url"
+  }, {
+    "name" : "package",
+    "value" : "C2275: Allow to create more than 1 session per day for INN not enrolled client"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a77f64403a50c64f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1659126481643,
+        "stop" : 1659126571633,
+        "duration" : 89990
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fdbad6aee11cbdb.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}

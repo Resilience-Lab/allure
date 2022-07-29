@@ -1,0 +1,87 @@
+{
+  "uid" : "efe4588cfd430d8",
+  "name" : "Should open first client profile and uncheck insurance subject \"Cost-share Waiver\" check box",
+  "fullName" : "C2263: Multi State: Connect Nirvana API Key with correct PCorp.Should open first client profile and uncheck insurance subject \"Cost-share Waiver\" check box",
+  "historyId" : "5a72c76e96100a6330ba9ee752b41fad",
+  "time" : {
+    "start" : 1659123775969,
+    "stop" : 1659123800396,
+    "duration" : 24427
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "779831525777b36c",
+      "name" : "Screenshot",
+      "source" : "779831525777b36c.png",
+      "type" : "image/png",
+      "size" : 211332
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-17"
+  }, {
+    "name" : "suite",
+    "value" : "C2263: Multi State: Connect Nirvana API Key with correct PCorp"
+  }, {
+    "name" : "testClass",
+    "value" : "C2263: Multi State: Connect Nirvana API Key with correct PCorp"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should open first client profile and uncheck insurance subject \"Cost-share Waiver\" check box"
+  }, {
+    "name" : "package",
+    "value" : "C2263: Multi State: Connect Nirvana API Key with correct PCorp"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "cef851f9fbd3ef19",
+      "status" : "failed",
+      "statusDetails" : "expect(received).not.toBe(expected) // Object.is equality\n                \n                Expected: not \"  https://claims-api-sandbox.meetnirvana.com/api/v1/coverage/estimate/ {\\\"coverage_status\\\":true,\\\"deductible... 07/28/2022 04:44pm vadym.morozov89@gmail.com\"",
+      "time" : {
+        "start" : 1659123731656,
+        "stop" : 1659123756100,
+        "duration" : 24444
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "efe4588cfd430d8.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}

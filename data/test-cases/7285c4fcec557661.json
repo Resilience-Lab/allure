@@ -1,0 +1,80 @@
+{
+  "uid" : "7285c4fcec557661",
+  "name" : "Should check cbox for cost-share Waiver and add end date",
+  "fullName" : "C2264: Price should be 0 with active cost share waiver (CSW).Should check cbox for cost-share Waiver and add end date",
+  "historyId" : "1b7409da171092883c335e90e5d687d1",
+  "time" : {
+    "start" : 1659123851584,
+    "stop" : 1659124092512,
+    "duration" : 240928
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Timeout awaiting 'request' for 45000ms when running \"element/5cc6efee-ffe3-4b0d-8f7d-6a4957b6e8e9/click\" with method \"POST\"",
+  "statusTrace" : "TimeoutError: Timeout awaiting 'request' for 45000ms when running \"element/5cc6efee-ffe3-4b0d-8f7d-6a4957b6e8e9/click\" with method \"POST\"\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Timeout awaiting 'request' for 45000ms when running \"element/5cc6efee-ffe3-4b0d-8f7d-6a4957b6e8e9/click\" with method \"POST\"",
+    "statusTrace" : "TimeoutError: Timeout awaiting 'request' for 45000ms when running \"element/5cc6efee-ffe3-4b0d-8f7d-6a4957b6e8e9/click\" with method \"POST\"\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d5228c08b3f6d329",
+      "name" : "Screenshot",
+      "source" : "d5228c08b3f6d329.png",
+      "type" : "image/png",
+      "size" : 114322
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-18"
+  }, {
+    "name" : "suite",
+    "value" : "C2264: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "testClass",
+    "value" : "C2264: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should check cbox for cost-share Waiver and add end date"
+  }, {
+    "name" : "package",
+    "value" : "C2264: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7285c4fcec557661.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}

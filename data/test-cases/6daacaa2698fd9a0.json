@@ -1,0 +1,94 @@
+{
+  "uid" : "6daacaa2698fd9a0",
+  "name" : "The session should be created without any pop-up",
+  "fullName" : "C2275: Allow to create more than 1 session per day for INN not enrolled client.The session should be created without any pop-up",
+  "historyId" : "692e1a580935e27847d0e57aa793225a",
+  "time" : {
+    "start" : 1659126911260,
+    "stop" : 1659127220093,
+    "duration" : 308833
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Timeout awaiting 'request' for 45000ms when running \"element/e64e59ab-8117-450e-a433-7ea3257c66e1/click\" with method \"POST\"",
+  "statusTrace" : "TimeoutError: Timeout awaiting 'request' for 45000ms when running \"element/e64e59ab-8117-450e-a433-7ea3257c66e1/click\" with method \"POST\"\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Timeout awaiting 'request' for 45000ms when running \"element/e64e59ab-8117-450e-a433-7ea3257c66e1/click\" with method \"POST\"",
+    "statusTrace" : "TimeoutError: Timeout awaiting 'request' for 45000ms when running \"element/e64e59ab-8117-450e-a433-7ea3257c66e1/click\" with method \"POST\"\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "759321fdcbd7ff8e",
+      "name" : "Screenshot",
+      "source" : "759321fdcbd7ff8e.png",
+      "type" : "image/png",
+      "size" : 266490
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-24"
+  }, {
+    "name" : "suite",
+    "value" : "C2275: Allow to create more than 1 session per day for INN not enrolled client"
+  }, {
+    "name" : "testClass",
+    "value" : "C2275: Allow to create more than 1 session per day for INN not enrolled client"
+  }, {
+    "name" : "testMethod",
+    "value" : "The session should be created without any pop-up"
+  }, {
+    "name" : "package",
+    "value" : "C2275: Allow to create more than 1 session per day for INN not enrolled client"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "63cb476064a72f65",
+      "status" : "passed",
+      "time" : {
+        "start" : 1659126585437,
+        "stop" : 1659126641849,
+        "duration" : 56412
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "6daacaa2698fd9a0.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}
