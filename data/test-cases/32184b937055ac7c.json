@@ -1,0 +1,78 @@
+{
+  "uid" : "32184b937055ac7c",
+  "name" : "Should check that user has 'New Jersey' and 'New York' licenses",
+  "fullName" : "C2293: Verify Multi POD payments.Should check that user has 'New Jersey' and 'New York' licenses",
+  "historyId" : "29cdf05b6d5e82955ebb84002baa1610",
+  "time" : {
+    "start" : 1659295060338,
+    "stop" : 1659295062667,
+    "duration" : 2329
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1ab7891bfa7315fe",
+      "name" : "Screenshot",
+      "source" : "1ab7891bfa7315fe.png",
+      "type" : "image/png",
+      "size" : 94110
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-33"
+  }, {
+    "name" : "suite",
+    "value" : "C2293: Verify Multi POD payments"
+  }, {
+    "name" : "testClass",
+    "value" : "C2293: Verify Multi POD payments"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should check that user has 'New Jersey' and 'New York' licenses"
+  }, {
+    "name" : "package",
+    "value" : "C2293: Verify Multi POD payments"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "32184b937055ac7c.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}

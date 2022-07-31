@@ -6,12 +6,12 @@
       "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: true\n                Received: false",
       "children" : [ {
         "name" : "Should appear new field 'Why not?:'",
-        "uid" : "a053d0b9f177e501",
+        "uid" : "c41fc3b855ebd3f4",
         "parentUid" : "7d22550bcc2853ce14c87084cc359937",
         "status" : "failed",
         "time" : {
-          "start" : 1659123521383,
-          "stop" : 1659123522682,
+          "start" : 1659290633597,
+          "stop" : 1659290634896,
           "duration" : 1299
         },
         "flaky" : false,
@@ -23,21 +23,42 @@
         "parameters" : [ "chrome-103.0.5060.134" ]
       } ],
       "uid" : "7d22550bcc2853ce14c87084cc359937"
+    }, {
+      "name" : "expect(received).not.toBe(expected) // Object.is equality\n                \n                Expected: not \"  https://claims-api-sandbox.meetnirvana.com/api/v1/coverage/estimate/ {\\\"coverage_status\\\":true,\\\"deductible... 07/29/2022 03:43pm vadym.morozov89@gmail.com\"",
+      "children" : [ {
+        "name" : "Should open first client profile and uncheck insurance subject \"Cost-share Waiver\" check box",
+        "uid" : "ba5dca3bbe9d1f71",
+        "parentUid" : "975eddfd39300f4251ebc90488810b21",
+        "status" : "failed",
+        "time" : {
+          "start" : 1659290875368,
+          "stop" : 1659290894853,
+          "duration" : 19485
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      } ],
+      "uid" : "975eddfd39300f4251ebc90488810b21"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   }, {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "Timeout awaiting 'request' for 45000ms when running \"element/2cb14cfa-8611-4701-a390-3154be7ab555/click\" with method \"POST\"",
+      "name" : "Timeout awaiting 'request' for 45000ms when running \"element/5e37979f-a832-4da1-b1a1-fe97642f98e1/click\" with method \"POST\"",
       "children" : [ {
         "name" : "Should go first client profile",
-        "uid" : "33b8980be873d642",
-        "parentUid" : "d27fb6c17ac6d9fbb762ac1bacb41df0",
+        "uid" : "daef83df507ae41f",
+        "parentUid" : "b76cde4fcfd1b7c98beb93f786b67c62",
         "status" : "broken",
         "time" : {
-          "start" : 1659124976307,
-          "stop" : 1659125216935,
-          "duration" : 240628
+          "start" : 1659291779847,
+          "stop" : 1659292020473,
+          "duration" : 240626
         },
         "flaky" : false,
         "newFailed" : false,
@@ -47,102 +68,18 @@
         "retriesStatusChange" : true,
         "parameters" : [ "chrome-103.0.5060.134" ]
       } ],
-      "uid" : "d27fb6c17ac6d9fbb762ac1bacb41df0"
+      "uid" : "b76cde4fcfd1b7c98beb93f786b67c62"
     }, {
       "name" : "element (\"//a[@id='tab5'][contains(text(),'Insurance')]\") still not displayed after 60000ms",
       "children" : [ {
         "name" : "Should check cbox for cost-share Waiver and add end date",
-        "uid" : "2429ce09a5e21024",
+        "uid" : "7f0a540ea281eeab",
         "parentUid" : "001a491abb899a0aaca14006fd999f73",
         "status" : "broken",
         "time" : {
-          "start" : 1659125216935,
-          "stop" : 1659125277198,
-          "duration" : 60263
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-103.0.5060.134" ]
-      } ],
-      "uid" : "001a491abb899a0aaca14006fd999f73"
-    }, {
-      "name" : "Timeout awaiting 'request' for 45000ms when running \"element/a51a4203-f67d-4421-9d0b-ca64fbb716ae/click\" with method \"POST\"",
-      "children" : [ {
-        "name" : "Should go back to profile and check that 'Client agreed rate' = 0",
-        "uid" : "f41644e3cf9bbff5",
-        "parentUid" : "2184bf45ddf46cba22d5757f4b2946a2",
-        "status" : "broken",
-        "time" : {
-          "start" : 1659125277199,
-          "stop" : 1659125553819,
-          "duration" : 276620
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-103.0.5060.134" ]
-      } ],
-      "uid" : "2184bf45ddf46cba22d5757f4b2946a2"
-    }, {
-      "name" : "Timeout awaiting 'request' for 45000ms when running \"element/66061153-dc3f-47a7-a108-2ef678d2fd41/click\" with method \"POST\"",
-      "children" : [ {
-        "name" : "\"after all\" hook for C2264: Price should be 0 with active cost share waiver (CSW)",
-        "uid" : "88b3b2bde0cae02a",
-        "parentUid" : "a84d9b8ab1e5953ca1588917d4e8a412",
-        "status" : "broken",
-        "time" : {
-          "start" : 1659125553819,
-          "stop" : 1659125872693,
-          "duration" : 318874
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-103.0.5060.134" ]
-      } ],
-      "uid" : "a84d9b8ab1e5953ca1588917d4e8a412"
-    }, {
-      "name" : "element not interactable\n                  (Session info: headless chrome=103.0.5060.134)",
-      "children" : [ {
-        "name" : "Should open session page and check that 2 sessions have created",
-        "uid" : "9ed6d7cc89887b11",
-        "parentUid" : "bce73c8d5a334408dddec4a9cc4f403d",
-        "status" : "broken",
-        "time" : {
-          "start" : 1659126641849,
-          "stop" : 1659126778090,
-          "duration" : 136241
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-103.0.5060.134" ]
-      } ],
-      "uid" : "bce73c8d5a334408dddec4a9cc4f403d"
-    }, {
-      "name" : "Timeout awaiting 'request' for 45000ms when running \"element/e64e59ab-8117-450e-a433-7ea3257c66e1/click\" with method \"POST\"",
-      "children" : [ {
-        "name" : "The session should be created without any pop-up",
-        "uid" : "6daacaa2698fd9a0",
-        "parentUid" : "13d2992bf840bd73db69909c0ff67ff5",
-        "status" : "broken",
-        "time" : {
-          "start" : 1659126911260,
-          "stop" : 1659127220093,
-          "duration" : 308833
+          "start" : 1659292020473,
+          "stop" : 1659292080710,
+          "duration" : 60237
         },
         "flaky" : false,
         "newFailed" : false,
@@ -152,52 +89,18 @@
         "retriesStatusChange" : true,
         "parameters" : [ "chrome-103.0.5060.134" ]
       } ],
-      "uid" : "13d2992bf840bd73db69909c0ff67ff5"
+      "uid" : "001a491abb899a0aaca14006fd999f73"
     }, {
-      "name" : "element (\"//li[@id='globalLinks']//button[@title]\") still not clickable after 60000ms",
+      "name" : "Timeout awaiting 'request' for 45000ms when running \"element/6294dbdb-80c9-452a-8a8d-1a8364031fe4/click\" with method \"POST\"",
       "children" : [ {
-        "name" : "\"after all\" hook for C2275: Allow to create more than 1 session per day for INN not enrolled client",
-        "uid" : "d27d0c3d163b024a",
-        "parentUid" : "7ae2206e415d7638ac650102c0470d8d",
+        "name" : "Should go back to profile and check that 'Client agreed rate' = 0",
+        "uid" : "f084a99970de1ec6",
+        "parentUid" : "fa13d49baff69a9d42e2a0dba753d99f",
         "status" : "broken",
         "time" : {
-          "start" : 1659127220094,
-          "stop" : 1659127583268,
-          "duration" : 363174
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-103.0.5060.134" ]
-      }, {
-        "name" : "\"after all\" hook for C2276: Allow to create more than 1 session per day for OON not enrolled client",
-        "uid" : "b51b25e08ecccd4c",
-        "parentUid" : "7ae2206e415d7638ac650102c0470d8d",
-        "status" : "broken",
-        "time" : {
-          "start" : 1659128858364,
-          "stop" : 1659129038720,
-          "duration" : 180356
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-103.0.5060.134" ]
-      }, {
-        "name" : "\"after all\" hook for C2277: Allow to create more than 1 session per day for independent client",
-        "uid" : "43eceede6edf77ec",
-        "parentUid" : "7ae2206e415d7638ac650102c0470d8d",
-        "status" : "broken",
-        "time" : {
-          "start" : 1659130116800,
-          "stop" : 1659130297153,
-          "duration" : 180353
+          "start" : 1659292080711,
+          "stop" : 1659292349673,
+          "duration" : 268962
         },
         "flaky" : false,
         "newFailed" : false,
@@ -207,18 +110,18 @@
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-103.0.5060.134" ]
       } ],
-      "uid" : "7ae2206e415d7638ac650102c0470d8d"
+      "uid" : "fa13d49baff69a9d42e2a0dba753d99f"
     }, {
-      "name" : "Timeout awaiting 'request' for 45000ms when running \"element/26ac8d97-7a31-4b89-a279-f7474e693c7d/click\" with method \"POST\"",
+      "name" : "Timeout awaiting 'request' for 45000ms when running \"element/82fc8dfa-e145-4181-9cd0-ce4e3e7f396b/click\" with method \"POST\"",
       "children" : [ {
-        "name" : "The session should be created without any pop-up",
-        "uid" : "65648fd9fd3ec1d0",
-        "parentUid" : "29dd459782a07171bf70fe853ef777ee",
+        "name" : "\"after all\" hook for C2264: Price should be 0 with active cost share waiver (CSW)",
+        "uid" : "89480f1f2bb50b18",
+        "parentUid" : "f77ac99608a7d1a8488d22237c3b1e9b",
         "status" : "broken",
         "time" : {
-          "start" : 1659128592720,
-          "stop" : 1659128858364,
-          "duration" : 265644
+          "start" : 1659292349673,
+          "stop" : 1659292635792,
+          "duration" : 286119
         },
         "flaky" : false,
         "newFailed" : false,
@@ -228,18 +131,18 @@
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-103.0.5060.134" ]
       } ],
-      "uid" : "29dd459782a07171bf70fe853ef777ee"
+      "uid" : "f77ac99608a7d1a8488d22237c3b1e9b"
     }, {
-      "name" : "Timeout awaiting 'request' for 45000ms when running \"element/898c0ca1-e219-409c-a0f3-acb67f98db50/click\" with method \"POST\"",
+      "name" : "Can't call scrollIntoView on element with selector \"(//tr[contains(@class,'ListRowS1')]//td[3]//a)[contains(text(),'Vadym')]\" because element wasn't found",
       "children" : [ {
-        "name" : "The session should be created without any pop-up",
-        "uid" : "19cb488ab09518df",
-        "parentUid" : "bdb728e7889df9a7888490ce54b16b86",
+        "name" : "Should go to some active clinician profile",
+        "uid" : "7ee63744333b6fb6",
+        "parentUid" : "20bbeace38af7639ea93723b27af0515",
         "status" : "broken",
         "time" : {
-          "start" : 1659129845371,
-          "stop" : 1659130116800,
-          "duration" : 271429
+          "start" : 1659294294565,
+          "stop" : 1659294308093,
+          "duration" : 13528
         },
         "flaky" : false,
         "newFailed" : false,
@@ -249,39 +152,102 @@
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-103.0.5060.134" ]
       } ],
-      "uid" : "bdb728e7889df9a7888490ce54b16b86"
+      "uid" : "20bbeace38af7639ea93723b27af0515"
     }, {
-      "name" : "Can't call elementClick on element with selector \"//div[@class=\"desktop-bar\"]//ul[@class=\"dropdown-menu user-dropdown user-menu\"]//a[contains(@href,\"index.php?module=Employees&action=EditView\")]\" because element wasn't found",
+      "name" : "element (\"//a[text()=\"View Clients\"]\") still not displayed after 60000ms",
       "children" : [ {
-        "name" : "\"before all\" hook for C2256: Set clinician as inactive.",
-        "uid" : "a2474f3d970b97ed",
-        "parentUid" : "b171e683eab880ab68ae0eb0d1e8f770",
+        "name" : "Should click on \"View clients\"",
+        "uid" : "d8daae69eb6a0c8e",
+        "parentUid" : "dbeff447c54844a2c5ce6d9fd0fe3c99",
         "status" : "broken",
         "time" : {
-          "start" : 1659130399224,
-          "stop" : 1659130568938,
-          "duration" : 169714
+          "start" : 1659294308093,
+          "stop" : 1659294368275,
+          "duration" : 60182
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 0,
+        "retriesCount" : 1,
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-103.0.5060.134" ]
       } ],
-      "uid" : "b171e683eab880ab68ae0eb0d1e8f770"
+      "uid" : "dbeff447c54844a2c5ce6d9fd0fe3c99"
     }, {
-      "name" : "Timeout awaiting 'request' for 45000ms when running \"url\" with method \"POST\" and args \"{\"url\":\"https://staging.resiliencelab.us/\"}\"",
+      "name" : "element (\"(//td[contains(@field,\"name\") and not(@field=\"assigned_user_name\") and not(contains(@field,'pods')) and not(@field=\"last_name\")]//a)[1]\") still not clickable after 10000ms",
+      "children" : [ {
+        "name" : "Should go to some active client profile",
+        "uid" : "c30874898ae6aadf",
+        "parentUid" : "c83ea921a892dc1d65821a5f0c1b04a5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659294368275,
+          "stop" : 1659294378460,
+          "duration" : 10185
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      } ],
+      "uid" : "c83ea921a892dc1d65821a5f0c1b04a5"
+    }, {
+      "name" : "element (\"[onclick*=\"changeTabsSubpanels('4')\"]\") still not displayed after 60000ms",
+      "children" : [ {
+        "name" : "Should go to sessions tab and create future session",
+        "uid" : "fab67f7a3e216a35",
+        "parentUid" : "69704100506f45d234fa15d992c0c2ce",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659294378460,
+          "stop" : 1659294438640,
+          "duration" : 60180
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      } ],
+      "uid" : "69704100506f45d234fa15d992c0c2ce"
+    }, {
+      "name" : "element (\".noty_buttons .btn.btn-success\") still not displayed after 60000ms",
+      "children" : [ {
+        "name" : "Should change clinican status to Inactive",
+        "uid" : "eb0cc8089d41e072",
+        "parentUid" : "a36b4cc5bb6816156c6da4c49282112d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659294440949,
+          "stop" : 1659294501211,
+          "duration" : 60262
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      } ],
+      "uid" : "a36b4cc5bb6816156c6da4c49282112d"
+    }, {
+      "name" : "element (\"(//li[@class=\"sugar_action_button desktopOnly\"])[1]\") still not displayed after 60000ms",
       "children" : [ {
         "name" : "\"after all\" hook for C2256: Set clinician as inactive.",
-        "uid" : "d0d2f632842aeb48",
-        "parentUid" : "cae8223a298dca31c3f217705e9193e1",
+        "uid" : "5fa4a0eaf52fda8b",
+        "parentUid" : "40dcc12578836b944fc825608a5ed0f2",
         "status" : "broken",
         "time" : {
-          "start" : 1659131044669,
-          "stop" : 1659131285038,
-          "duration" : 240369
+          "start" : 1659294501211,
+          "stop" : 1659294626466,
+          "duration" : 125255
         },
         "flaky" : false,
         "newFailed" : false,
@@ -291,87 +257,7 @@
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-103.0.5060.134" ]
       } ],
-      "uid" : "cae8223a298dca31c3f217705e9193e1"
-    }, {
-      "name" : "Timeout awaiting 'request' for 45000ms when running \"element/4599c1ad-1dbe-4338-8ea6-d19d9815f629/click\" with method \"POST\"",
-      "children" : [ {
-        "name" : "Should go to certain report page",
-        "uid" : "4cc2fe03698653da",
-        "parentUid" : "3461e3bd13371b0251e0889a150ef91d",
-        "status" : "broken",
-        "time" : {
-          "start" : 1659134722648,
-          "stop" : 1659134963201,
-          "duration" : 240553
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-103.0.5060.134" ]
-      } ],
-      "uid" : "3461e3bd13371b0251e0889a150ef91d"
-    }, {
-      "name" : "element (\"li#tab-actions [href=\"#\"]\") still not displayed after 60000ms",
-      "children" : [ {
-        "name" : "Should go to report edit page",
-        "uid" : "b516e489c2e92e15",
-        "parentUid" : "32e1de187efaabdbd75a8211bce1a8a9",
-        "status" : "broken",
-        "time" : {
-          "start" : 1659134963201,
-          "stop" : 1659135023420,
-          "duration" : 60219
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-103.0.5060.134" ]
-      }, {
-        "name" : "\"after all\" hook for C2253: Report hint",
-        "uid" : "a0a45b5af6bf7e91",
-        "parentUid" : "32e1de187efaabdbd75a8211bce1a8a9",
-        "status" : "broken",
-        "time" : {
-          "start" : 1659135083611,
-          "stop" : 1659135203824,
-          "duration" : 120213
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-103.0.5060.134" ]
-      } ],
-      "uid" : "32e1de187efaabdbd75a8211bce1a8a9"
-    }, {
-      "name" : "element (\"#hint_text\") still not displayed after 60000ms",
-      "children" : [ {
-        "name" : "Should add some hint, save, and check if hint sing is visible",
-        "uid" : "d04a520919f37e71",
-        "parentUid" : "f095d10e600778dc05de4131907768cb",
-        "status" : "broken",
-        "time" : {
-          "start" : 1659135023421,
-          "stop" : 1659135083611,
-          "duration" : 60190
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-103.0.5060.134" ]
-      } ],
-      "uid" : "f095d10e600778dc05de4131907768cb"
+      "uid" : "40dcc12578836b944fc825608a5ed0f2"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ],

@@ -1,0 +1,78 @@
+{
+  "uid" : "614a118fe1c7c12a",
+  "name" : "Should go to clients page and check url",
+  "fullName" : "C2274: Don't allow to create more than 1 session per day for OON enrolled client.Should go to clients page and check url",
+  "historyId" : "df7a4ef3d790395496c6d9a7285237a9",
+  "time" : {
+    "start" : 1659293189513,
+    "stop" : 1659293199439,
+    "duration" : 9926
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "60da28af3e1c57b0",
+      "name" : "Screenshot",
+      "source" : "60da28af3e1c57b0.png",
+      "type" : "image/png",
+      "size" : 237964
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-23"
+  }, {
+    "name" : "suite",
+    "value" : "C2274: Don't allow to create more than 1 session per day for OON enrolled client"
+  }, {
+    "name" : "testClass",
+    "value" : "C2274: Don't allow to create more than 1 session per day for OON enrolled client"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should go to clients page and check url"
+  }, {
+    "name" : "package",
+    "value" : "C2274: Don't allow to create more than 1 session per day for OON enrolled client"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "614a118fe1c7c12a.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}

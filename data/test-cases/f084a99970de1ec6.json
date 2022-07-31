@@ -1,0 +1,95 @@
+{
+  "uid" : "f084a99970de1ec6",
+  "name" : "Should go back to profile and check that 'Client agreed rate' = 0",
+  "fullName" : "C2264: Price should be 0 with active cost share waiver (CSW).Should go back to profile and check that 'Client agreed rate' = 0",
+  "historyId" : "f0673282987a5d2d26e975ee0ac35feb",
+  "time" : {
+    "start" : 1659292080711,
+    "stop" : 1659292349673,
+    "duration" : 268962
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Timeout awaiting 'request' for 45000ms when running \"element/6294dbdb-80c9-452a-8a8d-1a8364031fe4/click\" with method \"POST\"",
+  "statusTrace" : "TimeoutError: Timeout awaiting 'request' for 45000ms when running \"element/6294dbdb-80c9-452a-8a8d-1a8364031fe4/click\" with method \"POST\"\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Timeout awaiting 'request' for 45000ms when running \"element/6294dbdb-80c9-452a-8a8d-1a8364031fe4/click\" with method \"POST\"",
+    "statusTrace" : "TimeoutError: Timeout awaiting 'request' for 45000ms when running \"element/6294dbdb-80c9-452a-8a8d-1a8364031fe4/click\" with method \"POST\"\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5aec4fa2720c68a7",
+      "name" : "Screenshot",
+      "source" : "5aec4fa2720c68a7.png",
+      "type" : "image/png",
+      "size" : 289911
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-18"
+  }, {
+    "name" : "suite",
+    "value" : "C2264: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "testClass",
+    "value" : "C2264: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should go back to profile and check that 'Client agreed rate' = 0"
+  }, {
+    "name" : "package",
+    "value" : "C2264: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "edda5657484c6f74",
+      "status" : "broken",
+      "statusDetails" : "Timeout awaiting 'request' for 45000ms when running \"element/2740e826-8e58-47d3-abf3-0838d5b913b6/click\" with method \"POST\"",
+      "time" : {
+        "start" : 1659291048159,
+        "stop" : 1659291325797,
+        "duration" : 277638
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "f084a99970de1ec6.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}

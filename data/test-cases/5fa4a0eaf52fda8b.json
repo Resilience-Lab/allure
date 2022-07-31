@@ -1,0 +1,95 @@
+{
+  "uid" : "5fa4a0eaf52fda8b",
+  "name" : "\"after all\" hook for C2256: Set clinician as inactive.",
+  "fullName" : "C2256: Set clinician as inactive..\"after all\" hook for C2256: Set clinician as inactive.",
+  "historyId" : "a7611455243b889255c37c55821a446e",
+  "time" : {
+    "start" : 1659294501211,
+    "stop" : 1659294626466,
+    "duration" : 125255
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"(//li[@class=\"sugar_action_button desktopOnly\"])[1]\") still not displayed after 60000ms",
+  "statusTrace" : "Error: element (\"(//li[@class=\"sugar_action_button desktopOnly\"])[1]\") still not displayed after 60000ms\n                    at async ClientsPage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async ClientsPage.clickRemoveFilterBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/clients.page.ts:213:9)\n                    at async Context.<anonymous> (/home/runner/work/webautomation/webautomation/test/specs/Clinicians/C2256_clinicians_set_inactive.spec.ts:96:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"(//li[@class=\"sugar_action_button desktopOnly\"])[1]\") still not displayed after 60000ms",
+    "statusTrace" : "Error: element (\"(//li[@class=\"sugar_action_button desktopOnly\"])[1]\") still not displayed after 60000ms\n                    at async ClientsPage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async ClientsPage.clickRemoveFilterBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/clients.page.ts:213:9)\n                    at async Context.<anonymous> (/home/runner/work/webautomation/webautomation/test/specs/Clinicians/C2256_clinicians_set_inactive.spec.ts:96:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "fd0029de7b34df4a",
+      "name" : "Screenshot",
+      "source" : "fd0029de7b34df4a.png",
+      "type" : "image/png",
+      "size" : 115386
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-28"
+  }, {
+    "name" : "suite",
+    "value" : "C2256: Set clinician as inactive."
+  }, {
+    "name" : "testClass",
+    "value" : "C2256: Set clinician as inactive."
+  }, {
+    "name" : "testMethod",
+    "value" : "\"after all\" hook for C2256: Set clinician as inactive."
+  }, {
+    "name" : "package",
+    "value" : "C2256: Set clinician as inactive."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "cb08754fddda66d7",
+      "status" : "broken",
+      "statusDetails" : "element (\"(//li[@class=\"sugar_action_button desktopOnly\"])[1]\") still not displayed after 60000ms",
+      "time" : {
+        "start" : 1659294092310,
+        "stop" : 1659294217925,
+        "duration" : 125615
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "5fa4a0eaf52fda8b.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}

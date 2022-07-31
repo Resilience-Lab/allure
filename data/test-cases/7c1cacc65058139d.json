@@ -1,0 +1,86 @@
+{
+  "uid" : "7c1cacc65058139d",
+  "name" : "Should select library document to share",
+  "fullName" : "C2257: Default text for document exchanges.Should select library document to share",
+  "historyId" : "cc8a6a02f518bb2a562d72771a1a4b9a",
+  "time" : {
+    "start" : 1659289311210,
+    "stop" : 1659289314245,
+    "duration" : 3035
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "303667c8e2cdb6fa",
+      "name" : "Screenshot",
+      "source" : "303667c8e2cdb6fa.png",
+      "type" : "image/png",
+      "size" : 115662
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "testClass",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should select library document to share"
+  }, {
+    "name" : "package",
+    "value" : "C2257: Default text for document exchanges"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "515d7ac3769f58af",
+      "status" : "passed",
+      "time" : {
+        "start" : 1659289263624,
+        "stop" : 1659289266594,
+        "duration" : 2970
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7c1cacc65058139d.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}

@@ -1,0 +1,95 @@
+{
+  "uid" : "ba5dca3bbe9d1f71",
+  "name" : "Should open first client profile and uncheck insurance subject \"Cost-share Waiver\" check box",
+  "fullName" : "C2263: Multi State: Connect Nirvana API Key with correct PCorp.Should open first client profile and uncheck insurance subject \"Cost-share Waiver\" check box",
+  "historyId" : "5a72c76e96100a6330ba9ee752b41fad",
+  "time" : {
+    "start" : 1659290875368,
+    "stop" : 1659290894853,
+    "duration" : 19485
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expect(received).not.toBe(expected) // Object.is equality\n                \n                Expected: not \"  https://claims-api-sandbox.meetnirvana.com/api/v1/coverage/estimate/ {\\\"coverage_status\\\":true,\\\"deductible... 07/29/2022 03:43pm vadym.morozov89@gmail.com\"",
+  "statusTrace" : "Error: expect(received).not.toBe(expected) // Object.is equality\n                \n                Expected: not \"  https://claims-api-sandbox.meetnirvana.com/api/v1/coverage/estimate/ {\\\"coverage_status\\\":true,\\\"deductible... 07/29/2022 03:43pm vadym.morozov89@gmail.com\"\n                    at ProfilePage.changeCostShareWaiverCBoxAndCheckAPILog (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:1228:69)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at async Context.<anonymous> (/home/runner/work/webautomation/webautomation/test/specs/Clients/Insurance/C2263_uncheck_cost_share_waiver.spec.ts:25:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expect(received).not.toBe(expected) // Object.is equality\n                \n                Expected: not \"  https://claims-api-sandbox.meetnirvana.com/api/v1/coverage/estimate/ {\\\"coverage_status\\\":true,\\\"deductible... 07/29/2022 03:43pm vadym.morozov89@gmail.com\"",
+    "statusTrace" : "Error: expect(received).not.toBe(expected) // Object.is equality\n                \n                Expected: not \"  https://claims-api-sandbox.meetnirvana.com/api/v1/coverage/estimate/ {\\\"coverage_status\\\":true,\\\"deductible... 07/29/2022 03:43pm vadym.morozov89@gmail.com\"\n                    at ProfilePage.changeCostShareWaiverCBoxAndCheckAPILog (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:1228:69)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at async Context.<anonymous> (/home/runner/work/webautomation/webautomation/test/specs/Clients/Insurance/C2263_uncheck_cost_share_waiver.spec.ts:25:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "730a8e8b82b1c500",
+      "name" : "Screenshot",
+      "source" : "730a8e8b82b1c500.png",
+      "type" : "image/png",
+      "size" : 210624
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-17"
+  }, {
+    "name" : "suite",
+    "value" : "C2263: Multi State: Connect Nirvana API Key with correct PCorp"
+  }, {
+    "name" : "testClass",
+    "value" : "C2263: Multi State: Connect Nirvana API Key with correct PCorp"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should open first client profile and uncheck insurance subject \"Cost-share Waiver\" check box"
+  }, {
+    "name" : "package",
+    "value" : "C2263: Multi State: Connect Nirvana API Key with correct PCorp"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "19179dc6ee2f8d52",
+      "status" : "failed",
+      "statusDetails" : "expect(received).not.toBe(expected) // Object.is equality\n                \n                Expected: not \"  https://claims-api-sandbox.meetnirvana.com/api/v1/coverage/estimate/ {\\\"coverage_status\\\":true,\\\"deductible... 07/29/2022 03:43pm vadym.morozov89@gmail.com\"",
+      "time" : {
+        "start" : 1659290835106,
+        "stop" : 1659290856018,
+        "duration" : 20912
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "ba5dca3bbe9d1f71.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}

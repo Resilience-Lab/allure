@@ -1,0 +1,86 @@
+{
+  "uid" : "1f05204fde64fe26",
+  "name" : "Should create session with similar to time of first session and check alert",
+  "fullName" : "C2272: Don't allow to create more than 1 session per day for INN enrolled client.Should create session with similar to time of first session and check alert",
+  "historyId" : "3fbcc294b72f03d00791323105c12cef",
+  "time" : {
+    "start" : 1659293789526,
+    "stop" : 1659293808093,
+    "duration" : 18567
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "23ed107cdfe2c6a8",
+      "name" : "Screenshot",
+      "source" : "23ed107cdfe2c6a8.png",
+      "type" : "image/png",
+      "size" : 159554
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-27"
+  }, {
+    "name" : "suite",
+    "value" : "C2272: Don't allow to create more than 1 session per day for INN enrolled client"
+  }, {
+    "name" : "testClass",
+    "value" : "C2272: Don't allow to create more than 1 session per day for INN enrolled client"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should create session with similar to time of first session and check alert"
+  }, {
+    "name" : "package",
+    "value" : "C2272: Don't allow to create more than 1 session per day for INN enrolled client"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1656e36eb16b14d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1659293737525,
+        "stop" : 1659293756071,
+        "duration" : 18546
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1f05204fde64fe26.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}

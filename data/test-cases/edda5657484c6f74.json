@@ -1,0 +1,80 @@
+{
+  "uid" : "edda5657484c6f74",
+  "name" : "Should go back to profile and check that 'Client agreed rate' = 0",
+  "fullName" : "C2264: Price should be 0 with active cost share waiver (CSW).Should go back to profile and check that 'Client agreed rate' = 0",
+  "historyId" : "f0673282987a5d2d26e975ee0ac35feb",
+  "time" : {
+    "start" : 1659291048159,
+    "stop" : 1659291325797,
+    "duration" : 277638
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Timeout awaiting 'request' for 45000ms when running \"element/2740e826-8e58-47d3-abf3-0838d5b913b6/click\" with method \"POST\"",
+  "statusTrace" : "TimeoutError: Timeout awaiting 'request' for 45000ms when running \"element/2740e826-8e58-47d3-abf3-0838d5b913b6/click\" with method \"POST\"\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Timeout awaiting 'request' for 45000ms when running \"element/2740e826-8e58-47d3-abf3-0838d5b913b6/click\" with method \"POST\"",
+    "statusTrace" : "TimeoutError: Timeout awaiting 'request' for 45000ms when running \"element/2740e826-8e58-47d3-abf3-0838d5b913b6/click\" with method \"POST\"\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2e95ff9753c3f2ec",
+      "name" : "Screenshot",
+      "source" : "2e95ff9753c3f2ec.png",
+      "type" : "image/png",
+      "size" : 289911
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-18"
+  }, {
+    "name" : "suite",
+    "value" : "C2264: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "testClass",
+    "value" : "C2264: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should go back to profile and check that 'Client agreed rate' = 0"
+  }, {
+    "name" : "package",
+    "value" : "C2264: Price should be 0 with active cost share waiver (CSW)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "edda5657484c6f74.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}

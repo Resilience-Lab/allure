@@ -1,0 +1,95 @@
+{
+  "uid" : "fab67f7a3e216a35",
+  "name" : "Should go to sessions tab and create future session",
+  "fullName" : "C2256: Set clinician as inactive..Should go to sessions tab and create future session",
+  "historyId" : "1e5d8d5d58e47a3513b328c7a2776b5b",
+  "time" : {
+    "start" : 1659294378460,
+    "stop" : 1659294438640,
+    "duration" : 60180
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"[onclick*=\"changeTabsSubpanels('4')\"]\") still not displayed after 60000ms",
+  "statusTrace" : "Error: element (\"[onclick*=\"changeTabsSubpanels('4')\"]\") still not displayed after 60000ms\n                    at async ProfilePage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async ProfilePage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:170:9)\n                    at async ProfilePage.clickSessionsTabBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:759:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"[onclick*=\"changeTabsSubpanels('4')\"]\") still not displayed after 60000ms",
+    "statusTrace" : "Error: element (\"[onclick*=\"changeTabsSubpanels('4')\"]\") still not displayed after 60000ms\n                    at async ProfilePage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async ProfilePage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:170:9)\n                    at async ProfilePage.clickSessionsTabBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/profile.page.ts:759:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "bdeea016ad8ad3b0",
+      "name" : "Screenshot",
+      "source" : "bdeea016ad8ad3b0.png",
+      "type" : "image/png",
+      "size" : 37732
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-28"
+  }, {
+    "name" : "suite",
+    "value" : "C2256: Set clinician as inactive."
+  }, {
+    "name" : "testClass",
+    "value" : "C2256: Set clinician as inactive."
+  }, {
+    "name" : "testMethod",
+    "value" : "Should go to sessions tab and create future session"
+  }, {
+    "name" : "package",
+    "value" : "C2256: Set clinician as inactive."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "248b881e63ab8d84",
+      "status" : "broken",
+      "statusDetails" : "element (\"[onclick*=\"changeTabsSubpanels('4')\"]\") still not displayed after 60000ms",
+      "time" : {
+        "start" : 1659293969355,
+        "stop" : 1659294029533,
+        "duration" : 60178
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "fab67f7a3e216a35.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}

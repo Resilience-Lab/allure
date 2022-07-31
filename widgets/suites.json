@@ -12,6 +12,28 @@
       "total" : 8
     }
   }, {
+    "uid" : "97289d80cb8c4b9b6992898679931753",
+    "name" : "C2263: Multi State: Connect Nirvana API Key with correct PCorp",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "4fdd22980b2fbeaabcb98f54388d1e85",
+    "name" : "C2256: Set clinician as inactive.",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 6,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 9
+    }
+  }, {
     "uid" : "e8aa6596bccc27d40beb307c5c90151c",
     "name" : "C2264: Price should be 0 with active cost share waiver (CSW)",
     "statistic" : {
@@ -21,61 +43,6 @@
       "passed" : 2,
       "unknown" : 0,
       "total" : 6
-    }
-  }, {
-    "uid" : "c8295443e51a55754789e764bcf91681",
-    "name" : "C2253: Report hint",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 4,
-      "skipped" : 0,
-      "passed" : 2,
-      "unknown" : 0,
-      "total" : 6
-    }
-  }, {
-    "uid" : "9838e78a8139fa4fdf9952b22b4339e3",
-    "name" : "C2275: Allow to create more than 1 session per day for INN not enrolled client",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 3,
-      "skipped" : 0,
-      "passed" : 3,
-      "unknown" : 0,
-      "total" : 6
-    }
-  }, {
-    "uid" : "4fdd22980b2fbeaabcb98f54388d1e85",
-    "name" : "C2256: Set clinician as inactive.",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 2,
-      "skipped" : 0,
-      "passed" : 8,
-      "unknown" : 0,
-      "total" : 10
-    }
-  }, {
-    "uid" : "7252c200c3842484dfd9c64eb5df1966",
-    "name" : "C2276: Allow to create more than 1 session per day for OON not enrolled client",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 2,
-      "skipped" : 0,
-      "passed" : 3,
-      "unknown" : 0,
-      "total" : 5
-    }
-  }, {
-    "uid" : "563760655627164119fb49f810694278",
-    "name" : "C2277: Allow to create more than 1 session per day for independent client",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 2,
-      "skipped" : 0,
-      "passed" : 3,
-      "unknown" : 0,
-      "total" : 5
     }
   }, {
     "uid" : "7ef939b451c6093211f0226cd229d3ab",
@@ -109,6 +76,39 @@
       "passed" : 10,
       "unknown" : 0,
       "total" : 10
+    }
+  }, {
+    "uid" : "10cf3220297253cf92506af29ec6dbf7",
+    "name" : "C2280: Verify Insurance Card Form",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 7
+    }
+  }, {
+    "uid" : "de14c62921acf86b325032420df3cf5c",
+    "name" : "C2286: Verify Insurance Card Form",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 7
+    }
+  }, {
+    "uid" : "c11630f8e128dc550f96b5162924754c",
+    "name" : "C2291: Verify that creating Treatment Plan with Z-code Diagnosis as Primary - allowed for non insured client",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 7
     }
   } ]
 }

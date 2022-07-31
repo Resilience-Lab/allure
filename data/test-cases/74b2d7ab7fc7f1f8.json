@@ -1,0 +1,78 @@
+{
+  "uid" : "74b2d7ab7fc7f1f8",
+  "name" : "The session should be created without any pop-up",
+  "fullName" : "C2276: Allow to create more than 1 session per day for OON not enrolled client.The session should be created without any pop-up",
+  "historyId" : "84dea24af785bdf42b14c1bd7016f1fe",
+  "time" : {
+    "start" : 1659293496991,
+    "stop" : 1659293537269,
+    "duration" : 40278
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "63006babf4c78c7f",
+      "name" : "Screenshot",
+      "source" : "63006babf4c78c7f.png",
+      "type" : "image/png",
+      "size" : 254833
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-25"
+  }, {
+    "name" : "suite",
+    "value" : "C2276: Allow to create more than 1 session per day for OON not enrolled client"
+  }, {
+    "name" : "testClass",
+    "value" : "C2276: Allow to create more than 1 session per day for OON not enrolled client"
+  }, {
+    "name" : "testMethod",
+    "value" : "The session should be created without any pop-up"
+  }, {
+    "name" : "package",
+    "value" : "C2276: Allow to create more than 1 session per day for OON not enrolled client"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "74b2d7ab7fc7f1f8.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}

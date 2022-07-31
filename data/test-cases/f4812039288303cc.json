@@ -1,0 +1,78 @@
+{
+  "uid" : "f4812039288303cc",
+  "name" : "Should save Treatment Plan without any errors",
+  "fullName" : "C2291: Verify that creating Treatment Plan with Z-code Diagnosis as Primary - allowed for non insured client.Should save Treatment Plan without any errors",
+  "historyId" : "e58e71a6a0b22803b74313e535561c44",
+  "time" : {
+    "start" : 1659290697592,
+    "stop" : 1659290707187,
+    "duration" : 9595
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4964f49908fb9dcd",
+      "name" : "Screenshot",
+      "source" : "4964f49908fb9dcd.png",
+      "type" : "image/png",
+      "size" : 86669
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-15"
+  }, {
+    "name" : "suite",
+    "value" : "C2291: Verify that creating Treatment Plan with Z-code Diagnosis as Primary - allowed for non insured client"
+  }, {
+    "name" : "testClass",
+    "value" : "C2291: Verify that creating Treatment Plan with Z-code Diagnosis as Primary - allowed for non insured client"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should save Treatment Plan without any errors"
+  }, {
+    "name" : "package",
+    "value" : "C2291: Verify that creating Treatment Plan with Z-code Diagnosis as Primary - allowed for non insured client"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f4812039288303cc.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}
