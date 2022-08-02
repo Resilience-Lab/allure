@@ -1,1 +1,42 @@
-{ }
+{
+  "4e150c1ee6432dbd928def1627816896" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "71be4ef042497735",
+      "status" : "broken",
+      "statusDetails" : "element (\"#toolbar a[href=\"index.php?module=Accounts&action=index&parentTab=All\"]\") still not displayed after 240000ms",
+      "time" : {
+        "start" : 1659466165778,
+        "stop" : 1659466405925,
+        "duration" : 240147
+      }
+    } ]
+  },
+  "3f30b59fcf68ef728c32e52e18f4ab7e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cac13a1732637bb3",
+      "status" : "broken",
+      "statusDetails" : "element (\"#toolbar a[href=\"index.php?module=Accounts&action=index&parentTab=All\"]\") still not clickable after 240000ms",
+      "time" : {
+        "start" : 1659464724842,
+        "stop" : 1659466165776,
+        "duration" : 1440934
+      }
+    } ]
+  }
+}
