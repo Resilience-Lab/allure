@@ -1,30 +1,5 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ {
-    "name" : "Test defects",
-    "children" : [ {
-      "name" : "element (\"#toolbar a[href=\"index.php?module=Accounts&action=index&parentTab=All\"]\") still not displayed after 60000ms",
-      "children" : [ {
-        "name" : "\"after all\" hook for C2285: Verify that future sesiions will be deleted after sign 'Termination note'",
-        "uid" : "8a63e72cd61e508e",
-        "parentUid" : "072b646b1267e370ce40e91f71807966",
-        "status" : "broken",
-        "time" : {
-          "start" : 1659432966038,
-          "stop" : 1659433326728,
-          "duration" : 360690
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-103.0.5060.134" ]
-      } ],
-      "uid" : "072b646b1267e370ce40e91f71807966"
-    } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
-  } ],
+  "children" : [ ],
   "name" : "categories"
 }
