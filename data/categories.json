@@ -1,43 +1,18 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "children" : [ {
-    "name" : "Product defects",
-    "children" : [ {
-      "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: false\n                Received: true",
-      "children" : [ {
-        "name" : "In \"Sessions\" tab all future sessions should be deleted",
-        "uid" : "d884ec3e3a84a57b",
-        "parentUid" : "19a176217a26805f0d44bbfda36ce55c",
-        "status" : "failed",
-        "time" : {
-          "start" : 1659430531629,
-          "stop" : 1659430565912,
-          "duration" : 34283
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-103.0.5060.134" ]
-      } ],
-      "uid" : "19a176217a26805f0d44bbfda36ce55c"
-    } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  }, {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "element (\"(//td[@class='col-xs-4'])[1]\") still not clickable after 10000ms",
+      "name" : "element (\"#toolbar a[href=\"index.php?module=Accounts&action=index&parentTab=All\"]\") still not displayed after 60000ms",
       "children" : [ {
-        "name" : "Should verify email from Resiliencelab",
-        "uid" : "205e21606932f113",
-        "parentUid" : "69715e28b6c12c26c59d319c868e506e",
+        "name" : "\"after all\" hook for C2285: Verify that future sesiions will be deleted after sign 'Termination note'",
+        "uid" : "8a63e72cd61e508e",
+        "parentUid" : "072b646b1267e370ce40e91f71807966",
         "status" : "broken",
         "time" : {
-          "start" : 1659430608458,
-          "stop" : 1659430645159,
-          "duration" : 36701
+          "start" : 1659432966038,
+          "stop" : 1659433326728,
+          "duration" : 360690
         },
         "flaky" : false,
         "newFailed" : false,
@@ -47,49 +22,7 @@
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-103.0.5060.134" ]
       } ],
-      "uid" : "69715e28b6c12c26c59d319c868e506e"
-    }, {
-      "name" : "element (\"[name=\"email\"]\") still not displayed after 60000ms",
-      "children" : [ {
-        "name" : "Should signUp to account",
-        "uid" : "46e6e3b3e8323d70",
-        "parentUid" : "a6ec8fee4d6ecc89c0ac894aec3efe04",
-        "status" : "broken",
-        "time" : {
-          "start" : 1659430645159,
-          "stop" : 1659430705323,
-          "duration" : 60164
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-103.0.5060.134" ]
-      } ],
-      "uid" : "a6ec8fee4d6ecc89c0ac894aec3efe04"
-    }, {
-      "name" : "element (\"//button[text() = 'View Requests']\") still not displayed after 60000ms",
-      "children" : [ {
-        "name" : "All fields, except Employer/Sponsor, should be mandatory",
-        "uid" : "fb1d9142ea017290",
-        "parentUid" : "e7990517bf9bd2ec83e3df24e394464e",
-        "status" : "broken",
-        "time" : {
-          "start" : 1659430705323,
-          "stop" : 1659430774051,
-          "duration" : 68728
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-103.0.5060.134" ]
-      } ],
-      "uid" : "e7990517bf9bd2ec83e3df24e394464e"
+      "uid" : "072b646b1267e370ce40e91f71807966"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ],

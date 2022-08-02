@@ -1,0 +1,86 @@
+{
+  "uid" : "8a63e72cd61e508e",
+  "name" : "\"after all\" hook for C2285: Verify that future sesiions will be deleted after sign 'Termination note'",
+  "fullName" : "C2285: Verify that future sesiions will be deleted after sign 'Termination note'.\"after all\" hook for C2285: Verify that future sesiions will be deleted after sign 'Termination note'",
+  "historyId" : "ad7cd3e99f305b771854b77e7c20dd77",
+  "time" : {
+    "start" : 1659432966038,
+    "stop" : 1659433326728,
+    "duration" : 360690
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"#toolbar a[href=\"index.php?module=Accounts&action=index&parentTab=All\"]\") still not displayed after 60000ms",
+  "statusTrace" : "Error: element (\"#toolbar a[href=\"index.php?module=Accounts&action=index&parentTab=All\"]\") still not displayed after 60000ms\n                    at async NavigationBar.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async NavigationBar.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:171:9)\n                    at async NavigationBar.clickClientsBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/navigation.bar.ts:64:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"#toolbar a[href=\"index.php?module=Accounts&action=index&parentTab=All\"]\") still not displayed after 60000ms",
+    "statusTrace" : "Error: element (\"#toolbar a[href=\"index.php?module=Accounts&action=index&parentTab=All\"]\") still not displayed after 60000ms\n                    at async NavigationBar.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async NavigationBar.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:171:9)\n                    at async NavigationBar.clickClientsBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/navigation.bar.ts:64:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "54068246468e1ee3",
+      "name" : "Screenshot",
+      "source" : "54068246468e1ee3.png",
+      "type" : "image/png",
+      "size" : 73912
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-10"
+  }, {
+    "name" : "suite",
+    "value" : "C2285: Verify that future sesiions will be deleted after sign 'Termination note'"
+  }, {
+    "name" : "testClass",
+    "value" : "C2285: Verify that future sesiions will be deleted after sign 'Termination note'"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"after all\" hook for C2285: Verify that future sesiions will be deleted after sign 'Termination note'"
+  }, {
+    "name" : "package",
+    "value" : "C2285: Verify that future sesiions will be deleted after sign 'Termination note'"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "8a63e72cd61e508e.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}
