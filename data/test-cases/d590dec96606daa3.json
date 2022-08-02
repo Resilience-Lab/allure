@@ -1,0 +1,80 @@
+{
+  "uid" : "d590dec96606daa3",
+  "name" : "The session should be created without any pop-up",
+  "fullName" : "C2277: Allow to create more than 1 session per day for independent client.The session should be created without any pop-up",
+  "historyId" : "ba4bf0b99dcaacd251e0ab2908b72b75",
+  "time" : {
+    "start" : 1659395502334,
+    "stop" : 1659395767358,
+    "duration" : 265024
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Timeout awaiting 'request' for 45000ms when running \"element/2d8f5e5e-4b04-47cb-819a-8ef2eaaab6e2/click\" with method \"POST\"",
+  "statusTrace" : "TimeoutError: Timeout awaiting 'request' for 45000ms when running \"element/2d8f5e5e-4b04-47cb-819a-8ef2eaaab6e2/click\" with method \"POST\"\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Timeout awaiting 'request' for 45000ms when running \"element/2d8f5e5e-4b04-47cb-819a-8ef2eaaab6e2/click\" with method \"POST\"",
+    "statusTrace" : "TimeoutError: Timeout awaiting 'request' for 45000ms when running \"element/2d8f5e5e-4b04-47cb-819a-8ef2eaaab6e2/click\" with method \"POST\"\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "84e91f23a258cc77",
+      "name" : "Screenshot",
+      "source" : "84e91f23a258cc77.png",
+      "type" : "image/png",
+      "size" : 69162
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-26"
+  }, {
+    "name" : "suite",
+    "value" : "C2277: Allow to create more than 1 session per day for independent client"
+  }, {
+    "name" : "testClass",
+    "value" : "C2277: Allow to create more than 1 session per day for independent client"
+  }, {
+    "name" : "testMethod",
+    "value" : "The session should be created without any pop-up"
+  }, {
+    "name" : "package",
+    "value" : "C2277: Allow to create more than 1 session per day for independent client"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d590dec96606daa3.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}

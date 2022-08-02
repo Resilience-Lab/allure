@@ -1,0 +1,78 @@
+{
+  "uid" : "db4e73676387730d",
+  "name" : "Should go to filter and from 'Insurance Status' select ''(empty)",
+  "fullName" : "C2291: Verify that creating Treatment Plan with Z-code Diagnosis as Primary - allowed for non insured client.Should go to filter and from 'Insurance Status' select ''(empty)",
+  "historyId" : "8825d552c1307fd16fa08e9460211046",
+  "time" : {
+    "start" : 1659392802204,
+    "stop" : 1659392806452,
+    "duration" : 4248
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7b7ba548fab550fe",
+      "name" : "Screenshot",
+      "source" : "7b7ba548fab550fe.png",
+      "type" : "image/png",
+      "size" : 79491
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-15"
+  }, {
+    "name" : "suite",
+    "value" : "C2291: Verify that creating Treatment Plan with Z-code Diagnosis as Primary - allowed for non insured client"
+  }, {
+    "name" : "testClass",
+    "value" : "C2291: Verify that creating Treatment Plan with Z-code Diagnosis as Primary - allowed for non insured client"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should go to filter and from 'Insurance Status' select ''(empty)"
+  }, {
+    "name" : "package",
+    "value" : "C2291: Verify that creating Treatment Plan with Z-code Diagnosis as Primary - allowed for non insured client"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "db4e73676387730d.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}

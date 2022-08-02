@@ -1,48 +1,26 @@
 {
-  "total" : 39,
+  "total" : 41,
   "items" : [ {
-    "uid" : "26595c51ac19bfe0f7298c4004853f66",
-    "name" : "C2290: Verify that creating Treatment Plan with Z-code Diagnosis as Primary - don't allowed",
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 7,
-      "unknown" : 0,
-      "total" : 8
-    }
-  }, {
-    "uid" : "97289d80cb8c4b9b6992898679931753",
-    "name" : "C2263: Multi State: Connect Nirvana API Key with correct PCorp",
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 2,
-      "unknown" : 0,
-      "total" : 3
-    }
-  }, {
-    "uid" : "4fdd22980b2fbeaabcb98f54388d1e85",
-    "name" : "C2256: Set clinician as inactive.",
+    "uid" : "7252c200c3842484dfd9c64eb5df1966",
+    "name" : "C2276: Allow to create more than 1 session per day for OON not enrolled client",
     "statistic" : {
       "failed" : 0,
-      "broken" : 6,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 3,
       "unknown" : 0,
-      "total" : 9
+      "total" : 5
     }
   }, {
-    "uid" : "e8aa6596bccc27d40beb307c5c90151c",
-    "name" : "C2264: Price should be 0 with active cost share waiver (CSW)",
+    "uid" : "563760655627164119fb49f810694278",
+    "name" : "C2277: Allow to create more than 1 session per day for independent client",
     "statistic" : {
       "failed" : 0,
-      "broken" : 4,
+      "broken" : 2,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 6
+      "total" : 5
     }
   }, {
     "uid" : "7ef939b451c6093211f0226cd229d3ab",
@@ -76,6 +54,28 @@
       "passed" : 10,
       "unknown" : 0,
       "total" : 10
+    }
+  }, {
+    "uid" : "4fdd22980b2fbeaabcb98f54388d1e85",
+    "name" : "C2256: Set clinician as inactive.",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 9,
+      "unknown" : 0,
+      "total" : 9
+    }
+  }, {
+    "uid" : "26595c51ac19bfe0f7298c4004853f66",
+    "name" : "C2290: Verify that creating Treatment Plan with Z-code Diagnosis as Primary - don't allowed",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 8,
+      "unknown" : 0,
+      "total" : 8
     }
   }, {
     "uid" : "10cf3220297253cf92506af29ec6dbf7",

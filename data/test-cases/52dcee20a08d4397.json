@@ -1,0 +1,78 @@
+{
+  "uid" : "52dcee20a08d4397",
+  "name" : "Should go to filter and from  'Stage' select 'Active'",
+  "fullName" : "C2285: Verify that future sesiions will be deleted after sign 'Termination note'.Should go to filter and from  'Stage' select 'Active'",
+  "historyId" : "68f89455910e3ebac61e83a86d66f420",
+  "time" : {
+    "start" : 1659392271463,
+    "stop" : 1659392275766,
+    "duration" : 4303
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8c8494fdfe4d8d8f",
+      "name" : "Screenshot",
+      "source" : "8c8494fdfe4d8d8f.png",
+      "type" : "image/png",
+      "size" : 88038
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-10"
+  }, {
+    "name" : "suite",
+    "value" : "C2285: Verify that future sesiions will be deleted after sign 'Termination note'"
+  }, {
+    "name" : "testClass",
+    "value" : "C2285: Verify that future sesiions will be deleted after sign 'Termination note'"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should go to filter and from  'Stage' select 'Active'"
+  }, {
+    "name" : "package",
+    "value" : "C2285: Verify that future sesiions will be deleted after sign 'Termination note'"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "52dcee20a08d4397.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}

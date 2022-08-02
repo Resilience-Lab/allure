@@ -1,106 +1,19 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
   "children" : [ {
-    "name" : "Product defects",
-    "children" : [ {
-      "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: true\n                Received: false",
-      "children" : [ {
-        "name" : "Should appear new field 'Why not?:'",
-        "uid" : "c41fc3b855ebd3f4",
-        "parentUid" : "7d22550bcc2853ce14c87084cc359937",
-        "status" : "failed",
-        "time" : {
-          "start" : 1659290633597,
-          "stop" : 1659290634896,
-          "duration" : 1299
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-103.0.5060.134" ]
-      } ],
-      "uid" : "7d22550bcc2853ce14c87084cc359937"
-    }, {
-      "name" : "expect(received).not.toBe(expected) // Object.is equality\n                \n                Expected: not \"  https://claims-api-sandbox.meetnirvana.com/api/v1/coverage/estimate/ {\\\"coverage_status\\\":true,\\\"deductible... 07/29/2022 03:43pm vadym.morozov89@gmail.com\"",
-      "children" : [ {
-        "name" : "Should open first client profile and uncheck insurance subject \"Cost-share Waiver\" check box",
-        "uid" : "ba5dca3bbe9d1f71",
-        "parentUid" : "975eddfd39300f4251ebc90488810b21",
-        "status" : "failed",
-        "time" : {
-          "start" : 1659290875368,
-          "stop" : 1659290894853,
-          "duration" : 19485
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-103.0.5060.134" ]
-      } ],
-      "uid" : "975eddfd39300f4251ebc90488810b21"
-    } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  }, {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "Timeout awaiting 'request' for 45000ms when running \"element/5e37979f-a832-4da1-b1a1-fe97642f98e1/click\" with method \"POST\"",
+      "name" : "Timeout awaiting 'request' for 45000ms when running \"element/fac4f0ac-b3aa-4385-ad16-1319c65e33dd/click\" with method \"POST\"",
       "children" : [ {
-        "name" : "Should go first client profile",
-        "uid" : "daef83df507ae41f",
-        "parentUid" : "b76cde4fcfd1b7c98beb93f786b67c62",
+        "name" : "The session should be created without any pop-up",
+        "uid" : "c54967e993bab3cd",
+        "parentUid" : "96ff4a51bb0aedc87aade218a915b031",
         "status" : "broken",
         "time" : {
-          "start" : 1659291779847,
-          "stop" : 1659292020473,
-          "duration" : 240626
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : true,
-        "parameters" : [ "chrome-103.0.5060.134" ]
-      } ],
-      "uid" : "b76cde4fcfd1b7c98beb93f786b67c62"
-    }, {
-      "name" : "element (\"//a[@id='tab5'][contains(text(),'Insurance')]\") still not displayed after 60000ms",
-      "children" : [ {
-        "name" : "Should check cbox for cost-share Waiver and add end date",
-        "uid" : "7f0a540ea281eeab",
-        "parentUid" : "001a491abb899a0aaca14006fd999f73",
-        "status" : "broken",
-        "time" : {
-          "start" : 1659292020473,
-          "stop" : 1659292080710,
-          "duration" : 60237
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : true,
-        "parameters" : [ "chrome-103.0.5060.134" ]
-      } ],
-      "uid" : "001a491abb899a0aaca14006fd999f73"
-    }, {
-      "name" : "Timeout awaiting 'request' for 45000ms when running \"element/6294dbdb-80c9-452a-8a8d-1a8364031fe4/click\" with method \"POST\"",
-      "children" : [ {
-        "name" : "Should go back to profile and check that 'Client agreed rate' = 0",
-        "uid" : "f084a99970de1ec6",
-        "parentUid" : "fa13d49baff69a9d42e2a0dba753d99f",
-        "status" : "broken",
-        "time" : {
-          "start" : 1659292080711,
-          "stop" : 1659292349673,
-          "duration" : 268962
+          "start" : 1659394884772,
+          "stop" : 1659395143769,
+          "duration" : 258997
         },
         "flaky" : false,
         "newFailed" : false,
@@ -110,18 +23,35 @@
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-103.0.5060.134" ]
       } ],
-      "uid" : "fa13d49baff69a9d42e2a0dba753d99f"
+      "uid" : "96ff4a51bb0aedc87aade218a915b031"
     }, {
-      "name" : "Timeout awaiting 'request' for 45000ms when running \"element/82fc8dfa-e145-4181-9cd0-ce4e3e7f396b/click\" with method \"POST\"",
+      "name" : "element (\"//li[@id='globalLinks']//button[@title]\") still not clickable after 60000ms",
       "children" : [ {
-        "name" : "\"after all\" hook for C2264: Price should be 0 with active cost share waiver (CSW)",
-        "uid" : "89480f1f2bb50b18",
-        "parentUid" : "f77ac99608a7d1a8488d22237c3b1e9b",
+        "name" : "\"after all\" hook for C2276: Allow to create more than 1 session per day for OON not enrolled client",
+        "uid" : "d43a7e260068a628",
+        "parentUid" : "7ae2206e415d7638ac650102c0470d8d",
         "status" : "broken",
         "time" : {
-          "start" : 1659292349673,
-          "stop" : 1659292635792,
-          "duration" : 286119
+          "start" : 1659395143769,
+          "stop" : 1659395324130,
+          "duration" : 180361
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      }, {
+        "name" : "\"after all\" hook for C2277: Allow to create more than 1 session per day for independent client",
+        "uid" : "a74cf27640f28b51",
+        "parentUid" : "7ae2206e415d7638ac650102c0470d8d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659396387081,
+          "stop" : 1659396567432,
+          "duration" : 180351
         },
         "flaky" : false,
         "newFailed" : false,
@@ -131,18 +61,18 @@
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-103.0.5060.134" ]
       } ],
-      "uid" : "f77ac99608a7d1a8488d22237c3b1e9b"
+      "uid" : "7ae2206e415d7638ac650102c0470d8d"
     }, {
-      "name" : "Can't call scrollIntoView on element with selector \"(//tr[contains(@class,'ListRowS1')]//td[3]//a)[contains(text(),'Vadym')]\" because element wasn't found",
+      "name" : "Timeout awaiting 'request' for 45000ms when running \"element/94efc416-deab-4a6d-b86f-d74dc5555065/click\" with method \"POST\"",
       "children" : [ {
-        "name" : "Should go to some active clinician profile",
-        "uid" : "7ee63744333b6fb6",
-        "parentUid" : "20bbeace38af7639ea93723b27af0515",
+        "name" : "The session should be created without any pop-up",
+        "uid" : "f97f20fd85294a66",
+        "parentUid" : "f3a83b537ad97d232ec5e225e8080839",
         "status" : "broken",
         "time" : {
-          "start" : 1659294294565,
-          "stop" : 1659294308093,
-          "duration" : 13528
+          "start" : 1659396110652,
+          "stop" : 1659396387081,
+          "duration" : 276429
         },
         "flaky" : false,
         "newFailed" : false,
@@ -152,114 +82,8 @@
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-103.0.5060.134" ]
       } ],
-      "uid" : "20bbeace38af7639ea93723b27af0515"
-    }, {
-      "name" : "element (\"//a[text()=\"View Clients\"]\") still not displayed after 60000ms",
-      "children" : [ {
-        "name" : "Should click on \"View clients\"",
-        "uid" : "d8daae69eb6a0c8e",
-        "parentUid" : "dbeff447c54844a2c5ce6d9fd0fe3c99",
-        "status" : "broken",
-        "time" : {
-          "start" : 1659294308093,
-          "stop" : 1659294368275,
-          "duration" : 60182
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-103.0.5060.134" ]
-      } ],
-      "uid" : "dbeff447c54844a2c5ce6d9fd0fe3c99"
-    }, {
-      "name" : "element (\"(//td[contains(@field,\"name\") and not(@field=\"assigned_user_name\") and not(contains(@field,'pods')) and not(@field=\"last_name\")]//a)[1]\") still not clickable after 10000ms",
-      "children" : [ {
-        "name" : "Should go to some active client profile",
-        "uid" : "c30874898ae6aadf",
-        "parentUid" : "c83ea921a892dc1d65821a5f0c1b04a5",
-        "status" : "broken",
-        "time" : {
-          "start" : 1659294368275,
-          "stop" : 1659294378460,
-          "duration" : 10185
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-103.0.5060.134" ]
-      } ],
-      "uid" : "c83ea921a892dc1d65821a5f0c1b04a5"
-    }, {
-      "name" : "element (\"[onclick*=\"changeTabsSubpanels('4')\"]\") still not displayed after 60000ms",
-      "children" : [ {
-        "name" : "Should go to sessions tab and create future session",
-        "uid" : "fab67f7a3e216a35",
-        "parentUid" : "69704100506f45d234fa15d992c0c2ce",
-        "status" : "broken",
-        "time" : {
-          "start" : 1659294378460,
-          "stop" : 1659294438640,
-          "duration" : 60180
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-103.0.5060.134" ]
-      } ],
-      "uid" : "69704100506f45d234fa15d992c0c2ce"
-    }, {
-      "name" : "element (\".noty_buttons .btn.btn-success\") still not displayed after 60000ms",
-      "children" : [ {
-        "name" : "Should change clinican status to Inactive",
-        "uid" : "eb0cc8089d41e072",
-        "parentUid" : "a36b4cc5bb6816156c6da4c49282112d",
-        "status" : "broken",
-        "time" : {
-          "start" : 1659294440949,
-          "stop" : 1659294501211,
-          "duration" : 60262
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-103.0.5060.134" ]
-      } ],
-      "uid" : "a36b4cc5bb6816156c6da4c49282112d"
-    }, {
-      "name" : "element (\"(//li[@class=\"sugar_action_button desktopOnly\"])[1]\") still not displayed after 60000ms",
-      "children" : [ {
-        "name" : "\"after all\" hook for C2256: Set clinician as inactive.",
-        "uid" : "5fa4a0eaf52fda8b",
-        "parentUid" : "40dcc12578836b944fc825608a5ed0f2",
-        "status" : "broken",
-        "time" : {
-          "start" : 1659294501211,
-          "stop" : 1659294626466,
-          "duration" : 125255
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-103.0.5060.134" ]
-      } ],
-      "uid" : "40dcc12578836b944fc825608a5ed0f2"
+      "uid" : "f3a83b537ad97d232ec5e225e8080839"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
-  } ],
-  "name" : "categories"
+  } ]
 }
