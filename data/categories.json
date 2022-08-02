@@ -1,89 +1,97 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "name" : "categories",
   "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: false\n                Received: true",
+      "children" : [ {
+        "name" : "In \"Sessions\" tab all future sessions should be deleted",
+        "uid" : "d884ec3e3a84a57b",
+        "parentUid" : "19a176217a26805f0d44bbfda36ce55c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1659430531629,
+          "stop" : 1659430565912,
+          "duration" : 34283
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      } ],
+      "uid" : "19a176217a26805f0d44bbfda36ce55c"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "Timeout awaiting 'request' for 45000ms when running \"element/fac4f0ac-b3aa-4385-ad16-1319c65e33dd/click\" with method \"POST\"",
+      "name" : "element (\"(//td[@class='col-xs-4'])[1]\") still not clickable after 10000ms",
       "children" : [ {
-        "name" : "The session should be created without any pop-up",
-        "uid" : "c54967e993bab3cd",
-        "parentUid" : "96ff4a51bb0aedc87aade218a915b031",
+        "name" : "Should verify email from Resiliencelab",
+        "uid" : "205e21606932f113",
+        "parentUid" : "69715e28b6c12c26c59d319c868e506e",
         "status" : "broken",
         "time" : {
-          "start" : 1659394884772,
-          "stop" : 1659395143769,
-          "duration" : 258997
+          "start" : 1659430608458,
+          "stop" : 1659430645159,
+          "duration" : 36701
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 1,
+        "retriesCount" : 0,
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-103.0.5060.134" ]
       } ],
-      "uid" : "96ff4a51bb0aedc87aade218a915b031"
+      "uid" : "69715e28b6c12c26c59d319c868e506e"
     }, {
-      "name" : "element (\"//li[@id='globalLinks']//button[@title]\") still not clickable after 60000ms",
+      "name" : "element (\"[name=\"email\"]\") still not displayed after 60000ms",
       "children" : [ {
-        "name" : "\"after all\" hook for C2276: Allow to create more than 1 session per day for OON not enrolled client",
-        "uid" : "d43a7e260068a628",
-        "parentUid" : "7ae2206e415d7638ac650102c0470d8d",
+        "name" : "Should signUp to account",
+        "uid" : "46e6e3b3e8323d70",
+        "parentUid" : "a6ec8fee4d6ecc89c0ac894aec3efe04",
         "status" : "broken",
         "time" : {
-          "start" : 1659395143769,
-          "stop" : 1659395324130,
-          "duration" : 180361
+          "start" : 1659430645159,
+          "stop" : 1659430705323,
+          "duration" : 60164
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-103.0.5060.134" ]
-      }, {
-        "name" : "\"after all\" hook for C2277: Allow to create more than 1 session per day for independent client",
-        "uid" : "a74cf27640f28b51",
-        "parentUid" : "7ae2206e415d7638ac650102c0470d8d",
-        "status" : "broken",
-        "time" : {
-          "start" : 1659396387081,
-          "stop" : 1659396567432,
-          "duration" : 180351
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
+        "retriesCount" : 0,
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-103.0.5060.134" ]
       } ],
-      "uid" : "7ae2206e415d7638ac650102c0470d8d"
+      "uid" : "a6ec8fee4d6ecc89c0ac894aec3efe04"
     }, {
-      "name" : "Timeout awaiting 'request' for 45000ms when running \"element/94efc416-deab-4a6d-b86f-d74dc5555065/click\" with method \"POST\"",
+      "name" : "element (\"//button[text() = 'View Requests']\") still not displayed after 60000ms",
       "children" : [ {
-        "name" : "The session should be created without any pop-up",
-        "uid" : "f97f20fd85294a66",
-        "parentUid" : "f3a83b537ad97d232ec5e225e8080839",
+        "name" : "All fields, except Employer/Sponsor, should be mandatory",
+        "uid" : "fb1d9142ea017290",
+        "parentUid" : "e7990517bf9bd2ec83e3df24e394464e",
         "status" : "broken",
         "time" : {
-          "start" : 1659396110652,
-          "stop" : 1659396387081,
-          "duration" : 276429
+          "start" : 1659430705323,
+          "stop" : 1659430774051,
+          "duration" : 68728
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 1,
+        "retriesCount" : 0,
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-103.0.5060.134" ]
       } ],
-      "uid" : "f3a83b537ad97d232ec5e225e8080839"
+      "uid" : "e7990517bf9bd2ec83e3df24e394464e"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
-  } ]
+  } ],
+  "name" : "categories"
 }
