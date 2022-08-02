@@ -1,0 +1,68 @@
+{
+  "uid" : "d716a18a6d4aa2e5",
+  "name" : "\"before all\" hook for C2275: Allow to create more than 1 session per day for INN not enrolled client",
+  "fullName" : "C2275: Allow to create more than 1 session per day for INN not enrolled client.\"before all\" hook for C2275: Allow to create more than 1 session per day for INN not enrolled client",
+  "historyId" : "2e371c980f8e447f5404a106f6d2dd68",
+  "time" : {
+    "start" : 1659476322662,
+    "stop" : 1659476683347,
+    "duration" : 360685
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"#toolbar a[href=\"index.php?module=Accounts&action=index&parentTab=All\"]\") still not clickable after 60000ms",
+  "statusTrace" : "Error: element (\"#toolbar a[href=\"index.php?module=Accounts&action=index&parentTab=All\"]\") still not clickable after 60000ms\n                    at async NavigationBar.waitElementForClickable (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:117:9)\n                    at async NavigationBar.moveTo (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:187:9)\n                    at async NavigationBar.goToCreateClientBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/navigation.bar.ts:72:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-24"
+  }, {
+    "name" : "suite",
+    "value" : "C2275: Allow to create more than 1 session per day for INN not enrolled client"
+  }, {
+    "name" : "testClass",
+    "value" : "C2275: Allow to create more than 1 session per day for INN not enrolled client"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook for C2275: Allow to create more than 1 session per day for INN not enrolled client"
+  }, {
+    "name" : "package",
+    "value" : "C2275: Allow to create more than 1 session per day for INN not enrolled client"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "d716a18a6d4aa2e5.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}

@@ -1,18 +1,18 @@
 {
-  "uid" : "71be4ef042497735",
+  "uid" : "d3c09ee3c7c15d38",
   "name" : "\"after all\" hook for C2257: Default text for document exchanges",
   "fullName" : "C2257: Default text for document exchanges.\"after all\" hook for C2257: Default text for document exchanges",
   "historyId" : "4e150c1ee6432dbd928def1627816896",
   "time" : {
-    "start" : 1659466165778,
-    "stop" : 1659466405925,
-    "duration" : 240147
+    "start" : 1659468139710,
+    "stop" : 1659468199807,
+    "duration" : 60097
   },
   "description" : "",
   "descriptionHtml" : "",
   "status" : "broken",
-  "statusMessage" : "element (\"#toolbar a[href=\"index.php?module=Accounts&action=index&parentTab=All\"]\") still not displayed after 240000ms",
-  "statusTrace" : "Error: element (\"#toolbar a[href=\"index.php?module=Accounts&action=index&parentTab=All\"]\") still not displayed after 240000ms\n                    at async NavigationBar.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async NavigationBar.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:171:9)\n                    at async NavigationBar.clickClientsBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/navigation.bar.ts:64:9)",
+  "statusMessage" : "element (\"#toolbar a[href=\"index.php?module=Accounts&action=index&parentTab=All\"]\") still not displayed after 60000ms",
+  "statusTrace" : "Error: element (\"#toolbar a[href=\"index.php?module=Accounts&action=index&parentTab=All\"]\") still not displayed after 60000ms\n                    at async NavigationBar.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async NavigationBar.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:171:9)\n                    at async NavigationBar.clickClientsBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/navigation.bar.ts:64:9)",
   "flaky" : false,
   "newFailed" : false,
   "newBroken" : false,
@@ -63,6 +63,6 @@
     } ],
     "tags" : [ ]
   },
-  "source" : "71be4ef042497735.json",
+  "source" : "d3c09ee3c7c15d38.json",
   "parameterValues" : [ "chrome-103.0.5060.134" ]
 }

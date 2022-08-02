@@ -1,0 +1,68 @@
+{
+  "uid" : "d61c9d2e89c65fd2",
+  "name" : "\"after all\" hook for C2258: Superbill submission via Portal",
+  "fullName" : "C2258: Superbill submission via Portal.\"after all\" hook for C2258: Superbill submission via Portal",
+  "historyId" : "7647304b0c5895216fc7d3ba53da9ea4",
+  "time" : {
+    "start" : 1659468562915,
+    "stop" : 1659468562951,
+    "duration" : 36
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "No window found with title, url or name matching \"Clients - ResilienceLab\"",
+  "statusTrace" : "Error: No window found with title, url or name matching \"Clients - ResilienceLab\"\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at async Context.<anonymous> (/home/runner/work/webautomation/webautomation/test/specs/Clients/C2258_superbill_submission_via_portal.spec.ts:95:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "C2258: Superbill submission via Portal"
+  }, {
+    "name" : "testClass",
+    "value" : "C2258: Superbill submission via Portal"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"after all\" hook for C2258: Superbill submission via Portal"
+  }, {
+    "name" : "package",
+    "value" : "C2258: Superbill submission via Portal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "d61c9d2e89c65fd2.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}

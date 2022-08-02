@@ -1,21 +1,971 @@
 [ {
-  "uid" : "cac13a1732637bb3",
-  "name" : "\"before all\" hook for C2257: Default text for document exchanges",
+  "uid" : "48d15c599731b5e2",
+  "name" : "Should choose some Z-code diagnosis and should mark it as Primary",
   "time" : {
-    "start" : 1659464724842,
-    "stop" : 1659466165776,
-    "duration" : 1440934
+    "start" : 1659473631016,
+    "stop" : 1659473634727,
+    "duration" : 3711
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ad7d4dd3fe97ac78",
+  "name" : "\"after all\" hook for C2276: Allow to create more than 1 session per day for OON not enrolled client",
+  "time" : {
+    "start" : 1659477106622,
+    "stop" : 1659477166726,
+    "duration" : 60104
   },
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "71be4ef042497735",
-  "name" : "\"after all\" hook for C2257: Default text for document exchanges",
+  "uid" : "9e7ec58d24cf268b",
+  "name" : "\"after all\" hook for C2280: Verify Insurance Card Form",
   "time" : {
-    "start" : 1659466165778,
-    "stop" : 1659466405925,
-    "duration" : 240147
+    "start" : 1659470555526,
+    "stop" : 1659470615635,
+    "duration" : 60109
   },
   "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "bbafc513c7673856",
+  "name" : "\"before all\" hook for C2277: Allow to create more than 1 session per day for independent client",
+  "time" : {
+    "start" : 1659477169016,
+    "stop" : 1659477529728,
+    "duration" : 360712
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "96d2956b07497c83",
+  "name" : "\"before all\" hook for C2290: Verify that creating Treatment Plan with Z-code Diagnosis as Primary - don't allowed",
+  "time" : {
+    "start" : 1659473156494,
+    "stop" : 1659473517281,
+    "duration" : 360787
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "3a20b4ddefd028aa",
+  "name" : "Should go to clinicians page",
+  "time" : {
+    "start" : 1659480048702,
+    "stop" : 1659480409552,
+    "duration" : 360850
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e7dc08ad281da322",
+  "name" : "Should go to clients page and check url",
+  "time" : {
+    "start" : 1659475013949,
+    "stop" : 1659475081961,
+    "duration" : 68012
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e2074a3dc547122d",
+  "name" : "Should save Treatment Plan without any errors",
+  "time" : {
+    "start" : 1659473641715,
+    "stop" : 1659473656656,
+    "duration" : 14941
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e21f29d464d72d5e",
+  "name" : "\"after all\" hook for C2288: Verify that creating Treatment Plan with Z-code Diagnosis as Primary - don't allowed",
+  "time" : {
+    "start" : 1659472671051,
+    "stop" : 1659472731164,
+    "duration" : 60113
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b689470d5148ef8c",
+  "name" : "Should click the 'Edit' button and in 'Pronoun' field select the 'white' option",
+  "time" : {
+    "start" : 1659478704675,
+    "stop" : 1659478706317,
+    "duration" : 1642
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9f111385c33e525c",
+  "name" : "Should go to clients page and check url",
+  "time" : {
+    "start" : 1659475959546,
+    "stop" : 1659476320396,
+    "duration" : 360850
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "42056506081dbe60",
+  "name" : "Should go to certain report page and scroll down till 'Scheduled Reports'",
+  "time" : {
+    "start" : 1659480036009,
+    "stop" : 1659480045824,
+    "duration" : 9815
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d2ab31e55150cf03",
+  "name" : "Fill all mandatory fields",
+  "time" : {
+    "start" : 1659480792420,
+    "stop" : 1659480799247,
+    "duration" : 6827
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d559ccfd874a08a",
+  "name" : "\"after all\" hook for C2277: Allow to create more than 1 session per day for independent client",
+  "time" : {
+    "start" : 1659477529729,
+    "stop" : 1659477589854,
+    "duration" : 60125
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1210670f998e0442",
+  "name" : "\"before all\" hook for C2256: Set clinician as inactive.",
+  "time" : {
+    "start" : 1659477647615,
+    "stop" : 1659478007876,
+    "duration" : 360261
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "2b8047fcd10c5c16",
+  "name" : "Should create session with similar to time of first session and check alert",
+  "time" : {
+    "start" : 1659477626511,
+    "stop" : 1659477645277,
+    "duration" : 18766
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7ea146883b9d796a",
+  "name" : "Should go to clinicians page",
+  "time" : {
+    "start" : 1659479150217,
+    "stop" : 1659479160804,
+    "duration" : 10587
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5a6b52675d609473",
+  "name" : "Should go to clients page and check url",
+  "time" : {
+    "start" : 1659480773902,
+    "stop" : 1659480786916,
+    "duration" : 13014
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d68b9a3d9157a70b",
+  "name" : "\"after all\" hook for C2270: Check HIPAA checkbox when enrolling ",
+  "time" : {
+    "start" : 1659475474044,
+    "stop" : 1659475534148,
+    "duration" : 60104
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9d7bf2e7b0e2493",
+  "name" : "\"before all\" hook for C2276: Allow to create more than 1 session per day for OON not enrolled client",
+  "time" : {
+    "start" : 1659476745748,
+    "stop" : 1659477106619,
+    "duration" : 360871
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b92855d47b56b676",
+  "name" : "Should click the 'Save' button and check message that Pronoun field required",
+  "time" : {
+    "start" : 1659478706317,
+    "stop" : 1659478724839,
+    "duration" : 18522
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d4891036dcc0fbf8",
+  "name" : "\"after all\" hook for C2281: Verify Progress Note mandatory fields",
+  "time" : {
+    "start" : 1659470978737,
+    "stop" : 1659471038841,
+    "duration" : 60104
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9c2e1eb1f55a33e3",
+  "name" : "Should go to clients page and check url",
+  "time" : {
+    "start" : 1659469772051,
+    "stop" : 1659470132967,
+    "duration" : 360916
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "91504c599098b6d6",
+  "name" : "Should go to clients page and check url",
+  "time" : {
+    "start" : 1659474933106,
+    "stop" : 1659474944502,
+    "duration" : 11396
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a57562463703d610",
+  "name" : "Should hover more button and check if dropdown menu is displayed",
+  "time" : {
+    "start" : 1659480021600,
+    "stop" : 1659480030986,
+    "duration" : 9386
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f38d5c155324af33",
+  "name" : "\"before all\" hook for C2257: Default text for document exchanges",
+  "time" : {
+    "start" : 1659467778949,
+    "stop" : 1659468139707,
+    "duration" : 360758
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "12f35a537e143117",
+  "name" : "\"before all\" hook for C2286: Verify Insurance Card Form",
+  "time" : {
+    "start" : 1659471887328,
+    "stop" : 1659472247987,
+    "duration" : 360659
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "bf40ac64db97dd34",
+  "name" : "\"after all\" hook for C2263: Multi State: Connect Nirvana API Key with correct PCorp",
+  "time" : {
+    "start" : 1659474442751,
+    "stop" : 1659474502774,
+    "duration" : 60023
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1858eedf95d5437a",
+  "name" : "Should open Documents tab and open Create Progress Treatment window",
+  "time" : {
+    "start" : 1659473629931,
+    "stop" : 1659473631015,
+    "duration" : 1084
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dc8c2f39065687a1",
+  "name" : "New user should be created",
+  "time" : {
+    "start" : 1659480799247,
+    "stop" : 1659480804022,
+    "duration" : 4775
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "29bb459d3ca782b1",
+  "name" : "\"before all\" hook for C2289: Verify session 'Location details'",
+  "time" : {
+    "start" : 1659472733415,
+    "stop" : 1659473094105,
+    "duration" : 360690
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e50f87890ae794ee",
+  "name" : "Should verify file upload",
+  "time" : {
+    "start" : 1659468947667,
+    "stop" : 1659468954135,
+    "duration" : 6468
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "caad96a5ca3d17fb",
+  "name" : "Should go to Create new Page",
+  "time" : {
+    "start" : 1659480786918,
+    "stop" : 1659480792420,
+    "duration" : 5502
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9afda077fb597e54",
+  "name" : "\"Insurance API Log\" column should be sorted by default by \"Date Created\"",
+  "time" : {
+    "start" : 1659474951154,
+    "stop" : 1659475011688,
+    "duration" : 60534
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "656c08ed9e0c9abe",
+  "name" : "Should write document name and click \"Upload and Send Document\" button",
+  "time" : {
+    "start" : 1659468944681,
+    "stop" : 1659468947667,
+    "duration" : 2986
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bfabe38374a322ac",
+  "name" : "Should go to Create Client page",
+  "time" : {
+    "start" : 1659478142538,
+    "stop" : 1659478144755,
+    "duration" : 2217
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3ef503483ff53e2",
+  "name" : "Should open some client",
+  "time" : {
+    "start" : 1659473628822,
+    "stop" : 1659473629931,
+    "duration" : 1109
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1a1f7a905070ddd2",
+  "name" : "Should go to clients page, copy email and check url",
+  "time" : {
+    "start" : 1659478070213,
+    "stop" : 1659478135792,
+    "duration" : 65579
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "817e92e55a691c2c",
+  "name" : "\"after all\" hook for C2264: Price should be 0 with active cost share waiver (CSW)",
+  "time" : {
+    "start" : 1659474865795,
+    "stop" : 1659474930942,
+    "duration" : 65147
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c91d93cc62aa0d5d",
+  "name" : "Should go to clients page and check url",
+  "time" : {
+    "start" : 1659478633768,
+    "stop" : 1659478703342,
+    "duration" : 69574
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3bae2bfe55d1b7df",
+  "name" : "Should go to clinicians page",
+  "time" : {
+    "start" : 1659479222895,
+    "stop" : 1659479234088,
+    "duration" : 11193
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "681582ab87bc466e",
+  "name" : "Should open client profile and create session",
+  "time" : {
+    "start" : 1659477611305,
+    "stop" : 1659477626511,
+    "duration" : 15206
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7748da9c9138f444",
+  "name" : "The message 'For INN partners, prices are preset by CPT code' should not be visible and price should be editable.",
+  "time" : {
+    "start" : 1659475091945,
+    "stop" : 1659475111133,
+    "duration" : 19188
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ee8ad4c09973f1",
+  "name" : "Should go to PODs page and check url",
+  "time" : {
+    "start" : 1659479236379,
+    "stop" : 1659479597228,
+    "duration" : 360849
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "8e700654666b6b09",
+  "name" : "Should go to clients page and check url",
+  "time" : {
+    "start" : 1659469409437,
+    "stop" : 1659469770271,
+    "duration" : 360834
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "959c12024e953c88",
+  "name" : "\"before all\" hook for C2285: Verify that future sesiions will be deleted after sign 'Termination note'",
+  "time" : {
+    "start" : 1659471464188,
+    "stop" : 1659471824856,
+    "duration" : 360668
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "bcaa555a52adc4f4",
+  "name" : "\"before all\" hook for C2288: Verify that creating Treatment Plan with Z-code Diagnosis as Primary - don't allowed",
+  "time" : {
+    "start" : 1659472310370,
+    "stop" : 1659472671039,
+    "duration" : 360669
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "cb7b9b3fff007edb",
+  "name" : "\"after all\" hook for C2286: Verify Insurance Card Form",
+  "time" : {
+    "start" : 1659472247996,
+    "stop" : 1659472308103,
+    "duration" : 60107
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "2d946712bb110696",
+  "name" : "\"after all\" hook for C2292: Verify that Humana rates are different in NJ/CT and NY",
+  "time" : {
+    "start" : 1659475897198,
+    "stop" : 1659475957306,
+    "duration" : 60108
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "75de8bea63249664",
+  "name" : "Should appear dropdown menu",
+  "time" : {
+    "start" : 1659479234088,
+    "stop" : 1659479234646,
+    "duration" : 558
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ecdb5a32bc7218d8",
+  "name" : "Should go to client",
+  "time" : {
+    "start" : 1659478703343,
+    "stop" : 1659478704675,
+    "duration" : 1332
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dc3b8c7b6446b114",
+  "name" : "Should not have options to select (check) clinicians",
+  "time" : {
+    "start" : 1659479160804,
+    "stop" : 1659479221108,
+    "duration" : 60304
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9320310916eb74b7",
+  "name" : "Should go to clinicians page",
+  "time" : {
+    "start" : 1659478175358,
+    "stop" : 1659478536221,
+    "duration" : 360863
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d86bf45762a5b27f",
+  "name" : "\"before all\" hook for C2282: Verify Progress Note disabled fields",
+  "time" : {
+    "start" : 1659471041117,
+    "stop" : 1659471401791,
+    "duration" : 360674
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d61c9d2e89c65fd2",
+  "name" : "\"after all\" hook for C2258: Superbill submission via Portal",
+  "time" : {
+    "start" : 1659468562915,
+    "stop" : 1659468562951,
+    "duration" : 36
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ec788df46ff29476",
+  "name" : "Should go to reports page and check url",
+  "time" : {
+    "start" : 1659480030987,
+    "stop" : 1659480036007,
+    "duration" : 5020
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "40ff5e75f0d03ab3",
+  "name" : "\"before all\" hook for C2270: Check HIPAA checkbox when enrolling ",
+  "time" : {
+    "start" : 1659475113356,
+    "stop" : 1659475474043,
+    "duration" : 360687
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "988111227435da48",
+  "name" : "\"after all\" hook for C2256: Set clinician as inactive.",
+  "time" : {
+    "start" : 1659478007877,
+    "stop" : 1659478067978,
+    "duration" : 60101
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "684fd80c3266309c",
+  "name" : "\"before all\" hook for C2292: Verify that Humana rates are different in NJ/CT and NY",
+  "time" : {
+    "start" : 1659475536475,
+    "stop" : 1659475897197,
+    "duration" : 360722
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "72c624c6b8f0c087",
+  "name" : "Should change payer without INN",
+  "time" : {
+    "start" : 1659475088837,
+    "stop" : 1659475091945,
+    "duration" : 3108
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "70d8346f16180d40",
+  "name" : "Should go to clients page and check url",
+  "time" : {
+    "start" : 1659468956357,
+    "stop" : 1659469317207,
+    "duration" : 360850
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e23790d31dc25fd",
+  "name" : "\"after all\" hook for C2275: Allow to create more than 1 session per day for INN not enrolled client",
+  "time" : {
+    "start" : 1659476683364,
+    "stop" : 1659476743476,
+    "duration" : 60112
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "145d59479ac706cd",
+  "name" : "\"after all\" hook for C2290: Verify that creating Treatment Plan with Z-code Diagnosis as Primary - don't allowed",
+  "time" : {
+    "start" : 1659473517282,
+    "stop" : 1659473577412,
+    "duration" : 60130
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "7a36cee1f8669763",
+  "name" : "Should go to filter and from 'Insurance Status' select 'Enrollment Completed', from 'In-Network' select 'Yes'",
+  "time" : {
+    "start" : 1659477608736,
+    "stop" : 1659477611305,
+    "duration" : 2569
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f53b6d942b7e2550",
+  "name" : "\"before all\" hook for C2260: Multi State: Connect Nirvana API Key with correct PCorp",
+  "time" : {
+    "start" : 1659473658900,
+    "stop" : 1659474019585,
+    "duration" : 360685
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "2adedfac3d0a36c5",
+  "name" : "Should to clients page and check url",
+  "time" : {
+    "start" : 1659480411334,
+    "stop" : 1659480772236,
+    "duration" : 360902
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a29c27c4dc6ea3e8",
+  "name" : "Should go to clients page and check url",
+  "time" : {
+    "start" : 1659473579642,
+    "stop" : 1659473624340,
+    "duration" : 44698
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c008f509800fab22",
+  "name" : "\"after all\" hook for C2265: Terminate client with multiclinician",
+  "time" : {
+    "start" : 1659469317208,
+    "stop" : 1659469407249,
+    "duration" : 90041
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "75dc0bffc9795799",
+  "name" : "Should go to client with INN and selected Payer",
+  "time" : {
+    "start" : 1659475081961,
+    "stop" : 1659475083661,
+    "duration" : 1700
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "439867007dd27958",
+  "name" : "\"before all\" hook for C2281: Verify Progress Note mandatory fields",
+  "time" : {
+    "start" : 1659470617895,
+    "stop" : 1659470978736,
+    "duration" : 360841
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "7af8af0d06d6ba66",
+  "name" : "Should hover more button and check if dropdown menu is displayed",
+  "time" : {
+    "start" : 1659479598958,
+    "stop" : 1659479959900,
+    "duration" : 360942
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "fd5c2ec19dfa7859",
+  "name" : "Should click \"Upload File\" button and add file",
+  "time" : {
+    "start" : 1659468942524,
+    "stop" : 1659468944681,
+    "duration" : 2157
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9c0d3834b7afbfd",
+  "name" : "Should go to filter and from 'Insurance Status' select ''(empty)",
+  "time" : {
+    "start" : 1659473624341,
+    "stop" : 1659473628822,
+    "duration" : 4481
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "69366875b662f4b7",
+  "name" : "\"before all\" hook for C2293: Verify Multi POD payments",
+  "time" : {
+    "start" : 1659478727230,
+    "stop" : 1659479087999,
+    "duration" : 360769
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "2223c0293eee68f",
+  "name" : "\"after all\" hook for C2289: Verify session 'Location details'",
+  "time" : {
+    "start" : 1659473094105,
+    "stop" : 1659473154211,
+    "duration" : 60106
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "3305fd5251477de7",
+  "name" : "\"after all\" hook for C2293: Verify Multi POD payments",
+  "time" : {
+    "start" : 1659479088000,
+    "stop" : 1659479148101,
+    "duration" : 60101
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "99abe20ca15ca430",
+  "name" : "\"after all\" hook for C2260: Multi State: Connect Nirvana API Key with correct PCorp",
+  "time" : {
+    "start" : 1659474019586,
+    "stop" : 1659474079697,
+    "duration" : 60111
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "86374c0fbb646d4c",
+  "name" : "Should go to clients page and check url",
+  "time" : {
+    "start" : 1659474504954,
+    "stop" : 1659474865795,
+    "duration" : 360841
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "44933d47b6bd3cb8",
+  "name" : "Should open client's profile",
+  "time" : {
+    "start" : 1659474944504,
+    "stop" : 1659474949870,
+    "duration" : 5366
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "64c151a93c1c15e7",
+  "name" : "Should go to Insurance Case and scroll down to 'Insurance API Log'",
+  "time" : {
+    "start" : 1659474949870,
+    "stop" : 1659474951154,
+    "duration" : 1284
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d716a18a6d4aa2e5",
+  "name" : "\"before all\" hook for C2275: Allow to create more than 1 session per day for INN not enrolled client",
+  "time" : {
+    "start" : 1659476322662,
+    "stop" : 1659476683347,
+    "duration" : 360685
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1ce95605ebee6792",
+  "name" : "\"after all\" hook for C2285: Verify that future sesiions will be deleted after sign 'Termination note'",
+  "time" : {
+    "start" : 1659471824857,
+    "stop" : 1659471885006,
+    "duration" : 60149
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1b173eba6313a018",
+  "name" : "Should open CP page and Log In",
+  "time" : {
+    "start" : 1659468928208,
+    "stop" : 1659468942523,
+    "duration" : 14315
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9e292a8d76744aeb",
+  "name" : "\"before all\" hook for C2258: Superbill submission via Portal",
+  "time" : {
+    "start" : 1659468202179,
+    "stop" : 1659468562914,
+    "duration" : 360735
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1202e8efeacf5b2a",
+  "name" : "Should paste copied email and check pop-up message that 'Duplicate found'",
+  "time" : {
+    "start" : 1659478144756,
+    "stop" : 1659478173621,
+    "duration" : 28865
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9ccbf7456e7585c1",
+  "name" : "Should to clients page and check url",
+  "time" : {
+    "start" : 1659468565153,
+    "stop" : 1659468926051,
+    "duration" : 360898
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4a4c219cab16ef11",
+  "name" : "\"after all\" hook for C2282: Verify Progress Note disabled fields",
+  "time" : {
+    "start" : 1659471401792,
+    "stop" : 1659471461908,
+    "duration" : 60116
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "30602b5b024fd90",
+  "name" : "\"after all\" hook for C2253: Report hint",
+  "time" : {
+    "start" : 1659479959901,
+    "stop" : 1659480019922,
+    "duration" : 60021
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "3f258978521108b",
+  "name" : "Should go to clients page and check url",
+  "time" : {
+    "start" : 1659474081884,
+    "stop" : 1659474442750,
+    "duration" : 360866
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "3a11992c93c296b0",
+  "name" : "'Advanced' should not be checked and should be option to add email",
+  "time" : {
+    "start" : 1659480045824,
+    "stop" : 1659480046986,
+    "duration" : 1162
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c65d727b984f04c2",
+  "name" : "Should see this message 'For INN partners, prices are preset by CPT code' and price should not be editable.",
+  "time" : {
+    "start" : 1659475083661,
+    "stop" : 1659475088837,
+    "duration" : 5176
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c03053ee777a8e26",
+  "name" : "\"before all\" hook for C2280: Verify Insurance Card Form",
+  "time" : {
+    "start" : 1659470195345,
+    "stop" : 1659470555525,
+    "duration" : 360180
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d3c09ee3c7c15d38",
+  "name" : "\"after all\" hook for C2257: Default text for document exchanges",
+  "time" : {
+    "start" : 1659468139710,
+    "stop" : 1659468199807,
+    "duration" : 60097
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "cd2c47dad1762db4",
+  "name" : "Should go to clients page and check url",
+  "time" : {
+    "start" : 1659477592018,
+    "stop" : 1659477608735,
+    "duration" : 16717
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e13e7edd36d6205e",
+  "name" : "Should fill all the fields",
+  "time" : {
+    "start" : 1659473634727,
+    "stop" : 1659473641715,
+    "duration" : 6988
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "df092d384b31f056",
+  "name" : "\"after all\" hook for C2269: Add Filters and Columns",
+  "time" : {
+    "start" : 1659470132968,
+    "stop" : 1659470192990,
+    "duration" : 60022
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ec4ba8bdcbcc327e",
+  "name" : "Should relogin to other clinician and check that logged as user",
+  "time" : {
+    "start" : 1659478135795,
+    "stop" : 1659478142538,
+    "duration" : 6743
+  },
+  "status" : "passed",
   "severity" : "normal"
 } ]

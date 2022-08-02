@@ -1,0 +1,68 @@
+{
+  "uid" : "d559ccfd874a08a",
+  "name" : "\"after all\" hook for C2277: Allow to create more than 1 session per day for independent client",
+  "fullName" : "C2277: Allow to create more than 1 session per day for independent client.\"after all\" hook for C2277: Allow to create more than 1 session per day for independent client",
+  "historyId" : "65f5deae0dc6e61e3c54f31c00041ebf",
+  "time" : {
+    "start" : 1659477529729,
+    "stop" : 1659477589854,
+    "duration" : 60125
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"//li[@id='globalLinks']//button[@title]\") still not clickable after 60000ms",
+  "statusTrace" : "Error: element (\"//li[@id='globalLinks']//button[@title]\") still not clickable after 60000ms\n                    at async NavigationBar.waitElementForClickable (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:117:9)\n                    at async NavigationBar.moveTo (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:187:9)\n                    at async NavigationBar.moveToProfileBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/navigation.bar.ts:93:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-26"
+  }, {
+    "name" : "suite",
+    "value" : "C2277: Allow to create more than 1 session per day for independent client"
+  }, {
+    "name" : "testClass",
+    "value" : "C2277: Allow to create more than 1 session per day for independent client"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"after all\" hook for C2277: Allow to create more than 1 session per day for independent client"
+  }, {
+    "name" : "package",
+    "value" : "C2277: Allow to create more than 1 session per day for independent client"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "d559ccfd874a08a.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}

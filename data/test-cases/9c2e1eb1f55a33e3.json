@@ -1,0 +1,86 @@
+{
+  "uid" : "9c2e1eb1f55a33e3",
+  "name" : "Should go to clients page and check url",
+  "fullName" : "C2269: Add Filters and Columns.Should go to clients page and check url",
+  "historyId" : "acc126ccb5c2eb4aab5d52772d0794d4",
+  "time" : {
+    "start" : 1659469772051,
+    "stop" : 1659470132967,
+    "duration" : 360916
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"#toolbar a[href=\"index.php?module=Accounts&action=index&parentTab=All\"]\") still not displayed after 60000ms",
+  "statusTrace" : "Error: element (\"#toolbar a[href=\"index.php?module=Accounts&action=index&parentTab=All\"]\") still not displayed after 60000ms\n                    at async NavigationBar.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async NavigationBar.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:171:9)\n                    at async NavigationBar.clickClientsBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/navigation.bar.ts:64:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"#toolbar a[href=\"index.php?module=Accounts&action=index&parentTab=All\"]\") still not displayed after 60000ms",
+    "statusTrace" : "Error: element (\"#toolbar a[href=\"index.php?module=Accounts&action=index&parentTab=All\"]\") still not displayed after 60000ms\n                    at async NavigationBar.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async NavigationBar.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:171:9)\n                    at async NavigationBar.clickClientsBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/navigation.bar.ts:64:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e5955bae948bc9c6",
+      "name" : "Screenshot",
+      "source" : "e5955bae948bc9c6.png",
+      "type" : "image/png",
+      "size" : 10592
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "C2269: Add Filters and Columns"
+  }, {
+    "name" : "testClass",
+    "value" : "C2269: Add Filters and Columns"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should go to clients page and check url"
+  }, {
+    "name" : "package",
+    "value" : "C2269: Add Filters and Columns"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "9c2e1eb1f55a33e3.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}

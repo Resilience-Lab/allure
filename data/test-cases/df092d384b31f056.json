@@ -1,0 +1,68 @@
+{
+  "uid" : "df092d384b31f056",
+  "name" : "\"after all\" hook for C2269: Add Filters and Columns",
+  "fullName" : "C2269: Add Filters and Columns.\"after all\" hook for C2269: Add Filters and Columns",
+  "historyId" : "f0e03eeec5162e2e178e5e0cb398270f",
+  "time" : {
+    "start" : 1659470132968,
+    "stop" : 1659470192990,
+    "duration" : 60022
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"[class*=\"Button_top\"] [title=\"Column Chooser\"]\") still not displayed after 60000ms",
+  "statusTrace" : "Error: element (\"[class*=\"Button_top\"] [title=\"Column Chooser\"]\") still not displayed after 60000ms\n                    at async ClientsPage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async ClientsPage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:171:9)\n                    at async ClientsPage.clickTopColumnsBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/clients.page.ts:79:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "C2269: Add Filters and Columns"
+  }, {
+    "name" : "testClass",
+    "value" : "C2269: Add Filters and Columns"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"after all\" hook for C2269: Add Filters and Columns"
+  }, {
+    "name" : "package",
+    "value" : "C2269: Add Filters and Columns"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "df092d384b31f056.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}

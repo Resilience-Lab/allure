@@ -1,0 +1,78 @@
+{
+  "uid" : "dc3b8c7b6446b114",
+  "name" : "Should not have options to select (check) clinicians",
+  "fullName" : "C2294: Verify under Clinicians the ability not to do 'BULK ACTIONS' as regular user.Should not have options to select (check) clinicians",
+  "historyId" : "c5dfa9b1f2be481ae966882922af325a",
+  "time" : {
+    "start" : 1659479160804,
+    "stop" : 1659479221108,
+    "duration" : 60304
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "537562bfa8378703",
+      "name" : "Screenshot",
+      "source" : "537562bfa8378703.png",
+      "type" : "image/png",
+      "size" : 146610
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-34"
+  }, {
+    "name" : "suite",
+    "value" : "C2294: Verify under Clinicians the ability not to do 'BULK ACTIONS' as regular user"
+  }, {
+    "name" : "testClass",
+    "value" : "C2294: Verify under Clinicians the ability not to do 'BULK ACTIONS' as regular user"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should not have options to select (check) clinicians"
+  }, {
+    "name" : "package",
+    "value" : "C2294: Verify under Clinicians the ability not to do 'BULK ACTIONS' as regular user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dc3b8c7b6446b114.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}

@@ -1,0 +1,68 @@
+{
+  "uid" : "9d7bf2e7b0e2493",
+  "name" : "\"before all\" hook for C2276: Allow to create more than 1 session per day for OON not enrolled client",
+  "fullName" : "C2276: Allow to create more than 1 session per day for OON not enrolled client.\"before all\" hook for C2276: Allow to create more than 1 session per day for OON not enrolled client",
+  "historyId" : "26faef5b611ce340195584633947e2d6",
+  "time" : {
+    "start" : 1659476745748,
+    "stop" : 1659477106619,
+    "duration" : 360871
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"#toolbar a[href=\"index.php?module=Accounts&action=index&parentTab=All\"]\") still not clickable after 60000ms",
+  "statusTrace" : "Error: element (\"#toolbar a[href=\"index.php?module=Accounts&action=index&parentTab=All\"]\") still not clickable after 60000ms\n                    at async NavigationBar.waitElementForClickable (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:117:9)\n                    at async NavigationBar.moveTo (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:187:9)\n                    at async NavigationBar.goToCreateClientBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/navigation.bar.ts:72:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-25"
+  }, {
+    "name" : "suite",
+    "value" : "C2276: Allow to create more than 1 session per day for OON not enrolled client"
+  }, {
+    "name" : "testClass",
+    "value" : "C2276: Allow to create more than 1 session per day for OON not enrolled client"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook for C2276: Allow to create more than 1 session per day for OON not enrolled client"
+  }, {
+    "name" : "package",
+    "value" : "C2276: Allow to create more than 1 session per day for OON not enrolled client"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "9d7bf2e7b0e2493.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}

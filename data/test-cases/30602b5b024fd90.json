@@ -1,0 +1,68 @@
+{
+  "uid" : "30602b5b024fd90",
+  "name" : "\"after all\" hook for C2253: Report hint",
+  "fullName" : "C2253: Report hint.\"after all\" hook for C2253: Report hint",
+  "historyId" : "227213c90d852d8ece6c43be627aeb29",
+  "time" : {
+    "start" : 1659479959901,
+    "stop" : 1659480019922,
+    "duration" : 60021
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"li#tab-actions [href=\"#\"]\") still not displayed after 60000ms",
+  "statusTrace" : "Error: element (\"li#tab-actions [href=\"#\"]\") still not displayed after 60000ms\n                    at async ReportPage.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async ReportPage.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:171:9)\n                    at async ReportPage.clickActionsBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/report.page.ts:26:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-37"
+  }, {
+    "name" : "suite",
+    "value" : "C2253: Report hint"
+  }, {
+    "name" : "testClass",
+    "value" : "C2253: Report hint"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"after all\" hook for C2253: Report hint"
+  }, {
+    "name" : "package",
+    "value" : "C2253: Report hint"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "30602b5b024fd90.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}

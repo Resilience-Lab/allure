@@ -1,0 +1,86 @@
+{
+  "uid" : "9320310916eb74b7",
+  "name" : "Should go to clinicians page",
+  "fullName" : "C2279: Verify if regular clinicians can add 'columns' in 'CLINICIANS' tab.Should go to clinicians page",
+  "historyId" : "acbae4cee05a5cd7c9a67c0ef1ede9e5",
+  "time" : {
+    "start" : 1659478175358,
+    "stop" : 1659478536221,
+    "duration" : 360863
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"a[href=\"index.php?module=Employees&action=index&parentTab=All\"]\") still not displayed after 60000ms",
+  "statusTrace" : "Error: element (\"a[href=\"index.php?module=Employees&action=index&parentTab=All\"]\") still not displayed after 60000ms\n                    at async NavigationBar.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async NavigationBar.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:171:9)\n                    at async NavigationBar.clickCliniciansBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/navigation.bar.ts:52:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"a[href=\"index.php?module=Employees&action=index&parentTab=All\"]\") still not displayed after 60000ms",
+    "statusTrace" : "Error: element (\"a[href=\"index.php?module=Employees&action=index&parentTab=All\"]\") still not displayed after 60000ms\n                    at async NavigationBar.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async NavigationBar.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:171:9)\n                    at async NavigationBar.clickCliniciansBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/navigation.bar.ts:52:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "827027b941f2bac8",
+      "name" : "Screenshot",
+      "source" : "827027b941f2bac8.png",
+      "type" : "image/png",
+      "size" : 10592
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-30"
+  }, {
+    "name" : "suite",
+    "value" : "C2279: Verify if regular clinicians can add 'columns' in 'CLINICIANS' tab"
+  }, {
+    "name" : "testClass",
+    "value" : "C2279: Verify if regular clinicians can add 'columns' in 'CLINICIANS' tab"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should go to clinicians page"
+  }, {
+    "name" : "package",
+    "value" : "C2279: Verify if regular clinicians can add 'columns' in 'CLINICIANS' tab"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "9320310916eb74b7.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}

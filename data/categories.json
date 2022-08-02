@@ -3,16 +3,288 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "element (\"#toolbar a[href=\"index.php?module=Accounts&action=index&parentTab=All\"]\") still not clickable after 240000ms",
+      "name" : "element (\"#toolbar a[href=\"index.php?module=Accounts&action=index&parentTab=All\"]\") still not clickable after 60000ms",
       "children" : [ {
         "name" : "\"before all\" hook for C2257: Default text for document exchanges",
-        "uid" : "cac13a1732637bb3",
-        "parentUid" : "74fcda5327c09ef51ac44646fed08f1f",
+        "uid" : "f38d5c155324af33",
+        "parentUid" : "0acabedc06ce53573737c0dc3509110b",
         "status" : "broken",
         "time" : {
-          "start" : 1659464724842,
-          "stop" : 1659466165776,
-          "duration" : 1440934
+          "start" : 1659467778949,
+          "stop" : 1659468139707,
+          "duration" : 360758
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      }, {
+        "name" : "\"before all\" hook for C2258: Superbill submission via Portal",
+        "uid" : "9e292a8d76744aeb",
+        "parentUid" : "0acabedc06ce53573737c0dc3509110b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659468202179,
+          "stop" : 1659468562914,
+          "duration" : 360735
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      }, {
+        "name" : "\"before all\" hook for C2280: Verify Insurance Card Form",
+        "uid" : "c03053ee777a8e26",
+        "parentUid" : "0acabedc06ce53573737c0dc3509110b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659470195345,
+          "stop" : 1659470555525,
+          "duration" : 360180
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      }, {
+        "name" : "\"before all\" hook for C2281: Verify Progress Note mandatory fields",
+        "uid" : "439867007dd27958",
+        "parentUid" : "0acabedc06ce53573737c0dc3509110b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659470617895,
+          "stop" : 1659470978736,
+          "duration" : 360841
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      }, {
+        "name" : "\"before all\" hook for C2282: Verify Progress Note disabled fields",
+        "uid" : "d86bf45762a5b27f",
+        "parentUid" : "0acabedc06ce53573737c0dc3509110b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659471041117,
+          "stop" : 1659471401791,
+          "duration" : 360674
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      }, {
+        "name" : "\"before all\" hook for C2285: Verify that future sesiions will be deleted after sign 'Termination note'",
+        "uid" : "959c12024e953c88",
+        "parentUid" : "0acabedc06ce53573737c0dc3509110b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659471464188,
+          "stop" : 1659471824856,
+          "duration" : 360668
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      }, {
+        "name" : "\"before all\" hook for C2286: Verify Insurance Card Form",
+        "uid" : "12f35a537e143117",
+        "parentUid" : "0acabedc06ce53573737c0dc3509110b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659471887328,
+          "stop" : 1659472247987,
+          "duration" : 360659
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      }, {
+        "name" : "\"before all\" hook for C2288: Verify that creating Treatment Plan with Z-code Diagnosis as Primary - don't allowed",
+        "uid" : "bcaa555a52adc4f4",
+        "parentUid" : "0acabedc06ce53573737c0dc3509110b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659472310370,
+          "stop" : 1659472671039,
+          "duration" : 360669
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      }, {
+        "name" : "\"before all\" hook for C2289: Verify session 'Location details'",
+        "uid" : "29bb459d3ca782b1",
+        "parentUid" : "0acabedc06ce53573737c0dc3509110b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659472733415,
+          "stop" : 1659473094105,
+          "duration" : 360690
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      }, {
+        "name" : "\"before all\" hook for C2290: Verify that creating Treatment Plan with Z-code Diagnosis as Primary - don't allowed",
+        "uid" : "96d2956b07497c83",
+        "parentUid" : "0acabedc06ce53573737c0dc3509110b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659473156494,
+          "stop" : 1659473517281,
+          "duration" : 360787
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      }, {
+        "name" : "\"before all\" hook for C2260: Multi State: Connect Nirvana API Key with correct PCorp",
+        "uid" : "f53b6d942b7e2550",
+        "parentUid" : "0acabedc06ce53573737c0dc3509110b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659473658900,
+          "stop" : 1659474019585,
+          "duration" : 360685
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      }, {
+        "name" : "\"before all\" hook for C2270: Check HIPAA checkbox when enrolling ",
+        "uid" : "40ff5e75f0d03ab3",
+        "parentUid" : "0acabedc06ce53573737c0dc3509110b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659475113356,
+          "stop" : 1659475474043,
+          "duration" : 360687
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      }, {
+        "name" : "\"before all\" hook for C2292: Verify that Humana rates are different in NJ/CT and NY",
+        "uid" : "684fd80c3266309c",
+        "parentUid" : "0acabedc06ce53573737c0dc3509110b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659475536475,
+          "stop" : 1659475897197,
+          "duration" : 360722
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      }, {
+        "name" : "\"before all\" hook for C2275: Allow to create more than 1 session per day for INN not enrolled client",
+        "uid" : "d716a18a6d4aa2e5",
+        "parentUid" : "0acabedc06ce53573737c0dc3509110b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659476322662,
+          "stop" : 1659476683347,
+          "duration" : 360685
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      }, {
+        "name" : "\"before all\" hook for C2276: Allow to create more than 1 session per day for OON not enrolled client",
+        "uid" : "9d7bf2e7b0e2493",
+        "parentUid" : "0acabedc06ce53573737c0dc3509110b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659476745748,
+          "stop" : 1659477106619,
+          "duration" : 360871
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      }, {
+        "name" : "\"before all\" hook for C2277: Allow to create more than 1 session per day for independent client",
+        "uid" : "bbafc513c7673856",
+        "parentUid" : "0acabedc06ce53573737c0dc3509110b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659477169016,
+          "stop" : 1659477529728,
+          "duration" : 360712
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      }, {
+        "name" : "\"before all\" hook for C2293: Verify Multi POD payments",
+        "uid" : "69366875b662f4b7",
+        "parentUid" : "0acabedc06ce53573737c0dc3509110b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659478727230,
+          "stop" : 1659479087999,
+          "duration" : 360769
         },
         "flaky" : false,
         "newFailed" : false,
@@ -22,18 +294,375 @@
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-103.0.5060.134" ]
       } ],
-      "uid" : "74fcda5327c09ef51ac44646fed08f1f"
+      "uid" : "0acabedc06ce53573737c0dc3509110b"
     }, {
-      "name" : "element (\"#toolbar a[href=\"index.php?module=Accounts&action=index&parentTab=All\"]\") still not displayed after 240000ms",
+      "name" : "element (\"#toolbar a[href=\"index.php?module=Accounts&action=index&parentTab=All\"]\") still not displayed after 60000ms",
       "children" : [ {
         "name" : "\"after all\" hook for C2257: Default text for document exchanges",
-        "uid" : "71be4ef042497735",
-        "parentUid" : "26d9d78d714921571895c4510c85a9d6",
+        "uid" : "d3c09ee3c7c15d38",
+        "parentUid" : "072b646b1267e370ce40e91f71807966",
         "status" : "broken",
         "time" : {
-          "start" : 1659466165778,
-          "stop" : 1659466405925,
-          "duration" : 240147
+          "start" : 1659468139710,
+          "stop" : 1659468199807,
+          "duration" : 60097
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      }, {
+        "name" : "Should to clients page and check url",
+        "uid" : "9ccbf7456e7585c1",
+        "parentUid" : "072b646b1267e370ce40e91f71807966",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659468565153,
+          "stop" : 1659468926051,
+          "duration" : 360898
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      }, {
+        "name" : "Should go to clients page and check url",
+        "uid" : "70d8346f16180d40",
+        "parentUid" : "072b646b1267e370ce40e91f71807966",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659468956357,
+          "stop" : 1659469317207,
+          "duration" : 360850
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      }, {
+        "name" : "Should go to clients page and check url",
+        "uid" : "8e700654666b6b09",
+        "parentUid" : "072b646b1267e370ce40e91f71807966",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659469409437,
+          "stop" : 1659469770271,
+          "duration" : 360834
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      }, {
+        "name" : "Should go to clients page and check url",
+        "uid" : "9c2e1eb1f55a33e3",
+        "parentUid" : "072b646b1267e370ce40e91f71807966",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659469772051,
+          "stop" : 1659470132967,
+          "duration" : 360916
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      }, {
+        "name" : "\"after all\" hook for C2280: Verify Insurance Card Form",
+        "uid" : "9e7ec58d24cf268b",
+        "parentUid" : "072b646b1267e370ce40e91f71807966",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659470555526,
+          "stop" : 1659470615635,
+          "duration" : 60109
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      }, {
+        "name" : "\"after all\" hook for C2281: Verify Progress Note mandatory fields",
+        "uid" : "d4891036dcc0fbf8",
+        "parentUid" : "072b646b1267e370ce40e91f71807966",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659470978737,
+          "stop" : 1659471038841,
+          "duration" : 60104
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      }, {
+        "name" : "\"after all\" hook for C2282: Verify Progress Note disabled fields",
+        "uid" : "4a4c219cab16ef11",
+        "parentUid" : "072b646b1267e370ce40e91f71807966",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659471401792,
+          "stop" : 1659471461908,
+          "duration" : 60116
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      }, {
+        "name" : "\"after all\" hook for C2285: Verify that future sesiions will be deleted after sign 'Termination note'",
+        "uid" : "1ce95605ebee6792",
+        "parentUid" : "072b646b1267e370ce40e91f71807966",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659471824857,
+          "stop" : 1659471885006,
+          "duration" : 60149
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      }, {
+        "name" : "\"after all\" hook for C2286: Verify Insurance Card Form",
+        "uid" : "cb7b9b3fff007edb",
+        "parentUid" : "072b646b1267e370ce40e91f71807966",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659472247996,
+          "stop" : 1659472308103,
+          "duration" : 60107
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      }, {
+        "name" : "\"after all\" hook for C2288: Verify that creating Treatment Plan with Z-code Diagnosis as Primary - don't allowed",
+        "uid" : "e21f29d464d72d5e",
+        "parentUid" : "072b646b1267e370ce40e91f71807966",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659472671051,
+          "stop" : 1659472731164,
+          "duration" : 60113
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      }, {
+        "name" : "\"after all\" hook for C2289: Verify session 'Location details'",
+        "uid" : "2223c0293eee68f",
+        "parentUid" : "072b646b1267e370ce40e91f71807966",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659473094105,
+          "stop" : 1659473154211,
+          "duration" : 60106
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      }, {
+        "name" : "\"after all\" hook for C2290: Verify that creating Treatment Plan with Z-code Diagnosis as Primary - don't allowed",
+        "uid" : "145d59479ac706cd",
+        "parentUid" : "072b646b1267e370ce40e91f71807966",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659473517282,
+          "stop" : 1659473577412,
+          "duration" : 60130
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      }, {
+        "name" : "\"after all\" hook for C2260: Multi State: Connect Nirvana API Key with correct PCorp",
+        "uid" : "99abe20ca15ca430",
+        "parentUid" : "072b646b1267e370ce40e91f71807966",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659474019586,
+          "stop" : 1659474079697,
+          "duration" : 60111
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      }, {
+        "name" : "Should go to clients page and check url",
+        "uid" : "3f258978521108b",
+        "parentUid" : "072b646b1267e370ce40e91f71807966",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659474081884,
+          "stop" : 1659474442750,
+          "duration" : 360866
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      }, {
+        "name" : "Should go to clients page and check url",
+        "uid" : "86374c0fbb646d4c",
+        "parentUid" : "072b646b1267e370ce40e91f71807966",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659474504954,
+          "stop" : 1659474865795,
+          "duration" : 360841
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      }, {
+        "name" : "\"after all\" hook for C2264: Price should be 0 with active cost share waiver (CSW)",
+        "uid" : "817e92e55a691c2c",
+        "parentUid" : "072b646b1267e370ce40e91f71807966",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659474865795,
+          "stop" : 1659474930942,
+          "duration" : 65147
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      }, {
+        "name" : "\"after all\" hook for C2270: Check HIPAA checkbox when enrolling ",
+        "uid" : "d68b9a3d9157a70b",
+        "parentUid" : "072b646b1267e370ce40e91f71807966",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659475474044,
+          "stop" : 1659475534148,
+          "duration" : 60104
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      }, {
+        "name" : "Should go to clients page and check url",
+        "uid" : "9f111385c33e525c",
+        "parentUid" : "072b646b1267e370ce40e91f71807966",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659475959546,
+          "stop" : 1659476320396,
+          "duration" : 360850
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      }, {
+        "name" : "\"after all\" hook for C2256: Set clinician as inactive.",
+        "uid" : "988111227435da48",
+        "parentUid" : "072b646b1267e370ce40e91f71807966",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659478007877,
+          "stop" : 1659478067978,
+          "duration" : 60101
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      }, {
+        "name" : "\"after all\" hook for C2293: Verify Multi POD payments",
+        "uid" : "3305fd5251477de7",
+        "parentUid" : "072b646b1267e370ce40e91f71807966",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659479088000,
+          "stop" : 1659479148101,
+          "duration" : 60101
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      }, {
+        "name" : "Should to clients page and check url",
+        "uid" : "2adedfac3d0a36c5",
+        "parentUid" : "072b646b1267e370ce40e91f71807966",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659480411334,
+          "stop" : 1659480772236,
+          "duration" : 360902
         },
         "flaky" : false,
         "newFailed" : false,
@@ -43,7 +672,281 @@
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-103.0.5060.134" ]
       } ],
-      "uid" : "26d9d78d714921571895c4510c85a9d6"
+      "uid" : "072b646b1267e370ce40e91f71807966"
+    }, {
+      "name" : "No window found with title, url or name matching \"Clients - ResilienceLab\"",
+      "children" : [ {
+        "name" : "\"after all\" hook for C2258: Superbill submission via Portal",
+        "uid" : "d61c9d2e89c65fd2",
+        "parentUid" : "7101ea51507b144473754291497c00fc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659468562915,
+          "stop" : 1659468562951,
+          "duration" : 36
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      } ],
+      "uid" : "7101ea51507b144473754291497c00fc"
+    }, {
+      "name" : "element (\"select#rl_multi_clinicians_dropdown\") still not clickable after 60000ms",
+      "children" : [ {
+        "name" : "\"after all\" hook for C2265: Terminate client with multiclinician",
+        "uid" : "c008f509800fab22",
+        "parentUid" : "b9ca2c9bc8adc21ff333120fd3acf161",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659469317208,
+          "stop" : 1659469407249,
+          "duration" : 90041
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      } ],
+      "uid" : "b9ca2c9bc8adc21ff333120fd3acf161"
+    }, {
+      "name" : "element (\"[class*=\"Button_top\"] [title=\"Column Chooser\"]\") still not displayed after 60000ms",
+      "children" : [ {
+        "name" : "\"after all\" hook for C2269: Add Filters and Columns",
+        "uid" : "df092d384b31f056",
+        "parentUid" : "dbee48a579629458e4c22c04767cac9e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659470132968,
+          "stop" : 1659470192990,
+          "duration" : 60022
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      } ],
+      "uid" : "dbee48a579629458e4c22c04767cac9e"
+    }, {
+      "name" : "element (\"#tab-actions a\") still not displayed after 60000ms",
+      "children" : [ {
+        "name" : "\"after all\" hook for C2263: Multi State: Connect Nirvana API Key with correct PCorp",
+        "uid" : "bf40ac64db97dd34",
+        "parentUid" : "36c3733d13576089345d2b080ef57fbb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659474442751,
+          "stop" : 1659474502774,
+          "duration" : 60023
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      } ],
+      "uid" : "36c3733d13576089345d2b080ef57fbb"
+    }, {
+      "name" : "element (\".dropdown-toggle a[href=\"#\"]\") still not clickable after 60000ms",
+      "children" : [ {
+        "name" : "\"after all\" hook for C2292: Verify that Humana rates are different in NJ/CT and NY",
+        "uid" : "2d946712bb110696",
+        "parentUid" : "7faa734c7c55d7f39ad6f702db999c8b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659475897198,
+          "stop" : 1659475957306,
+          "duration" : 60108
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      }, {
+        "name" : "Should go to PODs page and check url",
+        "uid" : "ee8ad4c09973f1",
+        "parentUid" : "7faa734c7c55d7f39ad6f702db999c8b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659479236379,
+          "stop" : 1659479597228,
+          "duration" : 360849
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      }, {
+        "name" : "Should hover more button and check if dropdown menu is displayed",
+        "uid" : "7af8af0d06d6ba66",
+        "parentUid" : "7faa734c7c55d7f39ad6f702db999c8b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659479598958,
+          "stop" : 1659479959900,
+          "duration" : 360942
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      } ],
+      "uid" : "7faa734c7c55d7f39ad6f702db999c8b"
+    }, {
+      "name" : "element (\"//li[@id='globalLinks']//button[@title]\") still not clickable after 60000ms",
+      "children" : [ {
+        "name" : "\"after all\" hook for C2275: Allow to create more than 1 session per day for INN not enrolled client",
+        "uid" : "e23790d31dc25fd",
+        "parentUid" : "7ae2206e415d7638ac650102c0470d8d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659476683364,
+          "stop" : 1659476743476,
+          "duration" : 60112
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      }, {
+        "name" : "\"after all\" hook for C2276: Allow to create more than 1 session per day for OON not enrolled client",
+        "uid" : "ad7d4dd3fe97ac78",
+        "parentUid" : "7ae2206e415d7638ac650102c0470d8d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659477106622,
+          "stop" : 1659477166726,
+          "duration" : 60104
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      }, {
+        "name" : "\"after all\" hook for C2277: Allow to create more than 1 session per day for independent client",
+        "uid" : "d559ccfd874a08a",
+        "parentUid" : "7ae2206e415d7638ac650102c0470d8d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659477529729,
+          "stop" : 1659477589854,
+          "duration" : 60125
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      } ],
+      "uid" : "7ae2206e415d7638ac650102c0470d8d"
+    }, {
+      "name" : "element (\"a[href=\"index.php?module=Employees&action=index&parentTab=All\"]\") still not clickable after 60000ms",
+      "children" : [ {
+        "name" : "\"before all\" hook for C2256: Set clinician as inactive.",
+        "uid" : "1210670f998e0442",
+        "parentUid" : "8d580a39be4bddd5baaa972151b6a3db",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659477647615,
+          "stop" : 1659478007876,
+          "duration" : 360261
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      } ],
+      "uid" : "8d580a39be4bddd5baaa972151b6a3db"
+    }, {
+      "name" : "element (\"a[href=\"index.php?module=Employees&action=index&parentTab=All\"]\") still not displayed after 60000ms",
+      "children" : [ {
+        "name" : "Should go to clinicians page",
+        "uid" : "9320310916eb74b7",
+        "parentUid" : "615473e15290144ef1d390dcedfb260c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659478175358,
+          "stop" : 1659478536221,
+          "duration" : 360863
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      }, {
+        "name" : "Should go to clinicians page",
+        "uid" : "3a20b4ddefd028aa",
+        "parentUid" : "615473e15290144ef1d390dcedfb260c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659480048702,
+          "stop" : 1659480409552,
+          "duration" : 360850
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      } ],
+      "uid" : "615473e15290144ef1d390dcedfb260c"
+    }, {
+      "name" : "element (\"li#tab-actions [href=\"#\"]\") still not displayed after 60000ms",
+      "children" : [ {
+        "name" : "\"after all\" hook for C2253: Report hint",
+        "uid" : "30602b5b024fd90",
+        "parentUid" : "32e1de187efaabdbd75a8211bce1a8a9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659479959901,
+          "stop" : 1659480019922,
+          "duration" : 60021
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.134" ]
+      } ],
+      "uid" : "32e1de187efaabdbd75a8211bce1a8a9"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ],

@@ -1,0 +1,68 @@
+{
+  "uid" : "684fd80c3266309c",
+  "name" : "\"before all\" hook for C2292: Verify that Humana rates are different in NJ/CT and NY",
+  "fullName" : "C2292: Verify that Humana rates are different in NJ/CT and NY.\"before all\" hook for C2292: Verify that Humana rates are different in NJ/CT and NY",
+  "historyId" : "68bd81219a707c232b706cf034c57a8c",
+  "time" : {
+    "start" : 1659475536475,
+    "stop" : 1659475897197,
+    "duration" : 360722
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"#toolbar a[href=\"index.php?module=Accounts&action=index&parentTab=All\"]\") still not clickable after 60000ms",
+  "statusTrace" : "Error: element (\"#toolbar a[href=\"index.php?module=Accounts&action=index&parentTab=All\"]\") still not clickable after 60000ms\n                    at async NavigationBar.waitElementForClickable (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:117:9)\n                    at async NavigationBar.moveTo (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:187:9)\n                    at async NavigationBar.goToCreateClientBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/navigation.bar.ts:72:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-22"
+  }, {
+    "name" : "suite",
+    "value" : "C2292: Verify that Humana rates are different in NJ/CT and NY"
+  }, {
+    "name" : "testClass",
+    "value" : "C2292: Verify that Humana rates are different in NJ/CT and NY"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook for C2292: Verify that Humana rates are different in NJ/CT and NY"
+  }, {
+    "name" : "package",
+    "value" : "C2292: Verify that Humana rates are different in NJ/CT and NY"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "684fd80c3266309c.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}

@@ -1,0 +1,68 @@
+{
+  "uid" : "69366875b662f4b7",
+  "name" : "\"before all\" hook for C2293: Verify Multi POD payments",
+  "fullName" : "C2293: Verify Multi POD payments.\"before all\" hook for C2293: Verify Multi POD payments",
+  "historyId" : "7b1cd7c74360552069c41a464c27b3cf",
+  "time" : {
+    "start" : 1659478727230,
+    "stop" : 1659479087999,
+    "duration" : 360769
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"#toolbar a[href=\"index.php?module=Accounts&action=index&parentTab=All\"]\") still not clickable after 60000ms",
+  "statusTrace" : "Error: element (\"#toolbar a[href=\"index.php?module=Accounts&action=index&parentTab=All\"]\") still not clickable after 60000ms\n                    at async NavigationBar.waitElementForClickable (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:117:9)\n                    at async NavigationBar.moveTo (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:187:9)\n                    at async NavigationBar.goToCreateClientBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/navigation.bar.ts:72:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-33"
+  }, {
+    "name" : "suite",
+    "value" : "C2293: Verify Multi POD payments"
+  }, {
+    "name" : "testClass",
+    "value" : "C2293: Verify Multi POD payments"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook for C2293: Verify Multi POD payments"
+  }, {
+    "name" : "package",
+    "value" : "C2293: Verify Multi POD payments"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "69366875b662f4b7.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}

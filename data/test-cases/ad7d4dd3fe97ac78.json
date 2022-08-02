@@ -1,0 +1,68 @@
+{
+  "uid" : "ad7d4dd3fe97ac78",
+  "name" : "\"after all\" hook for C2276: Allow to create more than 1 session per day for OON not enrolled client",
+  "fullName" : "C2276: Allow to create more than 1 session per day for OON not enrolled client.\"after all\" hook for C2276: Allow to create more than 1 session per day for OON not enrolled client",
+  "historyId" : "4a997c76727451d356c057412f5a1ea7",
+  "time" : {
+    "start" : 1659477106622,
+    "stop" : 1659477166726,
+    "duration" : 60104
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"//li[@id='globalLinks']//button[@title]\") still not clickable after 60000ms",
+  "statusTrace" : "Error: element (\"//li[@id='globalLinks']//button[@title]\") still not clickable after 60000ms\n                    at async NavigationBar.waitElementForClickable (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:117:9)\n                    at async NavigationBar.moveTo (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:187:9)\n                    at async NavigationBar.moveToProfileBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/navigation.bar.ts:93:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-25"
+  }, {
+    "name" : "suite",
+    "value" : "C2276: Allow to create more than 1 session per day for OON not enrolled client"
+  }, {
+    "name" : "testClass",
+    "value" : "C2276: Allow to create more than 1 session per day for OON not enrolled client"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"after all\" hook for C2276: Allow to create more than 1 session per day for OON not enrolled client"
+  }, {
+    "name" : "package",
+    "value" : "C2276: Allow to create more than 1 session per day for OON not enrolled client"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "ad7d4dd3fe97ac78.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}

@@ -1,0 +1,86 @@
+{
+  "uid" : "3a20b4ddefd028aa",
+  "name" : "Should go to clinicians page",
+  "fullName" : "C2254: Filter clinicians search.Should go to clinicians page",
+  "historyId" : "9fbd8233746fc32d744b74d38c80e2c8",
+  "time" : {
+    "start" : 1659480048702,
+    "stop" : 1659480409552,
+    "duration" : 360850
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"a[href=\"index.php?module=Employees&action=index&parentTab=All\"]\") still not displayed after 60000ms",
+  "statusTrace" : "Error: element (\"a[href=\"index.php?module=Employees&action=index&parentTab=All\"]\") still not displayed after 60000ms\n                    at async NavigationBar.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async NavigationBar.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:171:9)\n                    at async NavigationBar.clickCliniciansBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/navigation.bar.ts:52:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"a[href=\"index.php?module=Employees&action=index&parentTab=All\"]\") still not displayed after 60000ms",
+    "statusTrace" : "Error: element (\"a[href=\"index.php?module=Employees&action=index&parentTab=All\"]\") still not displayed after 60000ms\n                    at async NavigationBar.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async NavigationBar.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:171:9)\n                    at async NavigationBar.clickCliniciansBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/navigation.bar.ts:52:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "924ac7aa3436770a",
+      "name" : "Screenshot",
+      "source" : "924ac7aa3436770a.png",
+      "type" : "image/png",
+      "size" : 10592
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-39"
+  }, {
+    "name" : "suite",
+    "value" : "C2254: Filter clinicians search"
+  }, {
+    "name" : "testClass",
+    "value" : "C2254: Filter clinicians search"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should go to clinicians page"
+  }, {
+    "name" : "package",
+    "value" : "C2254: Filter clinicians search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "3a20b4ddefd028aa.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}

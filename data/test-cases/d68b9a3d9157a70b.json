@@ -1,0 +1,68 @@
+{
+  "uid" : "d68b9a3d9157a70b",
+  "name" : "\"after all\" hook for C2270: Check HIPAA checkbox when enrolling ",
+  "fullName" : "C2270: Check HIPAA checkbox when enrolling .\"after all\" hook for C2270: Check HIPAA checkbox when enrolling ",
+  "historyId" : "19bb9dda9a1cdaae3945e69a649c8cab",
+  "time" : {
+    "start" : 1659475474044,
+    "stop" : 1659475534148,
+    "duration" : 60104
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"#toolbar a[href=\"index.php?module=Accounts&action=index&parentTab=All\"]\") still not displayed after 60000ms",
+  "statusTrace" : "Error: element (\"#toolbar a[href=\"index.php?module=Accounts&action=index&parentTab=All\"]\") still not displayed after 60000ms\n                    at async NavigationBar.waitElementForDisplayed (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:81:9)\n                    at async NavigationBar.click (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:171:9)\n                    at async NavigationBar.clickClientsBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/navigation.bar.ts:64:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-21"
+  }, {
+    "name" : "suite",
+    "value" : "C2270: Check HIPAA checkbox when enrolling "
+  }, {
+    "name" : "testClass",
+    "value" : "C2270: Check HIPAA checkbox when enrolling "
+  }, {
+    "name" : "testMethod",
+    "value" : "\"after all\" hook for C2270: Check HIPAA checkbox when enrolling "
+  }, {
+    "name" : "package",
+    "value" : "C2270: Check HIPAA checkbox when enrolling "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "d68b9a3d9157a70b.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}

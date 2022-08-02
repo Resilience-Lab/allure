@@ -1,18 +1,18 @@
 {
-  "uid" : "cac13a1732637bb3",
+  "uid" : "f38d5c155324af33",
   "name" : "\"before all\" hook for C2257: Default text for document exchanges",
   "fullName" : "C2257: Default text for document exchanges.\"before all\" hook for C2257: Default text for document exchanges",
   "historyId" : "3f30b59fcf68ef728c32e52e18f4ab7e",
   "time" : {
-    "start" : 1659464724842,
-    "stop" : 1659466165776,
-    "duration" : 1440934
+    "start" : 1659467778949,
+    "stop" : 1659468139707,
+    "duration" : 360758
   },
   "description" : "",
   "descriptionHtml" : "",
   "status" : "broken",
-  "statusMessage" : "element (\"#toolbar a[href=\"index.php?module=Accounts&action=index&parentTab=All\"]\") still not clickable after 240000ms",
-  "statusTrace" : "Error: element (\"#toolbar a[href=\"index.php?module=Accounts&action=index&parentTab=All\"]\") still not clickable after 240000ms\n                    at async NavigationBar.waitElementForClickable (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:117:9)\n                    at async NavigationBar.moveTo (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:187:9)\n                    at async NavigationBar.goToCreateClientBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/navigation.bar.ts:72:9)",
+  "statusMessage" : "element (\"#toolbar a[href=\"index.php?module=Accounts&action=index&parentTab=All\"]\") still not clickable after 60000ms",
+  "statusTrace" : "Error: element (\"#toolbar a[href=\"index.php?module=Accounts&action=index&parentTab=All\"]\") still not clickable after 60000ms\n                    at async NavigationBar.waitElementForClickable (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:117:9)\n                    at async NavigationBar.moveTo (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:187:9)\n                    at async NavigationBar.goToCreateClientBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/navigation.bar.ts:72:9)",
   "flaky" : false,
   "newFailed" : false,
   "newBroken" : false,
@@ -63,6 +63,6 @@
     } ],
     "tags" : [ ]
   },
-  "source" : "cac13a1732637bb3.json",
+  "source" : "f38d5c155324af33.json",
   "parameterValues" : [ "chrome-103.0.5060.134" ]
 }

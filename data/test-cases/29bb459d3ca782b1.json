@@ -1,0 +1,68 @@
+{
+  "uid" : "29bb459d3ca782b1",
+  "name" : "\"before all\" hook for C2289: Verify session 'Location details'",
+  "fullName" : "C2289: Verify session 'Location details'.\"before all\" hook for C2289: Verify session 'Location details'",
+  "historyId" : "19c5487c25b6f5bf9d9180139d810643",
+  "time" : {
+    "start" : 1659472733415,
+    "stop" : 1659473094105,
+    "duration" : 360690
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"#toolbar a[href=\"index.php?module=Accounts&action=index&parentTab=All\"]\") still not clickable after 60000ms",
+  "statusTrace" : "Error: element (\"#toolbar a[href=\"index.php?module=Accounts&action=index&parentTab=All\"]\") still not clickable after 60000ms\n                    at async NavigationBar.waitElementForClickable (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:117:9)\n                    at async NavigationBar.moveTo (/home/runner/work/webautomation/webautomation/test/pageobjects/page.ts:187:9)\n                    at async NavigationBar.goToCreateClientBtn (/home/runner/work/webautomation/webautomation/test/pageobjects/CRM/navigation.bar.ts:72:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-13"
+  }, {
+    "name" : "suite",
+    "value" : "C2289: Verify session 'Location details'"
+  }, {
+    "name" : "testClass",
+    "value" : "C2289: Verify session 'Location details'"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook for C2289: Verify session 'Location details'"
+  }, {
+    "name" : "package",
+    "value" : "C2289: Verify session 'Location details'"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.134"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "29bb459d3ca782b1.json",
+  "parameterValues" : [ "chrome-103.0.5060.134" ]
+}
